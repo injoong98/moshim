@@ -1,0 +1,26 @@
+스마트에듀 컨텐츠 개발 프로젝트
+두개의 홈페이지 운영 CI 보드 2개 
+momo : 내부용
+coco : 외부용
+
+ssh 
+210.92.84.74 : 3253
+root/dksk15917*
+
+
+ftp
+{
+    "name": "Moshim",
+    "host": "210.92.84.74",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "moshim",
+    "password": "uny2020",
+    "remotePath": "/home/moshim",
+    "uploadOnSave": false
+}
+
+
+DB
+dev.unyict.org / dksk15917*
+db : momo , coco
