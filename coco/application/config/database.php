@@ -83,10 +83,10 @@ $query_builder = TRUE;
 */
 $db['default'] = array(
 	//'dsn'	=> 'mysql:host=localhost;dbname=yourdatabasenamehere',
-	'hostname' => 'dev.unyict.org',
+	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'dksk15917*',
-	'database' => 'sedum',
+	'database' => 'coco',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'cb_',
 	'pconnect' => FALSE,
