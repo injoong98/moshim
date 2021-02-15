@@ -6,7 +6,7 @@ coco : 외부용
 ssh 
 210.92.84.74 : 3253
 root/dksk15917*
-
+moshim / uny2021
 
 ftp
 {
@@ -15,7 +15,7 @@ ftp
     "protocol": "ftp",
     "port": 21,
     "username": "moshim",
-    "password": "uny2020",
+    "password": "uny2021",
     "remotePath": "/home/moshim",
     "uploadOnSave": false
 }
@@ -24,3 +24,8 @@ ftp
 DB
 dev.unyict.org / dksk15917*
 db : momo , coco
+
+
+gabia계정:
+ID: hjsmartedu
+PW: hjse0922!
