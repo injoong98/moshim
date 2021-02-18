@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * 메인 페이지를 담당하는 controller 입니다.
  */
-class Coco extends CB_Controller
+class Pages extends CB_Controller
 {
 
 	/**
@@ -77,7 +77,7 @@ class Coco extends CB_Controller
 		$page_name = $this->cbconfig->item('site_page_name_main');
 
 		$layoutconfig = array(
-			'path' => 'coco',
+			'path' => 'pages',
 			'layout' => 'layout_coco',
 			'skin' => 'index',
 			// 'layout_dir' => $this->cbconfig->item('layout_main'),
@@ -136,7 +136,7 @@ class Coco extends CB_Controller
 		$page_name = $this->cbconfig->item('site_page_name_main');
 
 		$layoutconfig = array(
-			'path' => 'coco',
+			'path' => 'pages',
 			'layout' => 'layout_coco',
 			'skin' => 'index',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
@@ -195,7 +195,7 @@ class Coco extends CB_Controller
 		$page_name = $this->cbconfig->item('site_page_name_main');
 
 		$layoutconfig = array(
-			'path' => 'coco',
+			'path' => 'pages',
 			'layout' => 'layout_coco',
 			'skin' => 'index',
 			// 'layout_dir' => $this->cbconfig->item('layout_main'),
