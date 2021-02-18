@@ -30,3 +30,4 @@ composer.lock
 /tests/tests/
 /tests/results/
 .vscode/sftp.json
+momo/application/config/database.php

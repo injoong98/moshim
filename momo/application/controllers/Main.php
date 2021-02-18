@@ -78,8 +78,8 @@ class Main extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'main',
-			'layout' => 'layout',
-			'skin' => 'main',
+			'layout' => 'layout_moshim',
+			'skin' => 'main_moshim',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
 			'use_sidebar' => $this->cbconfig->item('sidebar_main'),

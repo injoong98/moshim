@@ -62,6 +62,7 @@ $config['uri_segment_cmall_item'] ='item';  //Cmall item 페이지 주소
  * 서브에 설치하는 경우 잘못된 예 ) http://www.test.com/subdir/index.php
  */
 $config['base_url'] = '/';
+
 if (empty($config['base_url'])) exit("&dollar;config&lsqb;&apos;base_url&apos;&rsqb;  need to be set up in application/config/config.php");  // base_url 의 값을 입력하신 후에는 여기 if 문 자체를 주석처리해도 좋습니다
 
 /*
