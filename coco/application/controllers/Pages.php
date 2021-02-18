@@ -42,7 +42,7 @@ class Pages extends CB_Controller
 	public function aboutus()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_malgeunmul_aboutus';
+		$eventname = 'event_coco_aboutus';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -67,7 +67,7 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_malgeunmul',
+			'layout' => 'layout_coco',
 			'skin' => 'aboutus',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
@@ -93,7 +93,7 @@ class Pages extends CB_Controller
 	public function youtube()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_malgeunmul_youtube';
+		$eventname = 'event_coco_youtube';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -118,7 +118,7 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_malgeunmul',
+			'layout' => 'layout_coco',
 			'skin' => 'youtube',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
@@ -144,7 +144,7 @@ class Pages extends CB_Controller
 	public function music()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_malgeunmul_music';
+		$eventname = 'event_coco_music';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -169,7 +169,7 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_malgeunmul',
+			'layout' => 'layout_coco',
 			'skin' => 'music',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
@@ -195,7 +195,7 @@ class Pages extends CB_Controller
 	public function books()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_malgeunmul_books';
+		$eventname = 'event_coco_books';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -220,7 +220,7 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_malgeunmul',
+			'layout' => 'layout_coco',
 			'skin' => 'books',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
@@ -246,7 +246,7 @@ class Pages extends CB_Controller
 	public function workbooks()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_malgeunmul_workbooks';
+		$eventname = 'event_coco_workbooks';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -271,7 +271,7 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_malgeunmul',
+			'layout' => 'layout_coco',
 			'skin' => 'workbooks',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
