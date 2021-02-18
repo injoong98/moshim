@@ -37,12 +37,12 @@ class Pages extends CB_Controller
 
 
 	/**
-	 * 맑은물 메인 페이지입니다
+	 * 맑은물 소개 페이지입니다
 	 */
-	public function index()
+	public function aboutus()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_coco_index';
+		$eventname = 'event_malgeunmul_aboutus';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -51,17 +51,6 @@ class Pages extends CB_Controller
 		// 이벤트가 존재하면 실행합니다
 		$view['view']['event']['before'] = Events::trigger('before', $eventname);
 
-		$where = array(
-			'brd_search' => 1,
-		);
-		$board_id = $this->Board_model->get_board_list($where);
-		$board_list = array();
-		if ($board_id && is_array($board_id)) {
-			foreach ($board_id as $key => $val) {
-				$board_list[] = $this->board->item_all(element('brd_id', $val));
-			}
-		}
-		$view['view']['board_list'] = $board_list;
 		$view['view']['canonical'] = site_url();
 
 		// 이벤트가 존재하면 실행합니다
@@ -78,14 +67,14 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_coco',
-			'skin' => 'index',
-			// 'layout_dir' => $this->cbconfig->item('layout_main'),
-			// 'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
-			// 'use_sidebar' => $this->cbconfig->item('sidebar_main'),
-			// 'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
-			// 'skin_dir' => $this->cbconfig->item('skin_main'),
-			// 'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
+			'layout' => 'layout_malgeunmul',
+			'skin' => 'aboutus',
+			'layout_dir' => $this->cbconfig->item('layout_main'),
+			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
+			'use_sidebar' => $this->cbconfig->item('sidebar_main'),
+			'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
+			'skin_dir' => $this->cbconfig->item('skin_main'),
+			'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
 			'page_title' => $page_title,
 			'meta_description' => $meta_description,
 			'meta_keywords' => $meta_keywords,
@@ -98,10 +87,13 @@ class Pages extends CB_Controller
 		$this->view = element('view_skin_file', element('layout', $view));
 	}
 
-	public function vision()
+	/**
+	 * 맑은물 youtube 페이지입니다
+	 */
+	public function youtube()
 	{
 		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_coco_vision';
+		$eventname = 'event_malgeunmul_youtube';
 		$this->load->event($eventname);
 
 		$view = array();
@@ -110,17 +102,6 @@ class Pages extends CB_Controller
 		// 이벤트가 존재하면 실행합니다
 		$view['view']['event']['before'] = Events::trigger('before', $eventname);
 
-		$where = array(
-			'brd_search' => 1,
-		);
-		$board_id = $this->Board_model->get_board_list($where);
-		$board_list = array();
-		if ($board_id && is_array($board_id)) {
-			foreach ($board_id as $key => $val) {
-				$board_list[] = $this->board->item_all(element('brd_id', $val));
-			}
-		}
-		$view['view']['board_list'] = $board_list;
 		$view['view']['canonical'] = site_url();
 
 		// 이벤트가 존재하면 실행합니다
@@ -137,8 +118,161 @@ class Pages extends CB_Controller
 
 		$layoutconfig = array(
 			'path' => 'pages',
-			'layout' => 'layout_coco',
-			'skin' => 'index',
+			'layout' => 'layout_malgeunmul',
+			'skin' => 'youtube',
+			'layout_dir' => $this->cbconfig->item('layout_main'),
+			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
+			'use_sidebar' => $this->cbconfig->item('sidebar_main'),
+			'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
+			'skin_dir' => $this->cbconfig->item('skin_main'),
+			'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
+			'page_title' => $page_title,
+			'meta_description' => $meta_description,
+			'meta_keywords' => $meta_keywords,
+			'meta_author' => $meta_author,
+			'page_name' => $page_name,
+		);
+		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$this->data = $view;
+		$this->layout = element('layout_skin_file', element('layout', $view));
+		$this->view = element('view_skin_file', element('layout', $view));
+	}
+
+	/**
+	 * 맑은물 music 페이지입니다
+	 */
+	public function music()
+	{
+		// 이벤트 라이브러리를 로딩합니다
+		$eventname = 'event_malgeunmul_music';
+		$this->load->event($eventname);
+
+		$view = array();
+		$view['view'] = array();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before'] = Events::trigger('before', $eventname);
+
+		$view['view']['canonical'] = site_url();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before_layout'] = Events::trigger('before_layout', $eventname);
+
+		/**
+		 * 레이아웃을 정의합니다
+		 */
+		$page_title = $this->cbconfig->item('site_meta_title_main');
+		$meta_description = $this->cbconfig->item('site_meta_description_main');
+		$meta_keywords = $this->cbconfig->item('site_meta_keywords_main');
+		$meta_author = $this->cbconfig->item('site_meta_author_main');
+		$page_name = $this->cbconfig->item('site_page_name_main');
+
+		$layoutconfig = array(
+			'path' => 'pages',
+			'layout' => 'layout_malgeunmul',
+			'skin' => 'music',
+			'layout_dir' => $this->cbconfig->item('layout_main'),
+			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
+			'use_sidebar' => $this->cbconfig->item('sidebar_main'),
+			'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
+			'skin_dir' => $this->cbconfig->item('skin_main'),
+			'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
+			'page_title' => $page_title,
+			'meta_description' => $meta_description,
+			'meta_keywords' => $meta_keywords,
+			'meta_author' => $meta_author,
+			'page_name' => $page_name,
+		);
+		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$this->data = $view;
+		$this->layout = element('layout_skin_file', element('layout', $view));
+		$this->view = element('view_skin_file', element('layout', $view));
+	}
+
+	/**
+	 * 맑은물 동화책 페이지입니다
+	 */
+	public function books()
+	{
+		// 이벤트 라이브러리를 로딩합니다
+		$eventname = 'event_malgeunmul_books';
+		$this->load->event($eventname);
+
+		$view = array();
+		$view['view'] = array();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before'] = Events::trigger('before', $eventname);
+
+		$view['view']['canonical'] = site_url();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before_layout'] = Events::trigger('before_layout', $eventname);
+
+		/**
+		 * 레이아웃을 정의합니다
+		 */
+		$page_title = $this->cbconfig->item('site_meta_title_main');
+		$meta_description = $this->cbconfig->item('site_meta_description_main');
+		$meta_keywords = $this->cbconfig->item('site_meta_keywords_main');
+		$meta_author = $this->cbconfig->item('site_meta_author_main');
+		$page_name = $this->cbconfig->item('site_page_name_main');
+
+		$layoutconfig = array(
+			'path' => 'pages',
+			'layout' => 'layout_malgeunmul',
+			'skin' => 'books',
+			'layout_dir' => $this->cbconfig->item('layout_main'),
+			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
+			'use_sidebar' => $this->cbconfig->item('sidebar_main'),
+			'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
+			'skin_dir' => $this->cbconfig->item('skin_main'),
+			'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
+			'page_title' => $page_title,
+			'meta_description' => $meta_description,
+			'meta_keywords' => $meta_keywords,
+			'meta_author' => $meta_author,
+			'page_name' => $page_name,
+		);
+		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$this->data = $view;
+		$this->layout = element('layout_skin_file', element('layout', $view));
+		$this->view = element('view_skin_file', element('layout', $view));
+	}
+
+	/**
+	 * 맑은물 학습지 페이지입니다
+	 */
+	public function workbooks()
+	{
+		// 이벤트 라이브러리를 로딩합니다
+		$eventname = 'event_malgeunmul_workbooks';
+		$this->load->event($eventname);
+
+		$view = array();
+		$view['view'] = array();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before'] = Events::trigger('before', $eventname);
+
+		$view['view']['canonical'] = site_url();
+
+		// 이벤트가 존재하면 실행합니다
+		$view['view']['event']['before_layout'] = Events::trigger('before_layout', $eventname);
+
+		/**
+		 * 레이아웃을 정의합니다
+		 */
+		$page_title = $this->cbconfig->item('site_meta_title_main');
+		$meta_description = $this->cbconfig->item('site_meta_description_main');
+		$meta_keywords = $this->cbconfig->item('site_meta_keywords_main');
+		$meta_author = $this->cbconfig->item('site_meta_author_main');
+		$page_name = $this->cbconfig->item('site_page_name_main');
+
+		$layoutconfig = array(
+			'path' => 'pages',
+			'layout' => 'layout_malgeunmul',
+			'skin' => 'workbooks',
 			'layout_dir' => $this->cbconfig->item('layout_main'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
 			'use_sidebar' => $this->cbconfig->item('sidebar_main'),
@@ -157,62 +291,6 @@ class Pages extends CB_Controller
 		$this->view = element('view_skin_file', element('layout', $view));
 	}
 	
-	public function video()
-	{
-		// 이벤트 라이브러리를 로딩합니다
-		$eventname = 'event_coco_video';
-		$this->load->event($eventname);
 
-		$view = array();
-		$view['view'] = array();
 
-		// 이벤트가 존재하면 실행합니다
-		$view['view']['event']['before'] = Events::trigger('before', $eventname);
-
-		$where = array(
-			'brd_search' => 1,
-		);
-		$board_id = $this->Board_model->get_board_list($where);
-		$board_list = array();
-		if ($board_id && is_array($board_id)) {
-			foreach ($board_id as $key => $val) {
-				$board_list[] = $this->board->item_all(element('brd_id', $val));
-			}
-		}
-		$view['view']['board_list'] = $board_list;
-		$view['view']['canonical'] = site_url();
-
-		// 이벤트가 존재하면 실행합니다
-		$view['view']['event']['before_layout'] = Events::trigger('before_layout', $eventname);
-
-		/**
-		 * 레이아웃을 정의합니다
-		 */
-		$page_title = $this->cbconfig->item('site_meta_title_main');
-		$meta_description = $this->cbconfig->item('site_meta_description_main');
-		$meta_keywords = $this->cbconfig->item('site_meta_keywords_main');
-		$meta_author = $this->cbconfig->item('site_meta_author_main');
-		$page_name = $this->cbconfig->item('site_page_name_main');
-
-		$layoutconfig = array(
-			'path' => 'pages',
-			'layout' => 'layout_coco',
-			'skin' => 'index',
-			// 'layout_dir' => $this->cbconfig->item('layout_main'),
-			// 'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_main'),
-			// 'use_sidebar' => $this->cbconfig->item('sidebar_main'),
-			// 'use_mobile_sidebar' => $this->cbconfig->item('mobile_sidebar_main'),
-			// 'skin_dir' => $this->cbconfig->item('skin_main'),
-			// 'mobile_skin_dir' => $this->cbconfig->item('mobile_skin_main'),
-			'page_title' => $page_title,
-			'meta_description' => $meta_description,
-			'meta_keywords' => $meta_keywords,
-			'meta_author' => $meta_author,
-			'page_name' => $page_name,
-		);
-		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
-		$this->data = $view;
-		$this->layout = element('layout_skin_file', element('layout', $view));
-		$this->view = element('view_skin_file', element('layout', $view));
-	}
 }
