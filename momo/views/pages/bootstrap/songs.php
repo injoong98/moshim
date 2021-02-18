@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="kor">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>동요 | 모심</title>
-
-<!-- Stylesheets -->
-<link href="css/style.css" rel="stylesheet">
-<link href="css/responsive.css" rel="stylesheet">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-</head>
+ 
 
 <!-- page wrapper -->
 <body class="boxed_wrapper">
@@ -157,6 +143,3 @@
         </div>
     </section>
     <!-- activities-section end -->
-
-</body><!-- End of .page_wrapper -->
-</html>
