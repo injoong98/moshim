@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box clearfix">
-                        <figure class="image"><img src="images/resource/activities-1.jpg" alt=""></figure>
+                        <figure class="image"><img src="https://via.placeholder.com/356" alt=""></figure>
                     </div>
                 </div>
             </div>
