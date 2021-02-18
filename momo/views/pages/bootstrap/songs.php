@@ -101,30 +101,62 @@
     </section>
     <!-- our-teachers end -->
 
-
-
-
-<!--Scroll to top-->
-<button class="scroll-top scroll-to-target" data-target="html">
-    <i class="fa fa-arrow-up"></i>
-</button>
-
-
-
-<!-- jequery plugins -->
-<!-- <script src="js/jquery.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/owl.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/validation.js"></script>
-<script src="js/jquery.fancybox.js"></script>
-<script src="js/appear.js"></script>
-<script src="js/parallax.min.js"></script> -->
-
-<!-- main-js -->
-<!-- <script src="js/script.js"></script> -->
+     <!-- activities-section -->
+     <section class="activities-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div class="content-box">
+                        <div class="title-box">
+                            <div class="sec-title style-two">
+                                <h5>Activities</h5>
+                                <h1>Kids Activities</h1>
+                            </div>
+                            <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incid idunt labore dolore magna aliqua enim ad minim veniam.</div>
+                        </div>
+                        <div class="inner-box">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                    <div class="single-item wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="icon-box"><i class="flaticon-abc-block"></i></div>
+                                        <h3><a href="#">Full Day Session</a></h3>
+                                        <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                    <div class="single-item wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="icon-box"><i class="flaticon-teddy-bear"></i></div>
+                                        <h3><a href="#">Table/Floor Toys</a></h3>
+                                        <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                    <div class="single-item wow fadeInLeft" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="icon-box"><i class="flaticon-championship"></i></div>
+                                        <h3><a href="#">Outdoor Games</a></h3>
+                                        <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 column">
+                                    <div class="single-item wow fadeInRight" data-wow-delay="00ms" data-wow-duration="1500ms">
+                                        <div class="icon-box"><i class="flaticon-playground"></i></div>
+                                        <h3><a href="#">Play Area</a></h3>
+                                        <div class="text">Lorem ipsum dolor amet consectetur adipisicing elit sed eiusmod tempor </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <div class="image-box clearfix">
+                        <figure class="image"><img src="images/resource/activities-1.jpg" alt=""></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- activities-section end -->
 
 </body><!-- End of .page_wrapper -->
 </html>
