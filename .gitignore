@@ -38,3 +38,5 @@ coco/application/logs/
 ## cache files
 coco/application/cache/*
 momo/application/cache/*
+coco/application/config/database.php
+momo/application/cache/*
