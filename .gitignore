@@ -40,3 +40,4 @@ coco/application/cache/*
 momo/application/cache/*
 coco/application/config/database.php
 momo/application/cache/*
+momo/application/cache/board_meta/board-meta-model-get-1
