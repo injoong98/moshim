@@ -83,7 +83,7 @@ $query_builder = TRUE;
 */
 $db['default'] = array(
 	//'dsn'	=> 'mysql:host=localhost;dbname=yourdatabasenamehere',
-	'hostname' => 'localhost',
+	'hostname' => 'dev.unyict.org',
 	'username' => 'root',
 	'password' => 'dksk15917*',
 	'database' => 'coco',
