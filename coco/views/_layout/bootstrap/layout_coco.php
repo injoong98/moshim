@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="ko">
 
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Kidzo</title>
+    <title>맑은물</title>
     <link rel="icon" href="img/favicon.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/bootstrap.min.css" />
