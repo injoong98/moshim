@@ -203,7 +203,7 @@
 											</ul> -->
 										</li>
 										<li class="logo-box">
-											<figure class="logo"><a href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/logo.png" alt=""></a></figure>
+											<figure class="logo"><a href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/logo_2.png" alt="" ></a></figure>
 										</li>
 										<li class=""><a href="/momo/pages/songs">동요</a>
 											<!-- <ul>

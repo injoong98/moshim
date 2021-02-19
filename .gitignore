@@ -34,3 +34,4 @@ momo/application/config/database.php
 momo/application/logs/
 coco/application/logs/
 .favorites.json
+momo/application/cache/*
