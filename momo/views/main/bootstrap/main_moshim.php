@@ -241,3 +241,113 @@
         </div>
     </section>
     <!-- 회원/뉴스레터 가입 끝 -->
+
+    <!-- 메인요소 2시작 -->
+    <section class="our-teachers sec-pad centred">
+        <div class="container">
+            <div class="sec-title">
+                <h5>Teachers</h5>
+                <h1>World Best Teacher<br />Will Teach</h1>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-holder">
+                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-1.png" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Kevin Spacey</a></h3>
+                                <span class="designation">Teacher</span>
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-holder">
+                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-2.png" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Catherine Jones</a></h3>
+                                <span class="designation">Teacher</span>
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="inner-box">
+                            <div class="image-holder">
+                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-3.png" alt=""></a></figure>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">John Travolta</a></h3>
+                                <span class="designation">Teacher</span>
+                                <ul class="social-list">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 메인요소 2끝 -->
+
+    <!-- 동요 시작 -->
+    <section class="offer-section sec-pad centred">
+        <div class="anim-icon">
+            <div class="icon icon-1"></div>
+        </div>
+        <div class="container">
+            <div class="sec-title">
+                <h5>Benefits</h5>
+                <h1>저희 노래를 음악 플랫폼에서 들어보세요</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+                    <div class="single-offer-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="icon-box"><i class="flaticon-bus-1"></i></div>
+                        <h3><a href="#">Bus Service</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+                    <div class="single-offer-block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                        <div class="icon-box"><i class="flaticon-running"></i></div>
+                        <h3><a href="#">Sports Training</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+                    <div class="single-offer-block wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                        <div class="icon-box"><i class="flaticon-drum"></i></div>
+                        <h3><a href="#">Music Training</a></h3>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+                    <div class="single-offer-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="icon-box"><i class="flaticon-professor"></i></div>
+                        <h3><a href="#">Best Teachers</a></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 동요 끝 -->
