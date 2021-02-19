@@ -93,6 +93,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'vision';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
@@ -154,6 +155,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'login';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
@@ -215,6 +217,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'youtube';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
@@ -276,6 +279,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'books';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
@@ -337,6 +341,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'songs';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
@@ -398,6 +403,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
+		$view['layout']['menu_name'] = 'shop';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));
