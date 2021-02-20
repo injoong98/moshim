@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>맑은물</title>
-    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/favicon.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/bootstrap.min.css" />
     <!-- animate CSS -->
@@ -68,8 +68,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html"><img src="img/logo.png"
-                                    srcset="img/ratina_logo.png 2x" alt="Kidzo"></a>
+                            <a class="navbar-brand" href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo.png"
+                                    srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ratina_logo.png 2x" alt="Kidzo"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -156,14 +156,14 @@
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6 wow fadeInDown" data-wow-delay=".3s">
                     <div class="single_footer_widget">
-                        <a href="index.html" class="footer_logo"><img src="img/footer_logo.png" alt="#"></a>
+                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_logo.png" alt="#"></a>
                         <p>Lorem ipsum dolor sit consectetur sicing elit, sed do eitempor idunt ut labor omagn aliqua
                             sed do
                         </p>
                         <div class="social_icon">
-                            <a href="#"><img src="img/icon/fb.png" alt="#"></a>
-                            <a href="#"><img src="img/icon/inst.png" alt="#"></a>
-                            <a href="#"><img src="img/icon/feed.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/fb.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/inst.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feed.png" alt="#"></a>
                         </div>
                     </div>
                 </div>
@@ -191,12 +191,12 @@
                     <div class="single_footer_widget instagram_feed">
                         <h4>Instagram Feed</h4>
                         <div class="instagram_img">
-                            <a href="#"><img src="img/ins/ins_1.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="img/ins/ins_2.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="img/ins/ins_3.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="img/ins/ins_4.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="img/ins/ins_5.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="img/ins/ins_6.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_1.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_2.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_3.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_4.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_5.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_6.png" alt="#" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
@@ -208,13 +208,13 @@
             </div>
         </div>
         <div class="footer_animation_1">
-            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="img/footer_icon_1.png" alt="#"></div>
+            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_1.png" alt="#"></div>
         </div>
         <div class="footer_animation_2">
-            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="img/footer_icon_2.png" alt="#"></div>
+            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_2.png" alt="#"></div>
         </div>
         <div class="footer_animation_3">
-            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="img/footer_icon_3.png" alt="#"></div>
+            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_3.png" alt="#"></div>
         </div>
     </footer>
 
