@@ -434,7 +434,7 @@
 	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/map-helper.js"></script>
 
 	<!-- main-js -->
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/script.js"></script>
+	
 	<script type="text/javascript">
 		$(document).on('click', '.viewpcversion', function() {
 			Cookies.set('device_view_type', 'desktop', {
@@ -456,6 +456,7 @@
 	</script>
 	<?php echo element('popup', $layout); ?>
 	<?php echo $this->cbconfig->item('footer_script'); ?>
+	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/script.js"></script>
 	<!--
 		Layout Directory : <?php echo element('layout_skin_path', $layout); ?>,
 		Layout URL : <?php echo element('layout_skin_url', $layout); ?>,
