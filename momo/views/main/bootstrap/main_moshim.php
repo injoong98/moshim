@@ -1,35 +1,55 @@
     <!-- 콘텐츠 소개 시작-->
     <section class="main-slider">
         <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-1.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(..images/main-slider/main-1.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-2.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(..images/main-slider/main-2.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-3.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(..images/main-slider/main-3.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
+            </div>
+            <div class="slide" style="background-image:url(..images/main-slider/main-4.jpg)">
+                <!-- <div class="container">
+                    <div class="content-box">
+                        <h3>Best Choise</h3>
+                        <h1>Make Your Children's Life Special</h1>
+                        <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
+                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="slide" style="background-image:url(..images/main-slider/main-5.jpg)">
+                <!-- <div class="container">
+                    <div class="content-box">
+                        <h3>Best Choise</h3>
+                        <h1>Make Your Children's Life Special</h1>
+                        <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
+                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -46,21 +66,21 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <figure class="image image-1"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image image-2"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-2.jpg" alt=""></figure>
+                        <figure class="image image-1"><img src="..images/resource/about-1.jpg" alt=""></figure>
+                        <figure class="image image-2"><img src="..images/resource/about-2.jpg" alt=""></figure>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two">
-                            <h5>About Us</h5>
-                            <h1>Welcome to Kidko Kindergarten</h1>
+                            <h5>비전</h5>
+                            <h1>가정에서 효정문화의 씨앗을 심는다</h1>
                         </div>
-                        <div class="bold-text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim idest laborum</div>
+                        <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div>
                         <div class="text">
-                            <p>Cupidatat non proident sunt culpa qui officia deserunt mollit anim idest laborum sed ut perspiciatis unde omnis iste natuserror sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                            <p>부모와 자녀의 관계를 중심으로 가정에서 효정문화의 씨앗을 뿌려주는 콘텐츠를 만드는 것이 모심의 비전이다. 어머니가 자기의 자녀를 감싸듯이 가정에서 사랑이 넘치는 환경을 만들어준다.</p>
                         </div>
-                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                        <div class="btn-box"><a href="/pages/vision" class="theme-btn">더알아보기</a></div>
                     </div>
                 </div>
             </div>
@@ -80,8 +100,8 @@
                 <div class="col-xl-5 col-lg-12 col-md-12 offset-xl-7 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>Facilities</h5>
-                            <h1>Best Facilities<br />for Kids</h1>
+                            <h5>YOUTUBE</h5>
+                            <h1>효정의 마음을 담긴<br />영상</h1>
                         </div>
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -108,13 +128,13 @@
     <!-- 유튜브 끝 -->
 
     <!-- 쇼핑몰 시작 -->
-    <section class="service-section sec-pad" style="background-image: url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/background/service-bg.jpg);">
+    <section class="service-section sec-pad" style="background-image: url(..images/background/service-bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>Services</h5>
+                            <h5>쇼핑몰</h5>
                             <h1>Best Services for Kids</h1>
                         </div>
                         <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div>
@@ -126,7 +146,7 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-bus-1"></i></div>
-                                    <h3><a href="#">Bus Service</a></h3>
+                                    <h3><a href="#">참어머님 생애동화책</a></h3>
                                     <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div>
                                 </div>
                             </div>
@@ -153,22 +173,27 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
+    <!-- 
+        1. 하늘이 준비하신 참어머님 (1권)
+        2. 하늘의 사랑스러운 딸 참어머님 (2권)
+        3. 순수하면서도 강인한 모범생 참어머님 (3권)
+         -->
     <section class="news-section">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
         </div>
         <div class="container">
             <div class="sec-title centred">
-                <h5>Our Blog</h5>
-                <h1>News & Article</h1>
+                <h5>동화책</h5>
+                <h1>참어머님의 생애를 동화책으로</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-1.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="..images/resource/news-1.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">The Indoor Activities for Everyone</a></h3>
+                                <h3><a href="blog-details.html">하늘이 준비하신 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
@@ -182,9 +207,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-2.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="..images/resource/news-2.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">We Make Difference in the Life Child</a></h3>
+                                <h3><a href="blog-details.html">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
@@ -198,9 +223,9 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-3.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="..images/resource/news-3.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">Kids Grooming with New Lessons</a></h3>
+                                <h3><a href="blog-details.html">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
@@ -233,10 +258,10 @@
         </div>
         <div class="container">
             <div class="content-box">
-                <h3>Join with Kidko</h3>
-                <h1>Enrol Your Child<br />in Kidko</h1>
+                <h3>회원/뉴스레터가입</h3>
+                <h1>모심의 최신 소식을<br />발 빠르게 알 수 있어요</h1>
                 <div class="text">Cupidatat non proident sunt culpa qui officia<br />deserunt mollit anim idest laborum </div>
-                <div class="btn-box"><a href="#" class="theme-btn">Enrol Now</a></div>
+                <div class="btn-box"><a href="#" class="theme-btn">구독하기</a></div>
             </div>
         </div>
     </section>
@@ -246,7 +271,7 @@
     <section class="our-teachers sec-pad centred">
         <div class="container">
             <div class="sec-title">
-                <h5>Teachers</h5>
+                <h5>동요</h5>
                 <h1>World Best Teacher<br />Will Teach</h1>
             </div>
             <div class="row">
@@ -254,7 +279,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-1.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="..images/resource/teacher-1.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Kevin Spacey</a></h3>
@@ -273,7 +298,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-2.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="..images/resource/teacher-2.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Catherine Jones</a></h3>
@@ -292,7 +317,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-3.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="..images/resource/teacher-3.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">John Travolta</a></h3>
@@ -313,7 +338,7 @@
     <!-- 메인요소 2끝 -->
 
     <!-- 동요 시작 -->
-    <section class="offer-section sec-pad centred">
+    <!-- <section class="offer-section sec-pad centred">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
         </div>
@@ -349,5 +374,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- 동요 끝 -->
