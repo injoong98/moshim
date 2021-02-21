@@ -157,6 +157,8 @@
                                         <a class="nav-link" href="contact.html">Contact</a>
                                     </li> -->
                                 </ul>
+                                <!-- SNS 로고  -->
+                                <p>sns 로고</p>
                                 <!-- <a href="contact.html" class="cu_btn btn_1">Get Started</a> -->
                             </div>
                         </nav>
@@ -167,8 +169,8 @@
     </header>
     <!-- header part end -->
 
-	<!-- 본문 시작 -->
-	<?php if (isset($yield)) echo $yield; ?>
+    <!-- 본문 시작 -->
+    <?php if (isset($yield)) echo $yield; ?>
 	<!-- 본문 끝 -->
 
 
