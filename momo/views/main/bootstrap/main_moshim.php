@@ -1,35 +1,55 @@
     <!-- 콘텐츠 소개 시작-->
     <section class="main-slider">
         <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-1.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-1.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-2.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-2.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-3.jpg)">
-                <div class="container">
+            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-3.jpg)">
+                <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div>
+                </div> -->
+            </div>
+            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-4.jpg)">
+                <!-- <div class="container">
+                    <div class="content-box">
+                        <h3>Best Choise</h3>
+                        <h1>Make Your Children's Life Special</h1>
+                        <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
+                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-5.jpg)">
+                <!-- <div class="container">
+                    <div class="content-box">
+                        <h3>Best Choise</h3>
+                        <h1>Make Your Children's Life Special</h1>
+                        <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
+                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -53,14 +73,14 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two">
-                            <h5>About Us</h5>
-                            <h1>Welcome to Kidko Kindergarten</h1>
+                            <h5>비전</h5>
+                            <h1>가정에서 효정문화의 씨앗을 심는다</h1>
                         </div>
-                        <div class="bold-text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim idest laborum</div>
+                        <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div>
                         <div class="text">
-                            <p>Cupidatat non proident sunt culpa qui officia deserunt mollit anim idest laborum sed ut perspiciatis unde omnis iste natuserror sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae.</p>
+                            <p>부모와 자녀의 관계를 중심으로 가정에서 효정문화의 씨앗을 뿌려주는 콘텐츠를 만드는 것이 모심의 비전이다. 어머니가 자기의 자녀를 감싸듯이 가정에서 사랑이 넘치는 환경을 만들어준다.</p>
                         </div>
-                        <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
+                        <div class="btn-box"><a href="/pages/vision" class="theme-btn">더알아보기</a></div>
                     </div>
                 </div>
             </div>
