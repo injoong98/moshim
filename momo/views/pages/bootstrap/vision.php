@@ -1,7 +1,7 @@
  <!-- main-slider -->
  <section class="main-slider style-three">
      <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
-         <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/slider-1.png)">
+         <div class="slide" style="background-image:url(../assets/moshim/images/main-slider/slider-1.png)">
              <div class="container">
                  <div class="content-box">
                      <h3>Best Choise</h3>
@@ -54,7 +54,7 @@
  </section>
  <!-- service-section end -->
  <!--Page Title-->
- <section class="page-title centred" style="background-image: url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/background/page-title.jpg);">
+ <section class="page-title centred" style="background-image: url(../assets/moshim/images/background/page-title.jpg);">
      <div class="container">
          <div class="content-box">
              <h1>Youtube</h1>
@@ -89,8 +89,8 @@
              </div>
              <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                  <div class="image-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                     <figure class="image image-1"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-6.jpg" alt=""></figure>
-                     <figure class="image image-2"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-5.jpg" alt=""></figure>
+                     <figure class="image image-1"><img src="../assets/moshim/images/resource/about-6.jpg" alt=""></figure>
+                     <figure class="image image-2"><img src="../assets/moshim/images/resource/about-5.jpg" alt=""></figure>
                  </div>
              </div>
          </div>

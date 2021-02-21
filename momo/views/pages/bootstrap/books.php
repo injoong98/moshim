@@ -1,5 +1,5 @@
    <!--Page Title-->
-   <section class="page-title centred" style="background-image: url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/background/page-title.jpg);">
+   <section class="page-title centred" style="background-image: url(../assets/moshim/images/background/page-title.jpg);">
        <div class="container">
            <div class="content-box">
                <h1>About Us</h1>
@@ -18,7 +18,7 @@
            <div class="row">
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-1.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-1.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Music Lessons</a></h3>
@@ -33,7 +33,7 @@
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-2.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-2.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Paper Plates Art</a></h3>
@@ -48,7 +48,7 @@
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-3.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-3.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Education Lessons</a></h3>
@@ -63,7 +63,7 @@
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-4.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-4.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Color Matching</a></h3>
@@ -78,7 +78,7 @@
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-5.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-5.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Drawing & Painting</a></h3>
@@ -93,7 +93,7 @@
                </div>
                <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a href="class-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/class-6.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a href="class-details.html"><img src="../assets/moshim/images/resource/class-6.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                            <h3><a href="class-details.html">Letter Match</a></h3>
@@ -126,7 +126,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
                            <h5>Hattie Bradly</h5>
                            <span class="designation">Kids Father</span>
                        </div>
@@ -136,7 +136,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
                            <h5>Natasha Ros</h5>
                            <span class="designation">Kids Mothre</span>
                        </div>
@@ -146,7 +146,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
                            <h5>Hattie Bradly</h5>
                            <span class="designation">Kids Father</span>
                        </div>
@@ -156,7 +156,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
                            <h5>Natasha Ros</h5>
                            <span class="designation">Kids Mothre</span>
                        </div>
@@ -166,7 +166,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-4.png" alt=""></figure>
                            <h5>Hattie Bradly</h5>
                            <span class="designation">Kids Father</span>
                        </div>
@@ -176,7 +176,7 @@
                    <div class="inner-box">
                        <div class="text">Lorem ipsum dolor sit amet con adipicing elit usmod in tempor incidunt enim minim quis nostrud exer tation lamco laboris nis aliquipcommodo spiciatis unde omnis iste natus error sit voluptatem.</div>
                        <div class="author-info">
-                           <figure class="author-thumb"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
+                           <figure class="author-thumb"><img src="../assets/moshim/images/resource/testimonial-5.png" alt=""></figure>
                            <h5>Natasha Ros</h5>
                            <span class="designation">Kids Mothre</span>
                        </div>

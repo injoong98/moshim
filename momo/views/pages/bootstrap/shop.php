@@ -1,6 +1,6 @@
-
+shop
     <!--Page Title-->
-    <section class="page-title centred" style="background-image: url(images/background/page-title.jpg);">
+    <!-- <section class="page-title centred" style="background-image: url(images/background/page-title.jpg);">
         <div class="container">
             <div class="content-box">
                 <h1>Shop Page</h1>
@@ -10,12 +10,12 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <!--End Page Title-->
 
 
     <!-- shop-section -->
-    <section class="shop-section">
+    <!-- <section class="shop-section">
         <div class="container">
             <div class="item-sorting clearfix">
                 <div class="result-column pull-left">
@@ -279,5 +279,5 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- shop-section end -->
