@@ -101,7 +101,7 @@
                     <div class="inner-content">
                         <div class="sec-title style-two">
                             <h5>YOUTUBE</h5>
-                            <h1>효정의 마음을 담긴<br />영상</h1>
+                            <h1>효정의 마음이 담긴<br />영상</h1>
                         </div>
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
