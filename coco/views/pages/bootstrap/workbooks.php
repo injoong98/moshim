@@ -16,32 +16,32 @@
         </div>
         <div class="breadcrumb_animation_4">
             <div data-parallax='{"x": 30, "y": 250, "rotateZ":0}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
             </div>
         </div>
         <div class="breadcrumb_animation_5">
             <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
             </div>
         </div>
         <div class="breadcrumb_animation_7">
             <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
             </div>
         </div>
         <div class="breadcrumb_animation_10">
             <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
             </div>
         </div>
         <div class="breadcrumb_animation_12">
             <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
             </div>
         </div>
         <div class="breadcrumb_animation_13">
             <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
-                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
+                <img src="<?php echo trim(site_url(), '/') ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
             </div>
         </div>
     </section>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="rows grid program_list_filter">
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Kindergarten Story">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Kindergarten Story">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_1.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Kindergarten Story">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Kindergarten Story">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_1.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -215,7 +215,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Group">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Group">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_2.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -229,7 +229,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Primary">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Primary">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_4.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -243,7 +243,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Story">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Story">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_5.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -257,7 +257,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Kindergarten">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Kindergarten">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_6.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -271,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Kindergarten">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Kindergarten">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_6.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
@@ -285,7 +285,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg- col-sm-12 col-md-6 grid-item Group Primary">
+                        <div class="col-lg-4 col-sm-12 col-md-6 grid-item Group Primary">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="img/program_list_7.png" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">

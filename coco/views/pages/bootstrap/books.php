@@ -48,8 +48,24 @@
         </section>
         <!-- breadcrumb part end -->
 
-        <!-- event list part here -->
+        <!-- error-section -->
         <section class="event_list section_padding section_bg_1">
+            <div class="container custom_container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section_tittle_style_02">
+                            <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">해당 페이지 준비중</span></h2>
+                            <p class="description wow fadeInDown" data-wow-delay=".3s">해당페이지 컨텐츠 준비중입니다. 조금만 기다려주세요</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- error-section end -->
+
+
+        <!-- event list part here -->
+        <!-- <section class="event_list section_padding section_bg_1">
             <div class="container custom_container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -168,8 +184,8 @@
             <div class="event_list_animation_4">
                 <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="img/icon/icon_8.png" alt="#" class="img-fluid"></div>
             </div>
-        </section>
-    <!-- event list part end -->
+        </section> -->
+        <!-- event list part end -->
 
     </body>
     
