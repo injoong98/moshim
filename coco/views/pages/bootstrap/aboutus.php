@@ -5,11 +5,11 @@
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
                         <h2>회사소개</h2>
-                        <div class="breadcrumb_iner_link">
+                        <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
                             <p>About us</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
