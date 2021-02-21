@@ -100,8 +100,8 @@
                 <div class="col-xl-5 col-lg-12 col-md-12 offset-xl-7 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>Facilities</h5>
-                            <h1>Best Facilities<br />for Kids</h1>
+                            <h5>YOUTUBE</h5>
+                            <h1>효정의 마음을 담긴<br />영상</h1>
                         </div>
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -134,7 +134,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>Services</h5>
+                            <h5>쇼핑몰</h5>
                             <h1>Best Services for Kids</h1>
                         </div>
                         <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div>
@@ -146,7 +146,7 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-bus-1"></i></div>
-                                    <h3><a href="#">Bus Service</a></h3>
+                                    <h3><a href="#">참어머님 생애동화책</a></h3>
                                     <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div>
                                 </div>
                             </div>
@@ -173,14 +173,19 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
+    <!-- 
+        1. 하늘이 준비하신 참어머님 (1권)
+        2. 하늘의 사랑스러운 딸 참어머님 (2권)
+        3. 순수하면서도 강인한 모범생 참어머님 (3권)
+         -->
     <section class="news-section">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
         </div>
         <div class="container">
             <div class="sec-title centred">
-                <h5>Our Blog</h5>
-                <h1>News & Article</h1>
+                <h5>동화책</h5>
+                <h1>참어머님의 생애를 동화책으로</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -188,7 +193,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-1.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">The Indoor Activities for Everyone</a></h3>
+                                <h3><a href="blog-details.html">하늘이 준비하신 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
@@ -204,7 +209,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-2.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">We Make Difference in the Life Child</a></h3>
+                                <h3><a href="blog-details.html">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
@@ -220,7 +225,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-3.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">Kids Grooming with New Lessons</a></h3>
+                                <h3><a href="blog-details.html">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
@@ -253,10 +258,10 @@
         </div>
         <div class="container">
             <div class="content-box">
-                <h3>Join with Kidko</h3>
-                <h1>Enrol Your Child<br />in Kidko</h1>
+                <h3>회원/뉴스레터가입</h3>
+                <h1>모심의 최신 소식을<br />발 빠르게 알 수 있어요</h1>
                 <div class="text">Cupidatat non proident sunt culpa qui officia<br />deserunt mollit anim idest laborum </div>
-                <div class="btn-box"><a href="#" class="theme-btn">Enrol Now</a></div>
+                <div class="btn-box"><a href="#" class="theme-btn">구독하기</a></div>
             </div>
         </div>
     </section>
@@ -266,7 +271,7 @@
     <section class="our-teachers sec-pad centred">
         <div class="container">
             <div class="sec-title">
-                <h5>Teachers</h5>
+                <h5>동요</h5>
                 <h1>World Best Teacher<br />Will Teach</h1>
             </div>
             <div class="row">
@@ -333,7 +338,7 @@
     <!-- 메인요소 2끝 -->
 
     <!-- 동요 시작 -->
-    <section class="offer-section sec-pad centred">
+    <!-- <section class="offer-section sec-pad centred">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
         </div>
@@ -369,5 +374,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- 동요 끝 -->
