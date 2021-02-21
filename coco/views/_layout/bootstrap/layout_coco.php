@@ -87,8 +87,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo.png"
-                                    srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ratina_logo.png 2x" alt="Kidzo"></a>
+                            <a class="navbar-brand" href="/coco">
+                                로고
+                            <!-- <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo.png"
+                                    srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ratina_logo.png 2x" alt="Kidzo"> -->
+                                </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
                                 aria-label="Toggle navigation">
