@@ -1,6 +1,6 @@
     <!-- 콘텐츠 소개 시작-->
-    <section class="main-slider">
-        <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
+    <section class="main-slider style-two">
+        <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
             <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-1.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
