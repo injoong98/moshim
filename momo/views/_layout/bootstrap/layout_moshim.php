@@ -43,12 +43,9 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="<?php echo site_url('/momo/assets/moshim/css/style.css'); ?>" rel="stylesheet">
-	<link href="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/css/responsive.css" rel="stylesheet">
-	<link rel="icon" href="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/favicon.ico" type="image/x-icon">
-
-
-
+	<link href="<?php echo site_url('../assets/moshim/css/style.css'); ?>" rel="stylesheet">
+	<link href="../assets/moshim/css/responsive.css" rel="stylesheet">
+	<link rel="icon" href="../assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
 		// 자바스크립트에서 사용하는 전역변수 선언
@@ -174,7 +171,7 @@
 								</div>
 								<div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
-										<li <?php echo (element('menu_name', $layout) === 'vision') ? 'class="current"' : ''; ?>><a href="/momo/pages/vision">비전</a>
+										<li <?php echo (element('menu_name', $layout) === 'vision') ? 'class="current"' : ''; ?>><a href="/pages/vision">비전</a>
 											<!-- <ul>
 												<li><a href="index.html">Home Page 01</a></li>
 												<li><a href="index-2.html">Home Page 02</a></li>
@@ -188,7 +185,7 @@
 												</li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'youtube') ? 'class="current"' : ''; ?>><a href="/momo/pages/youtube">유튜브</a>
+										<li <?php echo (element('menu_name', $layout) === 'youtube') ? 'class="current"' : ''; ?>><a href="/pages/youtube">유튜브</a>
 											<!-- <ul>
 												<li><a href="about.html">About Us</a></li>
 												<li><a href="faq.html">Faq Page</a></li>
@@ -196,16 +193,16 @@
 												<li><a href="error.html">Error Page</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/momo/pages/books">동화책</a>
+										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a>
 											<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
 										<li class="logo-box">
-											<figure class="logo"><a href="/"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/logo_2.png" alt="" ></a></figure>
+											<figure class="logo"><a href="/"><img src="../assets/moshim/images/logo_2.png" alt=""></a></figure>
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'songs') ? 'class="current"' : ''; ?>><a href="/momo/pages/songs">동요</a>
+										<li <?php echo (element('menu_name', $layout) === 'songs') ? 'class="current"' : ''; ?>><a href="/pages/songs">동요</a>
 											<!-- <ul>
 												<li><a href="gallery.html">Our Gallery</a></li>
 												<li><a href="teachers.html">Our Teachers</a></li>
@@ -218,13 +215,13 @@
 												<li><a href="checkout.html">Checkout Page</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'shop') ? 'class="current"' : ''; ?>><a href="/momo/pages/shop">SHOP</a>
+										<li <?php echo (element('menu_name', $layout) === 'shop') ? 'class="current"' : ''; ?>><a href="/pages/shop">SHOP</a>
 											<!-- <ul>
 												<li><a href="blog.html">Blog Page</a></li>
 												<li><a href="blog-details.html">Blog Details</a></li>
 											</ul> -->
 										</li>
-										<li><a href="/momo/pages/login">로그인</a></li>
+										<!-- <li><a href="/pages/login">로그인</a></li> -->
 									</ul>
 								</div>
 							</nav>
@@ -237,7 +234,7 @@
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure class="logo-box"><a href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/small-logo.png" alt=""></a></figure>
+				<figure class="logo-box"><a href="index.html"><img src="../moshim/images/small-logo.png" alt=""></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
@@ -264,21 +261,21 @@
 										</li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/">비전</a>
-								<!-- 	<ul>
+								<li class="dropdown"><a href="/pages/vision">비전</a>
+									<!-- 	<ul>
 										<li><a href="about.html">About Us</a></li>
 										<li><a href="faq.html">Faq Page</a></li>
 										<li><a href="testimonial.html">Testimonials</a></li>
 										<li><a href="error.html">Error Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/momo/pages/youtube">유튜브</a>
-								<!-- 	<ul>
+								<li class="dropdown"><a href="/pages/youtube">유튜브</a>
+									<!-- 	<ul>
 										<li><a href="class.html">Our Classes</a></li>
 										<li><a href="class-details.html">Class Details</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/momo/pages/books">동화책</a>
+								<li class="dropdown"><a href="/pages/books">동화책</a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -291,14 +288,14 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/momo/pages/songs">동요</a>
+								<li class="dropdown"><a href="/pages/songs">동요</a>
 									<!-- <ul>
 										<li><a href="blog.html">Blog Page</a></li>
 										<li><a href="blog-details.html">Blog Details</a></li>
 									</ul> -->
 								</li>
-								<li><a href="/momo/pages/shop">SHOP</a></li>
-								<li><a href="/momo/pages/login">로그인</a></li>
+								<li><a href="/pages/shop">SHOP</a></li>
+								<!-- <li><a href="/pages/login">로그인</a></li> -->
 							</ul>
 						</div>
 					</nav>
@@ -393,7 +390,7 @@
 						<div class="copyright">Copyright &copy; <a href="#">tonatheme</a> 2019. All Rights Reserved</div>
 					</div>
 					<div class="right-content pull-right">
-						<figure class="footer-logo"><a href="index.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/footer-logo.png" alt=""></a></figure>
+						<figure class="footer-logo"><a href="index.html"><img src="../moshim/images/footer-logo.png" alt=""></a></figure>
 						<ul class="social-style-one footer-social clearfix">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -414,27 +411,29 @@
 		<i class="fa fa-arrow-up"></i>
 	</button>
 
-
-
 	<!-- jequery plugins -->
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/jquery.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/popper.min.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/bootstrap.min.js"></script>
+	<script src="../assets/moshim/js/jquery.js"></script>
+	<script src="../assets/moshim/js/popper.min.js"></script>
+	<script src="../assets/moshim/js/bootstrap.min.js"></script>
 
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/owl.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/wow.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/validation.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/jquery.fancybox.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/appear.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/parallax.min.js"></script>
+	<script src="../assets/moshim/js/owl.js"></script>
+	<script src="../assets/moshim/js/wow.js"></script>
+	<script src="../assets/moshim/js/validation.js"></script>
+	<script src="../assets/moshim/js/jquery.fancybox.js"></script>
+	<script src="../assets/moshim/js/appear.js"></script>
+	<script src="../assets/moshim/js/parallax.min.js"></script>
+	<script src="../assets/moshim/js/isotope.js"></script>
+	<script src="../assets/moshim/js/jquery-ui.js"></script>
 
 	<!-- map script -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/gmaps.js"></script>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/map-helper.js"></script>
+	<script src="../assets/moshim/js/gmaps.js"></script>
+	<script src="../assets/moshim/js/map-helper.js"></script>
 
 	<!-- main-js -->
-	
+	<script src="../assets/moshim/js/script.js"></script>
+
+	<!-- js ours  -->
 	<script type="text/javascript">
 		$(document).on('click', '.viewpcversion', function() {
 			Cookies.set('device_view_type', 'desktop', {
@@ -456,13 +455,14 @@
 	</script>
 	<?php echo element('popup', $layout); ?>
 	<?php echo $this->cbconfig->item('footer_script'); ?>
-	<script src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/js/script.js"></script>
 	<!--
 		Layout Directory : <?php echo element('layout_skin_path', $layout); ?>,
 		Layout URL : <?php echo element('layout_skin_url', $layout); ?>,
 		Skin Directory : <?php echo element('view_skin_path', $layout); ?>,
 		Skin URL : <?php echo element('view_skin_url', $layout); ?>,
 	-->
+
+
 </body><!-- End of .page_wrapper -->
 
 </html>
