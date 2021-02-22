@@ -24,24 +24,24 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/style.css" />
 
-	<script type="text/javascript">
-		// 자바스크립트에서 사용하는 전역변수 선언
-		var cb_url = "<?php echo trim(site_url(), '/'); ?>";
-		var cb_cookie_domain = "<?php echo config_item('cookie_domain'); ?>";
-		var cb_charset = "<?php echo config_item('charset'); ?>";
-		var cb_time_ymd = "<?php echo cdate('Y-m-d'); ?>";
-		var cb_time_ymdhis = "<?php echo cdate('Y-m-d H:i:s'); ?>";
-		var layout_skin_path = "<?php echo element('layout_skin_path', $layout); ?>";
-		var view_skin_path = "<?php echo element('view_skin_path', $layout); ?>";
-		var is_member = "<?php echo $this->member->is_member() ? '1' : ''; ?>";
-		var is_admin = "<?php echo $this->member->is_admin(); ?>";
-		var cb_admin_url = <?php echo $this->member->is_admin() === 'super' ? 'cb_url + "/' . config_item('uri_segment_admin') . '"' : '""'; ?>;
-		var cb_board = "<?php echo isset($view) ? element('board_key', $view) : ''; ?>";
-		var cb_board_url = <?php echo (isset($view) && element('board_key', $view)) ? 'cb_url + "/' . config_item('uri_segment_board') . '/' . element('board_key', $view) . '"' : '""'; ?>;
-		var cb_device_type = "<?php echo $this->cbconfig->get_device_type() === 'mobile' ? 'mobile' : 'desktop' ?>";
-		var cb_csrf_hash = "<?php echo $this->security->get_csrf_hash(); ?>";
-		var cookie_prefix = "<?php echo config_item('cookie_prefix'); ?>";
-	</script>
+    <script type="text/javascript">
+        // 자바스크립트에서 사용하는 전역변수 선언
+        var cb_url = "<?php echo trim(site_url(), '/'); ?>";
+        var cb_cookie_domain = "<?php echo config_item('cookie_domain'); ?>";
+        var cb_charset = "<?php echo config_item('charset'); ?>";
+        var cb_time_ymd = "<?php echo cdate('Y-m-d'); ?>";
+        var cb_time_ymdhis = "<?php echo cdate('Y-m-d H:i:s'); ?>";
+        var layout_skin_path = "<?php echo element('layout_skin_path', $layout); ?>";
+        var view_skin_path = "<?php echo element('view_skin_path', $layout); ?>";
+        var is_member = "<?php echo $this->member->is_member() ? '1' : ''; ?>";
+        var is_admin = "<?php echo $this->member->is_admin(); ?>";
+        var cb_admin_url = <?php echo $this->member->is_admin() === 'super' ? 'cb_url + "/' . config_item('uri_segment_admin') . '"' : '""'; ?>;
+        var cb_board = "<?php echo isset($view) ? element('board_key', $view) : ''; ?>";
+        var cb_board_url = <?php echo (isset($view) && element('board_key', $view)) ? 'cb_url + "/' . config_item('uri_segment_board') . '/' . element('board_key', $view) . '"' : '""'; ?>;
+        var cb_device_type = "<?php echo $this->cbconfig->get_device_type() === 'mobile' ? 'mobile' : 'desktop' ?>";
+        var cb_csrf_hash = "<?php echo $this->security->get_csrf_hash(); ?>";
+        var cookie_prefix = "<?php echo config_item('cookie_prefix'); ?>";
+    </script>
 </head>
 
 <body>
@@ -88,13 +88,10 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <a class="navbar-brand" href="/coco">
-                                로고
-                            <!-- <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo.png"
-                                    srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ratina_logo.png 2x" alt="Kidzo"> -->
-                                </a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
-                                aria-label="Toggle navigation">
+                                <!-- <a class="navbar-brand" href="/"> -->
+                                <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
@@ -171,7 +168,7 @@
 
     <!-- 본문 시작 -->
     <?php if (isset($yield)) echo $yield; ?>
-	<!-- 본문 끝 -->
+    <!-- 본문 끝 -->
 
 
     <!-- footer part here -->
