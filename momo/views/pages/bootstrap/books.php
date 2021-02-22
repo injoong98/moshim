@@ -2,11 +2,11 @@
    <section class="page-title centred" style="background-image: url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/background/page-title.jpg);">
        <div class="container">
            <div class="content-box">
-               <h1>About Us</h1>
-               <ul class="bread-crumb clearfix">
+               <h1>동화책</h1>
+               <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
                    <li>About</li>
-               </ul>
+               </ul> -->
            </div>
        </div>
    </section>

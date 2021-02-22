@@ -11,7 +11,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-2.jpg)">
+            <div class="slide" style="background-image:url(../assets/moshim/images/main-slider/main-2.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -21,7 +21,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-3.jpg)">
+            <div class="slide" style="background-image:url(../assets/moshim/images/main-slider/main-3.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -31,7 +31,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-4.jpg)">
+            <div class="slide" style="background-image:url(../assets/moshim/images/main-slider/main-4.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -41,7 +41,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/main-slider/main-5.jpg)">
+            <div class="slide" style="background-image:url(../assets/moshim/images/main-slider/main-5.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -66,8 +66,8 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                     <div class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <figure class="image image-1"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image image-2"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/about-2.jpg" alt=""></figure>
+                        <figure class="image image-1"><img src="../assets/moshim/images/resource/about-1.jpg" alt=""></figure>
+                        <figure class="image image-2"><img src="../assets/moshim/images/resource/about-2.jpg" alt=""></figure>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -128,7 +128,7 @@
     <!-- 유튜브 끝 -->
 
     <!-- 쇼핑몰 시작 -->
-    <section class="service-section sec-pad" style="background-image: url(<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/background/service-bg.jpg);">
+    <section class="service-section sec-pad" style="background-image: url(../assets/moshim/images/background/service-bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
@@ -153,14 +153,14 @@
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-running"></i></div>
-                                    <h3><a href="#">Sports Training</a></h3>
+                                    <h3><a href="#">참어머님 생애동요</a></h3>
                                     <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div>
                                 </div>
                             </div>
                             <div class="service-block-one">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="flaticon-drum"></i></div>
-                                    <h3><a href="#">Music Training</a></h3>
+                                    <h3><a href="#">참어머님 생애동요 사운드북</a></h3>
                                     <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-1.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="../assets/moshim/images/resource/news-1.jpg" alt=""></a></figure>
                             <div class="lower-content">
                                 <h3><a href="blog-details.html">하늘이 준비하신 참어머님</a></h3>
                                 <ul class="info-box">
@@ -207,7 +207,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-2.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="../assets/moshim/images/resource/news-2.jpg" alt=""></a></figure>
                             <div class="lower-content">
                                 <h3><a href="blog-details.html">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <ul class="info-box">
@@ -223,7 +223,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/news-3.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="blog-details.html"><img src="../assets/moshim/images/resource/news-3.jpg" alt=""></a></figure>
                             <div class="lower-content">
                                 <h3><a href="blog-details.html">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <ul class="info-box">
@@ -279,7 +279,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-1.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="../assets/moshim/images/resource/teacher-1.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Kevin Spacey</a></h3>
@@ -298,7 +298,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-2.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="../assets/moshim/images/resource/teacher-2.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Catherine Jones</a></h3>
@@ -317,7 +317,7 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/momo/assets/moshim/images/resource/teacher-3.png" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="../assets/moshim/images/resource/teacher-3.png" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">John Travolta</a></h3>
