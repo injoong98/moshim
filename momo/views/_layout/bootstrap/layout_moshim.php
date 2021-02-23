@@ -122,7 +122,7 @@
 
 
 	<!-- Main Header -->
-	<header class="main-header style-two">
+	<header class="main-header">
 
 		<div class="header-top">
 			<div class="container">
@@ -154,22 +154,24 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="header-bottom">
-			<div class="container">
-				<div class="inner-container">
-					<div class="nav-outer">
-						<div class="menu-area">
-							<nav class="main-menu navbar-expand-lg">
-								<div class="navbar-header">
-									<!-- Toggle Button -->
-									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-								</div>
-								<div class="navbar-collapse collapse clearfix">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="logo-box pull-left">
+                        <figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
+                    </div>
+                    <div class="nav-outer pull-right clearfix">
+                        <div class="menu-area">
+                            <nav class="main-menu navbar-expand-lg">
+                                <div class="navbar-header">
+                                    <!-- Toggle Button -->      
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+                                <div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
 										<li <?php echo (element('menu_name', $layout) === 'vision') ? 'class="current"' : ''; ?>><a href="/pages/vision">비전</a>
 											<!-- <ul>
@@ -199,9 +201,6 @@
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li class="logo-box">
-											<figure class="logo"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_2.png" alt=""></a></figure>
-										</li>
 										<li <?php echo (element('menu_name', $layout) === 'songs') ? 'class="current"' : ''; ?>><a href="/pages/songs">동요</a>
 											<!-- <ul>
 												<li><a href="gallery.html">Our Gallery</a></li>
@@ -223,18 +222,26 @@
 										</li>
 										<!-- <li><a href="/pages/login">로그인</a></li> -->
 									</ul>
-								</div>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</div>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="outer-box">
+                            <ul class="outer-content">
+                                <li class="header-flyout-searchbar">
+                                    <i class="fa fa-search"></i>
+                                </li>
+                                <li><a href="shop.html"><i class="fas fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		</div>
 
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure class="logo-box"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/small-logo.png" alt=""></a></figure>
+				<figure class="logo-box"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt=""></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
