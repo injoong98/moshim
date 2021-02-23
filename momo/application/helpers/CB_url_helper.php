@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
  * Url libraries helper
@@ -13,10 +13,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 /**
  * query string 을 포함한 현재페이지 주소 전체를 return 합니다
  */
-if ( ! function_exists('current_full_url')) {
+if (!function_exists('current_full_url')) {
 	function current_full_url()
 	{
-		$CI =& get_instance();
+		$CI = &get_instance();
 
 		$url = $CI->config->site_url($CI->uri->uri_string());
 		$return = ($CI->input->server('QUERY_STRING'))
@@ -29,7 +29,7 @@ if ( ! function_exists('current_full_url')) {
 /**
  * 페이지 이동시 이 함수를 이용하면, gotourl 페이지를 거쳐가므로 referer 를 숨길 수 있습니다
  */
-if ( ! function_exists('goto_url')) {
+if (!function_exists('goto_url')) {
 	function goto_url($url = '')
 	{
 		if (empty($url)) {
@@ -39,7 +39,7 @@ if ( ! function_exists('goto_url')) {
 		return $result;
 	}
 }
-if ( ! function_exists('qr_url')) {
+if (!function_exists('qr_url')) {
 	function qr_url($url = '')
 	{
 		if (empty($url)) {
@@ -47,7 +47,7 @@ if ( ! function_exists('qr_url')) {
 		}
 		$domain_url = 'http://video.hjsmartedu.com';
 		$result = site_url('/homestudy/kids/' . urlencode($url));
-		return $domain_url.$result;
+		return $domain_url . $result;
 	}
 }
 
@@ -55,7 +55,7 @@ if ( ! function_exists('qr_url')) {
 /**
  * Admin 페이지 주소를 return 합니다
  */
-if ( ! function_exists('admin_url')) {
+if (!function_exists('admin_url')) {
 	function admin_url($url = '')
 	{
 		$url = trim($url, '/');
@@ -67,7 +67,7 @@ if ( ! function_exists('admin_url')) {
 /**
  * 게시판 목록 주소를 return 합니다
  */
-if ( ! function_exists('board_url')) {
+if (!function_exists('board_url')) {
 	function board_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -79,7 +79,7 @@ if ( ! function_exists('board_url')) {
 /**
  * 게시물 열람 페이지 주소를 return 합니다
  */
-if ( ! function_exists('post_url')) {
+if (!function_exists('post_url')) {
 	function post_url($key = '', $post_id = '')
 	{
 		$key = trim($key, '/');
@@ -101,7 +101,7 @@ if ( ! function_exists('post_url')) {
 /**
  * 게시물 작성 페이지 주소를 return 합니다
  */
-if ( ! function_exists('write_url')) {
+if (!function_exists('write_url')) {
 	function write_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -113,7 +113,7 @@ if ( ! function_exists('write_url')) {
 /**
  * 게시물 답변 페이지 주소를 return 합니다
  */
-if ( ! function_exists('reply_url')) {
+if (!function_exists('reply_url')) {
 	function reply_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -125,7 +125,7 @@ if ( ! function_exists('reply_url')) {
 /**
  * 게시물 수정 페이지 주소를 return 합니다
  */
-if ( ! function_exists('modify_url')) {
+if (!function_exists('modify_url')) {
 	function modify_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -137,7 +137,7 @@ if ( ! function_exists('modify_url')) {
 /**
  * 게시물 그룹 페이지 주소를 return 합니다
  */
-if ( ! function_exists('group_url')) {
+if (!function_exists('group_url')) {
 	function group_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -149,7 +149,7 @@ if ( ! function_exists('group_url')) {
 /**
  * RSS 페이지 주소를 return 합니다
  */
-if ( ! function_exists('rss_url')) {
+if (!function_exists('rss_url')) {
 	function rss_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -161,7 +161,7 @@ if ( ! function_exists('rss_url')) {
 /**
  * FAQ 페이지 주소를 return 합니다
  */
-if ( ! function_exists('faq_url')) {
+if (!function_exists('faq_url')) {
 	function faq_url($key = '')
 	{
 		$key = trim($key, '/');
@@ -173,10 +173,36 @@ if ( ! function_exists('faq_url')) {
 /**
  * 일반문서 페이지 주소를 return 합니다
  */
-if ( ! function_exists('document_url')) {
+if (!function_exists('document_url')) {
 	function document_url($key = '')
 	{
 		$key = trim($key, '/');
 		return site_url(config_item('uri_segment_document') . '/' . $key);
 	}
 }
+
+
+// ------------------------------------------------------------------------
+
+if (!function_exists('moshim_url')) {
+	/**
+	 * Moshim URL
+	 *
+	 * Simply adds the name of folder if it is needed
+	 *
+	 * @param	string	the URL
+	 * @return	string
+	 */
+	function moshim_url($str = '')
+	{
+		$request_uri = $_SERVER['REQUEST_URI'];
+		$contain_uri = strpos($request_uri, $str);
+		if ($contain_uri === false) {
+			return '../';
+		} else {
+			return site_url() . $str;
+		}
+	}
+}
+
+// ------------------------------------------------------------------------

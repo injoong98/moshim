@@ -43,9 +43,9 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="<?php echo site_url('../assets/moshim/css/style.css'); ?>" rel="stylesheet">
-	<link href="../assets/moshim/css/responsive.css" rel="stylesheet">
-	<link rel="icon" href="../assets/moshim/images/favicon.ico" type="image/x-icon">
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style.css" rel="stylesheet">
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/responsive.css" rel="stylesheet">
+	<link rel="icon" href="<?php echo moshim_url('momo') ?>/assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
 		// 자바스크립트에서 사용하는 전역변수 선언
@@ -104,7 +104,7 @@
 				</div>
 				<div class="flyout_search">
 					<div class="flyout-search-title">
-						<h4>Search</h4>
+						<h4>검색</h4>
 					</div>
 					<div class="flyout-search-bar">
 						<form role="search" method="get" action="#">
@@ -200,7 +200,7 @@
 											</ul> -->
 										</li>
 										<li class="logo-box">
-											<figure class="logo"><a href="/"><img src="../assets/moshim/images/logo_2.png" alt=""></a></figure>
+											<figure class="logo"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_2.png" alt=""></a></figure>
 										</li>
 										<li <?php echo (element('menu_name', $layout) === 'songs') ? 'class="current"' : ''; ?>><a href="/pages/songs">동요</a>
 											<!-- <ul>
@@ -234,7 +234,7 @@
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure class="logo-box"><a href="index.html"><img src="../moshim/images/small-logo.png" alt=""></a></figure>
+				<figure class="logo-box"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/small-logo.png" alt=""></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
@@ -390,7 +390,7 @@
 						<div class="copyright">Copyright &copy; <a href="#">tonatheme</a> 2019. All Rights Reserved</div>
 					</div>
 					<div class="right-content pull-right">
-						<figure class="footer-logo"><a href="index.html"><img src="../moshim/images/footer-logo.png" alt=""></a></figure>
+						<figure class="footer-logo"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/footer-logo.png" alt=""></a></figure>
 						<ul class="social-style-one footer-social clearfix">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -412,26 +412,26 @@
 	</button>
 
 	<!-- jequery plugins -->
-	<script src="../assets/moshim/js/jquery.js"></script>
-	<script src="../assets/moshim/js/popper.min.js"></script>
-	<script src="../assets/moshim/js/bootstrap.min.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/popper.min.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/bootstrap.min.js"></script>
 
-	<script src="../assets/moshim/js/owl.js"></script>
-	<script src="../assets/moshim/js/wow.js"></script>
-	<script src="../assets/moshim/js/validation.js"></script>
-	<script src="../assets/moshim/js/jquery.fancybox.js"></script>
-	<script src="../assets/moshim/js/appear.js"></script>
-	<script src="../assets/moshim/js/parallax.min.js"></script>
-	<script src="../assets/moshim/js/isotope.js"></script>
-	<script src="../assets/moshim/js/jquery-ui.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/owl.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/wow.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/validation.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/appear.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/parallax.min.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/isotope.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
 
 	<!-- map script -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-	<script src="../assets/moshim/js/gmaps.js"></script>
-	<script src="../assets/moshim/js/map-helper.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/gmaps.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/map-helper.js"></script>
 
 	<!-- main-js -->
-	<script src="../assets/moshim/js/script.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/script.js"></script>
 
 	<!-- js ours  -->
 	<script type="text/javascript">
