@@ -277,7 +277,7 @@
     <section class="our-teachers sec-pad centred">
         <div class="container">
             <div class="sec-title">
-                <h5>참어머님 생애동요 사운드</h5>
+                <h5>참어머님 생애동요 사운드 북</h5>
                 <h1>참어머님의 생애와 심정을 담은 효정의 이야기와 노래(2 ~ 4세)</h1>
             </div>
             <div class="row">
