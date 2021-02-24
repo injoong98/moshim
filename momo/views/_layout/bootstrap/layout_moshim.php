@@ -202,14 +202,14 @@
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/soundbooks">사운드북</a>
+										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="/pages/soundbooks">사운드북</a>
 										<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
 										<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'songs') ? 'class="current"' : ''; ?>><a href="/pages/songs">동요</a>
+										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>><a href="/pages/cd">CD</a>
 											<!-- <ul>
 												<li><a href="gallery.html">Our Gallery</a></li>
 												<li><a href="teachers.html">Our Teachers</a></li>
@@ -317,7 +317,7 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/pages/songs">동요</a>
+								<li class="dropdown"><a href="/pages/cd">CD</a>
 									<!-- <ul>
 										<li><a href="blog.html">Blog Page</a></li>
 										<li><a href="blog-details.html">Blog Details</a></li>
@@ -420,12 +420,12 @@
 					</div>
 					<div class="right-content pull-right">
 						<figure class="footer-logo"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a></figure>
-						<!-- <ul class="social-style-one footer-social clearfix" style="display:none;">
+						<ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-						</ul> -->
+						</ul>
 					</div>
 				</div>
 			</div>
