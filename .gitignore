@@ -86,3 +86,5 @@ momo/application/cache/board_meta/board-meta-model-get-6
 momo/application/cache/board_meta/board-meta-model-get-7
 momo/application/cache/board_meta/board-meta-model-get-8
 momo/application/cache/board_meta/board-meta-model-get-9
+coco/views/pages/bootstrap/music.php
+.gitignore
