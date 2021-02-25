@@ -98,7 +98,7 @@
             <div class="icon icon-1"></div>
             <div class="icon icon-2"></div>
         </div>
-        <div class="image-column" style="background-image: url(images/background/feature-bg.jpg);"></div>
+        <div class="image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-12 col-md-12 offset-xl-7 inner-column">
@@ -384,7 +384,7 @@
     <!-- 동요 끝 -->
 
     <!-- 참어머님 생애동요 CD 시작 -->
-    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/background/service-bg.jpg);">
+    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
