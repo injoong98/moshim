@@ -21,10 +21,10 @@
             </div>
             <!-- <div class="inner-content"> -->
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-1.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/07.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Kevin Spacey</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -38,10 +38,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-2.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/09.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Catherine Jones</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -55,10 +55,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-3.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/11.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">John Travolta</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -72,10 +72,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-1.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Kevin Spacey</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -89,10 +89,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-2.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Catherine Jones</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -106,10 +106,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-3.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">John Travolta</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -125,10 +125,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-1.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Kevin Spacey</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -142,10 +142,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-2.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Catherine Jones</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -159,10 +159,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-3.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/23.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">John Travolta</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -176,10 +176,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-1.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Kevin Spacey</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -193,10 +193,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-2.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/27.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">Catherine Jones</a></h3>
                                     <!-- <span class="designation">Teacher</span>
@@ -210,10 +210,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 block-column">
+                    <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                         <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                             <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="images/resource/teacher-3.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/29.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">John Travolta</a></h3>
                                     <!-- <span class="designation">Teacher</span>

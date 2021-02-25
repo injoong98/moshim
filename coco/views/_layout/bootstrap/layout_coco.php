@@ -6,23 +6,25 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>맑은물</title>
-    <link rel="icon" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/favicon.ico">
+    <link rel="icon" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/favicon.ico">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/css/bootstrap.min.css" />
     <!-- animate CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/animate.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/css/animate.css" />
     <!-- font awesome CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/fontawesome/css/all.min.css" />
     <!-- elegent icon CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/themefy_icon/themify-icons.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/themefy_icon/themify-icons.css" />
     <!-- nice select CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/niceselect/css/nice-select.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/niceselect/css/nice-select.css" />
     <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/owl_carousel/css/owl.carousel.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/owl_carousel/css/owl.carousel.css" />
     <!-- magnify popup CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/magnify_popup/magnific-popup.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/magnify_popup/magnific-popup.css" />
+
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/audio_player/css/audioplayer.css" />
     <!-- style CSS -->
-    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/css/style.css" />
+    <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/css/style.css" />
 
     <script type="text/javascript">
         // 자바스크립트에서 사용하는 전역변수 선언
@@ -89,7 +91,7 @@
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <a class="navbar-brand" href="/coco">
                                 <!-- <a class="navbar-brand" href="/"> -->
-                                <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
+                                <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -97,19 +99,19 @@
                             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/coco/pages/aboutus">회사소개</a>
+                                        <a class="nav-link" href="/pages/aboutus">회사소개</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/coco/pages/youtube">YOUTUBE</a>
+                                        <a class="nav-link" href="/pages/youtube">YOUTUBE</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/coco/pages/music">MUSIC</a>
+                                        <a class="nav-link" href="/pages/music">MUSIC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/coco/pages/books">동화책</a>
+                                        <a class="nav-link" href="/pages/books">동화책</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/coco/pages/workbooks">학습지</a>
+                                        <a class="nav-link" href="/pages/workbooks">학습지</a>
                                     </li>
                                     <!-- <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle active" href="#" role="button"
@@ -177,14 +179,14 @@
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6 wow fadeInDown" data-wow-delay=".3s">
                     <div class="single_footer_widget">
-                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_logo.png" alt="#"></a>
+                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_logo.png" alt="#"></a>
                         <p>Lorem ipsum dolor sit consectetur sicing elit, sed do eitempor idunt ut labor omagn aliqua
                             sed do
                         </p>
                         <div class="social_icon">
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/fb.png" alt="#"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/inst.png" alt="#"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feed.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/fb.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/inst.png" alt="#"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feed.png" alt="#"></a>
                         </div>
                     </div>
                 </div>
@@ -212,12 +214,12 @@
                     <div class="single_footer_widget instagram_feed">
                         <h4>Instagram Feed</h4>
                         <div class="instagram_img">
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_1.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_2.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_3.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_4.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_5.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/ins/ins_6.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_1.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_2.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_3.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_4.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_5.png" alt="#" class="img-fluid"></a>
+                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_6.png" alt="#" class="img-fluid"></a>
                         </div>
                     </div>
                 </div>
@@ -229,38 +231,39 @@
             </div>
         </div>
         <div class="footer_animation_1">
-            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_1.png" alt="#"></div>
+            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_1.png" alt="#"></div>
         </div>
         <div class="footer_animation_2">
-            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_2.png" alt="#"></div>
+            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_2.png" alt="#"></div>
         </div>
         <div class="footer_animation_3">
-            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/footer_icon_3.png" alt="#"></div>
+            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_3.png" alt="#"></div>
         </div>
     </footer>
 
     <!-- jquery slim -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/js/jquery-3.5.1.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/js/jquery-3.5.1.min.js"></script>
     <!-- popper js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/js/popper.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/js/popper.min.js"></script>
     <!-- bootstarp js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/js/bootstrap.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/js/bootstrap.min.js"></script>
     <!-- nice select -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/niceselect/js/jquery.nice-select.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/niceselect/js/jquery.nice-select.min.js"></script>
     <!-- owl carousel js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/owl_carousel/js/owl.carousel.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/audio_player/js/audioplayer.js"></script>
     <!-- parallax js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/parallax/jquery.parallax-scroll.js"></script>
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/parallax/parallax.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/parallax/jquery.parallax-scroll.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/parallax/parallax.js"></script>
     <!-- wow js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/wow/wow.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/wow/wow.min.js"></script>
     <!-- isotop js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/isotop/imagesloaded.pkgd.min.js"></script>
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/isotop/isotope.pkgd.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/isotop/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/isotop/isotope.pkgd.js"></script>
     <!-- magnify popup js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/vendors/magnify_popup/jquery.magnific-popup.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/vendors/magnify_popup/jquery.magnific-popup.js"></script>
     <!-- custom js -->
-    <script src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/js/custom.js"></script>
+    <script src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/js/custom.js"></script>
 </body>
 
 </html>

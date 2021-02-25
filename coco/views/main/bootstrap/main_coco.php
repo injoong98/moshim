@@ -15,22 +15,22 @@
             </div>
             <div class="banner_animation_1">
                 <div data-parallax='{"x": 20, "y": 200, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_1.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_1.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_2">
                 <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_2.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_2.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_3">
                 <div data-parallax='{"x": 0, "y": 200, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_3.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_3.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_4">
                 <div data-parallax='{"x": 10, "y": 150, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_4.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
                 </div>
             </div>
         </div>
@@ -50,22 +50,22 @@
             </div>
             <div class="banner_animation_1">
                 <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_1.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_1.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_2">
                 <div data-parallax='{"x": 15, "y": 100, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_2.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_2.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_3">
                 <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_3.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_3.png" alt="#">
                 </div>
             </div>
             <div class="banner_animation_4">
                 <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_4.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
                         <a class="single_service_part d-block" href="about.html">
                             <div class="service_section_img_wrapper">
@@ -138,7 +138,7 @@
                             <h5 class="service_title">Pre School</h5>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <!-- <a class="pc-button elementor-button button-link cu_btn mt-lg-4" href="#">
                     <div class="button-content-wrapper ">
                         <span class="elementor-button-text">Learn More </span>
@@ -150,22 +150,22 @@
             </div>
             <div class="services_shape_animation_1">
                 <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/animation_shape/feature_shape_01.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/feature_shape_01.png" alt="#">
                 </div>
             </div>
             <div class="services_shape_animation_2">
                 <div data-parallax='{"x": 15, "y": 100, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/animation_shape/feature_shape_02.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/feature_shape_02.png" alt="#">
                 </div>
             </div>
             <div class="services_shape_animation_3">
                 <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/animation_shape/feature_shape_03.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/feature_shape_03.png" alt="#">
                 </div>
             </div>
             <div class="services_shape_animation_4">
                 <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/animation_shape/feature_shape_04.png" alt="#">
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/feature_shape_04.png" alt="#">
                 </div>
             </div>
         </section>
@@ -198,26 +198,26 @@
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
                         <div class="img_section">
-                            <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                                 data-parallax='{"x": 0, "y": -50, "rotateZ":0}'>
-                            <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/about_img_7.png" alt="#" class="about_img_6 img-fluid">
-                            <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_7.png" alt="#" class="about_img_6 img-fluid">
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
                                 data-parallax='{"x": 0, "y": 50, "rotateZ":0}'>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="about_page_animation_1">
-                <div data-parallax='{"x": 2, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_5.png" alt="#"></div>
+                <div data-parallax='{"x": 2, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_5.png" alt="#"></div>
             </div>
             <div class="about_page_animation_2">
-                <div data-parallax='{"x": 10, "y": 80, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_6.png" alt="#"></div>
+                <div data-parallax='{"x": 10, "y": 80, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_6.png" alt="#"></div>
             </div>
             <div class="about_page_animation_3">
-                <div data-parallax='{"x": 30, "y": 60, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_7.png" alt="#"></div>
+                <div data-parallax='{"x": 30, "y": 60, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#"></div>
             </div>
             <div class="about_page_animation_4">
-                <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_8.png" alt="#"></div>
+                <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_8.png" alt="#"></div>
             </div>
         </section>
         <!-- about section part end -->
@@ -228,7 +228,7 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="video_section">
-                            <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/video_section_bg.png" alt="#" class="img-fluid">
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/video_section_bg.png" alt="#" class="img-fluid">
                             <a href="https://www.youtube.com/watch?v=oiHulAQmdqI" class="video_popup"><span class="polygon_shape"></span></a>
                         </div>
                     </div>
@@ -244,12 +244,12 @@
                     </div>
                 </div>
             </div>
-            <div class="get_start_animation_1"><div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_1.png" alt="#"></div></div>
-            <div class="get_start_animation_3"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
-            <div class="get_start_animation_6"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
-            <div class="get_start_animation_9"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
-            <div class="get_start_animation_11"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
-            <div class="get_start_animation_12"><div data-parallax='{"x": 20, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/feature_7.png" alt="#"></div></div>
+            <div class="get_start_animation_1"><div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_1.png" alt="#"></div></div>
+            <div class="get_start_animation_3"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
+            <div class="get_start_animation_6"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
+            <div class="get_start_animation_9"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
+            <div class="get_start_animation_11"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
+            <div class="get_start_animation_12"><div data-parallax='{"x": 20, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_7.png" alt="#"></div></div>
         </section>
         <!-- get start part end -->
 
@@ -271,32 +271,32 @@
                 </div>
                 <div class="breadcrumb_animation_4">
                     <div data-parallax='{"x": 30, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_5">
                     <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_7">
                     <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_10">
                     <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_12">
                     <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_13">
                     <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
                     </div>
                 </div>
             </section>
@@ -320,7 +320,7 @@
                             <div class="event_part_iner">
                                 <div class="row justify-content-end">
                                     <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/event_img.png" alt="#" class="img-fluid">
+                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/event_img.png" alt="#" class="img-fluid">
                                     </div>
                                     <div class="col-md-6 col-lg-7">
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
@@ -366,13 +366,13 @@
                     </div>
                 </div>
                 <div class="event_animation_1">
-                    <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/event_1.png" alt="#"></div>
+                    <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_1.png" alt="#"></div>
                 </div>
                 <div class="event_animation_2">
-                    <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/event_2.png" alt="#"></div>
+                    <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_2.png" alt="#"></div>
                 </div>
                 <div class="event_animation_3">
-                    <div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/event_3.png" alt="#"></div>
+                    <div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_3.png" alt="#"></div>
                 </div>
             </section>
             <!-- services part end -->
@@ -392,12 +392,12 @@
                 </div>
                 <div class="breadcrumb_animation_1">
                     <div data-parallax='{"x": 30, "y": -20}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/cta_img_1.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_1.png" alt="#">
                     </div>
                 </div>
                 <div class="breadcrumb_animation_2">
                     <div data-parallax='{"x": 20, "y": -100}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/cta_img_2.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_2.png" alt="#">
                     </div>
                 </div>
             </section>
@@ -430,32 +430,32 @@
                 </div>
                 <div class="contact_animation_1">
                     <div data-parallax='{"x": 30, "y": 100, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/cta_1.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/cta_1.png" alt="#">
                     </div>
                 </div>
                 <div class="contact_animation_2">
                     <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/contact_icon.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/contact_icon.png" alt="#">
                     </div>
                 </div>
                 <div class="contact_animation_3">
                     <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/banner_two_3.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_two_3.png" alt="#">
                     </div>
                 </div>
                 <div class="contact_animation_4">
                     <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/event_6.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_6.png" alt="#">
                     </div>
                 </div>
                 <div class="contact_animation_5">
                     <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_8.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_8.png" alt="#">
                     </div>
                 </div>
                 <div class="contact_animation_6">
                     <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/coco/assets/malgeunmul/img/icon/icon_7.png" alt="#">
+                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#">
                     </div>
                 </div>
             </section>
