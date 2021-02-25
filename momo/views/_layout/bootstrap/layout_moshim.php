@@ -158,7 +158,7 @@
             <div class="container">
                 <div class="clearfix">
                     <div class="logo-box pull-left">
-                        <figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
+                        <figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
                     </div>
                     <div class="nav-outer pull-right clearfix">
                         <div class="menu-area">
