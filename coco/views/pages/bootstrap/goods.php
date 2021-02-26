@@ -7,9 +7,9 @@
     right: 0%;
     top: 0%;
 }
-@media screen and (max-width: 900px) {
-    .team_section .team_animation_4{
-        display:none;
+@media screen and (max-width: 991px) {
+    .team_section [class^=team_animation_], .team_section [class*=" team_animation_"] {
+    display: none;
     }
 }
 </style>
