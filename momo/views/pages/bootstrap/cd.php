@@ -2,7 +2,7 @@
    <section class="page-title centred" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/cover_01.jpg);">
        <div class="container">
            <div class="content-box">
-               <h1>CD</h1>
+               <!-- <h1>CD</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
                    <li>About</li>
