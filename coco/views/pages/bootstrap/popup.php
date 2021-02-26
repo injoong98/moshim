@@ -5,7 +5,6 @@
   padding: 40px;
   width: auto;
   max-width: 600px;
-  margin: 20px auto;
   text-align: center;
   height:100vh;
 }
@@ -19,7 +18,27 @@
     background-position: bottom center;
     background-size: 100%;
 }
+.services_shape_animation_3{
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+}
+.services_shape_animation_4{
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
 </style>
-<div class="lyrics_popup">
-<?php echo $view["lyrics"]?>
-</div>
+<section class="lyrics_popup">
+    <?php echo $view["lyrics"]?>
+    <div class="services_shape_animation_3">
+        <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
+            <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/animation_shape/feature_shape_03.png" alt="#">
+        </div>
+        </div>
+        <div class="services_shape_animation_4">
+        <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
+            <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/animation_shape/feature_shape_04.png" alt="#">
+        </div>
+    </div>
+</section>
