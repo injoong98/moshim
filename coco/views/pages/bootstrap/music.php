@@ -21,6 +21,9 @@
 .music_sns_icon{
     width: 66%;
 }
+.breadcrumb_part{
+    background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -28,7 +31,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2>MUSIC</h2>
+                        <h2></h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
@@ -38,7 +41,7 @@
                 </div>
             </div>
         </div>
-        <div class="breadcrumb_animation_4">
+        <!-- <div class="breadcrumb_animation_4">
             <div data-parallax='{"x": 30, "y": 250, "rotateZ":0}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
             </div>
@@ -67,7 +70,7 @@
             <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
             </div>
-        </div>
+        </div> -->
     </section>
     <!-- breadcrumb part end -->
 
