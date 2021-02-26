@@ -210,22 +210,17 @@
                     <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
                         <div class="about_section_content mt-5 mt-lg-0">
                             <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
-                            <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="title_overlay_effect">We Create New</span></h2>
-                            <p class="wow fadeInLeft" data-wow-delay=".5s">The amazing way to olor sit amet, consectetur 
-                            adipisicing elit, sed do eiusmod incididunt ut labore inventore The amazing way to olor sit 
-                            amet, consectetur. consectetur adipisicing elit, sed do eiusmod incididunt ut labore inventore.</p>
-                            <div class="list_content">
-                                <ul>
-                                    <li class="wow fadeInLeft" data-wow-delay=".5s"><i class="far fa-check-circle"></i> Best
-                                        Learning School for Kids</li>
-                                    <li class="wow fadeInLeft" data-wow-delay=".5s"><i class="far fa-check-circle"></i>
-                                        Indoor/Outdoor Games for Little Kids</li>
-                                    <li class="wow fadeInLeft" data-wow-delay=".6s"><i class="far fa-check-circle"></i>
-                                        Professional & Qualified Teacher</li>
-                                    <li class="wow fadeInLeft" data-wow-delay=".6s"><i class="far fa-check-circle"></i>
-                                        Indoor/Outdoor Games for Little Kids</li>
-                                </ul>
-                            </div>
+                            <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="title_overlay_effect">맑은물</span></h2>
+                            <p class="wow fadeInLeft" data-wow-delay=".5s">하루를 출발하면서 부모님께 달려와 인사하고,
+                                유치원에서 또는 학교에서 열심히 공부하고
+                                친구들과 좋은 관계를 유지하며,
+                                부모님과 하루를 대화로 마무리하는
+                                티없이 맑은 효자녀들로 자라길 바라는 마음.</p>
+                            <p class="wow fadeInLeft mt-3" data-wow-delay=".5s">
+                                출판브랜드 ‘맑은물’은
+                                자녀들이 티없이 부모님을 사랑하며 자라길 바라는 마음을 담아
+                                좋은 컨텐츠(Good! Contents!) 를 만들겠습니다.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6 order-1 order-lg-2">
@@ -233,8 +228,6 @@
                             <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                                 data-parallax='{"x": 0, "y": -50, "rotateZ":0}'>
                             <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="#" class="about_img_6 img-fluid">
-                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
-                                data-parallax='{"x": 0, "y": 50, "rotateZ":0}'>
                         </div>
                     </div>
                 </div>
@@ -266,12 +259,13 @@
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="get_start_content mt-5 mt-lg-0">
-                            <h2 class="kid_title"> <span class="title_overlay_effect"> With Efficiency to More Opportunities </span></h2>
-                            <p>Why I say old chap that is spiffing bodge, blag pardon me mufty Oxford butty bubble and squeak wind 
-                            up, brown bread the full monty bloke ruddy cras tickety-boo squiffy.</p>
-                            <p>Why I say old chap that is spiffing bodge, blag pardon me mufty Oxford butty bubble and squeak wind 
-                            up, brown bread the full monty bloke ruddy cras tickety-boo squiffy.</p>
-                            <a href="#" class="get_start_btn">Get Started Now! <i class="ti-arrow-right"></i> </a>
+                            <h2 class="kid_title"> <span class="title_overlay_effect"> 위드아이 </span></h2>
+                            <p>위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드입니다.
+                                언제나 아이와 함께하며 자녀들이 더 깊은 생각, 더 좋은 생각할 수 있도록
+                            </p>
+                            <p class="mt-0">위드아이＇withi 가 함께 하겠습니다.</p>
+                            <p>언제나 아이와 함께 하는 생각놀이 ‘위드아이withi’ ! '</p>
+                            <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" target="_blank" class="get_start_btn">Get Started Now! <i class="ti-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -325,12 +319,30 @@
                                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/event_img.png" alt="#" class="img-fluid">
                                     </div>
                                     <div class="col-md-6 col-lg-7">
+                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
+                                            <div class="event_date">
+                                                <h3>12 <span>Mar</span> </h3>
+                                            </div>
+                                            <div class="event_content">
+                                                <h4> <a href="event_details.html">위드아이 Art</a></h4>
+                                                <p>Monday 14:30 - 17:00</p>
+                                            </div>
+                                        </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
                                             <div class="event_date">
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html"> Paint Happiness Day</a></h4>
+                                                <h4> <a href="event_details.html">위드아이 Science</a></h4>
+                                                <p>Monday 14:30 - 17:00</p>
+                                            </div>
+                                        </div>
+                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
+                                            <div class="event_date">
+                                                <h3>12 <span>Mar</span> </h3>
+                                            </div>
+                                            <div class="event_content">
+                                                <h4> <a href="event_details.html">위드아이 Connect</a></h4>
                                                 <p>Monday 14:30 - 17:00</p>
                                             </div>
                                         </div>
@@ -339,25 +351,7 @@
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html"> Paint Happiness Day</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".6s">
-                                            <div class="event_date">
-                                                <h3>12 <span>Mar</span> </h3>
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="event_details.html"> Paint Happiness Day</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".8s">
-                                            <div class="event_date">
-                                                <h3>12 <span>Mar</span> </h3>
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="event_details.html"> Paint Happiness Day</a></h4>
+                                                <h4> <a href="event_details.html">위드아이 Activity</a></h4>
                                                 <p>Monday 14:30 - 17:00</p>
                                             </div>
                                         </div>
