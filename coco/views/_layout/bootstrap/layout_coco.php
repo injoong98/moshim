@@ -101,17 +101,17 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="/pages/aboutus">회사소개</a>
                                     </li>
-                                    <li class="nav-item">
+                                    <!-- <li class="nav-item">
                                         <a class="nav-link" href="/pages/youtube">YOUTUBE</a>
-                                    </li>
+                                    </li> -->
                                     <li class="nav-item">
                                         <a class="nav-link" href="/pages/music">MUSIC</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/pages/books">동화책</a>
+                                        <a class="nav-link" href="/pages/workbooks">학습지</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/pages/workbooks">학습지</a>
+                                        <a class="nav-link" href="/pages/goods">굿즈</a>
                                     </li>
                                     <!-- <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle active" href="#" role="button"
@@ -157,7 +157,7 @@
                                     </li> -->
                                 </ul>
                                 <!-- SNS 로고  -->
-                                <p>sns 로고</p>
+                                <!-- <p>sns 로고</p> -->
                                 <!-- <a href="contact.html" class="cu_btn btn_1">Get Started</a> -->
                             </div>
                         </nav>
@@ -179,7 +179,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6 wow fadeInDown" data-wow-delay=".3s">
                     <div class="single_footer_widget">
-                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_logo.png" alt="#"></a>
+                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
                         <p>Lorem ipsum dolor sit consectetur sicing elit, sed do eitempor idunt ut labor omagn aliqua
                             sed do
                         </p>
