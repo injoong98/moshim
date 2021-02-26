@@ -24,23 +24,10 @@
 .breadcrumb_part{
     background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
 }
-.lyrics_popup {
-  position: relative;
-  background: #FFF;
-  padding: 40px;
-  width: auto;
-  max-width: 600px;
-  margin: 20px auto;
-  text-align: center;
-}
 .lyrics{
     cursor: pointer;
 }
 .lyrics .lyrics_popup{ display:none;}
-.lyrics_popup .content{
-    text-align: center;
-    font-family: "Nunito", sans-serif;
-}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -116,9 +103,7 @@
                                     <div class="lyrics" id ="lyrics_0">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_0">
-                                            <h3 class="title mb-3">
-                                                효정의 마음
-                                            </h3>
+                                            <h3 class="title mb-3">효정의 마음</h3>
                                             <pre class="content">
 사랑하는 아가야 엄마는 널 사랑한단다
 사랑하는 우리 아가야 아빤 널 사랑한단다
@@ -157,9 +142,7 @@
                                     <div class="lyrics" id ="lyrics_1">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_1">
-                                        <h3 class="title mb-3">
-                                            우리집 하트뿅
-                                        </h3>
+                                        <h3 class="title mb-3">우리집 하트뿅</h3>
                                             <pre class="content">
 내가 제일 좋아하는 우리 엄마 (뿅)
 내가 제일 좋아하는 우리 아빠 (뿅)
@@ -195,9 +178,7 @@
                                     <div class="lyrics" id ="lyrics_2">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_2">
-                                        <h3 class="title mb-3">
-                                            하하하 하트
-                                        </h3>
+                                        <h3 class="title mb-3">하하하 하트</h3>
                                             <pre class="content">
 똥똥똥똥 동그라미
 쎄쎄쎄쎄 세모
@@ -229,9 +210,7 @@
                                     <div class="lyrics" id ="lyrics_3">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_3">
-                                        <h3 class="title mb-3">
-                                            달리기 대장
-                                        </h3>
+                                        <h3 class="title mb-3">달리기 대장</h3>
                                             <pre class="content">
 내가 제일 좋아하는 달리기 시합
 따릉따릉 따르르릉 자전거 씽씽
@@ -268,9 +247,7 @@
                                     <div class="lyrics" id ="lyrics_4">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_4">
-                                        <h3 class="title mb-3">
-                                            방방 Jump
-                                        </h3>
+                                        <h3 class="title mb-3">방방 Jump</h3>
                                             <pre class="content">
 방방방방 뛰어요 Jump!
 하늘 높이 뛰어요 Jump!
@@ -302,9 +279,7 @@
                                     <div class="lyrics" id ="lyrics_5">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_5">
-                                        <h3 class="title mb-3">
-                                            산에 산에 올라요
-                                        </h3>
+                                        <h3 class="title mb-3">산에 산에 올라요</h3>
                                             <pre class="content">
 엄마 손 잡고 산에 올라요 아빠 손 잡고 산에 올라요
 구름 친구들과 얘기해요 산새 친구들과 얘기해요
@@ -332,9 +307,7 @@
                                     <div class="lyrics" id ="lyrics_6">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_6">
-                                        <h3 class="title mb-3">
-                                            좋아하는 것
-                                        </h3>
+                                        <h3 class="title mb-3">좋아하는 것</h3>
                                             <pre class="content">
 엄마가 좋아하는 건 무얼까 (과일은 딸기! 동물은 토끼!)
 엄마가 좋아하는 건 무얼까 (색깔은 빨강! 꽃은 수선화!)
@@ -368,9 +341,7 @@
                                     <div class="lyrics" id ="lyrics_7">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_7">
-                                        <h3 class="title mb-3">
-                                            졸졸졸 내 동생
-                                        </h3>
+                                        <h3 class="title mb-3">졸졸졸 내 동생</h3>
                                             <pre class="content">
 졸졸 귀찮게 따라다니는 야야야 너는 내 동생
 졸졸 언제나 따라다니는 야야야 귀여운 내 동생
@@ -408,9 +379,7 @@
                                     <div class="lyrics" id ="lyrics_8">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_8">
-                                        <h3 class="title mb-3">
-                                            따라해봐요
-                                        </h3>
+                                        <h3 class="title mb-3">따라해봐요</h3>
                                             <pre class="content">
 착하고 예쁜 언니 따라해봐요 착하고 멋진 오빠 따라해봐요
 새콤달콤 맛있는 것 나눠줘야지 멍멍 멍멍 강아지도 예뻐해야지
@@ -443,9 +412,7 @@
                                     <div class="lyrics" id ="lyrics_9">
                                         가사
                                         <div class="lyrics_popup" id ="lyrics_popup_9">
-                                        <h3 class="title mb-3">
-                                            짝짝짝
-                                        </h3>
+                                        <h3 class="title mb-3">짝짝짝</h3>
                                             <pre class="content">
 손을 들고 짝!짝!짝! 발을 들고 짝!짝!짝!
 엄마아빠 짝!짝!짝! 사랑해요 짝!짝!짝!
@@ -505,22 +472,34 @@
             </div>
         </div>
     </section>
-    <div id="my-popup" class="mfp-hide white-popup">
-    Inline popup
-    </div>
+    <form name="frm" id="frm">
+        <input type="hidden" name="arg1"/>
+    </form>
 
     <!-- services part end -->
     <script type="module">
+        function open_popup(arg1){
+            var frmPop = document.getElementById('frm');
+            var url="/pages/popup"
+            window.open('','popupView',["width=500","height=500"]);
+
+            frmPop.action = url;
+            frmPop.method = "POST";
+            frmPop.target = 'popupView';
+            frmPop.arg1.value = arg1;
+            frmPop.submit();
+        }
+
         $(document).ready(function() {
             var lyrics = $('.lyrics');
-            for(var i = 0; i<lyrics.length; i++){
-                $(`#lyrics_${i}`).magnificPopup({
-                    items:
-                    {
-                        src: `#lyrics_popup_${i}`, // CSS selector of an element on page that should be used as a popup
-                        type: 'inline'
-                    }
-                });
-            }
+            $(".lyrics").click(function(event){
+                var id = event.target.id
+                id = id.charAt(id.length-1)
+                console.log(`id = ${id}`);
+                var html = $("#lyrics_popup_"+id).html();
+                console.log('html'+html);
+                open_popup(html);
+            })
+            
         });
     </script>
