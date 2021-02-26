@@ -68,14 +68,14 @@
                     <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
+                                <div class="carousel-item w-100 active">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
+                                <div class="carousel-item w-100">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
+                                <div class="carousel-item w-100">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -210,7 +210,8 @@
         <div class="container">
             <div class="sec-title centred">
                 <h5>참어머님 생애동화</h5>
-                <h1>인류의 참어머님의 생애와 심정을 이해할 수 있는 귀한 보물과 같은 이야기</h1>
+                <h1>인류의 참어머님의 생애와 심정을</h1>
+                <h1>이해할 수 있는 귀한 보물과 같은 이야기</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -297,7 +298,8 @@
         <div class="container">
             <div class="sec-title">
                 <h5>참어머님 생애동요 사운드 북</h5>
-                <h1>참어머님의 생애와 심정을 담은 효정의 이야기와 노래(2 ~ 4세)</h1>
+                <h1>참어머님의 생애와 심정을 담은</h1>
+                <h1>효정의 이야기와 노래(2 ~ 4세)</h1>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 block-column">

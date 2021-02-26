@@ -415,19 +415,21 @@
 		</div> -->
 		<div class="footer-bottom">
 			<div class="container">
-				<div class="inner-container clearfix">
-					<div class="left-content pull-left">
-						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
-					</div>
-					<div class="right-content pull-right">
-						<figure class="footer-logo"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a></figure>
-						<ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
+				<div class="inner-container clearfix d-flex justify-content-center">
+					<div class="">
+						<figure>
+							<a href="/" class="d-flex justify-content-center"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a>
+						</figure>
+						<!-- <ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-						</ul>
+						</ul> -->
+					
+						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
 					</div>
+					
 				</div>
 			</div>
 		</div>

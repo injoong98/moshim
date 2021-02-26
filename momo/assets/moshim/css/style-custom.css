@@ -1,3 +1,16 @@
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
 }
+.feature-section .image-column {
+    background-size: contain !important;
+}
+.carousel-item img{
+    border: 15px solid #fff;
+    border-radius: 30px;
+    width:350px;
+    height:350px;
+}
+.carousel-item.active, .carousel-item-next, .carousel-item-prev{
+    display: flex;
+    justify-content: center;
+}
