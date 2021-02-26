@@ -45,6 +45,7 @@
 	<!-- Stylesheets -->
 	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style.css" rel="stylesheet">
 	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/responsive.css" rel="stylesheet">
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style-custom.css" rel="stylesheet">
 	<link rel="icon" href="<?php echo moshim_url('momo') ?>/assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
