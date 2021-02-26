@@ -1,3 +1,35 @@
+ <style>
+ 
+.breadcrumb_part.music{
+    background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
+    background-position: center !important;
+}
+.play_btn_container{
+    background-color: #fff;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_btn_container .polygon_shape{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 18px solid #fe4b7b;
+    display: block;
+    text-align: center;
+    margin-left: 6px;
+}
+ </style>
  <!-- banner part here -->
  <section class="banner_part bannerslider owl-carousel">
         <div class="single_banner_part bg_1">
@@ -91,7 +123,7 @@
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
-                            <h5 class="service_title">Infant Care</h5>
+                            <h5 class="service_title">MUSIC</h5>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
@@ -99,7 +131,7 @@
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
-                            <h5 class="service_title">Pre School</h5>
+                            <h5 class="service_title">학습지</h5>
                         </a>
                     </div>
                 </div>
@@ -109,7 +141,7 @@
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
-                            <h5 class="service_title">Infant Care</h5>
+                            <h5 class="service_title">긋즈</h5>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
@@ -117,7 +149,7 @@
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
-                            <h5 class="service_title">Pre School</h5>
+                            <h5 class="service_title">소개</h5>
                         </a>
                     </div>
                 </div>
@@ -200,7 +232,7 @@
                         <div class="img_section">
                             <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                                 data-parallax='{"x": 0, "y": -50, "rotateZ":0}'>
-                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_7.png" alt="#" class="about_img_6 img-fluid">
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="#" class="about_img_6 img-fluid">
                             <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
                                 data-parallax='{"x": 0, "y": 50, "rotateZ":0}'>
                         </div>
@@ -228,8 +260,8 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                         <div class="video_section">
-                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/video_section_bg.png" alt="#" class="img-fluid">
-                            <a href="https://www.youtube.com/watch?v=oiHulAQmdqI" class="video_popup"><span class="polygon_shape"></span></a>
+                            <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo.jpg" alt="#" class="img-fluid">
+                            <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" class="play_btn_container" target="_blank"><span class="polygon_shape"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
@@ -254,49 +286,19 @@
         <!-- get start part end -->
 
         <!-- breadcrumb part -->
-        <section class="breadcrumb_part parallax_bg">
+        <section class="breadcrumb_part parallax_bg music">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-6 ">
                             <div class="breadcrumb_iner">
-                                <h2>About Us</h2>
+                                <h2></h2>
                                 <div class="breadcrumb_iner_link">
-                                    <a href="index.html">Home</a>
-                                    <span>|</span>
-                                    <p>About us</p>
+                                    <a href="index.html"></a>
+                                    <span></span>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_4">
-                    <div data-parallax='{"x": 30, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_5">
-                    <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_7">
-                    <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_10">
-                    <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_12">
-                    <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_13">
-                    <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
                     </div>
                 </div>
             </section>
