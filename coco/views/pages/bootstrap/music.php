@@ -481,7 +481,7 @@
         function open_popup(arg1){
             var frmPop = document.getElementById('frm');
             var url="/pages/popup"
-            window.open('','popupView',["width=500","height=500"]);
+            window.open('','popupView',["width=600","height=500"]);
 
             frmPop.action = url;
             frmPop.method = "POST";

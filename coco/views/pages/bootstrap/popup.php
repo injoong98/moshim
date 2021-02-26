@@ -7,6 +7,7 @@
   max-width: 600px;
   margin: 20px auto;
   text-align: center;
+  height:100vh;
 }
 .lyrics_popup .content{
     text-align: center;
