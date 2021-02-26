@@ -89,7 +89,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="/coco">
+                            <a class="navbar-brand" href="/">
                                 <!-- <a class="navbar-brand" href="/"> -->
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
                             </a>
