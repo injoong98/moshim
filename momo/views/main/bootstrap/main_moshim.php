@@ -1,6 +1,6 @@
     <!-- 콘텐츠 소개 시작-->
     <section class="main-slider style-two">
-        <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
+        <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-1.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
@@ -65,9 +65,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <figure class="image image-1"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image image-2"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/about-2.jpg" alt=""></figure>
+                    <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -96,7 +115,7 @@
     <section class="feature-section">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
-            <div class="icon icon-2"></div>
+            <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
         <div class="image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
         <div class="container">
