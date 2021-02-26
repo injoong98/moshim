@@ -7,7 +7,11 @@
     right: 0%;
     top: 0%;
 }
-
+@media screen and (max-width: 900px) {
+    .team_section .team_animation_4{
+        display:none;
+    }
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -179,7 +183,7 @@
             <div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/program_list_shape_03.png" alt="#"></div>
         </div>
         <div class="team_animation_4">
-            <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/program_list_shape_04.png" alt="#"></div>
+            <div data-parallax='{"x": 105, "y": 5, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/animation_shape/program_list_shape_04.png" alt="#"></div>
         </div>
     </section>
     <!-- team part end -->
