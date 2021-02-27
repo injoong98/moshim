@@ -256,6 +256,6 @@
  <!-- our-teachers end -->
  <script language="javascript" type="text/javascript">
        function openWin(num) {
-           window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`,'_blank', "동화책 자세히 보기", 'width=800', 'height=700');
+           window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`,'_blank', "동화책 자세히 보기", 'width=1300', 'height=790');
        }
    </script>
