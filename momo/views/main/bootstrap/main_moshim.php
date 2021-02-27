@@ -103,7 +103,7 @@
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
                                 어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.</p>
                         </div>
-                        <div class="btn-box"><a href="/pages/vision" class="theme-btn">더알아보기</a></div>
+                        <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
     <!-- 소개 끝 -->
 
     <!-- 유튜브 시작  -->
-    <section class="feature-section">
+    <section class="feature-section" id="intro_further">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
             <div class="icon icon-2" style="bottom: -150px;"></div>
