@@ -24,10 +24,10 @@
            <div class="row">
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a onclick="javascript:openWin();"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a onclick=""><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <div class="link-btn"><a onclick="javascript:openWin();"><i class="flaticon-next"></i></a></div>
-                           <h3><a onclick="javascript:openWin();">참어머님 생애동화 세트</a></h3>
+                           <div class="link-btn"><a onclick=""><i class="flaticon-next"></i></a></div>
+                           <h3><a onclick="">참어머님 생애동화 세트</a></h3>
                            <div class="price">91,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -39,7 +39,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a onclick="javascript:openWin(1);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a onclick="javascript:void(openWin(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a onclick="javascript:openWin(1);"><i class="flaticon-next"></i></a></div>
                            <h3><a onclick="javascript:openWin(1);">하늘이 준비하신 참어머님</a></h3>
@@ -146,9 +146,9 @@
        </div>
    </section>
    <!-- classes-section end -->
-
    <script language="javascript" type="text/javascript">
        function openWin(num) {
-           window.open(`<?php echo moshim_url('momo') ?>/views/pages/bootstrap/pdf/[kr]0${num}_spread.pdf`, "동화책 자세히 보기", "width=800, height=700, toolbar=no, menubar=no, scrollbars=no, resizable=yes");
+        //    window.open(`<?php echo moshim_url('momo') ?>/views/pages/bootstrap/pdf/[kr]0${num}_spread.pdf`, "동화책 자세히 보기", "width=800, height=700, toolbar=no, menubar=no, scrollbars=no, resizable=yes");
+           window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`,'_blank', "동화책 자세히 보기", width=800, height=700);
        }
    </script>
