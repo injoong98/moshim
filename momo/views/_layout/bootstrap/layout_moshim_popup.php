@@ -83,7 +83,6 @@
 </head>
 <!-- page wrapper -->
 
-<body class="boxed_wrapper">
 
 	<!-- 본문 시작 -->
 	<?php if (isset($yield)) echo $yield; ?>
@@ -141,6 +140,6 @@
 	-->
 
 
-</body><!-- End of .page_wrapper -->
+<!-- End of .page_wrapper -->
 
 </html>
