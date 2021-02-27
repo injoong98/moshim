@@ -27,13 +27,13 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/07.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">달래강 노래</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <!-- <audio controls src="<?php echo moshim_url('momo')?>/assets/moshim/soundbook_track/song/01.mp3"> Your browser does not support the <code>audio</code> element.</audio> -->
+                                        <li>
+                                        <a href="<?php echo moshim_url('momo')?>/assets/moshim/soundbook_track/song/08.mp3"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -44,13 +44,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/09.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">아름다운 이 세상</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -61,13 +59,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/11.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">하나님의 나의 부모님</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
-                                    <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                   <span class="designation"><br/></span>
+                                   <ul class="social-list">
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -78,13 +74,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">수선화 사랑</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -95,13 +89,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">하늘 신부</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -112,13 +104,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">산 넘고 바다 건너</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
-                                    <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                   <span class="designation"><br/></span>
+                                   <ul class="social-list">
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -131,13 +121,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">효정의 어머니</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +136,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">어머니 아들딸</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -165,13 +151,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/23.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">어머니 손은 약손</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
-                                    <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                   <span class="designation"><br/></span>
+                                   <ul class="social-list">
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -182,13 +166,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">해가 지고 달이 떠도</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
-                                    <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                   <span class="designation"><br/></span>
+                                   <ul class="social-list">
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -199,13 +181,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/27.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">아름다운 나라 천일국</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
+                                    <span class="designation"><br/></span>
                                     <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -216,13 +196,11 @@
                                 <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/29.jpg" alt=""></a></figure>
                                 <div class="lower-content">
                                     <h3><a href="#">새로운 세상 우리 함께해요</a></h3>
-                                    <!-- <span class="designation">Teacher</span>
-                                    <ul class="social-list">
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                    </ul> -->
+                                   <span class="designation"><br/></span>
+                                   <ul class="social-list">
+                                        <li><a href="#"><i class="fas fa-play"></i></a></li>
+                                        <li><a href="#"><i class="far fa-file-alt"></i></a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
