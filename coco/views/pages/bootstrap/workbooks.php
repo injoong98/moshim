@@ -169,7 +169,7 @@
                                     </p> -->
                                     <div class="program_list_details">
                                         <h5>1단계 <span>4-5 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/CBw-rS3OpVw">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -187,7 +187,7 @@
                                     </p> -->
                                     <div class="program_list_details">
                                         <h5>1단계 <span>4-5 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -205,7 +205,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>1단계 <span>4-5 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/stvfRr8WHPQ">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -223,7 +223,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>1단계 <span>4-5 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/fU86IXSnq38">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -241,7 +241,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>2단계 <span>6-7 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/3iivFIWvmqw">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -259,7 +259,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>2단계 <span>6-7 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/YT2dKsd4m4o">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -277,7 +277,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>2단계 <span>6-7 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/HShlZnm28cA">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
@@ -295,7 +295,7 @@
                                         adipisi</p> -->
                                     <div class="program_list_details">
                                         <h5>2단계 <span>6-7 yrs</span> </h5>
-                                        <h5>Tution Fee<span>23,000₩</span> </h5>                                        
+                                        <h5>가격<span>23,000₩</span> </h5>                                        
                                         <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/wRPiEMvH1LM">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                         </a>
