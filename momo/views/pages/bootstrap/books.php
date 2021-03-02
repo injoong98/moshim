@@ -24,7 +24,7 @@
            <div class="row">
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a onclick="javascript:openWin();"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a onclick="javascript:openWin();"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <div class="link-btn"><a onclick="javascript:openWin();"><i class="flaticon-next"></i></a></div>
                            <h3><a onclick="javascript:openWin();">참어머님 생애동화 세트</a></h3>
@@ -43,7 +43,7 @@
                        <div class="lower-content">
                            <div class="link-btn"><a onclick="javascript:openWin(1);"><i class="flaticon-next"></i></a></div>
                            <h3><a onclick="javascript:openWin(1);">하늘이 준비하신 참어머님</a></h3>
-                           <div class="price">$13,000원</div>
+                           <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
                                <li>연령 : <span>5 ~ 13세</span></li>
