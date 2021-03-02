@@ -1,6 +1,6 @@
     <!-- 콘텐츠 소개 시작-->
     <section class="main-slider style-two">
-        <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
+        <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-1.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
@@ -65,9 +65,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="image-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <figure class="image image-1"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/about-1.jpg" alt=""></figure>
-                        <figure class="image image-2"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/about-2.jpg" alt=""></figure>
+                    <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item w-100 active">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item w-100">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item w-100">
+                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -84,7 +103,7 @@
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
                                 어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.</p>
                         </div>
-                        <div class="btn-box"><a href="/pages/vision" class="theme-btn">더알아보기</a></div>
+                        <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div>
                     </div>
                 </div>
             </div>
@@ -93,10 +112,10 @@
     <!-- 소개 끝 -->
 
     <!-- 유튜브 시작  -->
-    <section class="feature-section">
+    <section class="feature-section" id="intro_further">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
-            <div class="icon icon-2"></div>
+            <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
         <div class="image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
         <div class="container">
@@ -191,9 +210,8 @@
         <div class="container">
             <div class="sec-title centred">
                 <h5>참어머님 생애동화</h5>
-                <h1>인류의 참어머님의 생애와 심정을
-                    <br />이해할 수 있는 귀한 보물과 같은 이야기
-                </h1>
+                <h1>인류의 참어머님의 생애와 심정을</h1>
+                <h1>이해할 수 있는 귀한 보물과 같은 이야기</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
@@ -280,7 +298,8 @@
         <div class="container">
             <div class="sec-title">
                 <h5>참어머님 생애동요 사운드 북</h5>
-                <h1>참어머님의 생애와 심정을 담은 효정의 이야기와 노래(2 ~ 4세)</h1>
+                <h1>참어머님의 생애와 심정을 담은</h1>
+                <h1>효정의 이야기와 노래(2 ~ 4세)</h1>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 block-column">

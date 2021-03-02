@@ -45,6 +45,7 @@
 	<!-- Stylesheets -->
 	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style.css" rel="stylesheet">
 	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/responsive.css" rel="stylesheet">
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style-custom.css" rel="stylesheet">
 	<link rel="icon" href="<?php echo moshim_url('momo') ?>/assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
@@ -173,7 +174,8 @@
 								</div>
 								<div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
-										<li <?php echo (element('menu_name', $layout) === 'vision') ? 'class="current"' : ''; ?>><a href="#intro">소개</a>
+										<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>><a href="http://moshim.co.kr/#intro">
+												<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
 											<!-- <ul>
 												<li><a href="index.html">Home Page 01</a></li>
 												<li><a href="index-2.html">Home Page 02</a></li>
@@ -262,8 +264,8 @@
 						</div>
 						<div class="navbar-collapse collapse clearfix">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="/">Home</a>
-									<!-- <ul>
+								<!-- <li class="current dropdown"><a href="/">Home</a> -->
+								<!-- <ul>
 										<li><a href="index.html">Home Page 01</a></li>
 										<li><a href="index-2.html">Home Page 02</a></li>
 										<li><a href="index-3.html">Home Page 03</a></li>
@@ -276,7 +278,7 @@
 										</li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="#intro">소개</a>
+								<li class="dropdown <?php echo (element('menu_name', $layout) == 'main') ? 'current' : ''; ?>"><a href="http://moshim.co.kr/#intro"><?php echo (element('menu_name', $layout) == 'main') ? '' : '메인/'; ?>소개</a>
 									<!-- <li class="dropdown"><a href="/pages/vision">비전</a> -->
 									<!-- 	<ul>
 										<li><a href="about.html">About Us</a></li>
@@ -291,7 +293,9 @@
 										<li><a href="class-details.html">Class Details</a></li>
 									</ul>
 								</li> -->
-								<li class="dropdown"><a href="<?php echo moshim_url('momo') . '/pages/books' ?>">동화책</a>
+								<li class="dropdown
+								<?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?>
+								"><a href="/pages/books">동화책</a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -304,7 +308,9 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">사운드북</a>
+								<li class="
+								<?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?>
+								dropdown"><a href="/pages/soundbooks">사운드북</a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -317,7 +323,9 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="<?php echo moshim_url('momo') ?>/pages/cd">CD</a>
+								<li class="
+								<?php echo (element('menu_name', $layout) === 'cd') ? 'current' : ''; ?>
+								dropdown"><a href="/pages/cd">CD</a>
 									<!-- <ul>
 										<li><a href="blog.html">Blog Page</a></li>
 										<li><a href="blog-details.html">Blog Details</a></li>
@@ -414,19 +422,21 @@
 		</div> -->
 		<div class="footer-bottom">
 			<div class="container">
-				<div class="inner-container clearfix">
-					<div class="left-content pull-left">
-						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
-					</div>
-					<div class="right-content pull-right">
-						<figure class="footer-logo"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a></figure>
-						<ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
+				<div class="inner-container clearfix d-flex justify-content-center">
+					<div class="">
+						<figure>
+							<a href="/" class="d-flex justify-content-center"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a>
+						</figure>
+						<!-- <ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
-						</ul>
+						</ul> -->
+
+						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
 					</div>
+
 				</div>
 			</div>
 		</div>
@@ -442,17 +452,17 @@
 
 	<!-- jequery plugins -->
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/popper.min.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/bootstrap.min.js"></script>
 
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/owl.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/wow.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/validation.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/appear.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/parallax.min.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/isotope.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
 
 	<!-- map script -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
@@ -461,6 +471,9 @@
 
 	<!-- main-js -->
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/script.js"></script>
+
+	<!-- js custom uny  -->
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/custom.js"></script>
 
 	<!-- js ours  -->
 	<script type="text/javascript">
