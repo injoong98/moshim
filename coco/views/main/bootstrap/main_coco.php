@@ -119,7 +119,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
-                        <a class="single_service_part d-block" href="about.html">
+                        <a class="single_service_part d-block" href="/pages/music">
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
@@ -127,7 +127,7 @@
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
-                        <a class="single_service_part d-block bg_color_2" href="about.html">
+                        <a class="single_service_part d-block bg_color_2" href="/pages/workbooks">
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
@@ -137,15 +137,15 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
-                        <a class="single_service_part d-block" href="about.html">
+                        <a class="single_service_part d-block" href="/pages/goods">
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
-                            <h5 class="service_title">긋즈</h5>
+                            <h5 class="service_title">굿즈</h5>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
-                        <a class="single_service_part d-block bg_color_2" href="about.html">
+                        <a class="single_service_part d-block bg_color_2" href="#about_section">
                             <div class="service_section_img_wrapper">
                                 <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
                             </div>
@@ -204,7 +204,7 @@
         <!-- services part end -->
 
         <!-- about section part here -->
-        <section class="about_section section_padding s4_about_section">
+        <section class="about_section section_padding s4_about_section" id="about_section">
             <div class="container custom_container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
@@ -316,7 +316,7 @@
                             <div class="event_part_iner">
                                 <div class="row justify-content-end">
                                     <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/event_img.png" alt="#" class="img-fluid">
+                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
                                     </div>
                                     <div class="col-md-6 col-lg-7">
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
@@ -324,8 +324,8 @@
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html">위드아이 Art</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
+                                                <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
+                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
@@ -333,8 +333,8 @@
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html">위드아이 Science</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
+                                                <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
+                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
@@ -342,8 +342,8 @@
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html">위드아이 Connect</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
+                                                <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
+                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
@@ -351,8 +351,8 @@
                                                 <h3>12 <span>Mar</span> </h3>
                                             </div>
                                             <div class="event_content">
-                                                <h4> <a href="event_details.html">위드아이 Activity</a></h4>
-                                                <p>Monday 14:30 - 17:00</p>
+                                                <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>
+                                                <p></p>
                                             </div>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@
                             <div class="cta_part_iner">
                                 <h2>Enrollment Is Going On</h2>
                                 <p>Gain access to over 1000 Premiun resourses</p>
-                                <a href="#" class="cu_btn white_bg font-weight-bold">Book Now</a>
+                                <a href="/page/goods" class="cu_btn white_bg font-weight-bold">Book Now</a>
                             </div>
                         </div>
                     </div>
