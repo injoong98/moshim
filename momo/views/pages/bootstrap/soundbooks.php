@@ -24,10 +24,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('05')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/07.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('01')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/07.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('05')">1. 달래강 노래</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('01')">1. 달래강 노래</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -43,10 +43,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('06')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/09.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('02')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/09.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('06')">2. 아름다운 이 세상</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('02')">2. 아름다운 이 세상</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -62,10 +62,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('07')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/11.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('03')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/11.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('07')">3. 하나님은 나의 부모님</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('03')">3. 하나님은 나의 부모님</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -81,10 +81,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('04')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('08')">4. 수선화 사랑</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('04')">4. 수선화 사랑</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -100,10 +100,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('09')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('05')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('09')">5. 하늘 신부</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('05')">5. 하늘 신부</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -119,10 +119,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('10')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('06')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('10')">6. 산 넘고 바다 건너</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('06')">6. 산 넘고 바다 건너</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -140,10 +140,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('11')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('07')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('11')">7.효정의 어머니</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('07')">7.효정의 어머니</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -159,10 +159,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('12')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('12')">8. 어머니의 아들 딸</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('08')">8. 어머니의 아들 딸</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -178,10 +178,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('13')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/23.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('09')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/23.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('13')">9. 어머니 손은 약손</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('09')">9. 어머니 손은 약손</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -197,10 +197,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('14')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('10')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('14')">10. 해가지고 달이 떠도</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('10')">10. 해가지고 달이 떠도</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -216,10 +216,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('15')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/27.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('11')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/27.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('15')">11. 아름다운 나라 천일국</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('11')">11. 아름다운 나라 천일국</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -235,10 +235,10 @@
                  <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                      <div class="inner-box">
                          <div class="image-holder">
-                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('16')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/29.jpg" alt=""></a></figure>
+                             <figure class="image-box"><a target="_blank" onclick ="openWin_soundbooks('12')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/29.jpg" alt=""></a></figure>
                          </div>
                          <div class="lower-content">
-                             <h3><a target="_blank" onclick ="openWin_soundbooks('16')">12. 새로운 세상 우리 함께해요</a></h3>
+                             <h3><a target="_blank" onclick ="openWin_soundbooks('12')">12. 새로운 세상 우리 함께해요</a></h3>
                              <!-- <span class="designation">Teacher</span> -->
                              <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
