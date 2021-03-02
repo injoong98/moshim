@@ -99,7 +99,7 @@
                             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/pages/aboutus">소개</a>
+                                        <a class="nav-link" href="<?php echo site_url(); ?>#about_section">소개</a>
                                     </li>
                                     <!-- <li class="nav-item">
                                         <a class="nav-link" href="/pages/youtube">YOUTUBE</a>
