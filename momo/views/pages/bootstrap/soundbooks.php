@@ -258,5 +258,3 @@
            window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300', 'height=790');
        }
    </script>
-
-   >>>>>>> eb107f5e819fd133d548269fe846c1cb98c74a18
