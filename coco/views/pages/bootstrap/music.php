@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 .lyrics .lyrics_popup{ display:none;}
+.left-purple{border-left: 5px solid #8686b5 !important ;}
+.left-blue{border-left: 5px solid #89c6ef !important ;}
+.left-green{border-left: 5px solid #99db8d !important ;}
+.left-orange{border-left: 5px solid #fcc86b !important ;}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -96,7 +100,7 @@
                 <div class="col-lg-12">
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-purple">
                                 <div class="text">
                                     효정의 마음
                                 </div>
@@ -135,7 +139,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-blue">
                                 <div class="text">
                                 우리집 하트뿅
                                 </div>
@@ -171,7 +175,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-green">
                                 <div class="text">
                                 하하하 하트
                                 </div>
@@ -203,7 +207,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-orange">
                                 <div class="text">
                                     달리기 대장
                                 </div>
@@ -272,7 +276,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-purple">
                                 <div class="text">
                                     산에 산에 올라요
                                 </div>
@@ -300,7 +304,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-blue">
                                 <div class="text">
                                 좋아하는 것
                                 </div>
@@ -334,7 +338,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-green">
                                 <div class="text">
                                     졸졸졸 내 동생
                                 </div>
@@ -372,7 +376,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-orange">
                                 <div class="text">
                                 따라해봐요
                                 </div>
@@ -432,7 +436,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top:60px">
+            <div class="row" style="margin-top:45px">
                 <div class="col-lg-12 d-flex justify-content-between">
                     <a class="col-lg-2" target="_blank" href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI">
                         <img src="/assets/images/youtube.png" class="music_sns_icon"/>
