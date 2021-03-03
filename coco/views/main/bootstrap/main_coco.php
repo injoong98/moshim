@@ -29,18 +29,24 @@
     text-align: center;
     margin-left: 6px;
 }
+h5.kid_title.wow.fadeInLeft {
+    font-size: 18px;
+    color: #fe4b7b;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
  </style>
  <!-- banner part here -->
  <section class="banner_part bannerslider owl-carousel">
         <div class="single_banner_part bg_1">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-10 col-lg-10 col-md-10">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
                         <div class="banner_iner">
-                            <h2> <span>Education</span> and <span>Care</span> for Your Kids</h2>
-                            <p>Stop wasting precious time creating invoices, following up on <br>
-                                payments and trying to figure out </p>
-                            <a href="#" class="cu_btn btn_2">Contact Us</a>
+                            <h2> 교육이 사람을  만듭니다.</h2>
+                            <h2> <span></span><span></span></h2>
+                            <p></p>
+                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
                         </div>
                     </div>
                 </div>
@@ -69,13 +75,46 @@
         <div class="single_banner_part bg_1">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-8 col-lg-10 col-md-10">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
                         <div class="banner_iner">
-                            <h2> Your <span> Child </span> Our <span> Responsibility </span>
+                            <h2>책이 사람을 만듭니다.
                             </h2>
-                            <p>Stop wasting precious time creating invoices, following up on <br>
-                                payments and trying to figure out </p>
-                            <a href="#" class="cu_btn btn_2">Contact Us</a>
+                            <p></p>
+                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_animation_1">
+                <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_1.png" alt="#">
+                </div>
+            </div>
+            <div class="banner_animation_2">
+                <div data-parallax='{"x": 15, "y": 100, "rotateZ":0}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_2.png" alt="#">
+                </div>
+            </div>
+            <div class="banner_animation_3">
+                <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_3.png" alt="#">
+                </div>
+            </div>
+            <div class="banner_animation_4">
+                <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
+                </div>
+            </div>
+        </div>
+        <div class="single_banner_part bg_1">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12">
+                        <div class="banner_iner">
+                            <h2>가정이 사람을 만듭니다.</span>
+                            </h2>
+                            <p></p>
+                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
                         </div>
                     </div>
                 </div>
@@ -110,10 +149,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="section_tittle_style_02">
-                            <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect"> What We Offer</span></h2>
-                            <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide
-                                affordable, high-quality early education and
-                                childcare services for working families to ensure every child.</p>
+                            <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect"></span></h2>
+                            <p class="description wow fadeInDown" data-wow-delay=".3s"></p>
                         </div>
                     </div>
                 </div>
@@ -259,13 +296,13 @@
                     </div>
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="get_start_content mt-5 mt-lg-0">
+                            <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
                             <h2 class="kid_title"> <span class="title_overlay_effect"> 위드아이 </span></h2>
                             <p>위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드입니다.
                                 언제나 아이와 함께하며 자녀들이 더 깊은 생각, 더 좋은 생각할 수 있도록
                             </p>
                             <p class="mt-0">위드아이＇withi 가 함께 하겠습니다.</p>
                             <p>언제나 아이와 함께 하는 생각놀이 ‘위드아이withi’ ! '</p>
-                            <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" target="_blank" class="get_start_btn">Get Started Now! <i class="ti-arrow-right"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -305,9 +342,8 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-7">
                             <div class="section_tittle_style_02">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> Upcoming Events</span></h2>
-                                <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide affordable, high-quality 
-                                early education and childcare services for working families to ensure every child.</p>
+                                <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
+                                <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
                             </div>
                         </div>
                     </div>
@@ -325,7 +361,7 @@
                                             </div>
                                             <div class="event_content">
                                                 <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
-                                                <p></p>
+                                                <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
@@ -334,7 +370,7 @@
                                             </div>
                                             <div class="event_content">
                                                 <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
-                                                <p></p>
+                                                <p>언제나 아이와 함께 하는 생각놀이 - SCIENCE</p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
@@ -343,7 +379,7 @@
                                             </div>
                                             <div class="event_content">
                                                 <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
-                                                <p></p>
+                                                <p>언제나 아이와 함께 하는 생각놀이 - CONNECT</p>
                                             </div>
                                         </div>
                                         <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
@@ -352,7 +388,7 @@
                                             </div>
                                             <div class="event_content">
                                                 <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>
-                                                <p></p>
+                                                <p>언제나 아이와 함께 하는 생각놀이 - ACTIVITY</p>
                                             </div>
                                         </div>
                                     </div>
@@ -398,64 +434,7 @@
                 </div>
             </section>
             <!-- cta part end -->
-            
-             <!-- contact part here -->
-            <section class="contact_part section_bg section_padding">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="contact_form">
-                                <h2>Get Your Teacher</h2>
-                                <form>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" id="mane" placeholder="Name">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <input type="email" class="form-control" id="email" placeholder="Email">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="textarea" placeholder="Message"></textarea>
-                                    </div>
-                                    <button type="submit" class="cu_btn btn_2">Sign in</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact_animation_1">
-                    <div data-parallax='{"x": 30, "y": 100, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/cta_1.png" alt="#">
-                    </div>
-                </div>
-                <div class="contact_animation_2">
-                    <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/contact_icon.png" alt="#">
-                    </div>
-                </div>
-                <div class="contact_animation_3">
-                    <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_two_3.png" alt="#">
-                    </div>
-                </div>
-                <div class="contact_animation_4">
-                    <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_6.png" alt="#">
-                    </div>
-                </div>
-                <div class="contact_animation_5">
-                    <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_8.png" alt="#">
-                    </div>
-                </div>
-                <div class="contact_animation_6">
-                    <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#">
-                    </div>
-                </div>
-            </section>
-            <!-- contact part end -->
+
 
 
 
