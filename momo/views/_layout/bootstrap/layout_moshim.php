@@ -156,25 +156,26 @@
 			</div>
 		</div> -->
 		<div class="header-bottom">
-            <div class="container">
-                <div class="clearfix">
-                    <div class="logo-box pull-left">
-                        <figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
-                    </div>
-                    <div class="nav-outer pull-right clearfix">
-                        <div class="menu-area">
-                            <nav class="main-menu navbar-expand-lg">
-                                <div class="navbar-header">
-                                    <!-- Toggle Button -->      
-                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    </button>
-                                </div>
-                                <div class="navbar-collapse collapse clearfix">
+			<div class="container">
+				<div class="clearfix">
+					<div class="logo-box pull-left">
+						<figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
+					</div>
+					<div class="nav-outer pull-right clearfix">
+						<div class="menu-area">
+							<nav class="main-menu navbar-expand-lg">
+								<div class="navbar-header">
+									<!-- Toggle Button -->
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
-										<li <?php echo (element('menu_name', $layout) === 'vision') ? 'class="current"' : ''; ?>><a href="#intro">소개</a>
+										<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>><a href="http://moshim.co.kr/#intro">
+												<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
 											<!-- <ul>
 												<li><a href="index.html">Home Page 01</a></li>
 												<li><a href="index-2.html">Home Page 02</a></li>
@@ -196,21 +197,21 @@
 												<li><a href="error.html">Error Page</a></li>
 											</ul>
 										</li> -->
-										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a>
-										<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
-										<!-- <ul>
+										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/books">동화책</a>
+											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
+											<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="/pages/soundbooks">사운드북</a>
-										<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
-										<!-- <ul>
+										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">사운드북</a>
+											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
+											<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>><a href="/pages/cd">CD</a>
+										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/cd">CD</a>
 											<!-- <ul>
 												<li><a href="gallery.html">Our Gallery</a></li>
 												<li><a href="teachers.html">Our Teachers</a></li>
@@ -231,10 +232,10 @@
 										</li> -->
 										<!-- <li><a href="/pages/login">로그인</a></li> -->
 									</ul>
-                                </div>
-                            </nav>
-                        </div>
-                        <!-- <div class="outer-box">
+								</div>
+							</nav>
+						</div>
+						<!-- <div class="outer-box">
                             <ul class="outer-content">
                                 <li class="header-flyout-searchbar">
                                     <i class="fa fa-search"></i>
@@ -242,15 +243,15 @@
                                 <li><a href="shop.html"><i class="fas fa-shopping-cart"></i></a></li>
                             </ul>
                         </div> -->
-                    </div>
-                </div>
-            </div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure class="logo-box"><a href="index.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:45px"></a></figure>
+				<figure class="logo-box"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:45px"></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
@@ -263,8 +264,8 @@
 						</div>
 						<div class="navbar-collapse collapse clearfix">
 							<ul class="navigation clearfix">
-								<li class="current dropdown"><a href="/">Home</a>
-									<!-- <ul>
+								<!-- <li class="current dropdown"><a href="/">Home</a> -->
+								<!-- <ul>
 										<li><a href="index.html">Home Page 01</a></li>
 										<li><a href="index-2.html">Home Page 02</a></li>
 										<li><a href="index-3.html">Home Page 03</a></li>
@@ -277,9 +278,9 @@
 										</li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="#intro">소개</a>
-								<!-- <li class="dropdown"><a href="/pages/vision">비전</a> -->
-								<!-- 	<ul>
+								<li class="dropdown <?php echo (element('menu_name', $layout) == 'main') ? 'current' : ''; ?>"><a href="http://moshim.co.kr/#intro"><?php echo (element('menu_name', $layout) == 'main') ? '' : '메인/'; ?>소개</a>
+									<!-- <li class="dropdown"><a href="/pages/vision">비전</a> -->
+									<!-- 	<ul>
 										<li><a href="about.html">About Us</a></li>
 										<li><a href="faq.html">Faq Page</a></li>
 										<li><a href="testimonial.html">Testimonials</a></li>
@@ -292,7 +293,9 @@
 										<li><a href="class-details.html">Class Details</a></li>
 									</ul>
 								</li> -->
-								<li class="dropdown"><a href="/pages/books">동화책</a>
+								<li class="dropdown
+								<?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?>
+								"><a href="/pages/books">동화책</a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -305,7 +308,9 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/pages/soundbooks">사운드북</a>
+								<li class="
+								<?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?>
+								dropdown"><a href="/pages/soundbooks">사운드북</a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -318,7 +323,9 @@
 										<li><a href="checkout.html">Checkout Page</a></li>
 									</ul> -->
 								</li>
-								<li class="dropdown"><a href="/pages/cd">CD</a>
+								<li class="
+								<?php echo (element('menu_name', $layout) === 'cd') ? 'current' : ''; ?>
+								dropdown"><a href="/pages/cd">CD</a>
 									<!-- <ul>
 										<li><a href="blog.html">Blog Page</a></li>
 										<li><a href="blog-details.html">Blog Details</a></li>
@@ -426,10 +433,10 @@
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul> -->
-					
+
 						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
@@ -445,17 +452,17 @@
 
 	<!-- jequery plugins -->
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/popper.min.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/bootstrap.min.js"></script>
 
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/owl.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/wow.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/validation.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/appear.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/parallax.min.js"></script>
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/isotope.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
 
 	<!-- map script -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
@@ -464,6 +471,9 @@
 
 	<!-- main-js -->
 	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/script.js"></script>
+
+	<!-- js custom uny  -->
+	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/custom.js"></script>
 
 	<!-- js ours  -->
 	<script type="text/javascript">

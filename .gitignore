@@ -110,3 +110,10 @@ momo/application/cache/board_meta/board-meta-model-get-6
 momo/application/cache/board_meta/board-meta-model-get-7
 momo/application/cache/board_meta/board-meta-model-get-8
 momo/application/cache/board_meta/board-meta-model-get-9
+.vscode/sftp.json
+coco/.vscode/launch.json
+.gitignore
+coco/.vscode/sftp.json
+.vscode/sftp.json
+.vscode/sftp.json
+momo/.vscode/sftp.json

@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 .lyrics .lyrics_popup{ display:none;}
+.left-purple{border-left: 5px solid #8686b5 !important ;}
+.left-blue{border-left: 5px solid #89c6ef !important ;}
+.left-green{border-left: 5px solid #99db8d !important ;}
+.left-orange{border-left: 5px solid #fcc86b !important ;}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -84,10 +88,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect"> What We Offer</span></h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide
-                            affordable, high-quality early education and
-                            childcare services for working families to ensure every child.</p>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect">효정 동요</span></h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,<br/> 
+                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        </p>
                     </div>
                 </div>
             </div>
@@ -95,7 +100,7 @@
                 <div class="col-lg-12">
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-purple">
                                 <div class="text">
                                     효정의 마음
                                 </div>
@@ -134,7 +139,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-blue">
                                 <div class="text">
                                 우리집 하트뿅
                                 </div>
@@ -170,7 +175,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-green">
                                 <div class="text">
                                 하하하 하트
                                 </div>
@@ -202,7 +207,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-orange">
                                 <div class="text">
                                     달리기 대장
                                 </div>
@@ -271,7 +276,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-purple">
                                 <div class="text">
                                     산에 산에 올라요
                                 </div>
@@ -299,7 +304,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-blue">
                                 <div class="text">
                                 좋아하는 것
                                 </div>
@@ -333,7 +338,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-green">
                                 <div class="text">
                                     졸졸졸 내 동생
                                 </div>
@@ -371,7 +376,7 @@
                     </div>
                     <div class="audio_post">
                         <div class="post_thumb mb">
-                            <div class="audioplayer song">
+                            <div class="audioplayer song left-orange">
                                 <div class="text">
                                 따라해봐요
                                 </div>
@@ -431,7 +436,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top:120px">
+            <div class="row" style="margin-top:45px">
                 <div class="col-lg-12 d-flex justify-content-between">
                     <a class="col-lg-2" target="_blank" href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI">
                         <img src="/assets/images/youtube.png" class="music_sns_icon"/>

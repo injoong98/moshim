@@ -615,7 +615,7 @@ class Pages extends CB_Controller
 			'page_name' => $page_name,
 		);
 		$view['layout'] = $this->managelayout->front($layoutconfig, $this->cbconfig->get_device_view_type());
-		$view['layout']['menu_name'] = 'shop_detail';
+		$view['layout']['menu_name'] = 'soundbookpage';
 		$this->data = $view;
 		$this->layout = element('layout_skin_file', element('layout', $view));
 		$this->view = element('view_skin_file', element('layout', $view));

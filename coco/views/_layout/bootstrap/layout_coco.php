@@ -99,7 +99,7 @@
                             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/pages/aboutus">소개</a>
+                                        <a class="nav-link" href="<?php echo site_url(); ?>#about_section">소개</a>
                                     </li>
                                     <!-- <li class="nav-item">
                                         <a class="nav-link" href="/pages/youtube">YOUTUBE</a>
@@ -225,7 +225,7 @@
                 </div>
                 <div class="col-lg-12 wow fadeInDown" data-wow-delay=".3s">
                     <div class="copyright_part text-center">
-                        <p>© Copyright 2021 Design by <a href="http://droitthemes.com">Droit Themes </a> </p>
+                        <p>© HJSmartEdu</p>
                     </div>
                 </div>
             </div>
