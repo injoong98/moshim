@@ -92,18 +92,20 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two">
-                            <h5>소개</h5>
-                            <h1>'모심' 브랜드 소개</h1>
+                            <h5>출판브랜드소개</h5>
+                            <h1>모심</h1>
                         </div>
-                        <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div>
+                        <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text">
-                            <p>어린 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
-                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해
-                                노심초사 한 걸음 한 걸음 귀한 걸음걸으시는 어머니.
+                            <p>사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
+                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해 한걸음 한걸음
+                                귀한 걸음걸으시는 어머니.
+                                <br />
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
-                                어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.</p>
+                                어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
+                            </p>
                         </div>
-                        <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div>
+                        <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
             </div>
@@ -120,19 +122,29 @@
         <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
         <div class="container">
             <div class="row">
-                <div class="col-xl-5 col-lg-12 col-md-12 offset-xl-7 inner-column">
+                <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-7 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>효정지도</h5>
-                            <h1>'효정지도孝情之道시리즈' 소개</h1>
+                            <h5>컨텐츠브랜드 소개</h5>
+                            <div class="custom-title">
+                                <h1>'효정지도</h1>
+                                <h6>孝情之道</h6>
+                                <h1>시리즈' 소개</h1>
+                            </div>
                         </div>
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-running"></i></div>
                                 <h3><a href="#">원리의 길은 밟아가는 길입니다.</a></h3>
-                                <div class="text">참아버님, 참어머님께서 먼저 걸으셨던 하늘 대한 효정의 길을 지도삼아
-                                    존경과 사랑으로 원리의 길을 가시길 기도드립니다.
-                                    ‘효정지도孝情之道시리즈’가 자녀들이 효정의 길을 가는데 필요한 길잡이가 되어드리겠습니다.</div>
+                                <div class="text"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(孝情之道)시리즈'는
+                                    하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
+                                    담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
+                                    <br />
+                                    참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
+                                    <br />
+                                    '효정지도(孝情之道)시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
+                                    참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
+                                </div>
                             </div>
                             <!-- <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-console"></i></div>
@@ -210,58 +222,65 @@
         <div class="container">
             <div class="sec-title centred">
                 <h5>참어머님 생애동화</h5>
-                <h1>인류의 참어머님의 생애와 심정을</h1>
-                <h1>이해할 수 있는 귀한 보물과 같은 이야기</h1>
+                <h1>참어머님의 인류를 위한 생애와 심정을
+                    <br /> 이해할 수 있는 귀한 보물과 같은 이야기
+                </h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">하늘이 준비하신 참어머님</a></h3>
+                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">하늘이 준비하신 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a href="blog-details.html"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">하늘의 사랑스러운 딸 참어머님</a></h3>
+                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a href="blog-details.html"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
-                            <figure class="image-box"><a href="blog-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="blog-details.html">순수하면서도 강인한 모범생 참어머님</a></h3>
+                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a href="blog-details.html"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- 더보기 버튼 -->
+                <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>

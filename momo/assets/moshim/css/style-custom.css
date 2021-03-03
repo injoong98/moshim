@@ -66,3 +66,9 @@
   .our-teachers.teachers-page-section .block-column:last-child .teachers-block-two .inner-box .image-holder {
     border-color: #8bd451 !important;;
   }
+
+  .custom-title h1,
+    .custom-title h6 {
+      display: inline;
+    }
+
