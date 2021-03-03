@@ -198,7 +198,7 @@ if (!function_exists('moshim_url')) {
 		$request_uri = $_SERVER['REQUEST_URI'];
 		$contain_uri = strpos($request_uri, $str);
 		if ($contain_uri === false) {
-			return '../';
+			return '..';
 		} else {
 			return site_url() . $str;
 		}

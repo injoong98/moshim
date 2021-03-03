@@ -117,7 +117,7 @@
             <div class="icon icon-1"></div>
             <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
-        <div class="image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
+        <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-5 col-lg-12 col-md-12 offset-xl-7 inner-column">
@@ -129,10 +129,10 @@
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-running"></i></div>
-                                        <h3><a href="#">원리의 길은 밟아가는 길입니다.</a></h3>
+                                <h3><a href="#">원리의 길은 밟아가는 길입니다.</a></h3>
                                 <div class="text">참아버님, 참어머님께서 먼저 걸으셨던 하늘 대한 효정의 길을 지도삼아
-                                                존경과 사랑으로 원리의 길을 가시길 기도드립니다.
-                                                ‘효정지도孝情之道시리즈’가 자녀들이 효정의 길을 가는데 필요한 길잡이가 되어드리겠습니다.</div>
+                                    존경과 사랑으로 원리의 길을 가시길 기도드립니다.
+                                    ‘효정지도孝情之道시리즈’가 자녀들이 효정의 길을 가는데 필요한 길잡이가 되어드리겠습니다.</div>
                             </div>
                             <!-- <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-console"></i></div>
@@ -422,7 +422,7 @@
                         <div class="services-carousel owl-carousel owl-theme">
                             <div class="service-block-one">
                                 <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3><a href="#">수선화 사랑</a></h3>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
@@ -430,7 +430,7 @@
                             </div>
                             <div class="service-block-one">
                                 <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3><a href="#">하늘 신부</a></h3>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
@@ -438,7 +438,7 @@
                             </div>
                             <div class="service-block-one">
                                 <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
+                                    <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3><a href="#">산 넘고 바다 건너</a></h3>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->

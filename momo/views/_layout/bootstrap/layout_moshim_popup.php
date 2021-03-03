@@ -43,6 +43,10 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style.css" rel="stylesheet">
+	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/responsive.css" rel="stylesheet">
+	<link rel="icon" href="<?php echo moshim_url('momo') ?>/assets/moshim/images/favicon.ico" type="image/x-icon">
+	=======
 	<link href="http://moshim.co.kr/assets/moshim/css/style.css" rel="stylesheet">
 	<link href="http://moshim.co.kr/assets/moshim/css/responsive.css" rel="stylesheet">
 	<link rel="icon" href="http://moshim.co.kr/assets/moshim/images/favicon.ico" type="image/x-icon">
@@ -84,55 +88,55 @@
 <!-- page wrapper -->
 
 
-	<!-- 본문 시작 -->
-	<?php if (isset($yield)) echo $yield; ?>
-	<!-- 본문 끝 -->
+<!-- 본문 시작 -->
+<?php if (isset($yield)) echo $yield; ?>
+<!-- 본문 끝 -->
 
-	<!-- jequery plugins -->
-	<script src="http://moshim.co.kr/assets/moshim/js/jquery.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/popper.min.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/bootstrap.min.js"></script>
-	
-	<script src="http://moshim.co.kr/assets/moshim/js/owl.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/wow.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/validation.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/jquery.fancybox.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/appear.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/parallax.min.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/isotope.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/jquery-ui.js"></script>
+<!-- jequery plugins -->
+<script src="http://moshim.co.kr/assets/moshim/js/jquery.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/popper.min.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/bootstrap.min.js"></script>
 
-	<!-- map script -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/gmaps.js"></script>
-	<script src="http://moshim.co.kr/assets/moshim/js/map-helper.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/owl.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/wow.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/validation.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/jquery.fancybox.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/appear.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/parallax.min.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/isotope.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/jquery-ui.js"></script>
 
-	<!-- main-js -->
-	<script src="http://moshim.co.kr/assets/moshim/js/script.js"></script>
+<!-- map script -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/gmaps.js"></script>
+<script src="http://moshim.co.kr/assets/moshim/js/map-helper.js"></script>
 
-	<!-- js ours  -->
-	<script type="text/javascript">
-		$(document).on('click', '.viewpcversion', function() {
-			Cookies.set('device_view_type', 'desktop', {
-				expires: 1
-			});
+<!-- main-js -->
+<script src="http://moshim.co.kr/assets/moshim/js/script.js"></script>
+
+<!-- js ours  -->
+<script type="text/javascript">
+	$(document).on('click', '.viewpcversion', function() {
+		Cookies.set('device_view_type', 'desktop', {
+			expires: 1
 		});
-		$(document).on('click', '.viewmobileversion', function() {
-			Cookies.set('device_view_type', 'mobile', {
-				expires: 1
-			});
+	});
+	$(document).on('click', '.viewmobileversion', function() {
+		Cookies.set('device_view_type', 'mobile', {
+			expires: 1
 		});
+	});
 
-		$(window).on('load', function() {
-			console.info('session', <?php echo json_encode($_SESSION); ?>);
-			console.info('view', <?php echo json_encode($view); ?>);
-			console.info('layout', <?php echo json_encode($layout); ?>);
-			console.info('controller', <?php echo json_encode($this->router->fetch_class() . '/' . $this->router->fetch_method()); ?>);
-		});
-	</script>
-	<?php echo element('popup', $layout); ?>
-	<?php echo $this->cbconfig->item('footer_script'); ?>
-	<!--
+	$(window).on('load', function() {
+		console.info('session', <?php echo json_encode($_SESSION); ?>);
+		console.info('view', <?php echo json_encode($view); ?>);
+		console.info('layout', <?php echo json_encode($layout); ?>);
+		console.info('controller', <?php echo json_encode($this->router->fetch_class() . '/' . $this->router->fetch_method()); ?>);
+	});
+</script>
+<?php echo element('popup', $layout); ?>
+<?php echo $this->cbconfig->item('footer_script'); ?>
+<!--
 		Layout Directory : <?php echo element('layout_skin_path', $layout); ?>,
 		Layout URL : <?php echo element('layout_skin_url', $layout); ?>,
 		Skin Directory : <?php echo element('view_skin_path', $layout); ?>,

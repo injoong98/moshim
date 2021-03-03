@@ -147,9 +147,9 @@
    </section>
    <!-- classes-section end -->
    <script>
-    //동화책 미리보기 창
-    function openWin_books(num) {
-        window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`,'동화 미리보기', 'width=800, height=700, resizable=yes');
-        return false
-    }
+       //동화책 미리보기 창
+       function openWin_books(num) {
+           window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
+           return false
+       }
    </script>
