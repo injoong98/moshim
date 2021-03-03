@@ -92,18 +92,20 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two">
-                            <h5>소개</h5>
-                            <h1>'모심' 브랜드 소개</h1>
+                            <h5>출판브랜드소개</h5>
+                            <h1>모심</h1>
                         </div>
-                        <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div>
+                        <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text">
-                            <p>어린 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
-                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해
-                                노심초사 한 걸음 한 걸음 귀한 걸음걸으시는 어머니.
+                            <p>사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
+                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해 한걸음 한걸음
+                                귀한 걸음걸으시는 어머니.
+                                <br />
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
-                                어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.</p>
+                                어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
+                            </p>
                         </div>
-                        <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div>
+                        <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
             </div>
