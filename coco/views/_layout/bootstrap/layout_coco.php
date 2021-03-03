@@ -225,7 +225,7 @@
                 </div>
                 <div class="col-lg-12 wow fadeInDown" data-wow-delay=".3s">
                     <div class="copyright_part text-center">
-                        <p>© Copyright 2021 Design by <a href="http://droitthemes.com">Droit Themes </a> </p>
+                        <p>© HJSmartEdu</p>
                     </div>
                 </div>
             </div>
