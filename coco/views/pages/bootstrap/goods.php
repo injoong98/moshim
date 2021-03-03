@@ -67,9 +67,11 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> Educational Programs</span></h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide affordable, 
-                        high-quality early education and childcare services for working families to ensure every child.</p>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">효정아 놀자 굿즈</span></h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        3D 에니메이션 '효정아 놀자'의 주인공, 
+                        <br/>
+                        '효정, 효지, 효리, 효몽'이 굿즈가 판매되는 곳입니다.</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +164,7 @@
     </section>
     <!-- fetures part end -->
     <!-- event section part here -->
-    <section class="event_section section_padding event_details">
+    <section class="event_section event_details pt-5">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-sm-12">
@@ -198,16 +200,6 @@
     <!-- team part here -->
     <section class="team_section single_page_team section_padding">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect"> What We Offer</span></h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide
-                            affordable, high-quality early education and
-                            childcare services for working families to ensure every child.</p>
-                    </div>
-                </div>
-            </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
