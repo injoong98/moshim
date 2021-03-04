@@ -22,8 +22,10 @@
    <section class="our-teachers style-three about-page sec-pad centred">
        <div class="container">
            <div class="sec-title">
-               <h5>동요 CD</h5>
-               <h1> 참어머님의 생애와 심정을 담은 효정의 노래(5 ~ 7세) </h1>
+               <h5>참어머님 생애동요 CD</h5>
+               <h1> 참어머님의 생애와 심정이 담긴 효정의 노래
+                   <br />(7~10세)
+               </h1>
            </div>
            <!-- <div class="inner-content"> -->
            <div class="row">
