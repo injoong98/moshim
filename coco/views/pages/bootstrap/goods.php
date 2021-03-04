@@ -12,6 +12,28 @@
     display: none;
     }
 }
+.hyo-char{
+    margin-bottom: -13%;
+}
+.single_fetures_part.blue{
+    background-color: #617dff !important;
+}
+.single_fetures_part.orange{
+    background-color: #f1c232 !important;
+}
+.single_fetures_part.sky{
+    background-color: #8feaff !important;
+}
+.single_fetures_part{
+    z-index: -1;
+    padding: 20px 40px !important;
+    background-color: #ff1f79;
+}
+.single_fetures_part h4 {
+    font-size: 24px;
+    margin-top: 6px;
+    font-weight: 700;
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -79,79 +101,49 @@
             </div>
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyojeong.png" alt="#" class="img-fluid hyo-char">
                     <div class="single_fetures_part">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_01.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html"> Pre-School</a></h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
+                        <p>따뜻한 마음</p>
+                        <h4> <a href="about.html">효정</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_fetures_part lightblue_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_02.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Healthy Meals</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyoji.png" alt="#" class="img-fluid hyo-char">
+                    <div class="single_fetures_part blue">
+                        <p>따뜻한 마음</p>
+                        <h4> <a href="about.html">효지</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="single_fetures_part pink_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_03.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Babysitting</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyoli.png" alt="#" class="img-fluid hyo-char">
+                    <div class="single_fetures_part orange">
+                        <p>엉뚱발랄 사랑스런 막내</p>
+                        <h4> <a href="about.html">효리</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="single_fetures_part pink_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_03.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Babysitting</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyomong.png" alt="#" class="img-fluid hyo-char">
+                    <div class="single_fetures_part sky">
+                        <p>신나는 마법사</p>
+                        <h4> <a href="about.html">효몽</a></h4>
                     </div>
                 </div>
+                
             </div>
             <div class="row justify-content-between mt-5">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="single_fetures_part">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_01.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html"> Pre-School</a></h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
-                    </div>
+                    <img src="/assets/malgeunmul/img/goods/hyojeong_fancy.png" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_fetures_part lightblue_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_02.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Healthy Meals</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
-                    </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyoji_fancy.png" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="single_fetures_part pink_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_03.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Babysitting</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
-                    </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyoli_fancy.png" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="single_fetures_part pink_bg">
-                        <div class="single_fetures_icon">
-                            <img src="/assets/malgeunmul/img/program_img/program_img_03.png" alt="#" class="img-fluid">
-                        </div>
-                        <h4> <a href="about.html">Babysitting</a> </h4>
-                        <p>The amazing way to olor sit adipisicing elit, sed do consectetur </p>
-                    </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                    <img src="/assets/malgeunmul/img/goods/hyomong_fancy.png" alt="#" class="img-fluid">
                 </div>
+                
             </div>
         </div>
         <div class="feature_animation_1">

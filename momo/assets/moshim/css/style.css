@@ -51,11 +51,17 @@
 
 
 /* use font link */
+/* @import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');  */
 
-@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:300,400,500,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap');
+/* additional fonts */
 
-/* use style sheet */
+@import url('https://fonts.googleapis.com/css?family=Gaegu:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Jua:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower:400');
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+/* use style sheet : 감자꽃마을, 개구쟁이, 주아*/
 
 @import url(../css/font-awesome-all.css);
 @import url(../css/flaticon.css);
@@ -98,7 +104,7 @@ body {
   line-height:26px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -153,7 +159,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -178,7 +184,7 @@ textarea:focus{
 
 p{
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   line-height: 26px;
   color: #615e5d;
   margin-bottom: 0px;
@@ -188,7 +194,7 @@ p{
 
 h1,h2,h3,h4,h5,h6 {
   position:relative;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 400;
   margin: 0px;
   transition: all 500ms ease;
@@ -242,7 +248,7 @@ img{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   padding: 17px 40px;
   background-color: #ff7162;
   line-height: 26px;
@@ -295,7 +301,7 @@ img{
   position: relative;
   display: inline-block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   height: 60px;
   font-weight: 700;
   width: 60px;
@@ -377,7 +383,7 @@ img{
   font-size: 17px;
   line-height: 26px;
   color: #ff7162;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 900;
   margin-bottom: 13px;
   padding: 0px 50px 0px 50px;
@@ -416,7 +422,7 @@ img{
   display: block;
   font-size: 40px;
   line-height: 50px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 900;
   color: #2b3c6b;
 }
@@ -842,7 +848,7 @@ width: 100%;
   position:relative;
   display:block;
   font-size:18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color:#2b3c6b;
   line-height:26px;
   font-weight:700;
@@ -892,7 +898,7 @@ width: 100%;
 .main-menu .navigation > li > ul > li > a{
   position:relative;
   display:block;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   padding:6px 0px;
   line-height:24px;
   font-size:15px;
@@ -988,7 +994,7 @@ width: 100%;
   padding:10px 25px !important;
   line-height:24px;
   font-weight:700;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-size:15px;
   text-transform:capitalize;
   color: #2b3c6b !important;
@@ -1729,7 +1735,7 @@ h3 a:hover{
   display: block;
   font-size: 18px;
   color: #ff7162;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   margin-bottom: 17px;
 }
@@ -1755,7 +1761,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   margin: 0px 10px;
   text-transform: uppercase;
@@ -2013,7 +2019,7 @@ h3 a:hover{
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   margin-bottom: 7px;
 }
@@ -2124,7 +2130,7 @@ h3 a:hover{
   background: url(../images/icons/date-bg-1.png);
   font-size: 15px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 900;
   color: #fff;
   padding: 10px 32px 14px 33px;
@@ -2163,7 +2169,7 @@ h3 a:hover{
   display: block;
   font-size: 14px;
   color: #848484;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -2307,7 +2313,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 20px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 30px;
   color: #ff7162;
   font-weight: 700;
@@ -2338,7 +2344,7 @@ h3 a:hover{
   display: block;
   font-size: 18px;
   line-height: 30px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   color: #fff;
   z-index: 1;
@@ -2476,7 +2482,7 @@ h3 a:hover{
   display: block;
   font-size: 22px;
   line-height: 30px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   font-weight: 900;
   margin-bottom: 11px;
@@ -2487,7 +2493,7 @@ h3 a:hover{
   display: block;
   font-size: 60px;
   line-height: 70px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   font-weight: 900;
   margin-bottom: 25px;
@@ -2750,7 +2756,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #ff7162;
   margin-right: 38px;
 }
@@ -2872,7 +2878,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   font-weight: 400;
   color: #bec5d4;
 }
@@ -3274,7 +3280,7 @@ h3 a:hover{
   display: block;
   font-size: 60px;
   line-height: 70px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   font-weight: 900;
   margin-bottom: 9px;
@@ -3285,7 +3291,7 @@ h3 a:hover{
   display: block;
   font-size: 17px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   font-weight: 700;
 }
@@ -4004,7 +4010,7 @@ h3 a:hover{
   display: block;
   font-size: 18px;
   line-height: 32px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 500;
   color: #2b3c6b;
   margin-bottom: 20px;
@@ -4074,7 +4080,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .testimonial-style-two .owl-item:nth-child(odd) .testimonial-block-two .inner-box .author-info h5{
@@ -4207,7 +4213,7 @@ h3 a:hover{
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fff;
   margin-bottom: 7px;
 }
@@ -4304,7 +4310,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #ff7162;
   margin-right: 38px;
 }
@@ -4982,7 +4988,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 26px;
   color: #ff7162;
   font-weight: 700;
@@ -5019,7 +5025,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 20px;
   line-height: 30px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
   margin: 0px 12px;
@@ -5227,7 +5233,7 @@ h3 a:hover{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
   padding: 13px 0px 14px 27px;
@@ -5353,7 +5359,7 @@ h3 a:hover{
   display: block;
   font-size: 18px;
   line-height: 28px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #fbb419;
   font-weight: 900;
   text-transform: uppercase;
@@ -5403,7 +5409,7 @@ h3 a:hover{
   width: 90px;
   height: 90px;
   background: #fbb419;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   border-radius: 50%;
   margin-right: 10px;
   color: #fff;
@@ -5433,7 +5439,7 @@ h3 a:hover{
   font-size: 26px;
   line-height: 20px;
   top: 27px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .event-details .event-details-content .countdown-box h3{
@@ -5571,7 +5577,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 26px;
   color: #ff7162;
   font-weight: 700;
@@ -5581,7 +5587,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 26px;
   color: #ff7162;
   font-weight: 700;
@@ -5622,7 +5628,7 @@ h3 a:hover{
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
 }
 
 .select-box .ui-selectmenu-button span.ui-icon {
@@ -5678,7 +5684,7 @@ h3 a:hover{
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   text-transform: none;
   transition: all 500ms ease;
 }
@@ -5801,7 +5807,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
 }
@@ -5897,7 +5903,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #ffffff;
   background: #ff7162;
   padding: 5px 21px 4px 20px;
@@ -5971,7 +5977,7 @@ h3 a:hover{
   display: block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   color: #ff7162;
 }
@@ -6104,7 +6110,7 @@ h3 a:hover{
   display: block;
   font-size: 24px;
   line-height: 35px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #ff7162;
   font-weight: 700;
   margin-bottom: 25px;
@@ -6143,7 +6149,7 @@ h3 a:hover{
   width: 60px;
   padding: 5px 0px !important;
   box-shadow: none !important;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   border: none;
   text-align: center;
   font-size: 18px;
@@ -6244,7 +6250,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #777777;
   line-height: 26px;
 }
@@ -6253,7 +6259,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #777777;
   line-height: 26px;
 }
@@ -6331,7 +6337,7 @@ h3 a:hover{
   position: relative;
   float: left;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   color: #8a8d91;
   border: 1px solid #e5e5e5;
@@ -6400,7 +6406,7 @@ h3 a:hover{
   min-width: 110px;
   padding: 26px 15px 24px 0px;
   color: #2b3c6b;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-size: 18px;
   font-weight: 700;
   position: relative;
@@ -6461,7 +6467,7 @@ h3 a:hover{
 .cart-section .cart-table tbody tr .qty input{
   width: 50px;
   font-size: 16px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #848484;
   font-weight: 700;
 }
@@ -6549,7 +6555,7 @@ h3 a:hover{
   color: #848484;
   font-size: 16px;
   text-align: center;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   position: relative;
   padding: 30px 25px 30px 30px;
@@ -6561,7 +6567,7 @@ h3 a:hover{
   padding: 27px 50px 27px 48px;
   text-align: center;
   font-weight: 700;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .cart-section .cart-table tbody tr td .remove a {
@@ -6594,7 +6600,7 @@ h3 a:hover{
   font-weight: 700;
   line-height: 28px;
   color: #2b3c6b;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
 }
 
 .cart-section .table-outer .othre-content{
@@ -6638,7 +6644,7 @@ h3 a:hover{
   float: right;
   display: inline-block;
   font-size: 15px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   padding: 17px 40px;
   line-height: 26px;
   color: #8a8d91;
@@ -6687,7 +6693,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
   padding-bottom: 23px;
@@ -6703,7 +6709,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 18px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
   padding-bottom: 36px;
@@ -6812,7 +6818,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #2b3c6b;
   margin-bottom: 3px;
 }
@@ -6858,7 +6864,7 @@ h3 a:hover{
 .checkout-section .billing-form .checkbox span {
   position: relative;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #2b3c6b;
   font-weight: 400;
   cursor: pointer;
@@ -6890,7 +6896,7 @@ h3 a:hover{
   display: block;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #2b3c6b;
   margin-bottom: 3px;
 }
@@ -6967,7 +6973,7 @@ h3 a:hover{
   display: block;
   float: right;
   font-size: 16px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 26px;
   color: #848484;
   font-weight: 700;
@@ -7023,7 +7029,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 17px;
   color: #fff;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   font-weight: 700;
   margin-left: 11px;
   margin-bottom: 7px;
@@ -7032,7 +7038,7 @@ h3 a:hover{
 .checkout-section .payment-info .payment-option .checkbox a {
   color: #ff7162;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   font-weight: 400;
   margin-left: 19px;
   text-decoration: underline;
@@ -7045,7 +7051,7 @@ h3 a:hover{
 .checkout-section .payment-info .payment-option .text{
   position: relative;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   margin-left: 31px;
   font-size: 14px;
   line-height: 24px;
@@ -7239,7 +7245,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 20px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   line-height: 30px;
   font-weight: 700;
   color: #2b3c6b;
@@ -7337,7 +7343,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   font-style: italic;
 }
 
@@ -7495,7 +7501,7 @@ h3 a:hover{
   display: inline-block;
   font-size: 17px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #2b3c6b;
   font-weight: 700;
 }
@@ -7550,7 +7556,7 @@ h3 a:hover{
   display: block;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'Jua', sans-serif;
   color: #ff7162;
   font-weight: 700;
   margin-bottom: 3px;
@@ -7596,7 +7602,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gamja Flower', sans-serif;
   color: #848484;
   background: #fff;
   padding: 12px 21px;
