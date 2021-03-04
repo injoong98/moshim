@@ -91,3 +91,16 @@
     border-radius: 20px;
     transition: all 500ms ease;
   }
+
+  .font-size-custom-1_8em {
+    font-size : 1.8em
+  }
+  .font-size-custom-1_5em {
+    font-size : 1.5em
+  }
+  .font-size-custom-1_4em {
+    font-size : 1.4em
+  }
+  .font-size-custom-1em {
+    font-size : 1em
+  }
