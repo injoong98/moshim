@@ -16,7 +16,7 @@
    <section class="our-teachers teachers-page-section sec-pad centred">
        <div class="container">
            <div class="sec-title">
-               <h5>사운드북</h5>
+               <h5>참어머님 생애동요 사운드북</h5>
                <h1> 참어머님의 생애와 심정이 담긴
                    <br />효정의 이야기와 노래
                    <br />(0~6세)
