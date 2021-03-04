@@ -96,7 +96,7 @@
                             <h1>모심</h1>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
-                        <div class="text">
+                        <div class="text font-size-custom-1_8em">
                             <p>사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
                                 자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해 한걸음 한걸음
                                 귀한 걸음걸으시는 어머니.
@@ -264,7 +264,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">순수하면서도 강인한 모범생 참어머님</a></h3>
+                                <h3 class="font-size-custom-1_4em"><a href="<?php echo moshim_url('momo') ?>/pages/books">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
