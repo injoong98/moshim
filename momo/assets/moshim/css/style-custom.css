@@ -67,8 +67,12 @@
     border-color: #8bd451 !important;;
   }
 
-  .custom-title h1,
-    .custom-title h6 {
+  /* 메인 효정지도 글씨 작게 */
+  .custom-title h1, .custom-title h6 {
       display: inline;
     }
 
+  /* 메인 사진 캐러셀 부분 */
+    .main-slider.style-two .slide {
+      padding: 465px 0px 275px 0px;
+    }
