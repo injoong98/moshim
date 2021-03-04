@@ -64,6 +64,9 @@
     width: 50%;
     min-width: 300px;
 }
+.program_list_page .filters ul li.is-checked {
+    font-size: 24px;
+}
 </style>
 
 
@@ -206,13 +209,13 @@
                         <ul>
                             <!-- <li class="is-checked" data-filter="*">All</li> -->
                             <li class="is-checked" data-filter=".1st">1호</li>
-                            <li data-filter=".1st">2호</li>
-                            <li data-filter=".1st">3호</li>
-                            <li data-filter=".1st">4호</li>
+                            <!-- <li data-filter=".1st">2</li>
+                            <li data-filter=".1st">3</li>
+                            <li data-filter=".1st">4</li> -->
                         </ul>
                     </div>
                     <div class="filter-info">
-                        <p style="text-align: center; color: white;">각 호에 대한 설명</p>
+                        <p style="text-align: center; color: white;">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
                     </div>
                 </div>
                 <div class="col-md-12">
