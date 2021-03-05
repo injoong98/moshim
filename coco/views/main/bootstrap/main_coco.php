@@ -229,8 +229,8 @@ div.contents_img_wrapper > div {
         <!-- about section part here -->
         <section class="about_section section_padding s4_about_section" id="about_section">
             <div class="container custom_container">
-                <div class="row justify-content-between ">
-                    <div class="col-lg-6 col-xl-5 order-2 align-items-centerorder-lg-1">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
                         <div class="about_section_content mt-5 mt-lg-0">
                             <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
                             <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="title_overlay_effect">맑은물</span></h2>
