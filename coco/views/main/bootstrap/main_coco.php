@@ -35,6 +35,18 @@ h5.kid_title.wow.fadeInLeft {
     font-weight: 700;
     margin-bottom: 7px;
 }
+.contents_img_wrapper{
+    width: 100%;
+    padding-top:100%;
+    position: relative;
+}
+div.contents_img_wrapper > div {
+	position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+}
+
  </style>
  <!-- banner part here -->
  <section class="banner_part bannerslider owl-carousel">
@@ -146,27 +158,23 @@ h5.kid_title.wow.fadeInLeft {
     <!-- services part here -->
     <section class="services_part wave_shape_bg sec_padding">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-7">
-                        <div class="section_tittle_style_02">
-                            <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect"></span></h2>
-                            <p class="description wow fadeInDown" data-wow-delay=".3s"></p>
-                        </div>
-                    </div>
-                </div>
                 <div class="row">
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
                         <a class="single_service_part d-block" href="/pages/music">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
+                            <div class="contents_img_wrapper">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/music/hjsong_cover.jpg" alt="#"  width="80%" class="img-fluid">
+                                </div>
                             </div>
                             <h5 class="service_title">MUSIC</h5>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
                         <a class="single_service_part d-block bg_color_2" href="/pages/workbooks">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
+                            <div class="contents_img_wrapper">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg" alt="#"  width="80%" class="img-fluid">
+                                </div>
                             </div>
                             <h5 class="service_title">학습지</h5>
                         </a>
@@ -175,47 +183,25 @@ h5.kid_title.wow.fadeInLeft {
                 <div class="row">
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
                         <a class="single_service_part d-block" href="/pages/goods">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
+                            <div class="contents_img_wrapper">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_goods.png" alt="#"  width="80%" class="img-fluid">
+                                </div>
                             </div>
                             <h5 class="service_title">굿즈</h5>
                         </a>
                     </div>
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
                         <a class="single_service_part d-block bg_color_2" href="#about_section">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
+                            <div class="contents_img_wrapper">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="#" style="background-color:#fff" width="80%" class="img-fluid">
+                                </div>
                             </div>
                             <h5 class="service_title">소개</h5>
                         </a>
                     </div>
                 </div>
-                <!-- <div class="row">
-                    <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".2s">
-                        <a class="single_service_part d-block" href="about.html">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
-                            </div>
-                            <h5 class="service_title">Infant Care</h5>
-                        </a>
-                    </div>
-                    <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
-                        <a class="single_service_part d-block bg_color_2" href="about.html">
-                            <div class="service_section_img_wrapper">
-                                <img src="https://via.placeholder.com/401x328" alt="#" class="img-fluid">
-                            </div>
-                            <h5 class="service_title">Pre School</h5>
-                        </a>
-                    </div>
-                </div> -->
-                <!-- <a class="pc-button elementor-button button-link cu_btn mt-lg-4" href="#">
-                    <div class="button-content-wrapper ">
-                        <span class="elementor-button-text">Learn More </span>
-                        <svg class="pc-dashes inner-dashed-border animated-dashes">
-                            <rect x="5px" y="5px" rx="22px" ry="22px" width="0" height="0"></rect>
-                        </svg>
-                    </div>
-                </a> -->
             </div>
             <div class="services_shape_animation_1">
                 <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
@@ -243,8 +229,8 @@ h5.kid_title.wow.fadeInLeft {
         <!-- about section part here -->
         <section class="about_section section_padding s4_about_section" id="about_section">
             <div class="container custom_container">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
+                <div class="row justify-content-between ">
+                    <div class="col-lg-6 col-xl-5 order-2 align-items-centerorder-lg-1">
                         <div class="about_section_content mt-5 mt-lg-0">
                             <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
                             <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="title_overlay_effect">맑은물</span></h2>
