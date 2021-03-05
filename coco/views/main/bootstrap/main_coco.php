@@ -1,7 +1,7 @@
  <style>
  
 .breadcrumb_part.music{
-    background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
+    background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
     background-position: center !important;
 }
 .play_btn_container{
@@ -315,121 +315,159 @@ h5.kid_title.wow.fadeInLeft {
             <div class="get_start_animation_12"><div data-parallax='{"x": 20, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_7.png" alt="#"></div></div>
         </section>
         <!-- get start part end -->
+        <!-- services part here -->
+        <section class="success_story section_padding">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="section_tittle_style_02 mb-4">
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">효정동요</span></h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                            부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
+                        </p>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                            더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-10 fadeInDown" data-wow-delay=".3s">
+                    <img src="/assets/malgeunmul/img/main/main_music.jpg" width="100%"/>   
+                </div>
+            </div>
 
-        <!-- breadcrumb part -->
-        <section class="breadcrumb_part parallax_bg music">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 ">
-                            <div class="breadcrumb_iner">
-                                <h2></h2>
-                                <div class="breadcrumb_iner_link">
-                                    <a href="index.html"></a>
-                                    <span></span>
-                                    <p></p>
+            <div class="row justify-content-center">
+                <a class="pc-button elementor-button button-link cu_btn mt-lg-4" href="/pages/music">
+                    <div class="button-content-wrapper ">
+                        <span class="elementor-button-text">들어보기</span>
+                        <svg class="pc-dashes inner-dashed-border animated-dashes">
+                            <rect x="5px" y="5px" rx="22px" ry="22px" width="0" height="0"></rect>
+                        </svg>
+                    </div>
+                </a>    
+            </div>
+            <div class="story_animation_1">
+                <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_1.png" alt="#">
+                </div>
+            </div>
+            <div class="story_animation_2">
+                <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_2.png" alt="#">
+                </div>
+            </div>
+            <div class="story_animation_3">
+                <div data-parallax='{"x": 30, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_3.png" alt="#">
+                </div>
+            </div>
+            <div class="story_animation_4">
+                <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_4.png" alt="#">
+                </div>
+            </div>
+            <div class="story_animation_5">
+                <div data-parallax='{"x": 8, "y": 110, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_5.png" alt="#">
+                </div>
+            </div>
+            <div class="story_animation_6">
+                <div data-parallax='{"x": 15, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_6.png" alt="#">
+                </div>
+            </div>
+        </section>
+        <!-- services part end -->
+
+        <!-- services part here -->
+        <section class="event_part section_padding section_bg_2">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="section_tittle_style_02">
+                            <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
+                            <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="event_part_iner">
+                            <div class="row justify-content-end">
+                                <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
+                                </div>
+                                <div class="col-md-6 col-lg-7">
+                                    <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
+                                        <div class="event_date">
+                                        </div>
+                                        <div class="event_content">
+                                            <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
+                                            <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
+                                        <div class="event_date">
+                                        </div>
+                                        <div class="event_content">
+                                            <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
+                                            <p>언제나 아이와 함께 하는 생각놀이 - SCIENCE</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
+                                        <div class="event_date">
+                                        </div>
+                                        <div class="event_content">
+                                            <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
+                                            <p>언제나 아이와 함께 하는 생각놀이 - CONNECT</p>
+                                        </div>
+                                    </div>
+                                    <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
+                                        <div class="event_date">
+                                        </div>
+                                        <div class="event_content">
+                                            <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>
+                                            <p>언제나 아이와 함께 하는 생각놀이 - ACTIVITY</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- breadcrumb part end -->
+            </div>
+            <div class="event_animation_1">
+                <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_1.png" alt="#"></div>
+            </div>
+            <div class="event_animation_2">
+                <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_2.png" alt="#"></div>
+            </div>
+            <div class="event_animation_3">
+                <div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_3.png" alt="#"></div>
+            </div>
+        </section>
+        <!-- services part end -->
 
-
-             <!-- services part here -->
-            <section class="event_part section_padding section_bg_2">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-7">
-                            <div class="section_tittle_style_02">
-                                <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
-                                <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="event_part_iner">
-                                <div class="row justify-content-end">
-                                    <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
-                                    </div>
-                                    <div class="col-md-6 col-lg-7">
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
-                                            <div class="event_date">
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
-                                                <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
-                                            <div class="event_date">
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
-                                                <p>언제나 아이와 함께 하는 생각놀이 - SCIENCE</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
-                                            <div class="event_date">
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
-                                                <p>언제나 아이와 함께 하는 생각놀이 - CONNECT</p>
-                                            </div>
-                                        </div>
-                                        <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
-                                            <div class="event_date">
-                                            </div>
-                                            <div class="event_content">
-                                                <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>
-                                                <p>언제나 아이와 함께 하는 생각놀이 - ACTIVITY</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- cta part here -->
+        <section class="cta_part section_padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="cta_part_iner">
+                            <h2>Enrollment Is Going On</h2>
+                            <p>Gain access to over 1000 Premiun resourses</p>
+                            <a href="/page/goods" class="cu_btn white_bg font-weight-bold">Book Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="event_animation_1">
-                    <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_1.png" alt="#"></div>
+            </div>
+            <div class="breadcrumb_animation_1">
+                <div data-parallax='{"x": 30, "y": -20}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_1.png" alt="#">
                 </div>
-                <div class="event_animation_2">
-                    <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_2.png" alt="#"></div>
+            </div>
+            <div class="breadcrumb_animation_2">
+                <div data-parallax='{"x": 20, "y": -100}'>
+                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_2.png" alt="#">
                 </div>
-                <div class="event_animation_3">
-                    <div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/event_3.png" alt="#"></div>
-                </div>
-            </section>
-            <!-- services part end -->
-
-            <!-- cta part here -->
-            <section class="cta_part section_padding">
-                <div class="container">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="cta_part_iner">
-                                <h2>Enrollment Is Going On</h2>
-                                <p>Gain access to over 1000 Premiun resourses</p>
-                                <a href="/page/goods" class="cu_btn white_bg font-weight-bold">Book Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_1">
-                    <div data-parallax='{"x": 30, "y": -20}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_1.png" alt="#">
-                    </div>
-                </div>
-                <div class="breadcrumb_animation_2">
-                    <div data-parallax='{"x": 20, "y": -100}'>
-                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_2.png" alt="#">
-                    </div>
-                </div>
-            </section>
-            <!-- cta part end -->
+            </div>
+        </section>
+        <!-- cta part end -->
 
 
 
