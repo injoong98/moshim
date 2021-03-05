@@ -131,17 +131,17 @@
                 
             </div>
             <div class="row justify-content-between mt-5">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyojeong_fancy.png" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyojeong_sticker.jpg" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyoji_fancy.png" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoji_sticker.jpg" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyoli_fancy.png" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoli_sticker.jpg" alt="#" class="img-fluid">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyomong_fancy.png" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyomong_sticker.jpg" alt="#" class="img-fluid">
                 </div>
                 
             </div>
