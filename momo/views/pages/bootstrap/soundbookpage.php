@@ -2,11 +2,9 @@
 <div class="pull-right" style="position: fixed; top:0px; display:flex; justify-content:space-between">
     <div class="btn1">
         <img src="<?php echo moshim_url('momo') ?>/../assets/moshim/images/soundbook/note.png" alt="" width="10%">
-        play sound1
     </div>
     <div class="btn2">
         <img src="<?php echo moshim_url('momo') ?>/../assets/moshim/images/soundbook/audio.png" alt="" width="10%">
-        play sound2
     </div>
 </div>
 
@@ -18,7 +16,9 @@
         var audio1 = new Audio(audio_src1);
         audio1.loop = false; // 반복재생하지 않음
         audio1.volume = 0.5; // 음량 설정
-        audio1.play(); // sound1.mp3 재생
+        status_audio = audio1.play(); // sound1.mp3 재생
+
+        console.log(status_audio)
     });
 
     // btn2를 눌렀을 때 sound2.mp3 재생
@@ -29,7 +29,7 @@
         audio2.volume = 0.5; // 음량 설정
         audio2.play(); // sound2.mp3 재생
         setTimeout(function() { // 1초 후 sound2.mp3 일시정지
-            audio2.pause();
+            audio.pause();
         }, 1000);
     });
 </script>
