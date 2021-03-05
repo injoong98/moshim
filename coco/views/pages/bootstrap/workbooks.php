@@ -61,8 +61,13 @@
 .filter-info {
     background: darkgray;
     border-radius: 10px;
-    width: 50%;
+    padding: 0% 10%;
+    /* width: 40%; */
+    height: 40px;
     min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .program_list_page .filters ul li.is-checked {
     font-size: 24px;
@@ -77,7 +82,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2>학습지</h2>
+                        <h2 style="color: black;">학습지</h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
@@ -215,7 +220,7 @@
                         </ul>
                     </div>
                     <div class="filter-info">
-                        <p style="text-align: center; color: white;">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
+                        <p style="text-align: center; color: white; font-size: 20px;">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
                     </div>
                 </div>
                 <div class="col-md-12">
