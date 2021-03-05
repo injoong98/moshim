@@ -55,7 +55,7 @@
     </section>
     <!-- 콘텐츠 소개 end -->
 
-    <!-- 소개 시작 -->
+    <!--  소개 시작 -->
     <section class="about-section" id="intro">
         <div class="anim-icon">
             <div class="icon icon-1 float-bob-x"></div>
@@ -65,7 +65,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width: 400px;">
+                        <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
+                    </video>
+                    <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
                             <div class="carousel-inner">
                                 <div class="carousel-item w-100 active">
@@ -87,7 +90,7 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
@@ -111,15 +114,17 @@
             </div>
         </div>
     </section>
-    <!-- 소개 끝 -->
+    <!--  소개 끝 -->
 
-    <!-- 유튜브 시작  -->
+    <!-- 효정지도 시작  -->
     <section class="feature-section" id="intro_further">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
             <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"></div>
+        <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
+        <video class="col-lg-6 col-md-12 col-sm-12 image-column" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%"></video>
+        <!-- </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-7 inner-column">
@@ -162,7 +167,45 @@
             </div>
         </div>
     </section>
-    <!-- 유튜브 끝 -->
+    <!-- 효정지도 끝 -->
+
+    <!-- 효정지도 영상 시작 -->
+    <!-- <section class="testimonial-video">
+        <div class="anim-icon">
+            <div class="icon icon-1 float-bob-y"></div>
+        </div>
+        <div class="outer-container clearfix">
+            <div class="testimonial-column">
+                <div class="testimonial-content">
+                    <div class="sec-title style-two">
+                        <h5>컨텐츠브랜드 소개</h5>
+                        <div class="custom-title">
+                            <h1>'효정지도</h1>
+                            <h6>孝情之道</h6>
+                            <h1>시리즈' 소개</h1>
+                        </div>
+                    </div>
+                    <div class="inner-content">
+                        <div class="text"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(孝情之道)시리즈'는
+                            하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
+                            담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
+                            <br />
+                            참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
+                            <br />
+                            '효정지도(孝情之道)시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
+                            참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-column">
+                <div class="video-inner" style="background-image: url(images/background/video-bg.jpg);">
+                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image" data-caption=""></a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- 효정지도 영상 끝-->
 
     <!-- 쇼핑몰 시작 -->
     <!-- <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/background/service-bg.jpg);">
@@ -463,7 +506,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">수선화 사랑</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -474,7 +517,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">하늘 신부</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -485,7 +528,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">산 넘고 바다 건너</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>

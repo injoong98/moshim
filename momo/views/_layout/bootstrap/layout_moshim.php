@@ -159,7 +159,7 @@
 			<div class="container">
 				<div class="clearfix">
 					<div class="logo-box pull-left">
-						<figure style="position: relative; display: inline-block; padding: 26px 0px;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:75px"></a></figure>
+						<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 					</div>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
@@ -251,7 +251,7 @@
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure class="logo-box"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:45px"></a></figure>
+				<figure class="logo-box"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:46px"></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">

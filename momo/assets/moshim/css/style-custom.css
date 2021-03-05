@@ -92,6 +92,7 @@
     transition: all 500ms ease;
   }
 
+  /* 글자 크기 변경 */
   .font-size-custom-1_8em {
     font-size : 1.8em
   }
@@ -104,3 +105,83 @@
   .font-size-custom-1em {
     font-size : 1em
   }
+
+  /* CD - 제목 들어가는 부분 */
+
+  .our-teachers .block-column:nth-child(1) .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-4.png);
+}
+
+  .our-teachers .block-column:nth-child(2) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-8.png);
+  }
+  
+  .our-teachers  .block-column:nth-child(3) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-9.png);
+  }
+  
+  .our-teachers  .block-column:nth-child(4) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-10.png);
+  }
+  
+  .our-teachers .block-column:nth-child(5)  .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-11.png);
+  }
+
+  .our-teachers  .block-column:nth-child(6) .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-12.png);
+  }
+
+  .our-teachers .block-column:nth-child(7) .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-4.png);
+}
+
+  .our-teachers .block-column:nth-child(8) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-8.png);
+  }
+  
+  .our-teachers  .block-column:nth-child(9) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-9.png);
+  }
+  
+  .our-teachers  .block-column:nth-child(10) .teachers-block-two .inner-box .lower-content{
+      background: url(../images/icons/teacher-icon-10.png);
+  }
+  
+  .our-teachers .block-column:nth-child(11)  .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-11.png);
+  }
+
+  .our-teachers  .block-column:nth-child(12) .teachers-block-two .inner-box .lower-content{
+    background: url(../images/icons/teacher-icon-12.png);
+  }
+
+  /* 메인 - 로고 비디오  */
+
+  .video_nobg {
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    overflow: hidden;
+}
+
+
+/* 메인 - 효정지도 부분 보이게 */
+@media only screen and (max-width: 1200px){
+  .feature-section .image-column{
+    display: block;
+  }
+}
+
+/* 메인 - 효정지도 */
+
+.feature-section {
+  position: relative;
+  display: block;
+  background: #f0eee7;
+  padding: 85px 0px;
+}
