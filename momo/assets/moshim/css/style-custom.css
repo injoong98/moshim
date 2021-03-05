@@ -67,8 +67,40 @@
     border-color: #8bd451 !important;;
   }
 
-  .custom-title h1,
-    .custom-title h6 {
+  /* 메인 효정지도 글씨 작게 */
+  .custom-title h1, .custom-title h6 {
       display: inline;
     }
 
+  /* 메인 사진 캐러셀 부분 */
+    .main-slider.style-two .slide {
+      padding: 465px 0px 275px 0px;
+    }
+
+    
+  .cd-title-margin{
+    margin-top: 27px;
+  }
+
+/* 메인부분 cd 부분 */
+  .service-block-one-custom{
+    position: relative;
+    display: block;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 500ms ease;
+  }
+
+  .font-size-custom-1_8em {
+    font-size : 1.8em
+  }
+  .font-size-custom-1_5em {
+    font-size : 1.5em
+  }
+  .font-size-custom-1_4em {
+    font-size : 1.4em
+  }
+  .font-size-custom-1em {
+    font-size : 1em
+  }
