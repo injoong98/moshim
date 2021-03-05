@@ -463,7 +463,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">수선화 사랑</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -474,7 +474,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">하늘 신부</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -485,7 +485,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">산 넘고 바다 건너</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
