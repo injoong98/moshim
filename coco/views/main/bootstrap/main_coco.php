@@ -381,6 +381,7 @@ div.contents_img_wrapper > div {
                                 <div class="col-md-6 col-lg-7">
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
                                         <div class="event_date">
+                                            <i class="fas fa-palette"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
@@ -389,6 +390,7 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
                                         <div class="event_date">
+                                            <i class="fas fa-flask"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
@@ -397,6 +399,7 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
                                         <div class="event_date">
+                                            <i class="fas fa-hand-holding-heart"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
@@ -405,6 +408,7 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
                                         <div class="event_date">
+                                            <i class="fas fa-running"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>
