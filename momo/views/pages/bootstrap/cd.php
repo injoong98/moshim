@@ -148,7 +148,7 @@
                        <div class="inner-box">
                            <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
                            <div class="lower-content">
-                               <h3><a class="cursor_pointer_on" onclick="openWin_cd('8')" target="_blank">어머니 아들딸</a></h3>
+                               <h3><a class="cursor_pointer_on" onclick="openWin_cd('8')" target="_blank">어머니의 아들딸</a></h3>
                                <span class="designation"><br /></span>
                                <ul class="social-list">
                                    <li><a class="play_button"><i class="track-08 fas fa-play"></i></a></li>
