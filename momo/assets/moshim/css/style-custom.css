@@ -187,6 +187,10 @@
 }
 
 /* CD - 재생 버튼 마우스 커서 */
-.play_button, .cursor_pointer_on{
+.play_button{
+  cursor: pointer;
+}
+
+.cursor_pointer_on{
   cursor: pointer;
 }
