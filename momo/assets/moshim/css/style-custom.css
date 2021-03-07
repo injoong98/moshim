@@ -185,3 +185,8 @@
   background: #f0eee7;
   padding: 85px 0px;
 }
+
+/* CD - 재생 버튼 마우스 커서 */
+.play_button, .cursor_pointer_on{
+  cursor: pointer;
+}
