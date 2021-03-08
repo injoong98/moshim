@@ -146,7 +146,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('07')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3><a target="_blank" onclick="openWin_soundbooks('07')">7.효정의 어머니</a></h3>
+                               <h3><a target="_blank" onclick="openWin_soundbooks('07')">7. 효정의 어머니</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -203,7 +203,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('10')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3><a target="_blank" onclick="openWin_soundbooks('10')">10. 해가지고 달이 떠도</a></h3>
+                               <h3><a target="_blank" onclick="openWin_soundbooks('10')">10. 해가 지고 달이 떠도</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -241,7 +241,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('12')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/29.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3 style="font-size: 0.9em;"><a target="_blank" onclick="openWin_soundbooks('12')">12. 새로운 세상 우리 함께해요</a></h3>
+                               <h3 style="font-size: 1.3em;"><a target="_blank" onclick="openWin_soundbooks('12')">12. 새로운 세상 우리 함께해요</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>

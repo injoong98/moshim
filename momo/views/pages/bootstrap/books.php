@@ -24,7 +24,9 @@
            <div class="row">
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:void(openWin_books(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt="" style="height:290px;"></a></figure>
+                       <figure class="image-box">
+                           <img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt="">
+                       </figure>
                        <div class="lower-content">
                            <h6>세트</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(1);"><i class="flaticon-next"></i></a></div> -->
