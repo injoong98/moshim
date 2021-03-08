@@ -96,7 +96,7 @@
                     <div class="content-box">
                         <div class="sec-title style-two">
                             <h5>출판브랜드소개</h5>
-                            <h1>모심</h1>
+                            <h3>모심</h3>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text font-size-custom-1_8em">
@@ -123,7 +123,7 @@
             <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
         <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
-        <video class="col-lg-6 col-md-12 col-sm-12 image-column" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%"></video>
+        <video class="col-lg-6 col-md-12 col-sm-12 image-column" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
         <!-- </div> -->
         <div class="container">
             <div class="row">
@@ -132,16 +132,17 @@
                         <div class="sec-title style-two">
                             <h5>컨텐츠브랜드 소개</h5>
                             <div class="custom-title">
-                                <h1>'효정지도</h1>
-                                <h6>孝情之道</h6>
-                                <h1>시리즈' 소개</h1>
+                                <h3>'효정지도</h3>
+                                <p>孝情之道</p>
+                                <h3>시리즈' 소개</h3>
                             </div>
                         </div>
                         <div class="inner-box">
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-running"></i></div>
-                                <h3><a href="#">원리의 길은 밟아가는 길입니다.</a></h3>
-                                <div class="text"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(孝情之道)시리즈'는
+                                <h3>원리의 길은 밟아가는 길입니다.</h3>
+                                <div class="custom-paragraph text" style="font-size:18px"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style="font-size:10px">孝情之道</p>)시리즈'는
+                                    <br />
                                     하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
                                     담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
                                     <br />
@@ -275,7 +276,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a target="_blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
+                                <h3 class="font-size-custom-1em"><a target="_blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
@@ -291,7 +292,7 @@
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
+                                <h3 class="font-size-custom-1em"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
@@ -302,12 +303,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  col-md-6 col-sm-12 news-block">
+                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3 class="font-size-custom-1_4em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
+                                <h3 class="font-size-custom-0_9em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
@@ -319,7 +320,7 @@
                     </div>
                 </div>
                 <!-- 더보기 버튼 -->
-                <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-2 col-md-6 col-sm-12">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="btn-box text-center" style="margin-top:150px"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
                     </div>
@@ -360,10 +361,10 @@
         <div class="container">
             <div class="sec-title">
                 <h5>참어머님 생애동요 사운드북</h5>
-                <h1>참어머님의 생애와 심정을 담은
+                <h3>참어머님의 생애와 심정을 담은
                     <br />효정의 이야기와 노래
                     <br />(0~6세)
-                </h1>
+                </h3>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 block-column">
@@ -376,7 +377,7 @@
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">달래강 노래</a></h3>
                                 <!-- <span class="designation">Teacher</span> -->
                                 <div class="range-slider clearfix">
-                                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#44B3D9">미리보기</a>
+                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn" style="background-color:#44B3D9; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
@@ -398,7 +399,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">아름다운 이 세상</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#FBB41A">미리보기</a>
+                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn" style="background-color:#FBB41A; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -421,7 +422,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">하나님은 나의 부모님</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="filter-btn" style="background-color:#6EB52F">미리보기</a>
+                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn" style="background-color:#6EB52F; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -489,10 +490,10 @@
                         <div class="sec-title style-two">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
                             <h5>참어머님 생애동요 CD</h5>
-                            <h1>참어머님의 생애와 심정을 담은
+                            <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
-                            </h1>
+                            </h3>
                         </div>
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
                     </div>
@@ -506,7 +507,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">수선화 사랑</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162; font-size:18px">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -517,7 +518,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">하늘 신부</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162 ; font-size:18px">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -528,7 +529,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">산 넘고 바다 건너</a></h3>
                                     <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162">듣기</a>
+                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162 ; font-size:18px">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -546,5 +547,9 @@
         function openWin_books(num) {
             window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
             return false
+        }
+
+        function openWin_soundbooks(num) {
+            window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300, height=790');
         }
     </script>

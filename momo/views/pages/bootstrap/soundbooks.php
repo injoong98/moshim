@@ -23,7 +23,7 @@
                </h1>
            </div>
            <div class="row">
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -42,7 +42,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -61,7 +61,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -80,7 +80,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -99,7 +99,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -118,7 +118,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -139,7 +139,7 @@
                </div>
            </div>
            <div class="row">
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -158,7 +158,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -177,7 +177,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
@@ -196,7 +196,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+               <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">

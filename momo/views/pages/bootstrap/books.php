@@ -22,7 +22,7 @@
                </h1>
            </div>
            <div class="row">
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box">
                            <img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt="">
