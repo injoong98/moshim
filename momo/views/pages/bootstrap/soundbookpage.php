@@ -20,4 +20,4 @@
         <img src="<?php echo moshim_url('momo') ?>/../assets/moshim/soundbook_track/icon/pause-icon.svg" onClick="document.getElementById('paragraph_play').pause(); return false;" />
     </div>
 </div>
-<div>아이콘 제작자 <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a></div>
+<!-- <div>아이콘 제작자 <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a></div> -->
