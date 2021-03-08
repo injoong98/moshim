@@ -194,7 +194,11 @@ div.contents_img_wrapper > div {
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
                         <a class="single_service_part d-block bg_color_2" href="#about_section">
                             <div class="contents_img_wrapper">
-                                <div class="d-flex justify-content-center align-items-center">
+                                <div class="d-flex justify-content-center align-items-center"
+                                    style="background-color: #fff;
+                                            padding: 10%;
+                                            background-clip: content-box;"
+                                >
                                     <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="#" style="background-color:#fff" width="80%" class="img-fluid">
                                 </div>
                             </div>
