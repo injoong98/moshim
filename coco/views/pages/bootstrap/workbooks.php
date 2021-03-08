@@ -82,7 +82,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2 style="color: black;">학습지</h2>
+                        <h2 style="color: #5f5f7f;">학습지</h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
