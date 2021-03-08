@@ -194,7 +194,11 @@ div.contents_img_wrapper > div {
                     <div class="col-sm-6 col-lg-6 wow fadeInDown" data-wow-delay=".4s">
                         <a class="single_service_part d-block bg_color_2" href="#about_section">
                             <div class="contents_img_wrapper">
-                                <div class="d-flex justify-content-center align-items-center">
+                                <div class="d-flex justify-content-center align-items-center"
+                                    style="background-color: #fff;
+                                            padding: 10%;
+                                            background-clip: content-box;"
+                                >
                                     <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="#" style="background-color:#fff" width="80%" class="img-fluid">
                                 </div>
                             </div>
@@ -376,11 +380,12 @@ div.contents_img_wrapper > div {
                         <div class="event_part_iner">
                             <div class="row justify-content-end">
                                 <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
-                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
+                                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
                                 </div>
                                 <div class="col-md-6 col-lg-7">
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
                                         <div class="event_date">
+                                            <i class="fas fa-palette"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
@@ -389,6 +394,7 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
                                         <div class="event_date">
+                                            <i class="fas fa-flask"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Science</a></h4>
@@ -397,6 +403,8 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
                                         <div class="event_date">
+                                            <!-- <i class="fas fa-user-friends"></i> -->
+                                            <i class="fas fa-users"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Connect</a></h4>
@@ -405,6 +413,7 @@ div.contents_img_wrapper > div {
                                     </div>
                                     <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
                                         <div class="event_date">
+                                            <i class="fas fa-running"></i>
                                         </div>
                                         <div class="event_content">
                                             <h4> <a href="/pages/workbooks">위드아이 Activity</a></h4>

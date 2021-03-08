@@ -28,7 +28,7 @@
     background-size: contain !important;
 }
 #art-desc {
-    background-color: #fcc953;
+    background-color: #fd5c37;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -145,7 +145,7 @@
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="program_details_thumb profile_img pr-lg-3">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
+                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
                                         <!-- <img src="img/teacher_profile_shape.png" alt="#" class="img-fluid teacher_profile_shape"> -->
                                     </div>
                                 </div>

@@ -22,7 +22,7 @@
                </h1>
            </div>
            <div class="row">
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box">
                            <img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt="">
@@ -44,7 +44,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:void(openWin_books(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -60,7 +60,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -76,7 +76,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -92,7 +92,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(4);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/04.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -108,7 +108,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(5);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/05.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -124,7 +124,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(6);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/06.jpg" alt=""></a></figure>
                        <div class="lower-content">
@@ -140,7 +140,7 @@
                        </div>
                    </div>
                </div>
-               <div class="col-lg-3 col-md-6 col-sm-12 block-column">
+               <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(7);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/07.jpg" alt=""></a></figure>
                        <div class="lower-content">

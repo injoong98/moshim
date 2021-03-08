@@ -146,7 +146,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('07')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/19.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3><a target="_blank" onclick="openWin_soundbooks('07')">7.효정의 어머니</a></h3>
+                               <h3><a target="_blank" onclick="openWin_soundbooks('07')">7. 효정의 어머니</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -203,7 +203,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('10')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/25.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3><a target="_blank" onclick="openWin_soundbooks('10')">10. 해가지고 달이 떠도</a></h3>
+                               <h3><a target="_blank" onclick="openWin_soundbooks('10')">10. 해가 지고 달이 떠도</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
@@ -259,6 +259,6 @@
    <!-- our-teachers end -->
    <script language="javascript" type="text/javascript">
        function openWin_soundbooks(num) {
-           window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300', 'height=790');
+           window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300, height=790');
        }
    </script>
