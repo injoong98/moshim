@@ -270,60 +270,60 @@
                 </h1>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">하늘이 준비하신 참어머님</a></h3>
+                                <h3><a target="_blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4  col-md-6 col-sm-12 news-block">
+                <div class="col-lg-3  col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/books">하늘의 사랑스러운 딸 참어머님</a></h3>
+                                <h3><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4  col-md-6 col-sm-12 news-block">
+                <div class="col-lg-3  col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                             <div class="lower-content">
-                                <h3 class="font-size-custom-1_4em"><a href="<?php echo moshim_url('momo') ?>/pages/books">순수하면서도 강인한 모범생 참어머님</a></h3>
+                                <h3 class="font-size-custom-1_4em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a href="<?php echo moshim_url('momo') ?>/pages/books"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);"><i class="flaticon-next"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- 더보기 버튼 -->
-                <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
+                        <div class="btn-box text-center" style="margin-top:150px"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
                     </div>
-                </div> -->
+                </div>
             </div>
         </div>
     </section>
@@ -540,3 +540,11 @@
         </div>
     </section>
     <!-- 참어머님 생애동요 CD 끝 -->
+
+    <script>
+        //동화책 미리보기 창
+        function openWin_books(num) {
+            window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
+            return false
+        }
+    </script>
