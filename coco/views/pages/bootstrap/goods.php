@@ -195,7 +195,7 @@
     <section class="team_section single_page_team section_padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
@@ -203,7 +203,7 @@
                         <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
@@ -211,7 +211,7 @@
                         <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
@@ -219,7 +219,7 @@
                         <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
@@ -227,7 +227,7 @@
                         <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
@@ -235,7 +235,7 @@
                         <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
@@ -243,7 +243,7 @@
                         <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
@@ -251,7 +251,7 @@
                         <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
@@ -259,7 +259,7 @@
                         <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
@@ -267,7 +267,7 @@
                         <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
@@ -275,7 +275,7 @@
                         <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
@@ -283,7 +283,7 @@
                         <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section">
                         <a href="teacher_details.html" class="d-block teacher_profile_img">
                             <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
