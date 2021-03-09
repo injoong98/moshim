@@ -185,14 +185,6 @@
 }
 
 
-/* 메인 - 효정지도 부분 보이게 */
-@media only screen and (max-width: 1200px){
-  
-  .hyojeong-video_mobile{
-    display: none;
-  }
-}
-
 /* 메인 - 효정지도 */
 
 .feature-section {
@@ -284,6 +276,15 @@
     top:0px; 
     justify-content:space-between;
   }
+    
+  /* 메인 - 효정지도 부분 보이게 */
+  .feature-section .image-column{
+    display: block;
+  }
+
+  .hyojeong-video_mobile{
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -311,9 +312,14 @@
     display: block;
     padding-bottom: 50px;
   }
+
   .hyojeong-video{
     display:none;
   }
+}
+
+.hyojeong-video_mobile{
+  display: none;
 }
 
 

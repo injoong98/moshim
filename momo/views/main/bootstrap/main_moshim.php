@@ -95,7 +95,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px;">
-                            <h5>출판브랜드소개</h5>
+                            <h5 class="text-center"> 출판브랜드소개</h5>
                             <h3>모심</h3>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
@@ -124,7 +124,7 @@
             <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
         <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
-        <video class="col-lg-6 col-md-12 col-sm-12 hyojeong-video" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
+        <video class="col-lg-6 col-md-12 col-sm-12 image-column hyojeong-video" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
         <video class="col-sm-12 hyojeong-video_mobile" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
         <!-- </div> -->
         <div class="container">
@@ -132,7 +132,7 @@
                 <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-7 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>컨텐츠브랜드 소개</h5>
+                            <h5 class="text-center"> 컨텐츠브랜드 소개</h5>
                             <div class="custom-title">
                                 <h3>'효정지도</h3>
                                 <p>孝情之道</p>
@@ -181,7 +181,7 @@
             <div class="testimonial-column">
                 <div class="testimonial-content">
                     <div class="sec-title style-two">
-                        <h5>컨텐츠브랜드 소개</h5>
+                        <h5 class="text-center"> 컨텐츠브랜드 소개</h5>
                         <div class="custom-title">
                             <h1>'효정지도</h1>
                             <h6>孝情之道</h6>
@@ -217,7 +217,7 @@
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
                         <div class="sec-title style-two">
-                            <h5>쇼핑몰</h5>
+                            <h5 class="text-center"> 쇼핑몰</h5>
                             <h1>Best Services for Kids</h1>
                         </div>
                         <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div>
@@ -256,18 +256,13 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
-    <!-- 
-        1. 하늘이 준비하신 참어머님 (1권)
-        2. 하늘의 사랑스러운 딸 참어머님 (2권)
-        3. 순수하면서도 강인한 모범생 참어머님 (3권)
-         -->
     <section class="news-section">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
         </div>
         <div class="container">
             <div class="sec-title centred">
-                <h5>참어머님 생애동화</h5>
+                <h5 class="text-center"> 참어머님 생애동화</h5>
                 <h3 class="books_title">참어머님의 인류를 위한 생애와 심정을
                     <br /> 이해할 수 있는 귀한 보물과 같은 이야기
                 </h3>
@@ -366,7 +361,7 @@
     <section class="our-teachers sec-pad centred">
         <div class="container">
             <div class="sec-title">
-                <h5>참어머님 생애동요 사운드북</h5>
+                <h5 class="text-center">참어머님 생애동요 사운드북</h5>
                 <h3>참어머님의 생애와 심정을 담은
                     <br />효정의 이야기와 노래
                     <br />(0~6세)
@@ -383,7 +378,7 @@
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">달래강 노래</a></h3>
                                 <!-- <span class="designation">Teacher</span> -->
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn" style="background-color:#44B3D9; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn" style="background-color:#bf9000ff; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
@@ -405,7 +400,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">아름다운 이 세상</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn" style="background-color:#FBB41A; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -428,7 +423,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">하나님은 나의 부모님</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn" style="background-color:#6EB52F; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn" style="background-color:#a61c00ff; font-size:18px; color:white">미리보기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -454,7 +449,7 @@
         </div>
         <div class="container">
             <div class="sec-title">
-                <h5>Benefits</h5>
+                <h5 class="text-center"> Benefits</h5>
                 <h1>저희 노래를 음악 플랫폼에서 들어보세요</h1>
             </div>
             <div class="row">
@@ -495,7 +490,7 @@
                     <div class="inner-content">
                         <div class="sec-title style-two">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5>참어머님 생애동요 CD</h5>
+                            <h5 class="text-center"> 참어머님 생애동요 CD</h5>
                             <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
