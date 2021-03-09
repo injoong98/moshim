@@ -104,7 +104,7 @@ div.contents_img_wrapper > div {
                 </div>
             </div>
         </div>
-        <div class="single_banner_part bg_1">
+        <div class="single_banner_part">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-12">
@@ -138,7 +138,7 @@ div.contents_img_wrapper > div {
                 </div>
             </div>
         </div>
-        <div class="single_banner_part bg_1">
+        <div class="single_banner_part">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-12">
