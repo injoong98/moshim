@@ -488,9 +488,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
-                        <div class="sec-title style-two">
+                        <div class="sec-title centred text-center">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5 class="text-center"> 참어머님 생애동요 CD</h5>
+                            <h5> 참어머님 생애동요 CD</h5>
                             <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
