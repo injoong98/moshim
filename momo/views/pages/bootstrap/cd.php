@@ -141,8 +141,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_06').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_06').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="play_button" onclick="openWin_cd('6')" target="_blank">
-                                           style="font-size:20px" 가사</a></li>
+                                   <li><a class="play_button" onclick="openWin_cd('6')" target="_blank" style="font-size:20px"> 가사</a></li>
                                </ul>
                            </div>
                        </div>

@@ -1,7 +1,7 @@
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img/<?php echo element('soundbookpage', $view) ?>.jpg" width="100%" height="100%">
 <div class="button_position">
     <div style="width:30%" style="display:inline-flex">
-        <h3>오디오북</h3>
+        <h3>뮤직</h3>
         <audio id="audio_play">
             <source src="http://moshim.co.kr/assets/moshim/soundbook_track/song/track-<?php echo element('soundbookpage', $view) ?>.wav" type="audio/mpeg">
         </audio>
