@@ -82,7 +82,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2 style="color: black;">학습지</h2>
+                        <h2 style="color: #5f5f7f;">학습지</h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
@@ -145,7 +145,7 @@
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="program_details_thumb profile_img pr-lg-3">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
+                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid">
                                         <!-- <img src="img/teacher_profile_shape.png" alt="#" class="img-fluid teacher_profile_shape"> -->
                                     </div>
                                 </div>

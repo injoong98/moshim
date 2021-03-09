@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
 }
@@ -67,10 +70,19 @@
     border-color: #8bd451 !important;;
   }
 
+
   /* 메인 효정지도 글씨 작게 */
   .custom-title h1, .custom-title h6 {
       display: inline;
     }
+
+  .custom-title h3, .custom-title p {
+    display: inline;
+  }
+
+  .custom-paragraph,.custom-paragraph p {
+    display: inline;
+  }
 
   /* 메인 사진 캐러셀 부분 */
     .main-slider.style-two .slide {
@@ -104,6 +116,9 @@
   }
   .font-size-custom-1em {
     font-size : 1em
+  }
+  .font-size-custom-0_9em {
+    font-size : 0.9em
   }
 
   /* CD - 제목 들어가는 부분 */
@@ -170,13 +185,6 @@
 }
 
 
-/* 메인 - 효정지도 부분 보이게 */
-@media only screen and (max-width: 1200px){
-  .feature-section .image-column{
-    display: block;
-  }
-}
-
 /* 메인 - 효정지도 */
 
 .feature-section {
@@ -189,4 +197,133 @@
 /* CD - 재생 버튼 마우스 커서 */
 .play_button{
   cursor: pointer;
+}
+
+
+/* 메인 타이틀 */
+
+.sec-title h3{
+  position: relative;
+  /* display: block; */
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 900;
+  color: #2b3c6b;
+  margin-bottom: 10px;
+}
+
+.sec-title h6 {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 23px;
+  color: #ff7162;
+  font-family: 'Jua', sans-serif;
+  font-weight: 900;
+  margin-bottom: 13px;
+  padding: 0px 50px 0px 50px;
+}
+
+/* 사운드북 재생 버튼 위치 */
+.soundbook_bgimg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.button_position{
+  width: 100%;
+  display: flex;
+  z-index: 999;
+  position: absolute; 
+  top:0px; 
+  justify-content:space-between;
+}
+.play_button_size {
+  width : 2em !important;
+}
+.pause_button_size {
+  width : 2em !important;
+}
+
+/* 동화책 - PC 제목부분,
+메인 부분에서 생애동화 부분 타이틀도 적용 */
+.books_title{
+  display: block ;
+}
+
+.books_title_mobile{
+  display: none;
+}
+
+
+/* CD */
+
+.teachers-block-two .inner-box .lower-content .social-list {
+  position: relative;
+  opacity: 1 !important;
+  transform: translateY(10px);
+  transition: all 900ms ease;
+}
+
+@media only screen and (max-width: 1200px){
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    line-height: 1.5em;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  }
+    
+  /* 메인 - 효정지도 부분 보이게 */
+  .feature-section .image-column{
+    display: block;
+  }
+
+  .hyojeong-video_mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  } 
+
+  /* 동화책 - PC 제목부분,
+  메인 부분에서 생애동화 부분 타이틀도 적용 */
+  .books_title{
+    display: none;
+  }
+  /* 동화책 - 모바일 - 제목 부분  */
+  .books_title_mobile{
+    display: block;
+  }
+
+  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
+  .hyojeong-video_mobile{
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .hyojeong-video{
+    display:none;
+  }
+}
+
+.hyojeong-video_mobile{
+  display: none;
+}
+
+
+/* 레이아웃 - 상단바  */
+.sticky-header .main-menu .navigation > li {
+  margin: 34px 30px 30px 20px!important;
 }
