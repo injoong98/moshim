@@ -99,10 +99,11 @@
                             <h3>모심</h3>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
-                        <div class="text font-size-custom-1_8em">
-                            <p style="line-height:1.2em">사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
-                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해 한걸음 한걸음
-                                귀한 걸음걸으시는 어머니.
+                        <div class="text font-size-custom-1_5em">
+                            <p style="line-height:1.4em; word-spacing:0.1em; font-family: Nanum Gothic !important;">
+                                사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
+                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해
+                                한걸음 한걸음 귀한 걸음걸으시는 어머니.
                                 <br />
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
                                 어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
@@ -141,7 +142,7 @@
                             <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="icon-box"><i class="flaticon-running"></i></div>
                                 <h3>원리의 길은 밟아가는 길입니다.</h3>
-                                <div class="custom-paragraph text" style="font-size:18px"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style="font-size:10px">孝情之道</p>)시리즈'는
+                                <div class="custom-paragraph text" style="font-size:18px ; font-family: Nanum Gothic !important;""> '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style=" font-size:10px">孝情之道</p>)시리즈'는
                                     <br />
                                     하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
                                     담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
@@ -266,9 +267,13 @@
         <div class="container">
             <div class="sec-title centred">
                 <h5>참어머님 생애동화</h5>
-                <h1>참어머님의 인류를 위한 생애와 심정을
+                <h3 class="books_title">참어머님의 인류를 위한 생애와 심정을
                     <br /> 이해할 수 있는 귀한 보물과 같은 이야기
-                </h1>
+                </h3>
+                <h3 class="books_title_mobile">참어머님의 인류를 위한
+                    <br /> 생애와 심정을 이해할 수 있는
+                    <br />귀한 보물과 같은 이야기
+                </h3>
             </div>
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 news-block">

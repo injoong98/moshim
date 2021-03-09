@@ -30,11 +30,8 @@
                        <div class="lower-content">
                            <h6>세트</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(1);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 class="font-size-custom-1em">
-                               <!-- <a target="_blank" onclick="javascript:openWin_books(1);"> -->
-                               참어머님 생애동화책 세트(전7권)
-                               <!-- </a> -->
-                           </h3>
+                           <h3 class="books_title">참어머님 생애<br />동화책 세트(전7권)</h3>
+                           <h3 class="books_title_mobile">참어머님 생애동화책 세트(전7권)</h3>
                            <div class="price">91,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -50,7 +47,8 @@
                        <div class="lower-content">
                            <h6>제1권</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(1);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:1.3em"><a target=" _blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
+                           <h3 class="books_title"><a target=" _blank" onclick="javascript:openWin_books(1);">하늘이 준비하신<br /> 참어머님</a></h3>
+                           <h3 class="books_title_mobile"><a target=" _blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -66,7 +64,8 @@
                        <div class="lower-content">
                            <h6>제2권</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(2);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 class="font-size-custom-1em"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 <br /> 딸 참어머님</a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -81,8 +80,9 @@
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6>제3권</h6>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 <br />모범생 참어머님</a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(3);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:0.8em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -98,7 +98,8 @@
                        <div class="lower-content">
                            <h6>제4권</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(4);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:1.2em"><a target="_blank" onclick="javascript:openWin_books(4);">참아버님 참어머님 참부모님</a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(4);">참아버님 참어머님 <br />참부모님</a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(4);">참아버님 참어머님 참부모님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -113,8 +114,9 @@
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(5);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/05.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6>제5권</h6>
-                           <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(5);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:1.3em"><a target="_blank" onclick="javascript:openWin_books(5);">참된 아내 참어머님</a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(5);">참된 아내 참어머님<br /><br /></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(5);">참된 아내 참어머님</a></h3>
+                           <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(5);"><i class="e-next"></i></a></div> -->
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -130,7 +132,8 @@
                        <div class="lower-content">
                            <h6>제6권</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(6);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:1.3em"><a target="_blank" onclick="javascript:openWin_books(6);">참사랑의 어머니 참어머님</a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(6);">참사랑의 어머니<br /> 참어머님</a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(6);">참사랑의 어머니 참어머님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">
@@ -146,7 +149,8 @@
                        <div class="lower-content">
                            <h6>제7권</h6>
                            <!-- <div class="link-btn"><a target="_blank" onclick="javascript:openWin_books(7);"><i class="flaticon-next"></i></a></div> -->
-                           <h3 style="font-size:1.3em"><a target="_blank" onclick="javascript:openWin_books(7);">참부모 참어머님</a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(7);">참부모 참어머님<br /><br /></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(7);">참부모 참어머님</a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box">

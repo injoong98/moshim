@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+
+
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
 }
@@ -249,7 +252,13 @@
 .pause_button_size {
   width : 2em !important;
 }
+.books_title{
+  display: block ;
+}
 
+.books_title_mobile{
+  display: none;
+}
 /* CD */
 
 .teachers-block-two .inner-box .lower-content .social-list {
@@ -279,7 +288,15 @@
     position: absolute; 
     top:0px; 
     justify-content:space-between;
-  }  
+  } 
+
+  .books_title{
+    display: none;
+  }
+  /* 동화책 - 제목 부분  */
+  .books_title_mobile{
+    display: block;
+  }
 }
 
 
