@@ -187,8 +187,9 @@
 
 /* 메인 - 효정지도 부분 보이게 */
 @media only screen and (max-width: 1200px){
-  .feature-section .image-column{
-    display: block;
+  
+  .hyojeong-video_mobile{
+    display: none;
   }
 }
 
@@ -252,6 +253,9 @@
 .pause_button_size {
   width : 2em !important;
 }
+
+/* 동화책 - PC 제목부분,
+메인 부분에서 생애동화 부분 타이틀도 적용 */
 .books_title{
   display: block ;
 }
@@ -259,6 +263,8 @@
 .books_title_mobile{
   display: none;
 }
+
+
 /* CD */
 
 .teachers-block-two .inner-box .lower-content .social-list {
@@ -290,12 +296,23 @@
     justify-content:space-between;
   } 
 
+  /* 동화책 - PC 제목부분,
+  메인 부분에서 생애동화 부분 타이틀도 적용 */
   .books_title{
     display: none;
   }
-  /* 동화책 - 제목 부분  */
+  /* 동화책 - 모바일 - 제목 부분  */
   .books_title_mobile{
     display: block;
+  }
+
+  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
+  .hyojeong-video_mobile{
+    display: block;
+    padding-bottom: 50px;
+  }
+  .hyojeong-video{
+    display:none;
   }
 }
 

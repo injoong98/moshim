@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width: 400px;">
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
                     <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -124,7 +124,8 @@
             <div class="icon icon-2" style="bottom: -150px;"></div>
         </div>
         <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
-        <video class="col-lg-6 col-md-12 col-sm-12 image-column" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
+        <video class="col-lg-6 col-md-12 col-sm-12 hyojeong-video" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
+        <video class="col-sm-12 hyojeong-video_mobile" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
         <!-- </div> -->
         <div class="container">
             <div class="row">
