@@ -94,13 +94,13 @@
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
-                        <div class="sec-title style-two">
+                        <div class="sec-title style-two" style="padding-top: 35px;">
                             <h5>출판브랜드소개</h5>
                             <h3>모심</h3>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text font-size-custom-1_8em">
-                            <p>사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
+                            <p style="line-height:1.2em">사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
                                 자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해 한걸음 한걸음
                                 귀한 걸음걸으시는 어머니.
                                 <br />
