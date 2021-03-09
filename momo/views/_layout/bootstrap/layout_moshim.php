@@ -250,10 +250,13 @@
 
 		<!--Sticky Header-->
 		<div class="sticky-header">
-			<div class="container clearfix">
+			<div class="container clearfix" style="height:126px">
 				<!-- <figure class="logo-box">
 				<a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:46px"></a></figure> -->
-				<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
+				<!-- <figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure> -->
+				<video class="" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="position: relative; display: inline-block; height:126px">
+					<source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
+				</video>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
