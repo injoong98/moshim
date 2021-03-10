@@ -266,7 +266,7 @@ div.contents_img_wrapper > div {
     <!-- get start part end -->
 
     <!-- services part here -->
-    <section class="success_story section_padding section_bg_1">
+    <section class="success_story section_padding" style="border-top: 2px dashed #ebe8f1;background-color: #fff;">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section_tittle_style_02 mb-4">
