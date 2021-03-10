@@ -91,7 +91,7 @@
     </section>
     <!-- breadcrumb part end -->
     <!-- fetures part here -->
-    <section class="fetures_part section_padding">
+    <section class="fetures_part section_padding" style="background-color: #ffffff;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -108,32 +108,16 @@
             </div>
             <div class="row justify-content-between">
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyojeong.png" alt="#" class="img-fluid hyo-char">
-                    <div class="single_fetures_part">
-                        <p>따뜻한 마음</p>
-                        <h4> <a href="about.html">효정</a></h4>
-                    </div>
+                    <img src="/assets/malgeunmul/img/goods/hyojeong.jpg" alt="#" class="img-fluid hyo-char">
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyoji.png" alt="#" class="img-fluid hyo-char">
-                    <div class="single_fetures_part blue">
-                        <p>따뜻한 마음</p>
-                        <h4> <a href="about.html">효지</a></h4>
-                    </div>
+                    <img src="/assets/malgeunmul/img/goods/hyoji.jpg" alt="#" class="img-fluid hyo-char">
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyoli.png" alt="#" class="img-fluid hyo-char">
-                    <div class="single_fetures_part orange">
-                        <p>엉뚱발랄 사랑스런 막내</p>
-                        <h4> <a href="about.html">효리</a></h4>
-                    </div>
+                    <img src="/assets/malgeunmul/img/goods/hyoli.jpg" alt="#" class="img-fluid hyo-char">
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <img src="/assets/malgeunmul/img/goods/hyomong.png" alt="#" class="img-fluid hyo-char">
-                    <div class="single_fetures_part sky">
-                        <p>신나는 마법사</p>
-                        <h4> <a href="about.html">효몽</a></h4>
-                    </div>
+                    <img src="/assets/malgeunmul/img/goods/hyomong.jpg" alt="#" class="img-fluid hyo-char">
                 </div>
                 
             </div>
@@ -165,13 +149,13 @@
     </section>
     <!-- fetures part end -->
     <!-- event section part here -->
-    <section class="event_section event_details pt-5">
+    <!-- <section class="event_section event_details pt-5">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-sm-12">
                     <div class="event_details_wrapper">
                         <div class="event_details_thumb">
-                            <!-- <img src="/assets/malgeunmul/img/event/event_details_02.jpg" alt="#" class="img-fluid"> -->
+                            <img src="/assets/malgeunmul/img/event/event_details_02.jpg" alt="#" class="img-fluid">
                             <iframe
                                 src="https://www.youtube.com/embed/PGIQLgYRyIE"
                                 frameborder="0"
@@ -196,7 +180,7 @@
         <div class="about_page_animation_4">
             <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/team_animation.png" alt="#" class="img-fluid"></div>
         </div>
-    </section>
+    </section> -->
     <!-- event section part end -->
     <!-- team part here -->
     <section class="team_section single_page_team section_padding">
