@@ -53,6 +53,9 @@ div.contents_img_wrapper > div {
 .developing h5{
     color : #fff;
 }
+.event_part{
+    background-color: #ffca18;
+}
 .event_part .single_event_list:nth-child(4){
     background-color: #379efd;
 }
@@ -100,74 +103,6 @@ div.contents_img_wrapper > div {
             </div>
             <div class="banner_animation_4">
                 <div data-parallax='{"x": 10, "y": 150, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
-                </div>
-            </div>
-        </div>
-        <div class="single_banner_part">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                        <div class="banner_iner">
-                            <h2>책이 사람을 만듭니다.
-                            </h2>
-                            <p></p>
-                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner_animation_1">
-                <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_1.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_2">
-                <div data-parallax='{"x": 15, "y": 100, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_2.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_3">
-                <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_3.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_4">
-                <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
-                </div>
-            </div>
-        </div>
-        <div class="single_banner_part">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                        <div class="banner_iner">
-                            <h2>가정이 사람을 만듭니다.</span>
-                            </h2>
-                            <p></p>
-                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="banner_animation_1">
-                <div data-parallax='{"x": 2, "y": 80, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_1.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_2">
-                <div data-parallax='{"x": 15, "y": 100, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_2.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_3">
-                <div data-parallax='{"x": 0, "y": 90, "rotateZ":0}'>
-                    <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_3.png" alt="#">
-                </div>
-            </div>
-            <div class="banner_animation_4">
-                <div data-parallax='{"x": 10, "y": 120, "rotateZ":0}'>
                     <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/banner_4.png" alt="#">
                 </div>
             </div>
@@ -331,7 +266,7 @@ div.contents_img_wrapper > div {
     <!-- get start part end -->
 
     <!-- services part here -->
-    <section class="success_story section_padding">
+    <section class="success_story section_padding section_bg_1">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section_tittle_style_02 mb-4">
@@ -390,7 +325,7 @@ div.contents_img_wrapper > div {
     <!-- services part end -->
 
     <!-- services part here -->
-    <section class="event_part section_padding section_bg_2">
+    <section class="event_part section_padding">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7">
@@ -408,15 +343,17 @@ div.contents_img_wrapper > div {
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
                             </div>
                             <div class="col-md-6 col-lg-7">
-                                <div class="single_event_list wow fadeInDown" data-wow-delay=".1s">
-                                    <div class="event_date">
-                                        <i class="fas fa-palette"></i>
+                                <a href="/pages/workbooks">
+                                    <div class="single_event_list wow fadeInDown" style="margin-bottom:30px" data-wow-delay=".1s">
+                                        <div class="event_date">
+                                            <i class="fas fa-palette"></i>
+                                        </div>
+                                        <div class="event_content">
+                                            <h4>위드아이 Art</h4>
+                                            <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
+                                        </div>
                                     </div>
-                                    <div class="event_content">
-                                        <h4> <a href="/pages/workbooks">위드아이 Art</a></h4>
-                                        <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
-                                    </div>
-                                </div>
+                                </a>
                                 <div class="single_event_list wow fadeInDown" data-wow-delay=".2s">
                                     <div class="event_date">
                                         <i class="fas fa-flask"></i>
@@ -432,8 +369,7 @@ div.contents_img_wrapper > div {
                                 </div>
                                 <div class="single_event_list wow fadeInDown" data-wow-delay=".3s">
                                     <div class="event_date">
-                                        <!-- <i class="fas fa-user-friends"></i> -->
-                                        <i class="fas fa-users"></i>
+                                        <i class="fas fa-comments"></i>
                                     </div>
                                     <div class="event_content">
                                         <h4>위드아이 Language</h4>

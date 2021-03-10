@@ -174,24 +174,15 @@
 
 
     <!-- footer part here -->
-    <footer class="footer_section">
+    <footer class="footer_section pt-0">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-12 wow fadeInDown" data-wow-delay=".3s">
-                    <div class="copyright_part text-center">
+                <div class="col-lg-12">
+                    <div class="copyright_part text-center mt-0">
                         <p>© HJSmartEdu</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer_animation_1">
-            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_1.png" alt="#"></div>
-        </div>
-        <div class="footer_animation_2">
-            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_2.png" alt="#"></div>
-        </div>
-        <div class="footer_animation_3">
-            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_3.png" alt="#"></div>
         </div>
     </footer>
 
