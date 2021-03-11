@@ -118,10 +118,10 @@
     <!--  소개 끝 -->
 
     <!-- 효정지도 시작  -->
-    <section class="feature-section" id="intro_further">
+    <section class="feature-section" id="intro_further" style="background-color:white">
         <div class="anim-icon">
             <div class="icon icon-1"></div>
-            <div class="icon icon-2" style="bottom: -150px;"></div>
+            <div class="icon icon-2" style="bottom: -200px;"></div>
         </div>
         <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
         <video class="col-lg-6 col-md-12 col-sm-12 image-column hyojeong-video" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
@@ -140,15 +140,19 @@
                             </div>
                         </div>
                         <div class="inner-box">
-                            <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="icon-box"><i class="flaticon-running"></i></div>
+                            <!-- <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms"> -->
+                            <div class="wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <h3>원리의 길은 밟아가는 길입니다.</h3>
-                                <div class="custom-paragraph text" style="font-size:18px ; font-family: Nanum Gothic !important;""> '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style=" font-size:10px">孝情之道</p>)시리즈'는
+                                <div class="custom-paragraph text" style="font-size:1.2em ; font-family: Nanum Gothic !important;"> 
+                                '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style=" font-size:0.6em">孝情之道</p>)시리즈'는
+                                    <br />
                                     <br />
                                     하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
                                     담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
                                     <br />
+                                    <br />
                                     참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
+                                    <br />
                                     <br />
                                     '효정지도(孝情之道)시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
                                     참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
@@ -488,9 +492,9 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
-                        <div class="sec-title centred text-center">
+                        <div class="sec-title style-two">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5> 참어머님 생애동요 CD</h5>
+                            <h5 class="text-center"> 참어머님 생애동요 CD</h5>
                             <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
