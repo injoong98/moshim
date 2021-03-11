@@ -82,7 +82,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2 style="color: #5f5f7f;">학습지</h2>
+                        <h2 style="color: #5f5f7f;"></h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
@@ -130,7 +130,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 학습지</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 함께 하는 생각놀이 위드아이 - ART</p>
                     </div>
                 </div>
