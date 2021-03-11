@@ -21,16 +21,16 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-3.jpg)">
-                <!-- <div class="container">
+            <!-- <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-3.jpg)">
+                <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div> -->
-            </div>
+                </div> 
+            </div> -->
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-4.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
@@ -56,11 +56,11 @@
     <!-- 콘텐츠 소개 end -->
 
     <!--  소개 & 효정지도 시작 -->
-    <section class="about-section" id="intro">
+    <section class="about-section" id="intro" style="padding-bottom:10px">
         <div class="anim-icon">
             <div class="icon icon-1 float-bob-x"></div>
             <div class="icon icon-2 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
-            <div class="icon icon-3"></div>
+            <div class="icon icon-3" style="bottom:-100px; right:200px"></div>
         </div>
         <div class="container">
             <div class="row">
@@ -311,7 +311,7 @@
                 </h3>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -334,7 +334,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -377,6 +377,13 @@
                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li> -->
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
+                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="range-slider clearfix">
+                            <a href="/pages/cd" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">미리보기</a>
                         </div>
                     </div>
                 </div>
