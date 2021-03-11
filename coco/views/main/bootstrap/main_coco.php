@@ -54,7 +54,8 @@ div.contents_img_wrapper > div {
     color : #fff;
 }
 .event_part{
-    background-color: #ffca18;
+    /* background-color: #ffca18; */
+    background-color: #fbbd0a;
 }
 .event_part .single_event_list:nth-child(4){
     background-color: #379efd;
@@ -192,7 +193,7 @@ div.contents_img_wrapper > div {
                 <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
                     <div class="about_section_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
-                        <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="title_overlay_effect">맑은물</span></h2>
+                        <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">맑은물</span></h2>
                         <p class="wow fadeInLeft" data-wow-delay=".5s">하루를 출발하면서 부모님께 달려와 인사하고,
                             유치원에서 또는 학교에서 열심히 공부하고
                             친구들과 좋은 관계를 유지하며,
@@ -246,7 +247,7 @@ div.contents_img_wrapper > div {
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="get_start_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
-                        <h2 class="kid_title"> <span class="title_overlay_effect"> 위드아이 </span></h2>
+                        <h2 class="kid_title"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이 </span></h2>
                         <p>위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드입니다.
                             언제나 아이와 함께하며 자녀들이 더 깊은 생각, 더 좋은 생각할 수 있도록
                         </p>
@@ -270,7 +271,7 @@ div.contents_img_wrapper > div {
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section_tittle_style_02 mb-4">
-                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">효정동요</span></h2>
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정동요</span></h2>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
                         부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
                     </p>
@@ -330,7 +331,7 @@ div.contents_img_wrapper > div {
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
                     </div>
                 </div>

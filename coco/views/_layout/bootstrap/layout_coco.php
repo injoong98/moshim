@@ -45,7 +45,10 @@
         var cookie_prefix = "<?php echo config_item('cookie_prefix'); ?>";
     </script>
 </head>
-
+<style>
+    @font-face { font-family: 'Cafe24Ssurround'; src: url(/assets/fonts/Cafe24Ssurround.ttf) format('truetype'); }
+    .Cafe24Ssurround{ font-family: Cafe24Ssurround; }
+</style>
 <body>
     <!-- Preloader  -->
     <div class='preloder'>

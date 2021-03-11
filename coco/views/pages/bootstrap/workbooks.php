@@ -130,7 +130,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 함께 하는 생각놀이 위드아이 - ART</p>
                     </div>
                 </div>
@@ -151,11 +151,11 @@
                                 </div>
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
                                     <div class="program_details_content mt-5 mt-lg-0">
-                                        <h2 class="kid_title mb-4"> <span class="">위드아이 - ART</span></h2>
-                                        <p class="description">그리기, 만들기등의 미술활동을 중심으로</p>
-                                        <p class="description">집에서는 부모님과 자녀들과</p>
-                                        <p class="description">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
-                                        <p class="description">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
+                                        <h2 class="kid_title mb-4"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
+                                        <p class="description mt-0">그리기, 만들기등의 미술활동을 중심으로</p>
+                                        <p class="description mt-0">집에서는 부모님과 자녀들과</p>
+                                        <p class="description mt-0">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
+                                        <p class="description mt-0">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
                                     </div>
                                 </div>
                             </div>

@@ -97,7 +97,7 @@
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
                         <h2 class="title wow fadeInDown" data-wow-delay=".3s"> 
-                        <span class="title_overlay_effect">효정아 놀자 굿즈</span></h2>
+                        <span class="Cafe24Ssurround title_overlay_effect">효정아 놀자 굿즈</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
                         3D 에니메이션 '효정아 놀자'의 주인공, 
                         </p>
