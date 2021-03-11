@@ -437,18 +437,18 @@
                 </div>
             </div>
             <div class="row" style="margin-top:45px">
-                <div class="col-lg-12 d-flex justify-content-between">
+                <div class="col-lg-12 d-flex justify-content-between align-items-center">
                     <a class="col-lg-2" target="_blank" href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI">
-                        <img src="/assets/images/youtube.png" class="music_sns_icon"/>
+                        <img src="/assets/images/YouTube-logo-full_color_light.svg" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://www.genie.co.kr/detail/albumInfo?axnm=81807819">
-                        <img src="/assets/images/genie.png" class="music_sns_icon"/>
+                        <img src="/assets/images/genie-character.jpg" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://www.melon.com/album/detail.htm?albumId=10541078">
                         <img src="/assets/images/melon.png" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://vibe.naver.com/album/5183052">
-                        <img src="/assets/images/vibe.png" class="music_sns_icon"/>
+                        <img src="/assets/images/vibe.png" class="music_sns_icon" style="object-fit: cover;height: 40px;"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://music.apple.com/us/album/%EC%97%84%EB%A7%88%EB%9E%91-%EC%95%84%EB%B9%A0%EB%9E%91-%ED%9A%A8%EC%A0%95%EB%8F%99%EC%9A%94/1546079168?uo=4">
                         <img src="/assets/images/applemusic_p.png" class="music_sns_icon"/>
