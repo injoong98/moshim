@@ -213,7 +213,7 @@
                     <div class="filters">
                         <ul>
                             <!-- <li class="is-checked" data-filter="*">All</li> -->
-                            <li class="is-checked" data-filter=".1st">1호</li>
+                            <li class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
                             <!-- <li data-filter=".1st">2</li>
                             <li data-filter=".1st">3</li>
                             <li data-filter=".1st">4</li> -->
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4>1단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4>2단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
