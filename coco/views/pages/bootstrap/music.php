@@ -88,7 +88,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="title_overlay_effect">효정 동요</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="Cafe24Ssurround title_overlay_effect">효정 동요</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
                         부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,<br/> 
                         더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
@@ -437,18 +437,18 @@
                 </div>
             </div>
             <div class="row" style="margin-top:45px">
-                <div class="col-lg-12 d-flex justify-content-between">
+                <div class="col-lg-12 d-flex justify-content-between align-items-center">
                     <a class="col-lg-2" target="_blank" href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI">
-                        <img src="/assets/images/youtube.png" class="music_sns_icon"/>
+                        <img src="/assets/images/YouTube-logo-full_color_light.svg" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://www.genie.co.kr/detail/albumInfo?axnm=81807819">
-                        <img src="/assets/images/genie.png" class="music_sns_icon"/>
+                        <img src="/assets/images/genie-character.jpg" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://www.melon.com/album/detail.htm?albumId=10541078">
                         <img src="/assets/images/melon.png" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://vibe.naver.com/album/5183052">
-                        <img src="/assets/images/vibe.png" class="music_sns_icon"/>
+                        <img src="/assets/images/vibe.png" class="music_sns_icon" style="object-fit: cover;height: 40px;"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://music.apple.com/us/album/%EC%97%84%EB%A7%88%EB%9E%91-%EC%95%84%EB%B9%A0%EB%9E%91-%ED%9A%A8%EC%A0%95%EB%8F%99%EC%9A%94/1546079168?uo=4">
                         <img src="/assets/images/applemusic_p.png" class="music_sns_icon"/>

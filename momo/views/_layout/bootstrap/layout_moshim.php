@@ -158,8 +158,10 @@
 		<div class="header-bottom">
 			<div class="container">
 				<div class="clearfix">
-					<div class="logo-box pull-left">
-						<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
+					<div class="logo-box pull-left" style="height:126px">
+						<video class="" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="position: relative; display: inline-block; height:126px">
+							<source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
+						</video>
 					</div>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
@@ -250,13 +252,8 @@
 
 		<!--Sticky Header-->
 		<div class="sticky-header">
-			<div class="container clearfix" style="height:126px">
-				<!-- <figure class="logo-box">
-				<a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:46px"></a></figure> -->
-				<!-- <figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure> -->
-				<video class="" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="position: relative; display: inline-block; height:126px">
-					<source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
-				</video>
+			<div class="container clearfix">
+				<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
@@ -439,7 +436,7 @@
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul> -->
 
-						<div class="copyright">Copyright &copy; <a href="#">HJSmartEdu</a> 2021. All Rights Reserved</div>
+						<div class="copyright">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</div>
 					</div>
 
 				</div>

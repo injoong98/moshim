@@ -82,7 +82,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2 style="color: #5f5f7f;">학습지</h2>
+                        <h2 style="color: #5f5f7f;"></h2>
                         <!-- <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
@@ -130,7 +130,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect"> 위드아이</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 학습지</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 함께 하는 생각놀이 위드아이 - ART</p>
                     </div>
                 </div>
@@ -151,11 +151,11 @@
                                 </div>
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
                                     <div class="program_details_content mt-5 mt-lg-0">
-                                        <h2 class="kid_title mb-4"> <span class="">위드아이 - ART</span></h2>
-                                        <p class="description">그리기, 만들기등의 미술활동을 중심으로</p>
-                                        <p class="description">집에서는 부모님과 자녀들과</p>
-                                        <p class="description">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
-                                        <p class="description">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
+                                        <h2 class="kid_title mb-4"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
+                                        <p class="description mt-0">그리기, 만들기등의 미술활동을 중심으로</p>
+                                        <p class="description mt-0">집에서는 부모님과 자녀들과</p>
+                                        <p class="description mt-0">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
+                                        <p class="description mt-0">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@
                     <div class="filters">
                         <ul>
                             <!-- <li class="is-checked" data-filter="*">All</li> -->
-                            <li class="is-checked" data-filter=".1st">1호</li>
+                            <li class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
                             <!-- <li data-filter=".1st">2</li>
                             <li data-filter=".1st">3</li>
                             <li data-filter=".1st">4</li> -->
@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4>1단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
@@ -305,7 +305,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4>2단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">

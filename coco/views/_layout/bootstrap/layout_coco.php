@@ -45,7 +45,10 @@
         var cookie_prefix = "<?php echo config_item('cookie_prefix'); ?>";
     </script>
 </head>
-
+<style>
+    @font-face { font-family: 'Cafe24Ssurround'; src: url(/assets/fonts/Cafe24Ssurround.ttf) format('truetype'); }
+    .Cafe24Ssurround{ font-family: Cafe24Ssurround; }
+</style>
 <body>
     <!-- Preloader  -->
     <div class='preloder'>
@@ -174,70 +177,15 @@
 
 
     <!-- footer part here -->
-    <footer class="footer_section">
+    <footer class="footer_section pt-0">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-lg-3 col-sm-6 wow fadeInDown" data-wow-delay=".3s">
-                    <div class="single_footer_widget">
-                        <a href="index.html" class="footer_logo"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
-                        <p>Lorem ipsum dolor sit consectetur sicing elit, sed do eitempor idunt ut labor omagn aliqua
-                            sed do
-                        </p>
-                        <div class="social_icon">
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/fb.png" alt="#"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/inst.png" alt="#"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feed.png" alt="#"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 wow fadeInDown" data-wow-delay=".5s">
-                    <div class="single_footer_widget footer_nav">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><a href="#">Service and Prices</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Get In Touch Wirh Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 wow fadeInDown" data-wow-delay=".7s">
-                    <div class="single_footer_widget footer_nav">
-                        <h4>Information</h4>
-                        <ul>
-                            <li><a href="about_us.php">News</a></li>
-                            <li><a href="blog.php">Prices</a></li>
-                            <li><a href="#">Rules of Play</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-sm-6 wow fadeInDown" data-wow-delay=".9s">
-                    <div class="single_footer_widget instagram_feed">
-                        <h4>Instagram Feed</h4>
-                        <div class="instagram_img">
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_1.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_2.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_3.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_4.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_5.png" alt="#" class="img-fluid"></a>
-                            <a href="#"><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/ins/ins_6.png" alt="#" class="img-fluid"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 wow fadeInDown" data-wow-delay=".3s">
-                    <div class="copyright_part text-center">
+                <div class="col-lg-12">
+                    <div class="copyright_part text-center mt-0">
                         <p>© HJSmartEdu</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="footer_animation_1">
-            <div data-parallax='{"x": 2, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_1.png" alt="#"></div>
-        </div>
-        <div class="footer_animation_2">
-            <div data-parallax='{"x": 10, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_2.png" alt="#"></div>
-        </div>
-        <div class="footer_animation_3">
-            <div data-parallax='{"x": 30, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/footer_icon_3.png" alt="#"></div>
         </div>
     </footer>
 
