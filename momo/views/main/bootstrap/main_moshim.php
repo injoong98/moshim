@@ -311,7 +311,7 @@
                 </h3>
             </div>
             <div class="row">
-                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -326,7 +326,7 @@
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
                                     <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      F              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li> -->
                                 </ul>
@@ -334,7 +334,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -357,7 +357,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
+                <div class="col-xl-4 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
@@ -380,13 +380,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-6 col-md-12 block-column">
-                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
+                <!-- <div class="col-xl-3 col-lg-6 col-md-12 ">
+                    <div class="" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="range-slider clearfix">
-                            <a href="/pages/cd" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">미리보기</a>
+                            <a href="/pages/cd" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">더보기</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -433,7 +433,7 @@
     <!-- 동요 끝 -->
 
     <!-- 참어머님 생애동요 CD 시작 -->
-    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg);">
+    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg); background-attachment: inherit !important;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
@@ -446,6 +446,11 @@
                                 <br />(7~10세)
                             </h3>
                         </div>
+                        <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
+                        <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div>
+                        </div>
+                        <!-- </div> -->
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
                     </div>
                 </div>
