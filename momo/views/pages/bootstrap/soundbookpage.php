@@ -1,12 +1,12 @@
 <style>
     .padding {
         text-align: center;
-        padding: 400px;
     }
 
     .wrapper {
         display: grid;
-        place-items: center;
+        align-items: center;
+        align-content: center;
         min-height: 100vh;
         min-width: 100vw;
     }
@@ -16,7 +16,7 @@
         color: white;
         cursor: pointer;
         padding: 16px 0 0 0;
-        margin: 0 auto;
+        margin: 10px auto;
         display: inline-block;
         position: relative;
         border-radius: 25px;
@@ -55,38 +55,56 @@
 </style>
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%" height="100%">
-<div class="button_position">
+<div class="" style="width:100%; display:flex;">
     <div class="padding wrapper">
-        <div class="container_music" onclick="toggleAudio()" style="background : #44B3D9">
+        <div class="container_music" onclick="toggleAudio('audio1')" style="background : #44B3D9">
             <audio preload="metadata" controls controlslist="nodownload" id="audio1">
                 <source src="http://moshim.co.kr/assets/moshim/soundbook_track/song/track-<?php echo element('soundbookpage', $view) ?>.wav" type="audio/mpeg">
                 Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
             <div class="play-button">노래듣기</div>
         </div>
-        <!-- <div class="container_music" onclick="toggleAudio()" style="background: #FF7162">
+        <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
                 <source src="http://moshim.co.kr/assets/moshim/soundbook_track/storytelling/<?php echo element('soundbookpage', $view) ?>.Storytelling.mp3" type="audio/mpeg">
-                    Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
+                Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
             <div class="play-button">해설듣기</div>
-        </div> -->
+        </div>
     </div>
 </div>
 <!-- <div>아이콘 제작자 <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a></div> -->
 
 <script>
-    const audio = document.querySelector('audio');
-    const container = document.querySelector('.container_music');
-    // const audioDuration = document.querySelector('.duration');
-    const playButton = document.querySelector('.play-button');
     let isPlaying = false;
-    console.log(audio)
-    console.log(container)
-    console.log(audioDuration)
-    console.log(playButton)
+    let isAnotherPlaying = true;
 
     const toggleAudio = (event) => {
+        //재생중인지 여부 찾기
+        let anotherAudio = ''
+        if (event == 'audio1') {
+            anotherAudio = 'audio2'
+        } else {
+            anotherAudio = 'audio1';
+        }
+        //클릭한 이외의 버튼 찾기
+        anotherAudio = document.getElementById(anotherAudio);
+        anotherPlayButton = anotherAudio.parentNode.querySelector('.play-button');
+        console.log('anotherPlayButton : ', anotherPlayButton)
+
+        if (isAnotherPlaying) {
+            //재생중인 파일이 있으면 pause
+            isPlaying = false
+            anotherAudio.pause();
+            anotherPlayButton.classList.remove('playing');
+        }
+
+
+        const audio = document.getElementById(event);
+        const container = document.getElementById(event).querySelector('.container_music');
+        const playButton = document.getElementById(event).parentNode.querySelector('.play-button');
+        console.log(document.getElementById(event));
+
         if (isPlaying) {
             audio.pause()
             isPlaying = false
@@ -96,11 +114,6 @@
             isPlaying = true
             playButton.classList.add('playing')
         }
+        return false
     }
-
-    // audio.onloadedmetadata = () => {
-    //     let minutes = Math.floor(audio.duration / 60)
-    //     let seconds = Math.floor(audio.duration - minutes * 60)
-    //     audioDuration.innerHTML = `${minutes}:${seconds}`
-    // }
 </script>
