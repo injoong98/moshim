@@ -71,6 +71,11 @@ div.contents_img_wrapper > div {
     border: 1px solid #b17ab3;
     background-color: #b17ab3;
 }
+@media (max-width: 768px){
+    .animation-diaplay-none {
+        display: none;
+    }
+}
  </style>
  <!-- banner part here -->
  <section class="banner_part bannerslider owl-carousel">
@@ -222,13 +227,13 @@ div.contents_img_wrapper > div {
         <div class="about_page_animation_1">
             <div data-parallax='{"x": 2, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_5.png" alt="#"></div>
         </div>
-        <div class="about_page_animation_2">
+        <div class="about_page_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 80, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_6.png" alt="#"></div>
         </div>
         <div class="about_page_animation_3">
             <div data-parallax='{"x": 30, "y": 60, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#"></div>
         </div>
-        <div class="about_page_animation_4">
+        <div class="about_page_animation_4 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_8.png" alt="#"></div>
         </div>
     </section>
@@ -258,10 +263,10 @@ div.contents_img_wrapper > div {
             </div>
         </div>
         <div class="get_start_animation_1"><div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_1.png" alt="#"></div></div>
-        <div class="get_start_animation_3"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
-        <div class="get_start_animation_6"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
-        <div class="get_start_animation_9"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
-        <div class="get_start_animation_11"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
+        <div class="get_start_animation_3 animation-diaplay-none"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
+        <div class="get_start_animation_6 animation-diaplay-none"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
+        <div class="get_start_animation_9 animation-diaplay-none"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
+        <div class="get_start_animation_11 animation-diaplay-none"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
         <div class="get_start_animation_12"><div data-parallax='{"x": 20, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_7.png" alt="#"></div></div>
     </section>
     <!-- get start part end -->
@@ -302,15 +307,15 @@ div.contents_img_wrapper > div {
             <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_1.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_2">
+        <div class="story_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_2.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_3">
+        <div class="story_animation_3 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_3.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_4">
+        <div class="story_animation_4 animation-diaplay-none">
             <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_4.png" alt="#">
             </div>
         </div>
@@ -446,15 +451,15 @@ div.contents_img_wrapper > div {
             <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_1.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_2">
+        <div class="story_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_2.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_3">
+        <div class="story_animation_3 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_3.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_4">
+        <div class="story_animation_4 animation-diaplay-none">
             <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_4.png" alt="#">
             </div>
         </div>
