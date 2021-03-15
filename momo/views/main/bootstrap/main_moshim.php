@@ -21,16 +21,16 @@
                     </div>
                 </div> -->
             </div>
-            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-3.jpg)">
-                <!-- <div class="container">
+            <!-- <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-3.jpg)">
+                <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
                         <h1>Make Your Children's Life Special</h1>
                         <div class="text">Cupidatat non proident sunt culpa qui officia deserunt<br />mollit anim idest laborum</div>
                         <div class="btn-box"><a href="contact.html" class="theme-btn">Contact us</a></div>
                     </div>
-                </div> -->
-            </div>
+                </div> 
+            </div> -->
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-4.jpg)">
                 <!-- <div class="container">
                     <div class="content-box">
@@ -55,12 +55,12 @@
     </section>
     <!-- 콘텐츠 소개 end -->
 
-    <!--  소개 시작 -->
-    <section class="about-section" id="intro">
+    <!--  소개 & 효정지도 시작 -->
+    <section class="about-section" id="intro" style="padding-bottom:10px">
         <div class="anim-icon">
             <div class="icon icon-1 float-bob-x"></div>
             <div class="icon icon-2 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
-            <div class="icon icon-3"></div>
+            <div class="icon icon-3" style="bottom:-100px; right:200px"></div>
         </div>
         <div class="container">
             <div class="row">
@@ -105,6 +105,7 @@
                                 자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해
                                 한걸음 한걸음 귀한 걸음걸으시는 어머니.
                                 <br />
+                                <br />
                                 출판브랜드 '모심'은 그런 어머니의 마음을 담아,
                                 어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
                             </p>
@@ -113,25 +114,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--  소개 끝 -->
-
-    <!-- 효정지도 시작  -->
-    <section class="feature-section" id="intro_further">
-        <div class="anim-icon">
-            <div class="icon icon-1"></div>
-            <div class="icon icon-2" style="bottom: -150px;"></div>
-        </div>
-        <!-- <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_hjmap.jpg);"> -->
-        <video class="col-lg-6 col-md-12 col-sm-12 image-column hyojeong-video" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
-        <video class="col-sm-12 hyojeong-video_mobile" reload="auto" src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4" controls style="height:100%" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"></video>
-        <!-- </div> -->
-        <div class="container">
             <div class="row">
-                <div class="col-xl-6 col-lg-12 col-md-12 offset-xl-7 inner-column">
-                    <div class="inner-content">
-                        <div class="sec-title style-two">
+                <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                    <div class="content-box">
+                        <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
                             <h5 class="text-center"> 컨텐츠브랜드 소개</h5>
                             <div class="custom-title">
                                 <h3>'효정지도</h3>
@@ -139,76 +125,33 @@
                                 <h3>시리즈' 소개</h3>
                             </div>
                         </div>
-                        <div class="inner-box">
-                            <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="icon-box"><i class="flaticon-running"></i></div>
-                                <h3>원리의 길은 밟아가는 길입니다.</h3>
-                                <div class="custom-paragraph text" style="font-size:18px ; font-family: Nanum Gothic !important;""> '모심(母心)'의 컨텐츠브랜드인 '효정지도(<p style=" font-size:10px">孝情之道</p>)시리즈'는
-                                    <br />
-                                    하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
-                                    담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
-                                    <br />
-                                    참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
-                                    <br />
-                                    '효정지도(孝情之道)시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
-                                    참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
-                                </div>
-                            </div>
-                            <!-- <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="icon-box"><i class="flaticon-console"></i></div>
-                                <h3><a href="#">Outdoor Games</a></h3>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
-                            </div>
-                            <div class="single-item wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                                <div class="icon-box"><i class="flaticon-harvest"></i></div>
-                                <h3><a href="#">Nutritious Food</a></h3>
-                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed eiusmod tempor incididunt labore.</div>
-                            </div> -->
+                        <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
+                            <h3>원리의 길은 밟아가는 길입니다.</h3>
+                            '모심(母心)'의 컨텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
+                            <br />
+                            <br />
+                            하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
+                            담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
+                            <br />
+                            <br />
+                            참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
+                            <br />
+                            <br />
+                            '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
+                            참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
                         </div>
+                        <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="width:450px">
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:450px; padding-top:110px">
+                        <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
+                    </video>
                 </div>
             </div>
         </div>
     </section>
-    <!-- 효정지도 끝 -->
-
-    <!-- 효정지도 영상 시작 -->
-    <!-- <section class="testimonial-video">
-        <div class="anim-icon">
-            <div class="icon icon-1 float-bob-y"></div>
-        </div>
-        <div class="outer-container clearfix">
-            <div class="testimonial-column">
-                <div class="testimonial-content">
-                    <div class="sec-title style-two">
-                        <h5 class="text-center"> 컨텐츠브랜드 소개</h5>
-                        <div class="custom-title">
-                            <h1>'효정지도</h1>
-                            <h6>孝情之道</h6>
-                            <h1>시리즈' 소개</h1>
-                        </div>
-                    </div>
-                    <div class="inner-content">
-                        <div class="text"> '모심(母心)'의 컨텐츠브랜드인 '효정지도(孝情之道)시리즈'는
-                            하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
-                            담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
-                            <br />
-                            참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
-                            <br />
-                            '효정지도(孝情之道)시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
-                            참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="video-column">
-                <div class="video-inner" style="background-image: url(images/background/video-bg.jpg);">
-                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="overlay-link lightbox-image" data-caption=""></a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- 효정지도 영상 끝-->
+    <!--  소개 끝 -->
 
     <!-- 쇼핑몰 시작 -->
     <!-- <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/background/service-bg.jpg);">
@@ -383,7 +326,7 @@
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
                                     <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                      F              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
                                     <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li> -->
                                 </ul>
@@ -437,6 +380,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- <div class="col-xl-3 col-lg-6 col-md-12 ">
+                    <div class="" data-wow-delay="00ms" data-wow-duration="1500ms">
+                        <div class="range-slider clearfix">
+                            <a href="/pages/cd" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">더보기</a>
+                        </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -483,19 +433,24 @@
     <!-- 동요 끝 -->
 
     <!-- 참어머님 생애동요 CD 시작 -->
-    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg);">
+    <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg); background-attachment: inherit !important;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
-                        <div class="sec-title centred text-center">
+                        <div class="sec-title style-two">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5> 참어머님 생애동요 CD</h5>
+                            <h5 class="text-center"> 참어머님 생애동요 CD</h5>
                             <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
                             </h3>
                         </div>
+                        <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
+                        <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div>
+                        </div>
+                        <!-- </div> -->
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
                     </div>
                 </div>

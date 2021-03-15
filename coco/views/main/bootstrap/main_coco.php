@@ -71,6 +71,11 @@ div.contents_img_wrapper > div {
     border: 1px solid #b17ab3;
     background-color: #b17ab3;
 }
+@media (max-width: 768px){
+    .animation-diaplay-none {
+        display: none;
+    }
+}
  </style>
  <!-- banner part here -->
  <section class="banner_part bannerslider owl-carousel">
@@ -222,13 +227,13 @@ div.contents_img_wrapper > div {
         <div class="about_page_animation_1">
             <div data-parallax='{"x": 2, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_5.png" alt="#"></div>
         </div>
-        <div class="about_page_animation_2">
+        <div class="about_page_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 80, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_6.png" alt="#"></div>
         </div>
         <div class="about_page_animation_3">
             <div data-parallax='{"x": 30, "y": 60, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#"></div>
         </div>
-        <div class="about_page_animation_4">
+        <div class="about_page_animation_4 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": -50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_8.png" alt="#"></div>
         </div>
     </section>
@@ -258,10 +263,10 @@ div.contents_img_wrapper > div {
             </div>
         </div>
         <div class="get_start_animation_1"><div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_1.png" alt="#"></div></div>
-        <div class="get_start_animation_3"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
-        <div class="get_start_animation_6"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
-        <div class="get_start_animation_9"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
-        <div class="get_start_animation_11"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
+        <div class="get_start_animation_3 animation-diaplay-none"><div data-parallax='{"x": 30, "y": 110, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_3.png" alt="#"></div></div>
+        <div class="get_start_animation_6 animation-diaplay-none"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_6.png" alt="#"></div></div>
+        <div class="get_start_animation_9 animation-diaplay-none"><div data-parallax='{"x": 20, "y": 120, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_13.png" alt="#"></div></div>
+        <div class="get_start_animation_11 animation-diaplay-none"><div data-parallax='{"x": 15, "y": 115, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_12.png" alt="#"></div></div>
         <div class="get_start_animation_12"><div data-parallax='{"x": 20, "y": 40, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/feature_7.png" alt="#"></div></div>
     </section>
     <!-- get start part end -->
@@ -289,7 +294,7 @@ div.contents_img_wrapper > div {
         </div>
 
         <div class="row justify-content-center">
-            <a class="pc-button elementor-button button-link cu_btn mt-lg-4" href="/pages/music">
+            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/music">
                 <div class="button-content-wrapper ">
                     <span class="elementor-button-text">들어보기</span>
                     <svg class="pc-dashes inner-dashed-border animated-dashes">
@@ -302,15 +307,15 @@ div.contents_img_wrapper > div {
             <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_1.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_2">
+        <div class="story_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_2.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_3">
+        <div class="story_animation_3 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_3.png" alt="#">
             </div>
         </div>
-        <div class="story_animation_4">
+        <div class="story_animation_4 animation-diaplay-none">
             <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_4.png" alt="#">
             </div>
         </div>
@@ -331,7 +336,7 @@ div.contents_img_wrapper > div {
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이</span></h2>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect" style="color:#676767;background-image: linear-gradient(#fcd484, #fcd484);"> 위드아이</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
                     </div>
                 </div>
@@ -411,32 +416,63 @@ div.contents_img_wrapper > div {
         </div>
     </section>
     <!-- services part end -->
-
-    <!-- cta part here -->
-    <section class="cta_part section_padding">
-        <div class="container">
-            <div class="row align-items-center justify-content-center">
-                <div class="col-lg-8">
-                    <div class="cta_part_iner">
-                        <h2>Enrollment Is Going On</h2>
-                        <p>Gain access to over 1000 Premiun resourses</p>
-                        <a href="/page/goods" class="cu_btn white_bg font-weight-bold">Book Now</a>
-                    </div>
+    <section class="success_story section_padding" style="border-top: 2px dashed #ebe8f1;background-color: #fff;">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="section_tittle_style_02 mb-4">
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정동요</span></h2>
+                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
+                    </p>
+                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="breadcrumb_animation_1">
-            <div data-parallax='{"x": 30, "y": -20}'>
-                <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_1.png" alt="#">
+        
+        <div class="row justify-content-center">
+            <div class="col-lg-10 fadeInDown" data-wow-delay=".3s">
+                <img src="/assets/malgeunmul/img/main/main_music.jpg" width="100%"/>   
             </div>
         </div>
-        <div class="breadcrumb_animation_2">
-            <div data-parallax='{"x": 20, "y": -100}'>
-                <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/cta_img_2.png" alt="#">
+
+        <div class="row justify-content-center">
+            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/music">
+                <div class="button-content-wrapper ">
+                    <span class="elementor-button-text">들어보기</span>
+                    <svg class="pc-dashes inner-dashed-border animated-dashes">
+                        <rect x="5px" y="5px" rx="22px" ry="22px" width="0" height="0"></rect>
+                    </svg>
+                </div>
+            </a>    
+        </div>
+        <div class="story_animation_1">
+            <div data-parallax='{"x": 2, "y": 120, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_1.png" alt="#">
+            </div>
+        </div>
+        <div class="story_animation_2 animation-diaplay-none">
+            <div data-parallax='{"x": 10, "y": 100, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_2.png" alt="#">
+            </div>
+        </div>
+        <div class="story_animation_3 animation-diaplay-none">
+            <div data-parallax='{"x": 30, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_3.png" alt="#">
+            </div>
+        </div>
+        <div class="story_animation_4 animation-diaplay-none">
+            <div data-parallax='{"x": 5, "y": 105, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_4.png" alt="#">
+            </div>
+        </div>
+        <div class="story_animation_5">
+            <div data-parallax='{"x": 8, "y": 110, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_5.png" alt="#">
+            </div>
+        </div>
+        <div class="story_animation_6">
+            <div data-parallax='{"x": 15, "y": 50, "rotateZ":0}'><img src="/assets/malgeunmul/img/icon/story_animation_6.png" alt="#">
             </div>
         </div>
     </section>
-    <!-- cta part end -->
+
 
 
 

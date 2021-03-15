@@ -58,7 +58,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Gaegu:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Jua:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Gamja+Flower:400');
+@import url('https://fonts.googleapis.com/css?family=Nanum Gothic+Flower:400');
 @import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
 
 /* use style sheet : 감자꽃마을, 개구쟁이, 주아*/
@@ -104,7 +104,7 @@ body {
   line-height:26px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -159,7 +159,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -184,7 +184,7 @@ textarea:focus{
 
 p{
   position: relative;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   line-height: 26px;
   color: #615e5d;
   margin-bottom: 0px;
@@ -2878,7 +2878,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   font-weight: 400;
   color: #bec5d4;
 }
@@ -4188,7 +4188,7 @@ h3 a:hover{
   max-width: 270px;
   width: 100%;
   margin: 0 auto;
-  padding: 46px 15px 47px 15px;
+  padding: 46px 15px 74px 15px;
   margin-top: -40px;
   background-repeat: no-repeat;
   -webkit-transition: all 0.5s ease;
@@ -5628,7 +5628,7 @@ h3 a:hover{
   width: 100%;
   cursor: pointer;
   border-radius: 10px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
 }
 
 .select-box .ui-selectmenu-button span.ui-icon {
@@ -5684,7 +5684,7 @@ h3 a:hover{
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   text-transform: none;
   transition: all 500ms ease;
 }
@@ -5903,7 +5903,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #ffffff;
   background: #ff7162;
   padding: 5px 21px 4px 20px;
@@ -6250,7 +6250,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #777777;
   line-height: 26px;
 }
@@ -6259,7 +6259,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #777777;
   line-height: 26px;
 }
@@ -6818,7 +6818,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #2b3c6b;
   margin-bottom: 3px;
 }
@@ -6864,7 +6864,7 @@ h3 a:hover{
 .checkout-section .billing-form .checkbox span {
   position: relative;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #2b3c6b;
   font-weight: 400;
   cursor: pointer;
@@ -6896,7 +6896,7 @@ h3 a:hover{
   display: block;
   font-size: 15px;
   line-height: 26px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #2b3c6b;
   margin-bottom: 3px;
 }
@@ -7038,7 +7038,7 @@ h3 a:hover{
 .checkout-section .payment-info .payment-option .checkbox a {
   color: #ff7162;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   font-weight: 400;
   margin-left: 19px;
   text-decoration: underline;
@@ -7051,7 +7051,7 @@ h3 a:hover{
 .checkout-section .payment-info .payment-option .text{
   position: relative;
   display: block;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   margin-left: 31px;
   font-size: 14px;
   line-height: 24px;
@@ -7343,7 +7343,7 @@ h3 a:hover{
   position: relative;
   display: block;
   font-size: 15px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   font-style: italic;
 }
 
@@ -7602,7 +7602,7 @@ h3 a:hover{
   position: relative;
   display: inline-block;
   font-size: 14px;
-  font-family: 'Gamja Flower', sans-serif;
+  font-family: 'Nanum Gothic Flower', sans-serif;
   color: #848484;
   background: #fff;
   padding: 12px 21px;
