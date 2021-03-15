@@ -26,13 +26,14 @@
 .breadcrumb_part {
     background-image: url(../assets/malgeunmul/img/workbook/workbook_cover.jpg) !important;
     background-size: contain !important;
+    height: 21vw !important;
 }
 #art-desc {
     background-color: #fd5c37;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100%;
+    /* height: 100%; */
 }
 .program_details_content .description, .program_details_content span {
     color: white;
@@ -63,14 +64,28 @@
     border-radius: 10px;
     padding: 0% 10%;
     /* width: 40%; */
-    height: 40px;
+    /* height: 40px; */
     min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.filter-info-text {
+    text-align: center;
+    color: white;
+    /* font-size: 20px; */
+    margin: 10px 0px;
+}
 .program_list_page .filters ul li.is-checked {
     font-size: 24px;
+}
+@media (min-width: 992px){
+    #art-desc {
+        height: 100%;
+    }
+    .filter-info-text {
+        font-size: 20px;
+    }
 }
 </style>
 
@@ -150,7 +165,7 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
-                                    <div class="program_details_content mt-5 mt-lg-0">
+                                    <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
                                         <h2 class="kid_title mb-4"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
                                         <p class="description mt-0">그리기, 만들기등의 미술활동을 중심으로</p>
                                         <p class="description mt-0">집에서는 부모님과 자녀들과</p>
@@ -220,7 +235,7 @@
                         </ul>
                     </div>
                     <div class="filter-info">
-                        <p style="text-align: center; color: white; font-size: 20px;">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
+                        <p class="filter-info-text" style="">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
                     </div>
                 </div>
                 <div class="col-md-12">
