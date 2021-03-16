@@ -91,6 +91,11 @@
 
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<!-- 이미지뷰어 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
+
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
         <div class="container">
@@ -240,7 +245,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
-                    <div class="rows grid program_list_filter">
+                    <div class="rows grid program_list_filter" id="program_list_filter1">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg" alt="#" class="img-fluid">
@@ -321,7 +326,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
-                    <div class="rows grid program_list_filter">
+                    <div class="rows grid program_list_filter" id="program_list_filter2">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg" alt="#" class="img-fluid">
@@ -430,4 +435,15 @@
         $(function() {
             $('li.is-checked').trigger("click");
         })
+    </script>
+
+    <script>
+        var viewer1 = new Viewer(document.querySelector('#program_list_filter1'), {
+            navbar : false,
+            toolbar : false
+        });
+        var viewer2 = new Viewer(document.querySelector('#program_list_filter2'), {
+            navbar : false,
+            toolbar : false
+        });
     </script>
