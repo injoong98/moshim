@@ -1,5 +1,7 @@
- <style>
- 
+<style>
+.banner_part .bg_1 {
+    background-image: url(../assets/malgeunmul/img/main/main_cover.jpg);
+}
 .breadcrumb_part.music{
     background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
     background-position: center !important;
