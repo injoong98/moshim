@@ -315,7 +315,7 @@
             <div class="row" style="padding-bottom:15px">
                 <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                     <div class="range-slider clearfix pull-right">
-                        <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">미리보기</a>
+                        <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">미리듣기</a>
                     </div>
                 </div>
             </div>
