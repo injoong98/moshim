@@ -198,7 +198,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4><a href="teacher_details">티셔츠-효정</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">티셔츠-효정</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -206,7 +206,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4><a href="teacher_details">티셔츠-효지</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg">티셔츠-효지</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -214,7 +214,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4><a href="teacher_details">티셔츠-효리</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg">티셔츠-효리</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -222,7 +222,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4><a href="teacher_details">티셔츠-효몽</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg">티셔츠-효몽</a></h4>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/mask-01.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/mask-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크-효정</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-01.jpg">마스크-효정</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -241,7 +241,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/mask-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/mask-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크-효지</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-02.jpg">마스크-효지</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -249,7 +249,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/mask-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/mask-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크-효리</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-03.jpg">마스크-효리</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -257,7 +257,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/mask-04.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/mask-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크-효몽</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-04.jpg">마스크-효몽</a></h4>
                     </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-1.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-1.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크 스트랩</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">마스크 스트랩</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -276,7 +276,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크 스트랩</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">마스크 스트랩</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -284,7 +284,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크 스트랩</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">마스크 스트랩</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -292,7 +292,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-04.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">마스크 스트랩</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">마스크 스트랩</a></h4>
                     </div>
                 </div>
             </div>
@@ -303,7 +303,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/doll-01.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/doll-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">인형</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-01.jpg">인형</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -311,7 +311,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/doll-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/doll-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">인형</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-02.jpg">인형</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -319,7 +319,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/doll-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/doll-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">인형</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-03.jpg">인형</a></h4>
                     </div>
                 </div>
             </div>
@@ -330,7 +330,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/cusion-01.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">쿠션</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-01.jpg">쿠션</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -338,7 +338,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/cusion-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">쿠션</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-02.jpg">쿠션</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -346,7 +346,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/cusion-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">쿠션</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-03.jpg">쿠션</a></h4>
                     </div>
                 </div>
             </div>
@@ -357,7 +357,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/sticker-01.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/sticker-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">스티커</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-01.jpg">스티커</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -365,7 +365,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/sticker-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/sticker-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details">스티커</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-02.jpg">스티커</a></h4>
                     </div>
                 </div>
             </div>
@@ -388,9 +388,8 @@
 <script type="module">
 $(document).ready(function() {
     console.log("document is ready by")
-    $('a.img-popup').magnificPopup({
+    $('a.img-popup, .product-title').magnificPopup({
         type: 'image'
-        // other options
     });
 });
 </script>
