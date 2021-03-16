@@ -4,6 +4,10 @@
     background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
     background-position: center !important;
 }
+.breadcrumb_part.goods{
+    background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
+    background-position: center !important;
+}
 .play_btn_container{
     background-color: #fff;
     height: 72px;
@@ -192,7 +196,7 @@ div.contents_img_wrapper > div {
     <!-- services part end -->
 
     <!-- about section part here -->
-    <section class="about_section section_padding s4_about_section" id="about_section">
+    <section class="about_section section_padding s4_about_section pb-5" id="about_section">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
@@ -240,7 +244,7 @@ div.contents_img_wrapper > div {
     <!-- about section part end -->
 
     <!-- get start part here -->
-    <section class="get_start_part section_padding">
+    <section class="get_start_part section_padding pt-5">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
@@ -336,8 +340,8 @@ div.contents_img_wrapper > div {
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect" style="color:#676767;background-image: linear-gradient(#fcd484, #fcd484);"> 위드아이</span></h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect" style="background-image: linear-gradient(#fcd484, #fcd484);"> 위드아이</span></h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s" style="color:#12265A">언제나 아이와 함께 하는 생각놀이</p>
                     </div>
                 </div>
             </div>
@@ -357,6 +361,9 @@ div.contents_img_wrapper > div {
                                         <div class="event_content">
                                             <h4>위드아이 Art</h4>
                                             <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
+                                        </div>
+                                        <div class="developing">
+                                            <i class="ti-arrow-right" style="font-weight: 600;font-size: 30px;color: #fff;"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -420,12 +427,12 @@ div.contents_img_wrapper > div {
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section_tittle_style_02 mb-4">
-                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정동요</span></h2>
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정아 놀자 굿즈</span></h2>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
+                        3D 에니메이션 '효정아 놀자'의 주인공,
                     </p>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        '효정, 효지, 효리, 효몽'이 굿즈가 판매되는 곳입니다.
                     </p>
                 </div>
             </div>
@@ -433,14 +440,14 @@ div.contents_img_wrapper > div {
         
         <div class="row justify-content-center">
             <div class="col-lg-10 fadeInDown" data-wow-delay=".3s">
-                <img src="/assets/malgeunmul/img/main/main_music.jpg" width="100%"/>   
+                <img src="/assets/malgeunmul/img/main/main_goods.jpg" width="100%"/>   
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/music">
+            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/goods">
                 <div class="button-content-wrapper ">
-                    <span class="elementor-button-text">들어보기</span>
+                    <span class="elementor-button-text">자세히 보기</span>
                     <svg class="pc-dashes inner-dashed-border animated-dashes">
                         <rect x="5px" y="5px" rx="22px" ry="22px" width="0" height="0"></rect>
                     </svg>
