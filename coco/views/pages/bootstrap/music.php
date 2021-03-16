@@ -27,6 +27,9 @@
 .lyrics{
     cursor: pointer;
 }
+.youtube{
+    cursor:pointer;
+}
 .lyrics .lyrics_popup{ display:none;}
 .left-purple{border-left: 5px solid #8686b5 !important ;}
 .left-blue{border-left: 5px solid #89c6ef !important ;}
