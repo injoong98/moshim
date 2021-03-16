@@ -181,8 +181,11 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-12">
-                    <div class="copyright_part text-center mt-0">
-                        <p>© HJSmartEdu</p>
+                    <div class="d-flex justify-content-center pt-4">
+                        <img src="/assets/malgeunmul/img/logo-footer.png" alt="" style="height:48px">           
+                    </div>
+                    <div class="text-center mt-0 pt-0" >
+                        <p style="color:#fff">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
