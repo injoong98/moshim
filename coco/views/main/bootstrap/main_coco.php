@@ -1,6 +1,6 @@
 <style>
 .banner_part .bg_1 {
-    background-image: url(../assets/malgeunmul/img/main/main_cover.jpg);
+    background-image: url(../assets/malgeunmul/img/main/main_cover_large.jpg);
 }
 .breadcrumb_part.music{
     background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
