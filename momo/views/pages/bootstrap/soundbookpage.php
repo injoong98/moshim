@@ -77,15 +77,17 @@
 
 <script>
     let isPlaying = false;
-    let isAnotherPlaying = true;
+    let isAnotherPlaying = false;
 
     const toggleAudio = (event) => {
         //재생중인지 여부 찾기
         let anotherAudio = ''
         if (event == 'audio1') {
             anotherAudio = 'audio2'
+            console.log(anotherAudio)
         } else {
             anotherAudio = 'audio1';
+            console.log(anotherAudio)
         }
         //클릭한 이외의 버튼 찾기
         anotherAudio = document.getElementById(anotherAudio);
@@ -94,24 +96,23 @@
 
         if (isAnotherPlaying) {
             //재생중인 파일이 있으면 pause
-            isPlaying = false
+            isAnotherPlaying = false
             anotherAudio.pause();
             anotherPlayButton.classList.remove('playing');
         }
 
-
         const audio = document.getElementById(event);
-        const container = document.getElementById(event).querySelector('.container_music');
         const playButton = document.getElementById(event).parentNode.querySelector('.play-button');
-        console.log(document.getElementById(event));
 
         if (isPlaying) {
             audio.pause()
             isPlaying = false
+            isAnotherPlaying = false
             playButton.classList.remove('playing')
         } else {
             audio.play()
             isPlaying = true
+            isAnotherPlaying = true
             playButton.classList.add('playing')
         }
         return false
