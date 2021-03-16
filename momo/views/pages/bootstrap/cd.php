@@ -262,4 +262,26 @@
            window.open(`http://moshim.co.kr/pages/cd_detail/${num}`, '가사&해설', 'width=740, height=600, scrollbars=no');
            return false
        }
+       // 버튼 색상 변경 
+       let div2 = document.getElementsByTagName("i");
+
+       function handleClick(event) {
+           if (event.target.classList[3] === "clicked") {
+               event.target.classList.remove("clicked");
+           } else {
+               for (var i = 0; i < div2.length; i++) {
+                   div2[i].classList.remove("clicked");
+               }
+               event.target.classList.add("clicked");
+           }
+       }
+
+       function init() {
+           for (var i = 0; i < div2.length; i++) {
+               div2[i].addEventListener("click", handleClick);
+           }
+
+       }
+
+       init();
    </script>

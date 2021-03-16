@@ -197,6 +197,15 @@
 /* CD - 재생 버튼 마우스 커서 */
 .play_button{
   cursor: pointer;
+  color:white;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.clicked {
+  color : #2B3C6B;
 }
 
 
