@@ -26,13 +26,14 @@
 .breadcrumb_part {
     background-image: url(../assets/malgeunmul/img/workbook/workbook_cover.jpg) !important;
     background-size: contain !important;
+    height: 21vw !important;
 }
 #art-desc {
     background-color: #fd5c37;
     align-items: center;
     justify-content: center;
     display: flex;
-    height: 100%;
+    /* height: 100%; */
 }
 .program_details_content .description, .program_details_content span {
     color: white;
@@ -63,19 +64,38 @@
     border-radius: 10px;
     padding: 0% 10%;
     /* width: 40%; */
-    height: 40px;
+    /* height: 40px; */
     min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.filter-info-text {
+    text-align: center;
+    color: white;
+    /* font-size: 20px; */
+    margin: 10px 0px;
+}
 .program_list_page .filters ul li.is-checked {
     font-size: 24px;
+}
+@media (min-width: 992px){
+    #art-desc {
+        height: 100%;
+    }
+    .filter-info-text {
+        font-size: 20px;
+    }
 }
 </style>
 
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<!-- 이미지뷰어 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
+
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
         <div class="container">
@@ -150,12 +170,12 @@
                                     </div>
                                 </div>
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
-                                    <div class="program_details_content mt-5 mt-lg-0">
-                                        <h2 class="kid_title mb-4"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
-                                        <p class="description mt-0">그리기, 만들기등의 미술활동을 중심으로</p>
-                                        <p class="description mt-0">집에서는 부모님과 자녀들과</p>
-                                        <p class="description mt-0">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
-                                        <p class="description mt-0">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
+                                    <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
+                                        <h2 class="kid_title mb-5"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
+                                        <p class="description mt-0 mb-1">그리기, 만들기등의 미술활동을 중심으로</p>
+                                        <p class="description mt-0 mb-1">집에서는 부모님과 자녀들과</p>
+                                        <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
+                                        <p class="description mt-0 mb-1">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
                                     </div>
                                 </div>
                             </div>
@@ -220,12 +240,12 @@
                         </ul>
                     </div>
                     <div class="filter-info">
-                        <p style="text-align: center; color: white; font-size: 20px;">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
+                        <p class="filter-info-text" style="">미술활동을 통해 배우는 엄마ㆍ아빠의 사랑</p>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
-                    <div class="rows grid program_list_filter">
+                    <div class="rows grid program_list_filter" id="program_list_filter1">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg" alt="#" class="img-fluid">
@@ -306,7 +326,7 @@
                 </div>
                 <div class="col-md-12">
                     <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
-                    <div class="rows grid program_list_filter">
+                    <div class="rows grid program_list_filter" id="program_list_filter2">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg" alt="#" class="img-fluid">
@@ -415,4 +435,15 @@
         $(function() {
             $('li.is-checked').trigger("click");
         })
+    </script>
+
+    <script>
+        var viewer1 = new Viewer(document.querySelector('#program_list_filter1'), {
+            navbar : false,
+            toolbar : false
+        });
+        var viewer2 = new Viewer(document.querySelector('#program_list_filter2'), {
+            navbar : false,
+            toolbar : false
+        });
     </script>
