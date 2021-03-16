@@ -128,9 +128,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_0" class="youtube id0">
+                                        <a src="https://www.youtube.com/embed/PGIQLgYRyIE" disabled>
+                                            <img src="/assets/images/youtube.png" width="50" id="id_0"/>
                                         </a>
                                     </div>
                                 </div>
@@ -164,9 +164,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=Cbqa9SIjs_U&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=2" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_1" class="youtube id1">
+                                        <a src="https://www.youtube.com/embed/Cbqa9SIjs_U" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_1"/>
                                         </a>
                                     </div>
                                 </div>
@@ -196,9 +196,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=c5QNbnbwziY&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=3" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_2" class="youtube id2">
+                                        <a src="https://www.youtube.com/embed/c5QNbnbwziY" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_2"/>
                                         </a>
                                     </div>
                                 </div>
@@ -233,9 +233,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=MA-E_s2xx5s&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=4" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_3" class="youtube id3">
+                                        <a src="https://www.youtube.com/embed/MA-E_s2xx5s" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_3"/>
                                         </a>
                                     </div>
                                 </div>
@@ -265,9 +265,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=dfoaL96E1OQ&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=5" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_4" class="youtube id4">
+                                        <a src="https://www.youtube.com/embed/dfoaL96E1OQ" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_4"/>
                                         </a>
                                     </div>
                                 </div>
@@ -293,9 +293,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=6aX6IoFL43U&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=6" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_5" class="youtube id5">
+                                        <a src="https://www.youtube.com/embed/6aX6IoFL43U" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_5"/>
                                         </a>
                                     </div>
                                 </div>
@@ -327,9 +327,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=yruy34odL9o&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=7" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_6" class="youtube id6">
+                                        <a src="https://www.youtube.com/embed/yruy34odL9o" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_6"/>
                                         </a>
                                     </div>
                                 </div>
@@ -365,9 +365,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=VnqPveocPRE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=8" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_7" class="youtube id7">
+                                        <a src="https://www.youtube.com/embed/VnqPveocPRE" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_7"/>
                                         </a>
                                     </div>
                                 </div>
@@ -398,9 +398,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=31-ZrX9GALY&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=9" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_8" class="youtube id8">
+                                        <a src="https://www.youtube.com/embed/31-ZrX9GALY" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_8"/>
                                         </a>
                                     </div>
                                 </div>
@@ -425,9 +425,9 @@
                                             </pre>
                                         </div>
                                     </div>
-                                    <div class="youtube">
-                                        <a href="https://www.youtube.com/watch?v=LxgCxcq6uIM&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI&index=10" target="_blank">
-                                            <img src="/assets/images/youtube.png" width="50"/>
+                                    <div id="youtube_9" class="youtube id9">
+                                        <a src="https://www.youtube.com/embed/LxgCxcq6uIM" target="_blank">
+                                            <img src="/assets/images/youtube.png" width="50" id="id_9"/>
                                         </a>
                                     </div>
                                 </div>
@@ -479,11 +479,12 @@
     </section>
     <form name="frm" id="frm">
         <input type="hidden" name="arg1"/>
+        <input type="hidden" name="arg2"/>
     </form>
 
     <!-- services part end -->
     <script type="module">
-        function open_popup(arg1){
+        function open_popup(arg1,arg2){
             var frmPop = document.getElementById('frm');
             var url="/pages/popup"
             window.open('','popupView',["width=600","height=500"]);
@@ -492,6 +493,19 @@
             frmPop.method = "POST";
             frmPop.target = 'popupView';
             frmPop.arg1.value = arg1;
+            frmPop.arg2.value = arg2;
+            frmPop.submit();
+        }
+        function open_popup_youtube(arg1,arg2){
+            var frmPop = document.getElementById('frm');
+            var url="/pages/popup_youtube"
+            window.open('','popupView',["width=600","height=800"]);
+
+            frmPop.action = url;
+            frmPop.method = "POST";
+            frmPop.target = 'popupView';
+            frmPop.arg1.value = arg1;
+            frmPop.arg2.value = arg2;
             frmPop.submit();
         }
 
@@ -500,10 +514,20 @@
             $(".lyrics").click(function(event){
                 var id = event.target.id
                 id = id.charAt(id.length-1)
-                console.log(`id = ${id}`);
+                console.log('id = '+id)
+
                 var html = $("#lyrics_popup_"+id).html();
-                console.log('html'+html);
-                open_popup(html);
+                var src = $(`.youtube.id${id} a`).attr('src');
+                open_popup(html,src);
+            })
+            $(".youtube").click(function(event){
+                var id = event.target.id
+                id = id.charAt(id.length-1)
+                var html = $("#lyrics_popup_"+id).html();
+                console.info(`.youtube.id${id} a`,$(`.youtube.id${id} a`))
+                var src = $(`.youtube.id${id} a`).attr('src');
+                console.info(`.youtube.id${id} a`,src)
+                open_popup_youtube(html,src);
             })
             
         });
