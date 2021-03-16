@@ -65,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;">
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;" controls>
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
                     <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -143,8 +143,8 @@
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column" style="width:450px">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:450px; padding-top:110px">
+                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px; padding-top:110px" controls>
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>
                 </div>
@@ -215,7 +215,15 @@
                 </h3>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <!-- 더보기 버튼 -->
+                <div class="col-lg-12 col-md-12 col-sm-12 news-block" style="padding-bottom:30px">
+                    <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                        <div class="btn-box pull-right"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
@@ -226,12 +234,12 @@
                                     <li>5 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:1em">미리보기</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3  col-md-6 col-sm-12 news-block">
+                <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
@@ -242,12 +250,12 @@
                                     <li>7 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:1em">미리보기</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 news-block">
+                <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
@@ -258,15 +266,9 @@
                                     <li>4 Comments</li>
                                 </ul> -->
                                 <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);"><i class="flaticon-next"></i></a></div>
+                                <div class="link-btn wow zoomIn" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:1em">미리보기</a></div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- 더보기 버튼 -->
-                <div class="col-lg-2 col-md-6 col-sm-12">
-                    <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="btn-box text-center" style="margin-top:150px"><a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a></div>
                     </div>
                 </div>
             </div>
@@ -310,6 +312,13 @@
                     <br />(0~6세)
                 </h3>
             </div>
+            <div class="row" style="padding-bottom:15px">
+                <div class="col-lg-12 col-md-12 col-sm-12  block-column">
+                    <div class="range-slider clearfix pull-right">
+                        <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">미리보기</a>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-6 col-md-12 block-column">
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -321,7 +330,7 @@
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">달래강 노래</a></h3>
                                 <!-- <span class="designation">Teacher</span> -->
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn" style="background-color:#bf9000ff; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white">미리듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
@@ -343,7 +352,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">아름다운 이 세상</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn" style="background-color:#0b6494ff; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white">미리듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -366,7 +375,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">하나님은 나의 부모님</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn" style="background-color:#a61c00ff; font-size:18px; color:white">미리보기</a>
+                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white">미리듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -438,10 +447,10 @@
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
                     <div class="inner-content">
-                        <div class="sec-title style-two">
+                        <div class="sec-title text-center">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5 class="text-center"> 참어머님 생애동요 CD</h5>
-                            <h3 class="text-center" style="color:white">참어머님의 생애와 심정을 담은
+                            <h5> 참어머님 생애동요 CD</h5>
+                            <h3 style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
                             </h3>
