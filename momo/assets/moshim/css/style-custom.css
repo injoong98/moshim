@@ -411,3 +411,92 @@
   color:white; font-size:20px !important; 
   font-family: Nanum Gothic !important;
 }
+
+
+/* CD - 아이콘 */
+
+.anim-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.anim-icon .icon{
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.our-teachers .anim-icon .icon-custom-1 {
+  background: url(../images/icons/anim-icon-100.png);
+  width: 45px;
+  height: 100px;
+  left: 400px;
+  top: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.our-teachers .anim-icon .icon-custom-2 {
+  background: url(../images/icons/anim-icon-101.png);
+  width: 45px;
+  height: 100px;
+  left: 550px;
+  top: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.our-teachers .anim-icon .icon-custom-3 {
+  background: url(../images/icons/anim-icon-101.png);
+  width: 45px;
+  height: 100px;
+  right: 450px;
+  top: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.our-teachers .anim-icon .icon-custom-4{
+  background: url(../images/icons/anim-icon-100.png);
+  width: 45px;
+  height: 100px;
+  right: 300px;
+  top: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.our-teachers .anim-icon .icon-custom-5{
+  background: url(../images/icons/anim-icon-13.png);
+  width: 265px;
+  height: 400px;
+  left: 70px;
+  bottom: -70px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+
+/* 동화책 - 움직이는 요소 */
+.classes-section .anim-icon .icon-custom-1 {
+  background: url(../images/icons/anim-icon-6.png);
+  width: 321px;
+  height:289px;
+  left:200px;
+  bottom: 660px;
+  background-repeat: no-repeat;
+  z-index: 999;
+}
+
+.classes-section .anim-icon .icon-custom-2 {
+  background: url(../images/icons/anim-icon-12.png);
+  width: 285px;
+  height: 287px;
+  right:110px;
+  top: 170px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}

@@ -14,6 +14,11 @@
 
    <!-- our-teachers -->
    <section class="our-teachers teachers-page-section sec-pad centred">
+       <div class="anim-icon">
+           <div class="icon icon-1 float-bob-x"></div>
+           <div class="icon icon-2 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
+           <div class="icon icon-3" style="bottom:-100px; right:200px"></div>
+       </div>
        <div class="container">
            <div class="sec-title">
                <h5>참어머님 생애동요 사운드북</h5>

@@ -20,6 +20,13 @@
      -->
    <!-- our-teachers -->
    <section class="our-teachers style-three about-page sec-pad centred" style="background-color:white">
+       <div class="anim-icon">
+           <div class="icon icon-custom-1 float-bob-x"></div>
+           <div class="icon icon-custom-2 float-bob-x"></div>
+           <div class="icon icon-custom-3 float-bob-x"></div>
+           <div class="icon icon-custom-4 float-bob-x"></div>
+           <div class="icon icon-custom-5 float-bob-y"></div>
+       </div>
        <div class="container">
            <div class="sec-title">
                <h5>참어머님 생애동요 CD</h5>

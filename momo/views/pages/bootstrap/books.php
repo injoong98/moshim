@@ -14,6 +14,10 @@
 
    <!-- classes-section -->
    <section class="classes-section classes-page-section sec-pad">
+       <div class="anim-icon">
+           <div class="icon icon-custom-1 float-bob-x"></div>
+           <div class="icon icon-custom-2 float-bob-y"></div>
+       </div>
        <div class="container">
            <div class="sec-title text-center">
                <h5>참어머님 생애동화</h5>
