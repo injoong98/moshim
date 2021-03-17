@@ -1,7 +1,7 @@
    <!--Page Title-->
    <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
+           <div class="content-box" style="height:100px">>
                <!-- <h1>CD</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
@@ -280,8 +280,17 @@
            for (var i = 0; i < div2.length; i++) {
                div2[i].addEventListener("click", handleClick);
            }
-
        }
 
        init();
+
+
+       document.addEventListener('play', function(e) {
+           var audios = document.getElementsByTagName('audio');
+           for (var i = 0, len = audios.length; i < len; i++) {
+               if (audios[i] != e.target) {
+                   audios[i].pause();
+               }
+           }
+       }, true);
    </script>

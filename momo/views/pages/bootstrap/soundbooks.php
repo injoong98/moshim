@@ -1,14 +1,14 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/cover_01.jpg);">
+   <section class="page-title centred" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
-               <!-- <h1>사운드북</h1> -->
-               <!-- <ul class="bread-crumb clearfix">
+           <div class="content-box" style="height:100px">
+               <!-- <h1>사운드북</h1>
+               <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
                    <li>About</li>
-               </ul>
+               </ul> -->
            </div>
-       </div> -->
+       </div>
    </section>
    <!--End Page Title-->
 
