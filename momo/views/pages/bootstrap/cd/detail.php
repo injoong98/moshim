@@ -18,7 +18,6 @@
                 <ul class="accordion-box active-block">
                     <li class="accordion block" style="background-color:white">
                         <div class="acc-btn active">
-                            <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
                             <h4>가사</h4>
                         </div>
                         <div class="acc-content current">
@@ -194,7 +193,6 @@
                     </li>
                     <li class="accordion block" style="background-color:white">
                         <div class="acc-btn active">
-                            <div class="icon-outer"><i class="fas fa-angle-down"></i></div>
                             <h4>해설</h4>
                         </div>
                         <div class="acc-content current">
