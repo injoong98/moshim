@@ -39,8 +39,8 @@
                            <div class="price">91,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연령 : <span>5 ~ 13세</span></li>
-                               <li>권수 : <span>총 7권 </span></li>
+                               <li>연 령 : <span>5 ~ 13세</span></li>
+                               <li>권 수 : <span>총 7권 </span></li>
                            </ul>
                        </div>
                    </div>
