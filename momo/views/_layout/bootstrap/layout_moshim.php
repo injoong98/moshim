@@ -158,11 +158,7 @@
 		<div class="header-bottom">
 			<div class="container">
 				<div class="clearfix">
-					<div class="logo-box pull-left" style="height:126px">
-						<video class="" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="position: relative; display: inline-block; height:126px">
-							<source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
-						</video>
-					</div>
+					<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
 							<nav class="main-menu navbar-expand-lg">

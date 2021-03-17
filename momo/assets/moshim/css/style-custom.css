@@ -117,6 +117,9 @@
   .font-size-custom-1em {
     font-size : 1em
   }
+  .font-size-custom-1_2em {
+    font-size : 1.2em
+  }
   .font-size-custom-0_9em {
     font-size : 0.9em
   }
@@ -197,6 +200,15 @@
 /* CD - 재생 버튼 마우스 커서 */
 .play_button{
   cursor: pointer;
+  color:white;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.clicked {
+  color : #2B3C6B;
 }
 
 

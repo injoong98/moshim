@@ -258,7 +258,14 @@
    </section>
    <!-- our-teachers end -->
    <script language="javascript" type="text/javascript">
+       printWin = null; // 인쇄용 팝업
+
+
        function openWin_soundbooks(num) {
-           window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300, height=790');
+           if (!(!this.printWin || this.printWin.closed)) {
+               this.printWin.close();
+           }
+
+           this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '', 'width=1270, height=780');
        }
    </script>
