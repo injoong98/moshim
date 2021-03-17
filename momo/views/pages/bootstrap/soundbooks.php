@@ -15,9 +15,17 @@
    <!-- our-teachers -->
    <section class="our-teachers teachers-page-section sec-pad centred">
        <div class="anim-icon">
-           <div class="icon icon-1 float-bob-x"></div>
-           <div class="icon icon-2 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
-           <div class="icon icon-3" style="bottom:-100px; right:200px"></div>
+           <div class="icon icon-custom-6"></div>
+           <div class="icon icon-custom-7"></div>
+           <div class="icon icon-custom-8"></div>
+           <div class="icon icon-custom-6" style="top:830px"></div>
+           <div class="icon icon-custom-7" style="top:720px; right:400px"></div>
+           <div class="icon icon-custom-8" style="top:1120px"></div>
+           <div class="icon icon-custom-6" style="top:1530px"></div>
+           <div class="icon icon-custom-7" style="top:1320px"></div>
+           <div class="icon icon-custom-8" style="top:1820px"></div>
+           <div class="icon icon-custom-7" style="top:2120px; right:100px"></div>
+
        </div>
        <div class="container">
            <div class="sec-title">
