@@ -1,7 +1,7 @@
    <!--Page Title-->
    <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/book/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
+           <div class="content-box" style="height:100px">>
                <!-- <h1>동화책</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
