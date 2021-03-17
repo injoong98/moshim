@@ -210,7 +210,7 @@
     <section class="news-section" style="background: #ffea5e;">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
-            <div class="icon icon-3"></div>
+            <div class="icon icon-3 float-bob-x"></div>
         </div>
         <div class="container">
             <div class="sec-title centred">
@@ -318,7 +318,7 @@
             <div class="icon icon-custom-2 float-bob-x"></div>
             <div class="icon icon-custom-3 float-bob-x"></div>
             <div class="icon icon-custom-4 float-bob-x"></div>
-            <div class="icon icon-custom-5 float-bob-x"></div>
+            <div class="icon icon-custom-5 float-bob-y"></div>
         </div>
         <div class="container">
             <div class="sec-title">
