@@ -1,5 +1,5 @@
     <!-- 콘텐츠 소개 시작-->
-    <section class="main-slider style-two">
+    <section class="main-slider style-two main-slider-pc">
         <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-1.jpg)">
                 <!-- <div class="container">
@@ -51,6 +51,15 @@
                     </div>
                 </div> -->
             </div>
+        </div>
+    </section>
+    <!-- 모바일 버전 -->
+    <section class="main-slider style-two main-slider-mobile">
+        <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
+            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-1.jpg)"></div>
+            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-2.jpg)"></div>
+            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-3.jpg)"></div>
+            <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-5.jpg)"></div>
         </div>
     </section>
     <!-- 콘텐츠 소개 end -->
@@ -471,8 +480,11 @@
                                     <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/13.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">수선화 사랑</a></h3>
-                                    <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162; font-size:18px">듣기</a>
+                                    <div class="range-slider clearfix" onclick="toggleAudio('cd_track_01');">
+                                        <audio id="cd_track_01">
+                                            <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-01.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <a class="filter-btn play-button" style="background-color:#FF7162; font-size:18px; color:white">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -482,8 +494,11 @@
                                     <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/15.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">하늘 신부</a></h3>
-                                    <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162 ; font-size:18px">듣기</a>
+                                    <div class="range-slider clearfix" onclick="toggleAudio('cd_track_02');">
+                                        <audio id="cd_track_02">
+                                            <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-02.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <a class="filter-btn play-button" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -493,8 +508,11 @@
                                     <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/17.jpg" alt=""></a></figure>
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">산 넘고 바다 건너</a></h3>
-                                    <div class="range-slider clearfix">
-                                        <a href="<?php echo moshim_url('momo') ?>/pages/cd" class="filter-btn" style="background-color:#FF7162 ; font-size:18px">듣기</a>
+                                    <div class="range-slider clearfix" onclick="toggleAudio('cd_track_03');">
+                                        <audio id="cd_track_03">
+                                            <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-03.mp3" type="audio/mpeg">
+                                        </audio>
+                                        <a class="filter-btn play-button" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
                                     </div>
                                     <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                                 </div>
@@ -517,4 +535,36 @@
         function openWin_soundbooks(num) {
             window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300, height=790');
         }
+
+        let isPlaying = false;
+
+        const toggleAudio = (event) => {
+
+            const audio = document.getElementById(event);
+            console.log(audio)
+            const playButton = document.getElementById(event).parentNode.querySelector('.play-button');
+            // const playButton = document.getElementById(event).parentNode.querySelector('.play-button').innerHTML;
+            console.log(playButton)
+
+            if (isPlaying) {
+                audio.pause()
+                isPlaying = false
+                playButton.innerHTML = '듣기';
+            } else {
+                audio.play()
+                isPlaying = true
+                playButton.innerHTML = '재생중..';
+            }
+            return false
+        }
+
+        document.addEventListener('play', function(e) {
+            var audios = document.getElementsByTagName('audio');
+            for (var i = 0, len = audios.length; i < len; i++) {
+                if (audios[i] != e.target) {
+                    audios[i].pause();
+                    audios[i].parentNode.querySelector('.play-button').innerHTML = '듣기'
+                }
+            }
+        }, true);
     </script>
