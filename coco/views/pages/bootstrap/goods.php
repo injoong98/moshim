@@ -191,7 +191,7 @@
     <!-- team part here -->
     <section class="team_section single_page_team section_padding">
         <div class="container">
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">티셔츠</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">티셔츠</span><span> 25,000원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp " data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
@@ -226,7 +226,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크</span><span> 3,000원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
@@ -261,7 +261,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크 스트랩</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크 스트랩</span><span> 2,500원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
@@ -296,7 +296,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">인형</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">인형(대)</span><span> 30,000원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
@@ -323,7 +323,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">쿠션</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">쿠션</span><span> 24,000원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
@@ -350,7 +350,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">스티커</span></h4>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">스티커</span><span> 1,500원</span></h4>
             <div class="row col-lg-12">
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="single_team_section mt-3 mb-5">
