@@ -246,7 +246,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/mask-01.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-01.jpg">효정 마스크</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -255,7 +255,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/mask-02.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-02.jpg">효지 마스크</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -264,7 +264,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/mask-03.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-03.jpg">효리 마스크</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -273,7 +273,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/mask-04.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-04.jpg">효몽 마스크</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
             </div>
@@ -287,7 +287,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/strap-1.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">마스크스트랩 핑크색</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -296,7 +296,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/strap-02.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">마스크스트랩 초록색</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -305,7 +305,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/strap-03.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">마스크스트랩 노란색</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -314,7 +314,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/strap-04.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">마스크스트랩 파란색</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">2,500원</a></h4>
                     </div>
                 </div>
             </div>
@@ -328,7 +328,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/doll-01.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-01.jpg">효정 인형</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -337,7 +337,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/doll-02.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-02.jpg">효지 인형</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -346,7 +346,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/doll-03.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-03.jpg">효리 인형</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
                     </div>
                 </div>
             </div>
@@ -360,7 +360,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-01.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-01.jpg">쿠션 효정</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -369,7 +369,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-02.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-02.jpg">쿠션 효지</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -378,7 +378,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/cusion-03.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-03.jpg">쿠션 효리</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
                     </div>
                 </div>
             </div>
@@ -392,7 +392,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/sticker-01.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-01.jpg">캐릭터 스티커(얼굴확대)</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">1,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
@@ -401,7 +401,7 @@
                             <img src="/assets/malgeunmul/img/goods/prod/sticker-02.jpg" alt="#" class="img-fluid">
                         </a>
                         <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-02.jpg">캐릭터 스티커(배경색 있음)</a></h4>
-                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">1,500원</a></h4>
                     </div>
                 </div>
             </div>
