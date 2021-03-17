@@ -65,7 +65,7 @@
     <!-- 콘텐츠 소개 end -->
 
     <!--  소개 & 효정지도 시작 -->
-    <section class="about-section" id="intro" style="padding-bottom:10px">
+    <section class="about-section" id="intro">
         <div class="anim-icon">
             <div class="icon icon-1 float-bob-x"></div>
             <div class="icon icon-2 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
@@ -208,7 +208,7 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
-    <section class="news-section">
+    <section class="news-section" style="background: #ffea5e;">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
         </div>
@@ -236,7 +236,7 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
-                            <div class="lower-content">
+                            <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                                 <h3 class="font-size-custom-1em"><a target="_blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
@@ -252,7 +252,7 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
-                            <div class="lower-content">
+                            <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                                 <h3 class="font-size-custom-1em"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
@@ -268,7 +268,7 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
-                            <div class="lower-content">
+                            <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                                 <h3 class="font-size-custom-0_9em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
                                 <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>

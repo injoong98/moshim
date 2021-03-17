@@ -350,6 +350,10 @@
   }
 }
 
+.main-slider-mobile{
+  display:none;
+}
+
 .hyojeong-video_mobile{
   display: none;
 }
