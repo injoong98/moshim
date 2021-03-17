@@ -104,19 +104,19 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px;">
-                            <h5 class="text-center"> 출판브랜드소개</h5>
+                            <h5 class="text-center"> 출판브랜드 소개</h5>
                             <h3>모심</h3>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text font-size-custom-1_5em">
                             <p style="line-height:1.4em; word-spacing:0.1em; font-family: Nanum Gothic !important;">
-                                사랑하는 자녀를 위해 먹이시고, 재우시고, 밤잠을 설치시는 어머니.
-                                자녀들을 밤하늘의 별처럼 빛나는 인재로 키우기 위해
-                                한걸음 한걸음 귀한 걸음걸으시는 어머니.
+                                자녀를 돌보시고 품으시며 밤잠 설치시는 어머니의 사랑.
+                                밤하늘의 별처럼 빛나는 인물로 키우시려는 어머니의 귀한 한걸음 한걸음.
                                 <br />
                                 <br />
-                                출판브랜드 '모심'은 그런 어머니의 마음을 담아,
-                                어머니를 가까이 받드는 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
+                                출판브랜드 '모심'은 그런 어머니의 마음으로,
+                                어머니를 가까이 받들어 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
+
                             </p>
                         </div>
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
@@ -127,7 +127,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                            <h5 class="text-center"> 컨텐츠브랜드 소개</h5>
+                            <h5 class="text-center"> 콘텐츠브랜드 소개</h5>
                             <div class="custom-title">
                                 <h3>'효정지도</h3>
                                 <p>孝情之道</p>
@@ -136,18 +136,17 @@
                         </div>
                         <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
                             <h3>원리의 길은 밟아가는 길입니다.</h3>
-                            '모심(母心)'의 컨텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
+
+                            모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
                             <br />
                             <br />
-                            하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘 대한 효정의 스토리를
-                            담고 있으며, 스토리들은 도서, 음악, 영상등의 미디어기반 컨텐츠로 제작이 됩니다.
+                            하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘에 대한 효정의 이야기들을 엮어 도서, 음악, 영상 등의 미디어 콘텐츠를 만듭니다.
                             <br />
                             <br />
-                            참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길을 따라 참부모님을 존경하고 사랑하는 마음으로 원리의 길을 가시길 기도드립니다.
+                            참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길, 그 길을 참부모님을 존경하고 사랑하는 마음으로 따라가 원리의 길을 밟아가시길 소망합니다.
                             <br />
                             <br />
-                            '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'가 자녀들이 '효정의 길'을 걸으신 하늘부모님과 참부모님의 사랑과 심정을 이해하여,
-                            참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되어드리겠습니다.
+                            '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는 자녀들이 하늘부모님, 참부모님의 효정과 사랑, 심정을 이해하여, 참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되겠습니다.
                         </div>
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
@@ -211,6 +210,7 @@
     <section class="news-section" style="background: #ffea5e;">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
+            <div class="icon icon-3"></div>
         </div>
         <div class="container">
             <div class="sec-title centred">
@@ -313,6 +313,13 @@
 
     <!-- 메인요소 2시작 -->
     <section class="our-teachers sec-pad centred">
+        <div class="anim-icon">
+            <div class="icon icon-custom-1 float-bob-x"></div>
+            <div class="icon icon-custom-2 float-bob-x"></div>
+            <div class="icon icon-custom-3 float-bob-x"></div>
+            <div class="icon icon-custom-4 float-bob-x"></div>
+            <div class="icon icon-custom-5 float-bob-x"></div>
+        </div>
         <div class="container">
             <div class="sec-title">
                 <h5 class="text-center">참어머님 생애동요 사운드북</h5>
