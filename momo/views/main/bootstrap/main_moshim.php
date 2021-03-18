@@ -77,33 +77,10 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <video class=" col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:60px">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
-                    <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
-                            <div class="carousel-inner">
-                                <div class="carousel-item w-100 active">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item w-100">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
-                                </div>
-                                <div class="carousel-item w-100">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
@@ -140,7 +117,6 @@
                         </div>
                         <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
                             <!-- <h3>원리의 길은 밟아가는 길입니다.</h3> -->
-
                             '모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
                             <br />
                             <br />
@@ -155,8 +131,8 @@
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px; padding-top:110px" id="hyojeongVideo">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:110px" id="hyojeongVideo">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>
                 </div>
