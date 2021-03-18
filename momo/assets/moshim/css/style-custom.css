@@ -269,6 +269,15 @@
   display: none;
 }
 
+/* 메인 캐러셀 슬라이드 모바일 */
+.main-slider-pc{
+  display: block;
+}
+
+.main-slider-mobile{
+  display: none; 
+}
+
 
 /* CD */
 
@@ -297,15 +306,6 @@
 
   .hyojeong-video_mobile{
     display: none;
-  }
-  
-  /* 메인 캐러셀 슬라이드 모바일 */
-  .main-slider-pc{
-    display: block;
-  }
-
-  .main-slider-mobile{
-    display: none; 
   }
 }
 
@@ -339,18 +339,15 @@
     display:none;
   }
   
-  /* 메인 캐러셀 슬라이드 모바일 */
+  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
   .main-slider-pc{
     display: none !important;    
   }
 
   .main-slider-mobile{
-    display:block;
+    display: block; 
   }
-}
 
-.main-slider-mobile{
-  display:none;
 }
 
 .hyojeong-video_mobile{
