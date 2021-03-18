@@ -168,16 +168,19 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="event_part_iner">
-                        <div class="row justify-content-end">
+                        <div class="row justify-content-center">
                             <!-- <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
                             </div> -->
                             <div class="row align-items-center justify-content-center">
-                                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-                                    <div class="program_details_thumb profile_img pr-lg-3">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid">
+                                <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+                                    <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video.mp4' style="width:100%"class="" autoplay muted loop>
+                                        해당 브라우저는 video 태그를 지원하지 않습니다.
+                                    </video>
+                                    <!-- <div class="program_details_thumb profile_img pr-lg-3"> -->
+                                        <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid"> -->
                                         <!-- <img src="img/teacher_profile_shape.png" alt="#" class="img-fluid teacher_profile_shape"> -->
-                                    </div>
+                                    <!-- </div> -->
                                 </div>
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
                                     <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
