@@ -105,6 +105,22 @@ div.contents_img_wrapper > div {
     left: 2%;
     bottom: 10%;
 }
+.about_img_5 {
+    position: absolute;
+    left: 9px;
+    bottom: 2px;
+    z-index: -1;
+}
+.about_img_6 {
+    border-radius: 10px;
+    z-index: -1;
+}
+.about_img_7 {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    z-index: -1;
+}
  </style>
  <!-- banner part here -->
     <section class="banner_part">
@@ -273,13 +289,22 @@ div.contents_img_wrapper > div {
     <section class="get_start_part section_padding pt-5">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                    <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
+                        data-parallax='{"x": 0, "y": -50, "rotateZ":0}'> -->
                     <div class="video_section">
+                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video.mp4' width='541'class="about_img_6 img-fluid" autoplay muted loop>
+                            해당 브라우저는 video 태그를 지원하지 않습니다.
+                        </video>
+                    </div>
+                    <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
+                        data-parallax='{"x": 0, "y": 50, "rotateZ":0}'> -->
+                    <!-- <div class="video_section">
                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo.jpg" alt="#" class="img-fluid">
                         <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" class="play_btn_container" target="_blank"><span class="polygon_shape"></span></a>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="get_start_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
                         <h2 class="kid_title"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이 </span></h2>
