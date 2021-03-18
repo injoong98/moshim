@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;" controls>
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
                     <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
@@ -108,8 +108,8 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px;">
-                            <h5 class="text-center"> 출판브랜드 소개</h5>
-                            <h2 style="color: #2b3c6b;">모심</h2>
+                            <h5> 출판브랜드 소개</h5>
+                            <h1 style="color: #2b3c6b;">모심</h1>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                         <div class="text font-size-custom-1_5em">
@@ -131,17 +131,17 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                            <h5 class="text-center"> 콘텐츠브랜드 소개</h5>
+                            <h5> 콘텐츠브랜드 소개</h5>
                             <div class="custom-title">
-                                <h3>'효정지도</h3>
+                                <h1>효정지도</h1>
                                 <p>孝情之道</p>
-                                <h3>시리즈' 소개</h3>
+                                <h1>시리즈</h1>
                             </div>
                         </div>
                         <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
-                            <h3>원리의 길은 밟아가는 길입니다.</h3>
+                            <!-- <h3>원리의 길은 밟아가는 길입니다.</h3> -->
 
-                            모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
+                            '모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
                             <br />
                             <br />
                             하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘에 대한 효정의 이야기들을 엮어 도서, 음악, 영상 등의 미디어 콘텐츠를 만듭니다.
@@ -156,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px; padding-top:110px" controls>
+                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px; padding-top:110px" id="hyojeongVideo">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>
                 </div>
@@ -227,13 +227,10 @@
                     <br />귀한 보물과 같은 이야기
                 </h3>
             </div>
-            <div class="row">
-                <!-- 더보기 버튼 -->
-                <div class="col-lg-12 col-md-12 col-sm-12 news-block" style="padding-bottom:30px">
-                    <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
-                        <div class="btn-box pull-right" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <a href="<?php echo moshim_url('momo') ?>/pages/books" class="theme-btn">더보기</a>
-                        </div>
+            <div class="row" style="padding-bottom:15px">
+                <div class="col-lg-12 col-md-12 col-sm-12  block-column">
+                    <div class="range-slider clearfix pull-right wow fadeInUp">
+                        <a href="<?php echo moshim_url('momo') ?>/pages/books" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">더보기</a>
                     </div>
                 </div>
             </div>
@@ -336,8 +333,8 @@
             </div>
             <div class="row" style="padding-bottom:15px">
                 <div class="col-lg-12 col-md-12 col-sm-12  block-column">
-                    <div class="range-slider clearfix pull-right">
-                        <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">더보기</a>
+                    <div class="range-slider clearfix pull-right wow fadeInUp">
+                        <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">더보기</a>
                     </div>
                 </div>
             </div>
@@ -352,7 +349,7 @@
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">달래강 노래</a></h3>
                                 <!-- <span class="designation">Teacher</span> -->
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white">미리듣기</a>
+                                    <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white">노래듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                                 <ul class="social-list">
@@ -374,7 +371,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">아름다운 이 세상</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white">미리듣기</a>
+                                    <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white">노래듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -397,7 +394,7 @@
                             <div class="lower-content">
                                 <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">하나님은 나의 부모님</a></h3>
                                 <div class="range-slider clearfix">
-                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white">미리듣기</a>
+                                    <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white">노래듣기</a>
                                 </div>
                                 <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                                 <!-- <span class="designation">Teacher</span> -->
@@ -471,7 +468,7 @@
                     <div class="inner-content">
                         <div class="sec-title text-center">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5> 참어머님 생애동요 CD</h5>
+                            <h5 style="font-size:29px">참어머님 생애동요 CD</h5>
                             <h3 style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
@@ -580,4 +577,42 @@
                 }
             }
         }, true);
+
+        document.addEventListener('scroll', function() {
+            let currentScrollValue = document.documentElement.scrollTop;
+            let hyojeongVideo = document.getElementById('hyojeongVideo');
+            let isMobile = device_check();
+
+            if (isMobile == 'M') {
+                if (currentScrollValue > 2000) {
+                    hyojeongVideo.play();
+                } else {
+                    hyojeongVideo.pause();
+                }
+            } else {
+                if (currentScrollValue > 1000) {
+                    hyojeongVideo.play();
+                } else {
+                    hyojeongVideo.pause();
+                }
+            }
+
+            console.log('currentScrollValue is ' + currentScrollValue);
+        });
+
+        function device_check() {
+            // 디바이스 종류 설정
+            let pc_device = "win16|win32|win64|mac|macintel";
+
+            // 접속한 디바이스 환경
+            let this_device = navigator.platform;
+
+            if (this_device) {
+                if (pc_device.indexOf(this_device.toLowerCase()) < 0) {
+                    return 'M'
+                } else {
+                    return 'P'
+                }
+            }
+        }
     </script>
