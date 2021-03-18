@@ -48,6 +48,11 @@
 <style>
     @font-face { font-family: 'Cafe24Ssurround'; src: url(/assets/fonts/Cafe24Ssurround.ttf) format('truetype'); }
     .Cafe24Ssurround{ font-family: Cafe24Ssurround; }
+    @media (max-width: 767.98px){
+    .animation-diaplay-none {
+        display: none;
+    }
+}
 </style>
 <body>
     <!-- Preloader  -->
