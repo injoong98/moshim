@@ -4,11 +4,11 @@
     //sticky menu
     $(window).on('scroll', function () {
         var window_top = $(window).scrollTop() + 1;
-        if (window_top > 50) {
-            $('.header').addClass('menu_fixed animated fadeInDown');
-        } else {
-            $('.header').removeClass('menu_fixed animated fadeInDown');
-        }
+        // if (window_top > 50) {
+        //     $('.header.display-when-scrolled').addClass('menu_fixed');
+        // } else {
+        //     $('.header.display-when-scrolled').removeClass('menu_fixed');
+        // }
     });
 
     //video popup

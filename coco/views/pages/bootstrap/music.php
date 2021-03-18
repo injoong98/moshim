@@ -23,6 +23,15 @@
 }
 .breadcrumb_part{
     background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
+    background-size: contain;
+    height: 0 !important;
+    width: 100%;
+    padding-top: 20.84%;
+}
+@media (max-width: 414px){
+    .vibe-icon{
+        height:16px !important;
+    }
 }
 .lyrics{
     cursor: pointer;
@@ -42,12 +51,6 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2></h2>
-                        <!-- <div class="breadcrumb_iner_link">
-                            <a href="index.html">Home</a>
-                            <span>|</span>
-                            <p>About us</p>
-                        </div> -->
                     </div>
                 </div>
             </div>
@@ -93,8 +96,10 @@
                     <div class="section_tittle_style_02">
                         <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="Cafe24Ssurround title_overlay_effect">효정 동요</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,<br/> 
-                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                            부모님의 사랑, 그에 대한 자녀의 효,
+                        </p>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                            그리고 형제자매와 이웃 사랑의 실천을 의미하는 ‘효정’을 노래합니다.
                         </p>
                     </div>
                 </div>
@@ -451,7 +456,7 @@
                         <img src="/assets/images/melon.png" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://vibe.naver.com/album/5183052">
-                        <img src="/assets/images/vibe.png" class="music_sns_icon" style="object-fit: cover;height: 40px;"/>
+                        <img src="/assets/images/vibe.png" class="music_sns_icon vibe-icon" style="object-fit: cover;height: 40px;"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://music.apple.com/us/album/%EC%97%84%EB%A7%88%EB%9E%91-%EC%95%84%EB%B9%A0%EB%9E%91-%ED%9A%A8%EC%A0%95%EB%8F%99%EC%9A%94/1546079168?uo=4">
                         <img src="/assets/images/applemusic_p.png" class="music_sns_icon"/>

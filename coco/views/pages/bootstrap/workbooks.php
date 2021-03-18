@@ -87,11 +87,35 @@
         font-size: 20px;
     }
 }
+@media (max-width: 768px){
+    .row.with-video{
+        display:block;
+    }
+}
+.logo-video{
+    height : 404px;
+    position: relative;
+    left : 50%;
+    transform: translateX(-50%);
+}
+.program_details_thumb {
+    overflow: hidden;
+}
 </style>
 
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
+<!-- <div class="dummy-cache" style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-2.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-3.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-4.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-2.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg"  style="width:0px; height:0px">
+</div> -->
 <!-- 이미지뷰어 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
@@ -112,32 +136,32 @@
                 </div>
             </div>
         </div>
-        <div class="breadcrumb_animation_4">
+        <div class="animation-diaplay-none breadcrumb_animation_4">
             <div data-parallax='{"x": 30, "y": 250, "rotateZ":0}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_4.png" alt="#">
             </div>
         </div>
-        <div class="breadcrumb_animation_5">
+        <div class="animation-diaplay-none breadcrumb_animation_5">
             <div data-parallax='{"x": 20, "y": 150, "rotateZ": 180}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_5.png" alt="#">
             </div>
         </div>
-        <div class="breadcrumb_animation_7">
+        <div class="animation-diaplay-none breadcrumb_animation_7">
             <div data-parallax='{"x": 100, "y": 250, "rotateZ":0}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_15.png" alt="#">
             </div>
         </div>
-        <div class="breadcrumb_animation_10">
+        <div class="animation-diaplay-none breadcrumb_animation_10">
             <div data-parallax='{"x": 15, "y": 150, "rotateZ":0}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_10.png" alt="#">
             </div>
         </div>
-        <div class="breadcrumb_animation_12">
+        <div class="animation-diaplay-none breadcrumb_animation_12">
             <div data-parallax='{"x": 20, "y": 150, "rotateZ":180}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_20.png" alt="#">
             </div>
         </div>
-        <div class="breadcrumb_animation_13">
+        <div class="animation-diaplay-none breadcrumb_animation_13">
             <div data-parallax='{"x": 10, "y": 250, "rotateZ": 180}'>
                 <img src="<?php echo trim(site_url(), '/') ?>/assets/malgeunmul/img/icon/banner_icon/animated_banner_21.png" alt="#">
             </div>
@@ -158,14 +182,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="event_part_iner">
-                        <div class="row justify-content-end">
+                        <div class="row justify-content-end with-video">
                             <!-- <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
                             </div> -->
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                                     <div class="program_details_thumb profile_img pr-lg-3">
-                                        <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid">
+                                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video.mp4' class="logo-video" autoplay muted loop>
+                                            해당 브라우저는 video 태그를 지원하지 않습니다.
+                                        </video>
+                                        <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid"> -->
                                         <!-- <img src="img/teacher_profile_shape.png" alt="#" class="img-fluid teacher_profile_shape"> -->
                                     </div>
                                 </div>
@@ -173,9 +200,10 @@
                                     <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
                                         <h2 class="kid_title mb-5"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
                                         <p class="description mt-0 mb-1">그리기, 만들기등의 미술활동을 중심으로</p>
-                                        <p class="description mt-0 mb-1">집에서는 부모님과 자녀들과</p>
-                                        <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
-                                        <p class="description mt-0 mb-1">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
+                                        <p class="description mt-0 mb-1">집에서는 부모님과 자녀들이,</p>
+                                        <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들이</p>
+                                        <p class="description mt-0 mb-1">놀면서 생각을 나눕니다.</p>
+                                        <p class="description mt-0 mb-1">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ART !</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +261,7 @@
                     <div class="filters">
                         <ul>
                             <!-- <li class="is-checked" data-filter="*">All</li> -->
-                            <li class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
+                            <li id="filter-main" class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
                             <!-- <li data-filter=".1st">2</li>
                             <li data-filter=".1st">3</li>
                             <li data-filter=".1st">4</li> -->
@@ -446,4 +474,48 @@
             navbar : false,
             toolbar : false
         });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            console.log('ready');
+            // document.getElementById("filter-main").click();
+            // $('#filter-main').trigger('click')
+
+
+            var mutationObserver = new MutationObserver(function(mutations) {
+                // mutations.forEach(function(mutation) {
+                //     console.log(mutation); 
+                // }); 
+                document.getElementById("filter-main").click();
+                $('#filter-main').trigger('click')
+                mutationObserver.disconnect();
+            }); 
+            var element = document.getElementsByClassName('preloder')[0];
+            // console.log(element);
+            var option = { 
+                attributes : true, 
+                characterData: true, 
+                childList: true, 
+                subtree: true, 
+                attributeOldValue: true, 
+                characterDataOldValue: true 
+            } 
+            mutationObserver.observe(element, option);
+        })
+        // console.log($('.preloder').css('display'));
+        // while(1){
+        //     if($('.preloder').css('display') == "none"){
+        //         console.log($('.preloder').css('display'));
+        //         break;
+        //     }
+        // }
+        // $('.preloder').on("DOMSubtreeModified",function(){
+        //     console.log('changed');
+        // });
+        // setTimeout(() => {
+        //     console.log('timeout');
+        //     document.getElementById("filter-main").click();
+        //     $('#filter-main').trigger('click')
+        // }, 10000);
     </script>
