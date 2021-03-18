@@ -212,28 +212,28 @@
                                     <div class="event_date">
                                     </div>
                                     <div class="event_content">
-                                        <h4> <a href="event_details.html">위드아이 Art</a></h4>
+                                        <h4> <a>위드아이 Art</a></h4>
                                     </div>
                                 </div>
                                 <div class="single_event_list wow fadeInDown" data-wow-delay=".4s">
                                     <div class="event_date">
                                     </div>
                                     <div class="event_content">
-                                        <h4> <a href="event_details.html">위드아이 Science</a></h4>
+                                        <h4> <a>위드아이 Science</a></h4>
                                     </div>
                                 </div>
                                 <div class="single_event_list wow fadeInDown" data-wow-delay=".6s">
                                     <div class="event_date">
                                     </div>
                                     <div class="event_content">
-                                        <h4> <a href="event_details.html">위드아이 Connect</a></h4>
+                                        <h4> <a>위드아이 Connect</a></h4>
                                     </div>
                                 </div>
                                 <div class="single_event_list wow fadeInDown" data-wow-delay=".8s">
                                     <div class="event_date">
                                     </div>
                                     <div class="event_content">
-                                        <h4> <a href="event_details.html">위드아이 Activity</a></h4>
+                                        <h4> <a>위드아이 Activity</a></h4>
                                     </div>
                                 </div>
                             </div> -->
@@ -279,7 +279,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>1차시</p>
-                                    <h4><a href="event_details.html">포근한 품 속으로</a></h4>
+                                    <h4><a>포근한 품 속으로</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit adipisi
                                     </p> -->
                                     <div class="program_list_details">
@@ -298,7 +298,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-2.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>2차시</p>
-                                    <h4><a href="event_details.html">누가누가 닮았나</a></h4>
+                                    <h4><a>누가누가 닮았나</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit adipisi
                                     </p> -->
                                     <div class="program_list_details">
@@ -317,7 +317,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-3.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>3차시</p>
-                                    <h4><a href="event_details.html">나도 어부바</a></h4>
+                                    <h4><a>나도 어부바</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -336,7 +336,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-4.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>4차시</p>
-                                    <h4><a href="event_details.html">하하호호</a></h4>
+                                    <h4><a>하하호호</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -360,7 +360,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>1차시</p>
-                                    <h4><a href="event_details.html">우리집 왕과 왕비</a></h4>
+                                    <h4><a>우리집 왕과 왕비</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -379,7 +379,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-2.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>2차시</p>
-                                    <h4><a href="event_details.html">사랑으로 꽃피는 우리가족</a></h4>
+                                    <h4><a>사랑으로 꽃피는 우리가족</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -398,7 +398,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>3차시</p>
-                                    <h4><a href="event_details.html">정성을 담아서 맛있게</a></h4>
+                                    <h4><a>정성을 담아서 맛있게</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -417,7 +417,7 @@
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>4차시</p>
-                                    <h4><a href="event_details.html">웃음이 넘치는 우리집</a></h4>
+                                    <h4><a>웃음이 넘치는 우리집</a></h4>
                                     <!-- <p>The amazing way to olor sit adipisi sed do consectetur way to olor sit
                                         adipisi</p> -->
                                     <div class="program_list_details">
@@ -468,11 +468,17 @@
     <script>
         var viewer1 = new Viewer(document.querySelector('#program_list_filter1'), {
             navbar : false,
-            toolbar : false
+            toolbar : false,
+            filter(image) {
+                return image.className=='img-fluid';
+            }
         });
         var viewer2 = new Viewer(document.querySelector('#program_list_filter2'), {
             navbar : false,
-            toolbar : false
+            toolbar : false,
+            filter(image) {
+                return image.className=='img-fluid';
+            }
         });
     </script>
 
