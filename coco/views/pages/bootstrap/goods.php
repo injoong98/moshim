@@ -4,7 +4,7 @@
     background-size: contain;
     height: 0 !important;
     width: 100%;
-    padding-top: 20.84%;
+    padding-top: 30.31%;
 }
 .team_section .team_animation_1 {
     right: 5% !important;
