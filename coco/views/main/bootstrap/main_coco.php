@@ -1,6 +1,9 @@
 <style>
-.banner_part .bg_1 {
+.single_banner_part{
     background-image: url(../assets/malgeunmul/img/main/main_cover_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .breadcrumb_part.music{
     background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
@@ -77,18 +80,32 @@ div.contents_img_wrapper > div {
     border: 1px solid #b17ab3;
     background-color: #b17ab3;
 }
-@media (max-width: 768px){
+.withi.mobile{
+    display:none;
+}
+.withi.mobile img{
+    width : 90%;
+}
+@media (max-width: 767.98px){
     .animation-diaplay-none {
         display: none;
+    }
+    .developing {
+        top: 10px;
+    }
+    .withi.mobile{
+        display: flex !important;
+        justify-content: center;
+        padding-bottom: 30px;;
     }
 }
  </style>
  <!-- banner part here -->
- <section class="banner_part bannerslider owl-carousel">
-        <div class="single_banner_part bg_1">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-12 col-lg-12 col-md-12">
+    <section class="banner_part">
+        <div class="single_banner_part">
+            <div class="container custom_container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-12 col-md-12">
                         <div class="banner_iner">
                             <h2> 교육이 사람을  만듭니다.</h2>
                             <h2> <span></span><span></span></h2>
@@ -231,13 +248,13 @@ div.contents_img_wrapper > div {
                 </div>
             </div>
         </div>
-        <div class="about_page_animation_1">
+        <div class="about_page_animation_1 animation-diaplay-none">
             <div data-parallax='{"x": 2, "y": 70, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_5.png" alt="#"></div>
         </div>
         <div class="about_page_animation_2 animation-diaplay-none">
             <div data-parallax='{"x": 10, "y": 80, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_6.png" alt="#"></div>
         </div>
-        <div class="about_page_animation_3">
+        <div class="about_page_animation_3 animation-diaplay-none">
             <div data-parallax='{"x": 30, "y": 60, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/icon_7.png" alt="#"></div>
         </div>
         <div class="about_page_animation_4 animation-diaplay-none">
@@ -301,7 +318,7 @@ div.contents_img_wrapper > div {
         </div>
 
         <div class="row justify-content-center">
-            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/music">
+            <a class="pc-button elementor-button button-link cu_btn mt-5" href="/pages/music">
                 <div class="button-content-wrapper ">
                     <span class="elementor-button-text">들어보기</span>
                     <svg class="pc-dashes inner-dashed-border animated-dashes">
@@ -355,6 +372,9 @@ div.contents_img_wrapper > div {
                             <div class="event_img wow fadeInLeft" data-wow-delay=".5s">
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
                             </div>
+                            <div class="withi mobile">
+                                <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/main_withi_logo.jpg" alt="#" class="img-fluid">
+                            </div>
                             <div class="col-md-6 col-lg-7">
                                 <a href="/pages/workbooks">
                                     <div class="single_event_list wow fadeInDown" style="margin-bottom:30px" data-wow-delay=".1s">
@@ -366,7 +386,7 @@ div.contents_img_wrapper > div {
                                             <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
                                         </div>
                                         <div class="developing">
-                                            <i class="ti-arrow-right" style="font-weight: 600;font-size: 30px;color: #fff;"></i>
+                                            <i class="ti-arrow-right" style="font-weight: 600;font-size: 24px;color: #fff;"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -448,7 +468,7 @@ div.contents_img_wrapper > div {
         </div>
 
         <div class="row justify-content-center">
-            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/goods">
+            <a class="pc-button elementor-button button-link cu_btn mt-5" href="/pages/goods">
                 <div class="button-content-wrapper ">
                     <span class="elementor-button-text">자세히 보기</span>
                     <svg class="pc-dashes inner-dashed-border animated-dashes">

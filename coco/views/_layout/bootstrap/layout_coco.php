@@ -48,6 +48,11 @@
 <style>
     @font-face { font-family: 'Cafe24Ssurround'; src: url(/assets/fonts/Cafe24Ssurround.ttf) format('truetype'); }
     .Cafe24Ssurround{ font-family: Cafe24Ssurround; }
+    @media (max-width: 767.98px){
+    .animation-diaplay-none {
+        display: none;
+    }
+}
 </style>
 <body>
     <!-- Preloader  -->
@@ -87,7 +92,88 @@
                 </div>
             </div>
         </div> -->
-        <div class="header menu_fixed">
+        <div class="header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="/">
+                                <!-- <a class="navbar-brand" href="/"> -->
+                                <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" srcset="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/logo_1.png" alt="맑은물" style="height:55px">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="<?php echo site_url(); ?>#about_section">소개</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a class="nav-link" href="/pages/youtube">YOUTUBE</a>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/music">MUSIC</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/workbooks">학습지</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/goods">굿즈</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Home
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="index.html">Home 1</a>
+                                            <a class="dropdown-item" href="index_2.html">Home 2</a>
+                                            <a class="dropdown-item" href="index_3.html">Home 3</a>
+                                            <a class="dropdown-item" href="index_4.html">Home 4</a>
+                                        </div>
+                                    </li> -->
+                                    <!-- <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            pages
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="event.html">event</a>
+                                            <a class="dropdown-item" href="event_details.html">event details</a>
+                                            <a class="dropdown-item" href="teacher_list.html">teacher</a>
+                                            <a class="dropdown-item" href="teacher_details.html">teacher details</a>
+                                            <a class="dropdown-item" href="program_list.html">program</a>
+                                            <a class="dropdown-item" href="program_details.html">program details</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            blog
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="blog.html">blog</a>
+                                            <a class="dropdown-item" href="blog_single.html">blog single</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li> -->
+                                </ul>
+                                <!-- SNS 로고  -->
+                                <!-- <p>sns 로고</p> -->
+                                <!-- <a href="contact.html" class="cu_btn btn_1">Get Started</a> -->
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header display-when-scrolled menu_fixed" style="">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">

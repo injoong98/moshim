@@ -3,11 +3,11 @@
 
     //sticky menu
     $(window).on('scroll', function () {
-        // var window_top = $(window).scrollTop() + 1;
+        var window_top = $(window).scrollTop() + 1;
         // if (window_top > 50) {
-        //     $('.header').addClass('menu_fixed animated fadeInDown');
+        //     $('.header.display-when-scrolled').addClass('menu_fixed');
         // } else {
-        //     $('.header').removeClass('menu_fixed animated fadeInDown');
+        //     $('.header.display-when-scrolled').removeClass('menu_fixed');
         // }
     });
 
