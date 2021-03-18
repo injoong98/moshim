@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div> -->
-        <div class="header">
+        <div class="header menu_fixed">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
@@ -177,12 +177,15 @@
 
 
     <!-- footer part here -->
-    <footer class="footer_section pt-0">
+    <footer class="footer_section" style="padding:33px 0px">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-12">
-                    <div class="copyright_part text-center mt-0">
-                        <p>© HJSmartEdu</p>
+                    <div class="d-flex justify-content-center pb-2">
+                        <img src="/assets/malgeunmul/img/logo-footer.png" alt="" style="height:48px">           
+                    </div>
+                    <div class="text-center mt-0 pt-0" >
+                        <p style="color:#fff">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</p>
                     </div>
                 </div>
             </div>

@@ -3,12 +3,12 @@
 
     //sticky menu
     $(window).on('scroll', function () {
-        var window_top = $(window).scrollTop() + 1;
-        if (window_top > 50) {
-            $('.header').addClass('menu_fixed animated fadeInDown');
-        } else {
-            $('.header').removeClass('menu_fixed animated fadeInDown');
-        }
+        // var window_top = $(window).scrollTop() + 1;
+        // if (window_top > 50) {
+        //     $('.header').addClass('menu_fixed animated fadeInDown');
+        // } else {
+        //     $('.header').removeClass('menu_fixed animated fadeInDown');
+        // }
     });
 
     //video popup

@@ -1,6 +1,12 @@
- <style>
- 
+<style>
+.banner_part .bg_1 {
+    background-image: url(../assets/malgeunmul/img/main/main_cover_large.jpg);
+}
 .breadcrumb_part.music{
+    background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
+    background-position: center !important;
+}
+.breadcrumb_part.goods{
     background-image: url(../assets/malgeunmul/img/main/main_music.jpg) !important;
     background-position: center !important;
 }
@@ -192,22 +198,23 @@ div.contents_img_wrapper > div {
     <!-- services part end -->
 
     <!-- about section part here -->
-    <section class="about_section section_padding s4_about_section" id="about_section">
+    <section class="about_section section_padding s4_about_section pb-5" id="about_section">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
                     <div class="about_section_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
                         <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">맑은물</span></h2>
-                        <p class="wow fadeInLeft" data-wow-delay=".5s">하루를 출발하면서 부모님께 달려와 인사하고,
-                            유치원에서 또는 학교에서 열심히 공부하고
-                            친구들과 좋은 관계를 유지하며,
-                            부모님과 하루를 대화로 마무리하는
-                            티없이 맑은 효자녀들로 자라길 바라는 마음.</p>
-                        <p class="wow fadeInLeft mt-3" data-wow-delay=".5s">
-                            출판브랜드 ‘맑은물’은
-                            자녀들이 티없이 부모님을 사랑하며 자라길 바라는 마음을 담아
-                            좋은 컨텐츠(Good! Contents!) 를 만들겠습니다.
+                        <p class="wow fadeInLeft" data-wow-delay=".5s">
+                            아침에 일어나 부모님께 달려가 인사하고,<br/> 
+                            유치원에서 또는 학교에서 열심히 공부하고,<br/>
+                            친구들과 좋은 관계를 유지하며, 
+                        </p>
+                        <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
+                            부모님과 대화로 하루를 마무리하는 티없이 맑은 자녀들로 성장하길 바라는 마음.
+                        </p>
+                        <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
+                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.’
                         </p>
                     </div>
                 </div>
@@ -240,7 +247,7 @@ div.contents_img_wrapper > div {
     <!-- about section part end -->
 
     <!-- get start part here -->
-    <section class="get_start_part section_padding">
+    <section class="get_start_part section_padding pt-5">
         <div class="container custom_container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
@@ -253,11 +260,11 @@ div.contents_img_wrapper > div {
                     <div class="get_start_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
                         <h2 class="kid_title"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이 </span></h2>
-                        <p>위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드입니다.
-                            언제나 아이와 함께하며 자녀들이 더 깊은 생각, 더 좋은 생각할 수 있도록
+                        <p>‘위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드 입니다.
+                            아이들이 더 깊은 생각, 더 좋은 생각을 할 수 있도록
+                            늘 아이들 곁에서 '위드아이 withi' 가 함께 하겠습니다.
                         </p>
-                        <p class="mt-0">위드아이＇withi 가 함께 하겠습니다.</p>
-                        <p>언제나 아이와 함께 하는 생각놀이 ‘위드아이withi’ ! '</p>
+                        <p class="mt-2">언제나 아이와 함께 하는 생각놀이 ‘위드아이 withi' !’</p>
                     </div>
                 </div>
             </div>
@@ -278,10 +285,10 @@ div.contents_img_wrapper > div {
                 <div class="section_tittle_style_02 mb-4">
                     <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정동요</span></h2>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
+                        부모님의 사랑, 그에 대한 자녀의 효, 
                     </p>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        그리고 형제자매와 이웃사랑의 실천을 의미하는 ‘효정’을 노래합니다.
                     </p>
                 </div>
             </div>
@@ -336,8 +343,8 @@ div.contents_img_wrapper > div {
             <div class="row justify-content-center">
                 <div class="col-lg-7">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect" style="color:#676767;background-image: linear-gradient(#fcd484, #fcd484);"> 위드아이</span></h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">언제나 아이와 함께 하는 생각놀이</p>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect" style="background-image: linear-gradient(#fcd484, #fcd484);"> 위드아이</span></h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s" style="color:#12265A">언제나 아이와 함께 하는 생각놀이</p>
                     </div>
                 </div>
             </div>
@@ -357,6 +364,9 @@ div.contents_img_wrapper > div {
                                         <div class="event_content">
                                             <h4>위드아이 Art</h4>
                                             <p>언제나 아이와 함께 하는 생각놀이 - ART</p>
+                                        </div>
+                                        <div class="developing">
+                                            <i class="ti-arrow-right" style="font-weight: 600;font-size: 30px;color: #fff;"></i>
                                         </div>
                                     </div>
                                 </a>
@@ -420,12 +430,12 @@ div.contents_img_wrapper > div {
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section_tittle_style_02 mb-4">
-                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정동요</span></h2>
+                    <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="Cafe24Ssurround title_overlay_effect">효정아 놀자 굿즈</span></h2>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,
+                        3D 애니메이션 '효정아 놀자'의 주인공,
                     </p>
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        효정, 효지, 효리, 효몽이를 다양한 굿즈로 만나보세요!
                     </p>
                 </div>
             </div>
@@ -433,14 +443,14 @@ div.contents_img_wrapper > div {
         
         <div class="row justify-content-center">
             <div class="col-lg-10 fadeInDown" data-wow-delay=".3s">
-                <img src="/assets/malgeunmul/img/main/main_music.jpg" width="100%"/>   
+                <img src="/assets/malgeunmul/img/main/main_goods.jpg" width="100%"/>   
             </div>
         </div>
 
         <div class="row justify-content-center">
-            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/music">
+            <a class="pc-button elementor-button button-link cu_btn mt-lg-5" href="/pages/goods">
                 <div class="button-content-wrapper ">
-                    <span class="elementor-button-text">들어보기</span>
+                    <span class="elementor-button-text">자세히 보기</span>
                     <svg class="pc-dashes inner-dashed-border animated-dashes">
                         <rect x="5px" y="5px" rx="22px" ry="22px" width="0" height="0"></rect>
                     </svg>

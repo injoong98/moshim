@@ -380,7 +380,7 @@ img{
 .sec-title h5{
   position: relative;
   display: inline-block;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 26px;
   color: #ff7162;
   font-family: 'Jua', sans-serif;
@@ -2049,7 +2049,6 @@ h3 a:hover{
   color: #fff;
 }
 
-
 /** event-section **/
 
 .event-section{
@@ -2787,7 +2786,7 @@ h3 a:hover{
 
 .news-block-one .inner-box .lower-content .link-btn{
   position: absolute;
-  left: 40px;
+  right: 40px;
   bottom: -38px;
 }
 

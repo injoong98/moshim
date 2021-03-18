@@ -1,4 +1,7 @@
 <style>
+.breadcrumb_part {
+    background-image: url(../assets/malgeunmul/img/goods/goods_main_cover.jpg) !important;
+}
 .team_section .team_animation_1 {
     right: 5% !important;
     top: 50%;
@@ -41,6 +44,13 @@
         max-width: 50%;
     }
 }
+.container .kid_title{
+    font-size: 32px;
+}
+.price{
+    margin-top: 8px !important;
+    font-weight: 300 !important;
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -48,8 +58,8 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2>굿즈</h2>
-                        <!-- <div class="breadcrumb_iner_link">
+                        <!-- <h2>굿즈</h2>
+                        <div class="breadcrumb_iner_link">
                             <a href="index.html">Home</a>
                             <span>|</span>
                             <p>About us</p>
@@ -99,10 +109,10 @@
                         <h2 class="title wow fadeInDown" data-wow-delay=".3s"> 
                         <span class="Cafe24Ssurround title_overlay_effect">효정아 놀자 굿즈</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        3D 에니메이션 '효정아 놀자'의 주인공, 
+                        3D 애니메이션 '효정아 놀자'의 주인공,
                         </p>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        '효정, 효지, 효리, 효몽'이 굿즈가 판매되는 곳입니다.</p>
+                        효정, 효지, 효리, 효몽이를 다양한 굿즈로 만나보세요!</p>
                     </div>
                 </div>
             </div>
@@ -185,181 +195,213 @@
     <!-- team part here -->
     <section class="team_section single_page_team section_padding">
         <div class="container">
-            <div class="row">
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">티셔츠</span>
+                <!-- <span> 25,000원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp " data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">효정 티셔츠</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-02.jpg">효지 티셔츠</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-03.jpg">효리 티셔츠</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
+                        <h4><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-04.jpg">효몽 티셔츠</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">25,000원</a></h4>
+                    </div>
+                </div>
+            </div>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크</span>
+                <!-- <span> 3,000원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/mask-01.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/mask-01.jpg" alt="#" class="img-fluid">
+                        </a>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-01.jpg">효정 마스크</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/mask-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/mask-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-02.jpg">효지 마스크</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/mask-03.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/mask-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-03.jpg">효리 마스크</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/mask-04.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/mask-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/mask-04.jpg">효몽 마스크</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">3,000원</a></h4>
+                    </div>
+                </div>
+            </div>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">마스크 스트랩</span>
+                <!-- <span> 2,500원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/strap-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/strap-02.jpg" alt="#" class="img-fluid">
+                        </a>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">마스크스트랩 핑크</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/strap-03.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/strap-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">마스크스트랩 초록</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/strap-04.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/strap-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">마스크스트랩 노랑</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">2,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_1.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/strap-1.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/strap-1.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Dan Bergeron</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">마스크스트랩 파랑</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">2,500원</a></h4>
+                    </div>
+                </div>
+            </div>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">인형(대)</span>
+                <!-- <span> 30,000원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/doll-01.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/doll-01.jpg" alt="#" class="img-fluid">
+                        </a>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-01.jpg">효정 인형</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_2.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/doll-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/doll-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Roshan Bhula</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-02.jpg">효지 인형</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/doll-03.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/doll-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/doll-03.jpg">효리 인형</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">30,000원</a></h4>
+                    </div>
+                </div>
+            </div>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">쿠션</span>
+                <!-- <span> 24,000원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/cusion-01.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/cusion-01.jpg" alt="#" class="img-fluid">
+                        </a>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-01.jpg">효정 쿠션</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/cusion-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/cusion-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-02.jpg">효지 쿠션</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/cusion-03.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/cusion-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/cusion-03.jpg">효리 쿠션</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">24,000원</a></h4>
+                    </div>
+                </div>
+            </div>
+            <h4 class="kid_title wow fadeInLeft mb-0" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">스티커</span>
+                <!-- <span> 1,500원</span> -->
+            </h4>
+            <div class="row col-lg-12">
+                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/sticker-01.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/sticker-01.jpg" alt="#" class="img-fluid">
+                        </a>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-01.jpg">캐릭터 스티커 A</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">1,500원</a></h4>
                     </div>
                 </div>
                 <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
+                    <div class="single_team_section mt-3 mb-5">
+                        <a href="/assets/malgeunmul/img/goods/prod/sticker-02.jpg" class="d-block teacher_profile_img img-popup">
+                            <img src="/assets/malgeunmul/img/goods/prod/sticker-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
-                    </div>
-                </div>
-                <div class="good col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="single_team_section">
-                        <a href="teacher_details.html" class="d-block teacher_profile_img">
-                            <img src="/assets/malgeunmul/img/team/team_3.png" alt="#" class="img-fluid">
-                        </a>
-                        <h4> <a href="teacher_details.html">Jessica Hamel</a></h4>
+                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/sticker-02.jpg">캐릭터 스티커 B</a></h4>
+                        <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/t-shirt-01.jpg">1,500원</a></h4>
                     </div>
                 </div>
             </div>
@@ -378,3 +420,12 @@
         </div>
     </section>
     <!-- team part end -->
+
+<script type="module">
+$(document).ready(function() {
+    console.log("document is ready by")
+    $('a.img-popup, .product-title').magnificPopup({
+        type: 'image'
+    });
+});
+</script>
