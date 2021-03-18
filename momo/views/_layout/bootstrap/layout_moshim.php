@@ -158,6 +158,7 @@
 		<div class="header-bottom">
 			<div class="container">
 				<div class="clearfix">
+					<!-- 해당 부분 수정 GIT반영이 안됌 -->
 					<figure class="main-custom-img"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
