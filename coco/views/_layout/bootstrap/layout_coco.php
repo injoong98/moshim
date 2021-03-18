@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div> -->
-        <div class="header">
+        <div class="header menu_fixed">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-12">
@@ -177,11 +177,11 @@
 
 
     <!-- footer part here -->
-    <footer class="footer_section pt-0">
+    <footer class="footer_section" style="padding:33px 0px">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-lg-12">
-                    <div class="d-flex justify-content-center pt-4">
+                    <div class="d-flex justify-content-center pb-2">
                         <img src="/assets/malgeunmul/img/logo-footer.png" alt="" style="height:48px">           
                     </div>
                     <div class="text-center mt-0 pt-0" >
