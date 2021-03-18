@@ -93,8 +93,8 @@
                     <div class="section_tittle_style_02">
                         <h2 class="title wow fadeInDown" data-wow-delay=".3s" > <span class="Cafe24Ssurround title_overlay_effect">효정 동요</span></h2>
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
-                        부모의 사랑과 그에 대한 자녀의 효, 그리고 형제자매와 이웃,<br/> 
-                        더 나아가 인류에 대한 사랑의 실천’을 의미하는 ‘효정’을 노래합니다
+                        부모님의 사랑, 그에 대한 자녀의 효,<br/> 
+                        그리고 형제자매와 이웃 사랑의 실천을 의미하는 ‘효정’을 노래합니다.
                         </p>
                     </div>
                 </div>
