@@ -97,7 +97,18 @@ div.contents_img_wrapper > div {
     .logo-video{
         margin-left: 0 !important;
     }
+    .banner_iner.mobile{display:block}
+    .banner_iner.pc{display:none}
+    .description.mobile{display:block}
+    .description.pc{display:none}
 }
+@media (min-width: 767.98px){
+    .banner_iner.mobile{display:none}
+    .banner_iner.pc{display:block}
+    .description.mobile{display:none}
+    .description.pc{display:block}
+}
+
 @media (max-width: 992px){
     .developing {
         top: 10px;
@@ -129,11 +140,12 @@ div.contents_img_wrapper > div {
             <div class="container custom_container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-12 col-md-12">
-                        <div class="banner_iner">
+                        <div class="banner_iner pc">
                             <h2> 교육이 사람을  만듭니다.</h2>
-                            <h2> <span></span><span></span></h2>
-                            <p></p>
-                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
+                        </div>
+                        <div class="banner_iner mobile">
+                            <h2> 교육이 사람을</h2>
+                            <h2>만듭니다.</h2>
                         </div>
                     </div>
                 </div>
@@ -336,8 +348,14 @@ div.contents_img_wrapper > div {
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
                         부모님의 사랑, 그에 대한 자녀의 효, 
                     </p>
-                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                    <p class="description wow fadeInDown pc" data-wow-delay=".3s">
                         그리고 형제자매와 이웃사랑의 실천을 의미하는 ‘효정’을 노래합니다.
+                    </p>
+                    <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                        그리고 형제자매와 이웃사랑의 실천을 의미하는 
+                    </p>
+                    <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                        ‘효정’을 노래합니다.
                     </p>
                 </div>
             </div>

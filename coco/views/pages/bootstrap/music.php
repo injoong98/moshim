@@ -44,6 +44,15 @@
 .left-blue{border-left: 5px solid #89c6ef !important ;}
 .left-green{border-left: 5px solid #99db8d !important ;}
 .left-orange{border-left: 5px solid #fcc86b !important ;}
+
+@media (max-width: 767.98px){
+    .description.mobile{display:block}
+    .description.pc{display:none}
+}
+@media (min-width: 767.98px){
+    .description.mobile{display:none}
+    .description.pc{display:block}
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -98,8 +107,14 @@
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
                             부모님의 사랑, 그에 대한 자녀의 효,
                         </p>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        <p class="description wow fadeInDown pc" data-wow-delay=".3s">
                             그리고 형제자매와 이웃 사랑의 실천을 의미하는 ‘효정’을 노래합니다.
+                        </p>
+                        <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                            그리고 형제자매와 이웃 사랑의 실천을 의미하는
+                        </p>
+                        <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                            ‘효정’을 노래합니다.
                         </p>
                     </div>
                 </div>
