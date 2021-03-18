@@ -388,6 +388,106 @@
         </div>
     </section>
     <!-- team part end -->
+        <!-- out gallery part here -->
+        <section class="our_gallery padding_top">
+        <div class="container-fluid no-gutters">
+            <div class="row justify-content-center">
+                <div class="col-lg-5">
+                    <div class="section_tittle_style_02">
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">Our Photo Gallery</span> </h2>
+                        <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide affordable, high-quality 
+                        early education and childcare services for working families to ensure every child.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row wow fadeInDown" data-wow-delay=".5s">
+                <div class="col-lg-12 p-0">
+                    <div class="grid gallery_iner gallery_popup_img">
+                        <div class="grid-sizer"></div>
+                        <a href="img/gallery/one.png" class="grid-item grid_item_width2 grid_item_height2 bg_1">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/ten.png" class="grid-item bg_10">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/three.png" class="grid-item grid_item_height2 bg_3">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/serven.png" class="grid-item bg_7">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/five.png" class="grid-item bg_5">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/two.png" class="grid-item grid_item_height2 bg_2">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/four.png" class="grid-item grid_item_height2 bg_4">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/eight.png" class="grid-item bg_8">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/nine.png" class="grid-item bg_9">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                        <a href="img/gallery/six.png" class="grid-item bg_6">
+                            <div class="grid_item_content">
+                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery_animation_1">
+            <div data-parallax='{"x": 2, "y": 20, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/gallery_1.png" alt="#"></div>
+        </div>
+        <div class="gallery_animation_2">
+            <div data-parallax='{"x": 10, "y": 50, "rotateZ":0}'><img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/icon/gallery_2.png" alt="#"></div>
+        </div>
+    </section>
+    <!-- out gallery part end -->
+
 
 <script type="module">
 $(document).ready(function() {
