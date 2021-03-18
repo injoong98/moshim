@@ -182,7 +182,7 @@
                                 <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
                                     <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
                                         <h2 class="kid_title mb-5"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
-                                        <p class="description mt-0 mb-1">그리기, 만들기등의 미술활동을 중심으로</p>
+                                        <p class="description mt-0 mb-1">그리기, 만들기 등의 미술활동을 중심으로</p>
                                         <p class="description mt-0 mb-1">집에서는 부모님과 자녀들이,</p>
                                         <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들이</p>
                                         <p class="description mt-0 mb-1">놀면서 생각을 나눕니다.</p>
