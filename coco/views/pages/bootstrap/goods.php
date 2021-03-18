@@ -55,6 +55,12 @@
     margin-top: 8px !important;
     font-weight: 300 !important;
 }
+
+.sticker-img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -100,17 +106,17 @@
                 
             </div>
             <div class="row justify-content-between mt-5">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center mb-3" data-wow-delay=".2s">
-                    <img width="75%" src="/assets/malgeunmul/img/goods/hyojeong_sticker.jpg" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-3 sticker-container" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyojeong_sticker.jpg" alt="#" class="img-fluid sticker-img">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center mb-3" data-wow-delay=".2s">
-                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoji_sticker.jpg" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-3" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoji_sticker.jpg" alt="#" class="img-fluid sticker-img">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center mb-3" data-wow-delay=".2s">
-                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoli_sticker.jpg" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-3" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyoli_sticker.jpg" alt="#" class="img-fluid sticker-img">
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp d-flex justify-content-center mb-3" data-wow-delay=".2s">
-                    <img width="75%" src="/assets/malgeunmul/img/goods/hyomong_sticker.jpg" alt="#" class="img-fluid">
+                <div class="col-lg-3 col-sm-6 wow fadeInUp mb-3" data-wow-delay=".2s">
+                    <img width="75%" src="/assets/malgeunmul/img/goods/hyomong_sticker.jpg" alt="#" class="img-fluid sticker-img">
                 </div>
                 
             </div>

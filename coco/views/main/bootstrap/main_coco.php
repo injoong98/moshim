@@ -84,16 +84,15 @@ div.contents_img_wrapper > div {
     display:none;
 }
 .withi.mobile img{
-    width : 90%;
+    width : 100%;
 }
 @media (max-width: 767.98px){
     .animation-diaplay-none {
         display: none;
     }
     .withi.mobile{
-        display: flex !important;
-        justify-content: center;
-        padding-bottom: 30px;;
+        display: block;
+        padding: 0px 5% 30px 5%;
     }
 }
 @media (max-width: 992px){
