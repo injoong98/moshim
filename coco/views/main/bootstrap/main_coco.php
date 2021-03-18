@@ -288,7 +288,7 @@ div.contents_img_wrapper > div {
     <!-- get start part here -->
     <section class="get_start_part section_padding pt-5">
         <div class="container custom_container">
-            <div class="row justify-content-between align-items-center">
+            <div class="row justify-content-even align-items-center">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
                     <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                         data-parallax='{"x": 0, "y": -50, "rotateZ":0}'> -->
@@ -304,7 +304,7 @@ div.contents_img_wrapper > div {
                         <a href="https://www.youtube.com/watch?v=PGIQLgYRyIE&list=OLAK5uy_k0kLuO_sbA5pRPtKtWCvUKpcGxtHJSHeI" class="play_btn_container" target="_blank"><span class="polygon_shape"></span></a>
                     </div> -->
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="get_start_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
                         <h2 class="kid_title"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이 </span></h2>
