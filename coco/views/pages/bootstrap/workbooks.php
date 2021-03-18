@@ -92,6 +92,16 @@
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
+<div class="dummy-cache" style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-2.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-3.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-4.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-2.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg"  style="width:0px; height:0px">
+    <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg"  style="width:0px; height:0px">
+</div>
 <!-- 이미지뷰어 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
@@ -173,9 +183,10 @@
                                     <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
                                         <h2 class="kid_title mb-5"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
                                         <p class="description mt-0 mb-1">그리기, 만들기등의 미술활동을 중심으로</p>
-                                        <p class="description mt-0 mb-1">집에서는 부모님과 자녀들과</p>
-                                        <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들과 놀면서 생각을 나눕니다.</p>
-                                        <p class="description mt-0 mb-1">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ! ART !</p>
+                                        <p class="description mt-0 mb-1">집에서는 부모님과 자녀들이,</p>
+                                        <p class="description mt-0 mb-1">유치원에서는 선생님과 아이들이</p>
+                                        <p class="description mt-0 mb-1">놀면서 생각을 나눕니다.</p>
+                                        <p class="description mt-0 mb-1">언제나 아이와 함께 하는 생각놀이 &#39;위드아이&#39; ART !</p>
                                     </div>
                                 </div>
                             </div>
