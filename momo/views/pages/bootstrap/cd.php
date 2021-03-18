@@ -36,7 +36,19 @@
            <div class="icon icon-custom-2 float-bob-x"></div>
            <div class="icon icon-custom-3 float-bob-x"></div>
            <div class="icon icon-custom-4 float-bob-x"></div>
+           <div class="icon icon-custom-1 float-bob-x" style="top:1310px; left:150px"></div>
+           <div class="icon icon-custom-1 float-bob-x" style="top:720px; right:400px"></div>
+           <div class="icon icon-custom-2 float-bob-x" style="top:1120px"></div>
+           <div class="icon icon-custom-3 float-bob-x" style="top:1530px; right:100px"></div>
+           <div class="icon icon-custom-4 float-bob-x" style="top:1320px"></div>
+           <div class="icon icon-custom-1 float-bob-x" style="top:1820px"></div>
+           <div class="icon icon-custom-2 float-bob-x" style="top:2120px; right:100px"></div>
+           <div class="icon icon-custom-3 float-bob-x" style="top:2220px; right:200px"></div>
+           <div class="icon icon-custom-4 float-bob-x" style="top:2380px; left:770px"></div>
            <div class="icon icon-custom-5 float-bob-y"></div>
+
+
+
        </div>
        <div class="container">
            <div class="sec-title">

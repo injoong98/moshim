@@ -2,6 +2,79 @@
 
 
 
+@media only screen and (max-width: 990px){
+  .main-custom-img{
+    text-align: center !important;
+    position: relative; display: inline-block;
+  }
+}
+@media only screen and (max-width: 1200px){
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    line-height: 1.5em;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  }
+    
+  /* 메인 - 효정지도 부분 보이게 */
+  .feature-section .image-column{
+    display: block;
+  }
+
+  .hyojeong-video_mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  } 
+
+  /* 동화책 - PC 제목부분,
+  메인 부분에서 생애동화 부분 타이틀도 적용 */
+  .books_title{
+    display: none;
+  }
+  /* 동화책 - 모바일 - 제목 부분  */
+  .books_title_mobile{
+    display: block;
+  }
+
+  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
+  .hyojeong-video_mobile{
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .hyojeong-video{
+    display:none;
+  }
+  
+  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
+  .main-slider-pc{
+    display: none !important;    
+  }
+
+  .main-slider-mobile{
+    display: block; 
+  }
+
+  /* 사운드북 - 페이지 - 모바일 간격 */
+    .row-mobile{
+      margin-top:100px;
+  }
+}
+
+
 
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
@@ -107,14 +180,9 @@
   }
 
   /* 글자 크기 변경 */
-  .font-size-custom-1_8em {
-    font-size : 1.8em
-  }
-  .font-size-custom-1_5em {
-    font-size : 1.5em
-  }
-  .font-size-custom-1_4em {
-    font-size : 1.4em
+ 
+  .font-size-custom-0_9em {
+    font-size : 0.9em
   }
   .font-size-custom-1em {
     font-size : 1em
@@ -122,11 +190,18 @@
   .font-size-custom-1_2em {
     font-size : 1.2em
   }
-  .font-size-custom-0_9em {
-    font-size : 0.9em
+  .font-size-custom-1_4em {
+    font-size : 1.4em
   }
-
+  .font-size-custom-1_5em {
+    font-size : 1.5em
+  } 
+  .font-size-custom-1_8em {
+    font-size : 1.8em
+  }
+  
   /* CD - 제목 들어가는 부분 */
+
 
   .our-teachers .block-column:nth-child(1) .teachers-block-two .inner-box .lower-content{
     background: url(../images/icons/teacher-icon-4.png);
@@ -287,69 +362,6 @@
   transform: translateY(10px);
   transition: all 900ms ease;
 }
-
-@media only screen and (max-width: 1200px){
-
-  .button_position{
-    display: flex;
-    z-index: 999;
-    line-height: 1.5em;
-    position: absolute; 
-    top:0px; 
-    justify-content:space-between;
-  }
-    
-  /* 메인 - 효정지도 부분 보이게 */
-  .feature-section .image-column{
-    display: block;
-  }
-
-  .hyojeong-video_mobile{
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 480px){
-
-  .button_position{
-    display: flex;
-    z-index: 999;
-    position: absolute; 
-    top:0px; 
-    justify-content:space-between;
-  } 
-
-  /* 동화책 - PC 제목부분,
-  메인 부분에서 생애동화 부분 타이틀도 적용 */
-  .books_title{
-    display: none;
-  }
-  /* 동화책 - 모바일 - 제목 부분  */
-  .books_title_mobile{
-    display: block;
-  }
-
-  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
-  .hyojeong-video_mobile{
-    display: block;
-    padding-bottom: 50px;
-  }
-
-  .hyojeong-video{
-    display:none;
-  }
-  
-  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
-  .main-slider-pc{
-    display: none !important;    
-  }
-
-  .main-slider-mobile{
-    display: block; 
-  }
-
-}
-
 .hyojeong-video_mobile{
   display: none;
 }
@@ -479,22 +491,24 @@
 /* 동화책 - 움직이는 요소 */
 .classes-section .anim-icon .icon-custom-1 {
   background: url(../images/icons/anim-icon-6.png);
-  width: 321px;
-  height:289px;
-  left:200px;
+  width: 270px;
+  height: 200px;
+  left:220px;
   bottom: 660px;
+  background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: -999;
 }
 
 .classes-section .anim-icon .icon-custom-2 {
   background: url(../images/icons/anim-icon-12.png);
-  width: 285px;
-  height: 287px;
-  right:110px;
+  width: 270px;
+  height: 200px;
+  right:140px;
   top: 170px;
+  background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: -999;
 }
 
 /* 사운드북 - 움직이는 요소 */
@@ -540,3 +554,6 @@
   bottom: 120px;
   background-repeat: no-repeat;
 }
+
+
+
