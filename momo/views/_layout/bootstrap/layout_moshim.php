@@ -158,7 +158,7 @@
 		<div class="header-bottom">
 			<div class="container">
 				<div class="clearfix">
-					<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
+					<figure class="main-custom-img"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
 							<nav class="main-menu navbar-expand-lg">
