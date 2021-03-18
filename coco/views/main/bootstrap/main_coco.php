@@ -90,14 +90,20 @@ div.contents_img_wrapper > div {
     .animation-diaplay-none {
         display: none;
     }
-    .developing {
-        top: 10px;
-    }
     .withi.mobile{
         display: flex !important;
         justify-content: center;
         padding-bottom: 30px;;
     }
+}
+@media (max-width: 992px){
+    .developing {
+        top: 10px;
+    }
+}
+.s4_about_section .about_page_animation_2 {
+    left: 2%;
+    bottom: 10%;
 }
  </style>
  <!-- banner part here -->
