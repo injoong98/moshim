@@ -110,9 +110,8 @@ div.contents_img_wrapper > div {
     bottom: 2px;
     z-index: -1;
 }
-.about_img_6 {
+.logo-video {
     border-radius: 10px;
-    z-index: -1;
 }
 .about_img_7 {
     position: absolute;
@@ -260,7 +259,7 @@ div.contents_img_wrapper > div {
                     <div class="img_section">
                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                             data-parallax='{"x": 0, "y": -50, "rotateZ":0}'>
-                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/malgeunmul_logo_video.mp4' width='541'class="about_img_6 img-fluid" autoplay muted loop>
+                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/malgeunmul_logo_video.mp4' width='541'class="logo-video img-fluid" style="margin-left:30px"autoplay playsinline muted loop>
                             해당 브라우저는 video 태그를 지원하지 않습니다.
                         </video>
                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
@@ -292,7 +291,7 @@ div.contents_img_wrapper > div {
                     <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                         data-parallax='{"x": 0, "y": -50, "rotateZ":0}'> -->
                     <div class="video_section">
-                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' width='541'class="about_img_6 img-fluid" autoplay muted loop>
+                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' width='541'class="logo-video img-fluid" autoplay playsinline muted loop>
                             해당 브라우저는 video 태그를 지원하지 않습니다.
                         </video>
                     </div>
