@@ -92,7 +92,7 @@
 
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
-<div class="dummy-cache" style="width:0px; height:0px">
+<!-- <div class="dummy-cache" style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg"  style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-2.jpg"  style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-3.jpg"  style="width:0px; height:0px">
@@ -101,7 +101,7 @@
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-2.jpg"  style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg"  style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg"  style="width:0px; height:0px">
-</div>
+</div> -->
 <!-- 이미지뷰어 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
@@ -244,7 +244,7 @@
                     <div class="filters">
                         <ul>
                             <!-- <li class="is-checked" data-filter="*">All</li> -->
-                            <li class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
+                            <li id="filter-main" class="is-checked Cafe24Ssurround" data-filter=".1st">1호</li>
                             <!-- <li data-filter=".1st">2</li>
                             <li data-filter=".1st">3</li>
                             <li data-filter=".1st">4</li> -->
@@ -457,4 +457,48 @@
             navbar : false,
             toolbar : false
         });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            console.log('ready');
+            // document.getElementById("filter-main").click();
+            // $('#filter-main').trigger('click')
+
+
+            var mutationObserver = new MutationObserver(function(mutations) {
+                // mutations.forEach(function(mutation) {
+                //     console.log(mutation); 
+                // }); 
+                document.getElementById("filter-main").click();
+                $('#filter-main').trigger('click')
+                mutationObserver.disconnect();
+            }); 
+            var element = document.getElementsByClassName('preloder')[0];
+            // console.log(element);
+            var option = { 
+                attributes : true, 
+                characterData: true, 
+                childList: true, 
+                subtree: true, 
+                attributeOldValue: true, 
+                characterDataOldValue: true 
+            } 
+            mutationObserver.observe(element, option);
+        })
+        // console.log($('.preloder').css('display'));
+        // while(1){
+        //     if($('.preloder').css('display') == "none"){
+        //         console.log($('.preloder').css('display'));
+        //         break;
+        //     }
+        // }
+        // $('.preloder').on("DOMSubtreeModified",function(){
+        //     console.log('changed');
+        // });
+        // setTimeout(() => {
+        //     console.log('timeout');
+        //     document.getElementById("filter-main").click();
+        //     $('#filter-main').trigger('click')
+        // }, 10000);
     </script>
