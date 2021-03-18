@@ -28,6 +28,11 @@
     width: 100%;
     padding-top: 20.84%;
 }
+@media (max-width: 414px){
+    .vibe-icon{
+        height:16px !important;
+    }
+}
 .lyrics{
     cursor: pointer;
 }
@@ -449,7 +454,7 @@
                         <img src="/assets/images/melon.png" class="music_sns_icon"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://vibe.naver.com/album/5183052">
-                        <img src="/assets/images/vibe.png" class="music_sns_icon" style="object-fit: cover;height: 40px;"/>
+                        <img src="/assets/images/vibe.png" class="music_sns_icon vibe-icon" style="object-fit: cover;height: 40px;"/>
                     </a>
                     <a class="col-lg-2" target="_blank" href="https://music.apple.com/us/album/%EC%97%84%EB%A7%88%EB%9E%91-%EC%95%84%EB%B9%A0%EB%9E%91-%ED%9A%A8%EC%A0%95%EB%8F%99%EC%9A%94/1546079168?uo=4">
                         <img src="/assets/images/applemusic_p.png" class="music_sns_icon"/>
