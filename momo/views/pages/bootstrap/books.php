@@ -1,7 +1,18 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/book/cover_01.jpg);">
+   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/book/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
+           <div class="content-box" style="height:100px">
+               <!-- <h1>동화책</h1> -->
+               <!-- <ul class="bread-crumb clearfix">
+                   <li><a href="index.html">Home</a></li>
+                   <li>About</li>
+               </ul> -->
+           </div>
+       </div>
+   </section>
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-1.jpg); background-size:cover">
+       <div class="container">
+           <div class="content-box" style="height:400px">
                <!-- <h1>동화책</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
@@ -14,6 +25,10 @@
 
    <!-- classes-section -->
    <section class="classes-section classes-page-section sec-pad">
+       <div class="anim-icon">
+           <div class="icon icon-custom-1 float-bob-x"></div>
+           <div class="icon icon-custom-2 float-bob-y"></div>
+       </div>
        <div class="container">
            <div class="sec-title text-center">
                <h5>참어머님 생애동화</h5>
@@ -35,8 +50,8 @@
                            <div class="price">91,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연령 : <span>5 ~ 13세</span></li>
-                               <li>권수 : <span>총 7권 </span></li>
+                               <li>연 령 : <span>5 ~ 13세</span></li>
+                               <li>권 수 : <span>총 7권 </span></li>
                            </ul>
                        </div>
                    </div>

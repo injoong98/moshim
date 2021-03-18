@@ -1,7 +1,18 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/cover_01.jpg);">
+   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
+           <div class="content-box" style="height:100px">>
+               <!-- <h1>CD</h1> -->
+               <!-- <ul class="bread-crumb clearfix">
+                   <li><a href="index.html">Home</a></li>
+                   <li>About</li>
+               </ul> -->
+           </div>
+       </div>
+   </section>
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-5.jpg); background-size:cover">
+       <div class="container">
+           <div class="content-box" style="height:400px">
                <!-- <h1>CD</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
@@ -20,6 +31,13 @@
      -->
    <!-- our-teachers -->
    <section class="our-teachers style-three about-page sec-pad centred" style="background-color:white">
+       <div class="anim-icon">
+           <div class="icon icon-custom-1 float-bob-x"></div>
+           <div class="icon icon-custom-2 float-bob-x"></div>
+           <div class="icon icon-custom-3 float-bob-x"></div>
+           <div class="icon icon-custom-4 float-bob-x"></div>
+           <div class="icon icon-custom-5 float-bob-y"></div>
+       </div>
        <div class="container">
            <div class="sec-title">
                <h5>참어머님 생애동요 CD</h5>
@@ -280,8 +298,17 @@
            for (var i = 0; i < div2.length; i++) {
                div2[i].addEventListener("click", handleClick);
            }
-
        }
 
        init();
+
+
+       document.addEventListener('play', function(e) {
+           var audios = document.getElementsByTagName('audio');
+           for (var i = 0, len = audios.length; i < len; i++) {
+               if (audios[i] != e.target) {
+                   audios[i].pause();
+               }
+           }
+       }, true);
    </script>

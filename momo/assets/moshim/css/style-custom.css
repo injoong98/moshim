@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 
 
+
+
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
 }
@@ -240,7 +242,6 @@
 .soundbook_bgimg{
   width: 100%;
   height: 100%;
-  position: absolute;
 }
 
 .button_position{
@@ -266,6 +267,15 @@
 
 .books_title_mobile{
   display: none;
+}
+
+/* 메인 캐러셀 슬라이드 모바일 */
+.main-slider-pc{
+  display: block;
+}
+
+.main-slider-mobile{
+  display: none; 
 }
 
 
@@ -328,6 +338,16 @@
   .hyojeong-video{
     display:none;
   }
+  
+  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
+  .main-slider-pc{
+    display: none !important;    
+  }
+
+  .main-slider-mobile{
+    display: block; 
+  }
+
 }
 
 .hyojeong-video_mobile{
@@ -386,4 +406,137 @@
 .lyric-style{
   color:white; font-size:20px !important; 
   font-family: Nanum Gothic !important;
+}
+
+
+/* CD - 아이콘 */
+
+.anim-icon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.anim-icon .icon{
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+.our-teachers .anim-icon .icon-custom-1 {
+  background: url(../images/icons/anim-icon-100.png);
+  width: 45px;
+  height: 100px;
+  left: 400px;
+  top: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.our-teachers .anim-icon .icon-custom-2 {
+  background: url(../images/icons/anim-icon-101.png);
+  width: 45px;
+  height: 100px;
+  left: 550px;
+  top: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.our-teachers .anim-icon .icon-custom-3 {
+  background: url(../images/icons/anim-icon-101.png);
+  width: 45px;
+  height: 100px;
+  right: 450px;
+  top: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.our-teachers .anim-icon .icon-custom-4{
+  background: url(../images/icons/anim-icon-100.png);
+  width: 45px;
+  height: 100px;
+  right: 300px;
+  top: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.our-teachers .anim-icon .icon-custom-5{
+  background: url(../images/icons/anim-icon-13.png);
+  width: 265px;
+  height: 400px;
+  left: 70px;
+  bottom: -70px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+
+/* 동화책 - 움직이는 요소 */
+.classes-section .anim-icon .icon-custom-1 {
+  background: url(../images/icons/anim-icon-6.png);
+  width: 321px;
+  height:289px;
+  left:200px;
+  bottom: 660px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.classes-section .anim-icon .icon-custom-2 {
+  background: url(../images/icons/anim-icon-12.png);
+  width: 285px;
+  height: 287px;
+  right:110px;
+  top: 170px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* 사운드북 - 움직이는 요소 */
+
+.our-teachers .anim-icon .icon-custom-6{
+  background: url(../images/icons/anim-icon-9.png);
+  width: 158px;
+  height: 115px;
+  top: 30px;
+  left: 180px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.our-teachers .anim-icon .icon-custom-7 {
+  background: url(../images/icons/anim-icon-10.png);
+  width: 149px;
+  height: 106px;
+  top: 220px;
+  right: 260px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.our-teachers .anim-icon .icon-custom-8 {
+  background: url(../images/icons/anim-icon-5.png);
+  width: 119px;
+  height: 127px;
+  top: 120px;
+  left: 700px;
+  background-repeat: no-repeat;
+  -webkit-animation: zoom-fade 5s infinite linear;
+  animation: zoom-fade 5s infinite linear;
+  z-index: -1;
+}
+
+/* 메인 - 생애동화 - 움직이는 요소 */
+.news-section .anim-icon .icon-3{
+  background: url(../images/icons/anim-icon-7.png);
+  width: 161px;
+  height: 261px;
+  right: 100px;
+  bottom: 120px;
+  background-repeat: no-repeat;
 }

@@ -1,19 +1,43 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/cover_01.jpg);">
+   <section class="page-title centred main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/cover_01.jpg);">
        <div class="container">
-           <div class="content-box">
-               <!-- <h1>사운드북</h1> -->
+           <div class="content-box" style="height:100px">
+               <!-- <h1>사운드북</h1>
+               <ul class="bread-crumb clearfix">
+                   <li><a href="index.html">Home</a></li>
+                   <li>About</li>
+               </ul> -->
+           </div>
+       </div>
+   </section>
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-3.jpg); background-size:cover">
+       <div class="container">
+           <div class="content-box" style="height:400px">
+               <!-- <h1>CD</h1> -->
                <!-- <ul class="bread-crumb clearfix">
                    <li><a href="index.html">Home</a></li>
                    <li>About</li>
-               </ul>
+               </ul> -->
            </div>
-       </div> -->
+       </div>
    </section>
    <!--End Page Title-->
 
    <!-- our-teachers -->
    <section class="our-teachers teachers-page-section sec-pad centred">
+       <div class="anim-icon">
+           <div class="icon icon-custom-6"></div>
+           <div class="icon icon-custom-7"></div>
+           <div class="icon icon-custom-8"></div>
+           <div class="icon icon-custom-6" style="top:830px"></div>
+           <div class="icon icon-custom-7" style="top:720px; right:400px"></div>
+           <div class="icon icon-custom-8" style="top:1120px"></div>
+           <div class="icon icon-custom-6" style="top:1530px"></div>
+           <div class="icon icon-custom-7" style="top:1320px"></div>
+           <div class="icon icon-custom-8" style="top:1820px"></div>
+           <div class="icon icon-custom-7" style="top:2120px; right:100px"></div>
+
+       </div>
        <div class="container">
            <div class="sec-title">
                <h5>참어머님 생애동요 사운드북</h5>

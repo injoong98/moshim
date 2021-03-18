@@ -5,11 +5,21 @@
     }
 
     .wrapper {
-        display: grid;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        min-height: 50vh;
+        /* display: grid;
         align-items: center;
         align-content: center;
         min-height: 100vh;
-        min-width: 100vw;
+        min-width: 100vw; */
     }
 
     .container_music {
@@ -52,6 +62,7 @@
     .play-button.playing::before {
         border-style: double;
         border-width: 0px 0 0px 8px;
+
     }
 </style>
 
