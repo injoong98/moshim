@@ -94,6 +94,9 @@ div.contents_img_wrapper > div {
         display: block;
         padding: 0px 5% 30px 5%;
     }
+    .logo-video{
+        margin-left: 0 !important;
+    }
 }
 @media (max-width: 992px){
     .developing {
