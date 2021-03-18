@@ -23,6 +23,10 @@
 }
 .breadcrumb_part{
     background-image: url(../assets/malgeunmul/img/music/hjsong_main.jpg) !important;
+    background-size: contain;
+    height: 0 !important;
+    width: 100%;
+    padding-top: 20.84%;
 }
 .lyrics{
     cursor: pointer;
@@ -42,12 +46,6 @@
             <div class="row justify-content-center">
                 <div class="col-lg-6 ">
                     <div class="breadcrumb_iner">
-                        <h2></h2>
-                        <!-- <div class="breadcrumb_iner_link">
-                            <a href="index.html">Home</a>
-                            <span>|</span>
-                            <p>About us</p>
-                        </div> -->
                     </div>
                 </div>
             </div>
