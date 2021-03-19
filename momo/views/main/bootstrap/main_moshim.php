@@ -54,7 +54,7 @@
         </div>
     </section>
     <!-- 모바일 버전 -->
-    <section class="main-slider style-two main-slider-mobile">
+    <section class="col-md-12 col-sm-12 main-slider style-two main-slider-mobile" style="padding:0">
         <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
             <!--  -->
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-1.jpg)"></div>
@@ -77,37 +77,14 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px;">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:25px">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
-                    <!-- <div class="fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="5000">
-                            <div class="carousel-inner">
-                                <div class="carousel-item w-100 active">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-logo.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item w-100">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm1.jpg" alt="Second slide">
-                                </div>
-                                <div class="carousel-item w-100">
-                                    <img class="d-block" src="<?php echo moshim_url('momo') ?>/assets/moshim/images/main-carousel/main-carousel-tm2.jpg" alt="Third slide">
-                                </div>
-                            </div>
-                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
-                        <div class="sec-title style-two" style="padding-top: 35px;">
+                        <div class="sec-title style-two">
                             <h5> 출판브랜드 소개</h5>
                             <h1 style="color: #2b3c6b;">모심</h1>
                         </div>
@@ -128,6 +105,13 @@
                 </div>
             </div>
             <div class="row">
+                <!--시작: 효정지도, 모바일에서만 -->
+                <div class="col-md-12 col-sm-12 main-slider-mobile">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="hyojeongVideoMobile" style="padding:0">
+                        <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
+                    </video>
+                </div>
+                <!-- 끝 : 효정지도, 모바일에서만 -->
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
@@ -140,7 +124,6 @@
                         </div>
                         <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
                             <!-- <h3>원리의 길은 밟아가는 길입니다.</h3> -->
-
                             '모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
                             <br />
                             <br />
@@ -155,8 +138,8 @@
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 image-column">
-                    <video class="video_nobg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="width:380px; padding-top:110px" id="hyojeongVideo">
+                <div class="col-lg-6 col-md-12 col-sm-12 main-slider-pc">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:110px" id="hyojeongVideo">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>
                 </div>
@@ -211,7 +194,7 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
-    <section class="news-section" style="background: #ffea5e;">
+    <section class="news-section" style="background: #ffcde4 ;">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
             <div class="icon icon-3 float-bob-x"></div>
@@ -476,7 +459,10 @@
                         </div>
                         <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
                         <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div>
+                            <!-- <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div> -->
+                            <div class="range-slider clearfix text-center wow fadeInUp">
+                                <a href="<?php echo moshim_url('momo') ?>/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white">더보기</a>
+                            </div>
                         </div>
                         <!-- </div> -->
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
@@ -581,23 +567,24 @@
         document.addEventListener('scroll', function() {
             let currentScrollValue = document.documentElement.scrollTop;
             let hyojeongVideo = document.getElementById('hyojeongVideo');
+            let hyojeongVideoMobile = document.getElementById('hyojeongVideoMobile');
             let isMobile = device_check();
+            console.log(hyojeongVideo)
+            console.log(isMobile)
 
             if (isMobile == 'M') {
-                if (currentScrollValue > 2000) {
-                    hyojeongVideo.play();
+                if (currentScrollValue > 1300) {
+                    hyojeongVideoMobile.play();
                 } else {
-                    hyojeongVideo.pause();
+                    hyojeongVideoMobile.pause();
                 }
             } else {
-                if (currentScrollValue > 1000) {
+                if (currentScrollValue > 1100) {
                     hyojeongVideo.play();
                 } else {
                     hyojeongVideo.pause();
                 }
             }
-
-            console.log('currentScrollValue is ' + currentScrollValue);
         });
 
         function device_check() {

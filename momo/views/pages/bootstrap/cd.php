@@ -273,8 +273,12 @@
                                    <audio id="cd_track_12">
                                        <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-12.mp3" type="audio/mpeg">
                                    </audio>
-                                   <li onClick="document.getElementById('cd_track_12').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
-                                   <li onClick="document.getElementById('cd_track_12').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
+                                   <li onClick="document.getElementById('cd_track_12').play(); return false;">
+                                       <a class="play_button"><i class="track-01 fas fa-play"></i></a>
+                                   </li>
+                                   <li onClick="document.getElementById('cd_track_12').pause(); return false;">
+                                       <a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a>
+                                   </li>
                                    <li><a class="lyric-style play_button" onclick="openWin_cd('12')" target="_blank">가사</a></li>
                                </ul>
                            </div>
@@ -292,34 +296,58 @@
            window.open(`http://moshim.co.kr/pages/cd_detail/${num}`, '가사&해설', 'width=740, height=600, scrollbars=no');
            return false
        }
-       // 버튼 색상 변경 
+       //    // 버튼 색상 변경 
+       //    let pauseBtn = document.getElementsByTagName("i");
+
+       //    function handleClick(event) {
+       //        if (event.target.classList[3] === "clicked") {
+       //            event.target.classList.remove("clicked");
+       //        } else {
+       //            for (var i = 0; i < pauseBtn.length; i++) {
+       //                pauseBtn[i].classList.remove("clicked");
+       //            }
+       //            event.target.classList.add("clicked");
+       //        }
+       //    }
+
+       //    function init() {
+       //        for (var i = 0; i < pauseBtn.length; i++) {
+       //            pauseBtn[i].addEventListener("click", handleClick);
+       //        }
+       //    }
+       // 
+       //    init();
+
+       var audios = document.getElementsByTagName('audio');
        let div2 = document.getElementsByTagName("i");
-
-       function handleClick(event) {
-           if (event.target.classList[3] === "clicked") {
-               event.target.classList.remove("clicked");
-           } else {
-               for (var i = 0; i < div2.length; i++) {
-                   div2[i].classList.remove("clicked");
-               }
-               event.target.classList.add("clicked");
-           }
-       }
-
-       function init() {
-           for (var i = 0; i < div2.length; i++) {
-               div2[i].addEventListener("click", handleClick);
-           }
-       }
-
-       init();
-
-
+       let stopBtn = '';
+       let targetPlayBtn = '';
        document.addEventListener('play', function(e) {
-           var audios = document.getElementsByTagName('audio');
+           stopBtn = e.target.parentNode.querySelector('.fa-pause');
+           targetPlayBtn = e.target.parentNode.querySelector('.fa-play');
+           targetPlayBtn.classList.add('clicked')
+           stopBtn.classList.remove('clicked')
            for (var i = 0, len = audios.length; i < len; i++) {
                if (audios[i] != e.target) {
                    audios[i].pause();
+                   audios[i].parentNode.querySelector('.fas').classList.remove('clicked')
+                   console.log('재생눌렀을때:', audios[i].parentNode.querySelector('.fas'))
+               }
+           }
+       }, true);
+
+       document.addEventListener('pause', function(e) {
+           stopBtn = e.target.parentNode.querySelector('.fa-pause');
+           targetPlayBtn = e.target.parentNode.querySelector('.fa-play');
+           console.log('멈춤 클릭 : ', stopBtn)
+           stopBtn.classList.add('clicked')
+           targetPlayBtn.classList.remove('clicked')
+           for (var i = 0, len = audios.length; i < len; i++) {
+               if (audios[i] != e.target) {
+                   audios[i].pause();
+                   audios[i].parentNode.querySelector('.fas').classList.remove('clicked')
+                   e.target.querySelector('.fas').classList.remove('clicked')
+                   console.log('멈춤눌렀을때:', audios[i].parentNode.querySelector('.fas'))
                }
            }
        }, true);

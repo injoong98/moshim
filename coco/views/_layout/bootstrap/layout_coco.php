@@ -52,6 +52,9 @@
     .animation-diaplay-none {
         display: none;
     }
+    .word-break{
+        word-break: keep-all;
+    }
 }
 </style>
 <body>

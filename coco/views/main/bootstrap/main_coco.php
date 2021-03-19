@@ -1,6 +1,6 @@
 <style>
 .single_banner_part{
-    background-image: url(../assets/malgeunmul/img/main/main_cover_large.jpg);
+    background-image: url(../assets/malgeunmul/img/main/main_cover_downsized.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,18 +84,31 @@ div.contents_img_wrapper > div {
     display:none;
 }
 .withi.mobile img{
-    width : 90%;
+    width : 100%;
 }
 @media (max-width: 767.98px){
     .animation-diaplay-none {
         display: none;
     }
     .withi.mobile{
-        display: flex !important;
-        justify-content: center;
-        padding-bottom: 30px;;
+        display: block;
+        padding: 0px 5% 30px 5%;
     }
+    .logo-video{
+        margin-left: 0 !important;
+    }
+    .banner_iner.mobile{display:block}
+    .banner_iner.pc{display:none}
+    .description.mobile{display:block}
+    .description.pc{display:none}
 }
+@media (min-width: 767.98px){
+    .banner_iner.mobile{display:none}
+    .banner_iner.pc{display:block}
+    .description.mobile{display:none}
+    .description.pc{display:block}
+}
+
 @media (max-width: 992px){
     .developing {
         top: 10px;
@@ -111,9 +124,8 @@ div.contents_img_wrapper > div {
     bottom: 2px;
     z-index: -1;
 }
-.about_img_6 {
+.logo-video {
     border-radius: 10px;
-    z-index: -1;
 }
 .about_img_7 {
     position: absolute;
@@ -128,11 +140,12 @@ div.contents_img_wrapper > div {
             <div class="container custom_container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-12 col-md-12">
-                        <div class="banner_iner">
+                        <div class="banner_iner pc">
                             <h2> 교육이 사람을  만듭니다.</h2>
-                            <h2> <span></span><span></span></h2>
-                            <p></p>
-                            <!-- <a href="#" class="cu_btn btn_2"></a> -->
+                        </div>
+                        <div class="banner_iner mobile">
+                            <h2> 교육이 사람을</h2>
+                            <h2>만듭니다.</h2>
                         </div>
                     </div>
                 </div>
@@ -253,7 +266,7 @@ div.contents_img_wrapper > div {
                             부모님과 대화로 하루를 마무리하는 티없이 맑은 자녀들로 성장하길 바라는 마음.
                         </p>
                         <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
-                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.’
+                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.
                         </p>
                     </div>
                 </div>
@@ -261,7 +274,7 @@ div.contents_img_wrapper > div {
                     <div class="img_section">
                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                             data-parallax='{"x": 0, "y": -50, "rotateZ":0}'>
-                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/malgeunmul_logo_video.mp4' width='541'class="about_img_6 img-fluid" autoplay muted loop>
+                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/malgeunmul_logo_video.mp4' width='541'class="logo-video img-fluid" style="margin-left:30px"autoplay playsinline muted loop>
                             해당 브라우저는 video 태그를 지원하지 않습니다.
                         </video>
                         <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_1.png" alt="#" class="about_img_5"
@@ -293,7 +306,7 @@ div.contents_img_wrapper > div {
                     <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/about_img_shape_2.png" alt="#" class="about_img_7"
                         data-parallax='{"x": 0, "y": -50, "rotateZ":0}'> -->
                     <div class="video_section">
-                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' width='541'class="about_img_6 img-fluid" autoplay muted loop>
+                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' width='541'class="logo-video img-fluid" autoplay playsinline muted loop>
                             해당 브라우저는 video 태그를 지원하지 않습니다.
                         </video>
                     </div>
@@ -335,8 +348,14 @@ div.contents_img_wrapper > div {
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
                         부모님의 사랑, 그에 대한 자녀의 효, 
                     </p>
-                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                    <p class="description wow fadeInDown pc" data-wow-delay=".3s">
                         그리고 형제자매와 이웃사랑의 실천을 의미하는 ‘효정’을 노래합니다.
+                    </p>
+                    <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                        그리고 형제자매와 이웃사랑의 실천을 의미하는 
+                    </p>
+                    <p class="description wow fadeInDown mobile" data-wow-delay=".3s">
+                        ‘효정’을 노래합니다.
                     </p>
                 </div>
             </div>
@@ -485,7 +504,7 @@ div.contents_img_wrapper > div {
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
                         3D 애니메이션 '효정아 놀자'의 주인공,
                     </p>
-                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                    <p class="description wow fadeInDown word-break" data-wow-delay=".3s">
                         효정, 효지, 효리, 효몽이를 다양한 굿즈로 만나보세요!
                     </p>
                 </div>

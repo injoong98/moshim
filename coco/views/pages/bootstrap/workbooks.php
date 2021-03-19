@@ -186,7 +186,7 @@
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-lg-4" data-wow-delay=".3s">
                                     <div class="program_details_thumb profile_img pr-lg-3">
-                                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' class="logo-video" autoplay muted loop>
+                                        <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' class="logo-video" autoplay playsinline muted loop>
                                             해당 브라우저는 video 태그를 지원하지 않습니다.
                                         </video>
                                         <!-- <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo_small.jpg" alt="#" class="img-fluid"> -->

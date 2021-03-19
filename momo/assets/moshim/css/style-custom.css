@@ -1,80 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 
 
-
-@media only screen and (max-width: 990px){
-  .main-custom-img{
-    text-align: center !important;
-    position: relative; display: inline-block;
-  }
-}
-@media only screen and (max-width: 1200px){
-
-  .button_position{
-    display: flex;
-    z-index: 999;
-    line-height: 1.5em;
-    position: absolute; 
-    top:0px; 
-    justify-content:space-between;
-  }
-    
-  /* 메인 - 효정지도 부분 보이게 */
-  .feature-section .image-column{
-    display: block;
-  }
-
-  .hyojeong-video_mobile{
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 480px){
-
-  .button_position{
-    display: flex;
-    z-index: 999;
-    position: absolute; 
-    top:0px; 
-    justify-content:space-between;
-  } 
-
-  /* 동화책 - PC 제목부분,
-  메인 부분에서 생애동화 부분 타이틀도 적용 */
-  .books_title{
-    display: none;
-  }
-  /* 동화책 - 모바일 - 제목 부분  */
-  .books_title_mobile{
-    display: block;
-  }
-
-  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
-  .hyojeong-video_mobile{
-    display: block;
-    padding-bottom: 50px;
-  }
-
-  .hyojeong-video{
-    display:none;
-  }
-  
-  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
-  .main-slider-pc{
-    display: none !important;    
-  }
-
-  .main-slider-mobile{
-    display: block; 
-  }
-
-  /* 사운드북 - 페이지 - 모바일 간격 */
-    .row-mobile{
-      margin-top:100px;
-  }
+/* 사운드북 상세 페이지 */
+.wrapper-custom-soundbook {
+  padding-top: 40vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: 50vh;
 }
 
 
+.container_music {
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  padding: 16px 0 0 0;
+  margin: 15px auto;
+  display: inline-block;
+  position: relative;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+audio {
+  display: none;
+}
+
+.player-section {
+  width: 100%;
+  display: flex;
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  justify-content: space-between;
+}
+
+.padding {
+  text-align: center;
+
+}
+/* 사운드북 상세 페이지 끝*/
 
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
@@ -180,9 +152,14 @@
   }
 
   /* 글자 크기 변경 */
- 
-  .font-size-custom-0_9em {
-    font-size : 0.9em
+  .font-size-custom-1_8em {
+    font-size : 1.8em
+  }
+  .font-size-custom-1_5em {
+    font-size : 1.5em
+  }
+  .font-size-custom-1_4em {
+    font-size : 1.4em
   }
   .font-size-custom-1em {
     font-size : 1em
@@ -190,18 +167,11 @@
   .font-size-custom-1_2em {
     font-size : 1.2em
   }
-  .font-size-custom-1_4em {
-    font-size : 1.4em
+  .font-size-custom-0_9em {
+    font-size : 0.9em
   }
-  .font-size-custom-1_5em {
-    font-size : 1.5em
-  } 
-  .font-size-custom-1_8em {
-    font-size : 1.8em
-  }
-  
-  /* CD - 제목 들어가는 부분 */
 
+  /* CD - 제목 들어가는 부분 */
 
   .our-teachers .block-column:nth-child(1) .teachers-block-two .inner-box .lower-content{
     background: url(../images/icons/teacher-icon-4.png);
@@ -315,8 +285,8 @@
 
 /* 사운드북 재생 버튼 위치 */
 .soundbook_bgimg{
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  /* height:100% */
 }
 
 .button_position{
@@ -362,11 +332,110 @@
   transform: translateY(10px);
   transition: all 900ms ease;
 }
+
+@media only screen and (max-width: 1200px){
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    line-height: 1.5em;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  }
+    
+  /* 메인 - 효정지도 부분 보이게 */
+  .feature-section .image-column{
+    display: block;
+  }
+
+  .hyojeong-video_mobile{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  .wrapper-custom-soundbook {
+    padding-top:0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 50vh;
+  }
+
+  .button_position{
+    display: flex;
+    z-index: 999;
+    position: absolute; 
+    top:0px; 
+    justify-content:space-between;
+  } 
+
+  /* 동화책 - PC 제목부분,
+  메인 부분에서 생애동화 부분 타이틀도 적용 */
+  .books_title{
+    display: none;
+  }
+  /* 동화책 - 모바일 - 제목 부분  */
+  .books_title_mobile{
+    display: block;
+  }
+
+  /* 메인 - 효정지도 숨김, 모바일용 오픈 */
+  .hyojeong-video_mobile{
+    display: block;
+    padding-bottom: 50px;
+  }
+
+  .hyojeong-video{
+    display:none;
+  }
+  
+  /* 메인 및 각 페이지 - 캐러셀 슬라이드 모바일 */
+  .main-slider-pc{
+    display: none !important;    
+  }
+
+  .main-slider-mobile{
+    display: block; 
+  }
+
+  /* 오디오북 상세페이지*/
+  .player-section {
+    width: 100%;
+    display: flex;
+  }
+
+  .wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+      min-height: 50vh;
+  } 
+
+}
+
+
 .hyojeong-video_mobile{
   display: none;
 }
 
-
+@media only screen and (max-width: 990px){
+  .main-custom-img{
+    text-align: center !important;
+  }
+}
 /* 레이아웃 - 상단바  */
 .sticky-header .main-menu .navigation > li {
   margin: 34px 30px 30px 20px!important;
@@ -554,6 +623,3 @@
   bottom: 120px;
   background-repeat: no-repeat;
 }
-
-
-
