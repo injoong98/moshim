@@ -285,8 +285,8 @@ audio {
 
 /* 사운드북 재생 버튼 위치 */
 .soundbook_bgimg{
-  width: 100%;
-  height: 100%;
+  min-width: 100%;
+  /* height:100% */
 }
 
 .button_position{
@@ -560,22 +560,24 @@ audio {
 /* 동화책 - 움직이는 요소 */
 .classes-section .anim-icon .icon-custom-1 {
   background: url(../images/icons/anim-icon-6.png);
-  width: 321px;
-  height:289px;
-  left:200px;
+  width: 270px;
+  height: 200px;
+  left:220px;
   bottom: 660px;
+  background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: -999;
 }
 
 .classes-section .anim-icon .icon-custom-2 {
   background: url(../images/icons/anim-icon-12.png);
-  width: 285px;
-  height: 287px;
-  right:110px;
+  width: 270px;
+  height: 200px;
+  right:140px;
   top: 170px;
+  background-size: contain;
   background-repeat: no-repeat;
-  z-index: 1;
+  z-index: -999;
 }
 
 /* 사운드북 - 움직이는 요소 */
