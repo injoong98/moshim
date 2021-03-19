@@ -118,6 +118,7 @@
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg"  style="width:0px; height:0px">
     <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg"  style="width:0px; height:0px">
 </div> -->
+
 <!-- 이미지뷰어 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.3.7/viewer.min.css" />
@@ -183,7 +184,7 @@
                                 <img src="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/workbook/withi_logo.jpg" alt="#" class="img-fluid">
                             </div> -->
                             <div class="row align-items-center justify-content-center">
-                                <div class="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="col-lg-4" data-wow-delay=".3s">
                                     <div class="program_details_thumb profile_img pr-lg-3">
                                         <video src='<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/main/withi_logo_video_8s.mp4' class="logo-video" autoplay playsinline muted loop>
                                             해당 브라우저는 video 태그를 지원하지 않습니다.
@@ -192,7 +193,7 @@
                                         <!-- <img src="img/teacher_profile_shape.png" alt="#" class="img-fluid teacher_profile_shape"> -->
                                     </div>
                                 </div>
-                                <div class="col-lg-5 wow fadeInUp" id="art-desc" data-wow-delay=".5s">
+                                <div class="col-lg-5" id="art-desc" data-wow-delay=".5s">
                                     <div class="program_details_content mt-5 mb-5 mt-lg-0 mb-lg-0">
                                         <h2 class="kid_title mb-5"> <span class="Cafe24Ssurround">위드아이 - ART</span></h2>
                                         <p class="description mt-0 mb-1">그리기, 만들기등의 미술활동을 중심으로</p>
@@ -271,7 +272,7 @@
                     <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter" id="program_list_filter1">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-1.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>1차시</p>
@@ -290,7 +291,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-2.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>2차시</p>
@@ -309,7 +310,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-3.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>3차시</p>
@@ -328,7 +329,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_1-4.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>4차시</p>
@@ -352,7 +353,7 @@
                     <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
                     <div class="rows grid program_list_filter" id="program_list_filter2">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-1.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>1차시</p>
@@ -371,7 +372,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-2.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>2차시</p>
@@ -390,7 +391,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-3.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>3차시</p>
@@ -409,7 +410,7 @@
                             </div>
                         </div>
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
-                            <div class="single_program_list wow fadeInUp" data-wow-delay=".4s">
+                            <div class="single_program_list" data-wow-delay=".4s">
                                 <img src="../assets/malgeunmul/img/workbook/workbook_photo/1st/workbook_1st_2-4.jpg" alt="#" class="img-fluid">
                                 <div class="single_program_list_content">
                                     <p>4차시</p>
@@ -478,7 +479,7 @@
         });
     </script>
 
-    <script>
+    <script type="module">
         $(document).ready(function() {
             console.log('ready');
             // document.getElementById("filter-main").click();
@@ -489,9 +490,11 @@
                 // mutations.forEach(function(mutation) {
                 //     console.log(mutation); 
                 // }); 
-                document.getElementById("filter-main").click();
-                $('#filter-main').trigger('click')
-                mutationObserver.disconnect();
+                setTimeout(() => {
+                    document.getElementById("filter-main").click();
+                    $('#filter-main').trigger('click')
+                    mutationObserver.disconnect();                    
+                }, 1000);
             }); 
             var element = document.getElementsByClassName('preloder')[0];
             // console.log(element);

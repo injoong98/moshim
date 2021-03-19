@@ -85,7 +85,7 @@
                         <p class="description wow fadeInDown" data-wow-delay=".3s">
                         3D 애니메이션 '효정아 놀자'의 주인공,
                         </p>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">
+                        <p class="description wow fadeInDown word-break" data-wow-delay=".3s">
                         효정, 효지, 효리, 효몽이를 다양한 굿즈로 만나보세요!</p>
                     </div>
                 </div>
@@ -260,7 +260,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-02.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-02.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">마스크스트랩 핑크</a></h4>
+                        <h4> <a class ="product-title word-break"href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">마스크스트랩 핑크</a></h4>
                         <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-02.jpg">2,500원</a></h4>
                     </div>
                 </div>
@@ -269,7 +269,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-03.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-03.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">마스크스트랩 초록</a></h4>
+                        <h4> <a class ="product-title word-break"href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">마스크스트랩 초록</a></h4>
                         <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-03.jpg">2,500원</a></h4>
                     </div>
                 </div>
@@ -278,7 +278,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-04.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-04.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">마스크스트랩 노랑</a></h4>
+                        <h4> <a class ="product-title word-break"href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">마스크스트랩 노랑</a></h4>
                         <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-04.jpg">2,500원</a></h4>
                     </div>
                 </div>
@@ -287,7 +287,7 @@
                         <a href="/assets/malgeunmul/img/goods/prod/strap-1.jpg" class="d-block teacher_profile_img img-popup">
                             <img src="/assets/malgeunmul/img/goods/prod/strap-1.jpg" alt="#" class="img-fluid">
                         </a>
-                        <h4> <a class ="product-title"href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">마스크스트랩 파랑</a></h4>
+                        <h4> <a class ="product-title word-break"href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">마스크스트랩 파랑</a></h4>
                         <h4 class="price"><a class ="product-title" href="/assets/malgeunmul/img/goods/prod/strap-1.jpg">2,500원</a></h4>
                     </div>
                 </div>
