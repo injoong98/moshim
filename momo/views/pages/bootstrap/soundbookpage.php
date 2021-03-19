@@ -1,4 +1,7 @@
 <style>
+    html {
+        overflow: hidden;
+    }
 </style>
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%">
