@@ -266,7 +266,7 @@ div.contents_img_wrapper > div {
                             부모님과 대화로 하루를 마무리하는 티없이 맑은 자녀들로 성장하길 바라는 마음.
                         </p>
                         <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
-                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.’
+                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.
                         </p>
                     </div>
                 </div>
@@ -504,7 +504,7 @@ div.contents_img_wrapper > div {
                     <p class="description wow fadeInDown" data-wow-delay=".3s">
                         3D 애니메이션 '효정아 놀자'의 주인공,
                     </p>
-                    <p class="description wow fadeInDown" data-wow-delay=".3s">
+                    <p class="description wow fadeInDown word-break" data-wow-delay=".3s">
                         효정, 효지, 효리, 효몽이를 다양한 굿즈로 만나보세요!
                     </p>
                 </div>
