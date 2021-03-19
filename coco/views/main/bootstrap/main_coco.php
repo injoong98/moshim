@@ -1,6 +1,6 @@
 <style>
 .single_banner_part{
-    background-image: url(../assets/malgeunmul/img/main/main_cover_large.jpg);
+    background-image: url(../assets/malgeunmul/img/main/main_cover_downsized.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
