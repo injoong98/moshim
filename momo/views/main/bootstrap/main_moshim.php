@@ -459,7 +459,10 @@
                         </div>
                         <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
                         <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div>
+                            <!-- <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div> -->
+                            <div class="range-slider clearfix text-center wow fadeInUp">
+                                <a href="<?php echo moshim_url('momo') ?>/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white">더보기</a>
+                            </div>
                         </div>
                         <!-- </div> -->
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
@@ -582,9 +585,6 @@
                     hyojeongVideo.pause();
                 }
             }
-
-            console.log('dfasasdas11111df');
-            console.log('currentScrollValue is ' + currentScrollValue);
         });
 
         function device_check() {
