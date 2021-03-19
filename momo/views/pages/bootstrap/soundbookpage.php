@@ -1,83 +1,19 @@
 <style>
-    .padding {
-        text-align: center;
-
-    }
-
-    .wrapper {
-
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        max-width: 1920px;
-        margin: 0 auto;
-        min-height: 50vh;
-        /* display: grid;
-        align-items: center;
-        align-content: center;
-        min-height: 100vh;
-        min-width: 100vw; */
-    }
-
-    .container_music {
-        box-sizing: border-box;
-        color: white;
-        cursor: pointer;
-        padding: 16px 0 0 0;
-        margin: 15px auto;
-        display: inline-block;
-        position: relative;
-        border-radius: 25px;
-        height: 50px;
-        width: 50px;
-    }
-
-    audio {
-        display: none;
-    }
-
-    .play-button::before,
-    .play-button.playing::before {
-        content: '';
-        display: inline-block;
-        border: 0;
-        background: transparent;
-        box-sizing: border-box;
-        width: 0;
-        height: 12px;
-        margin-bottom: 10px;
-
-        border-color: transparent transparent transparent #FFF;
-        transition: 100ms all ease;
-        cursor: pointer;
-
-        /* // play state */
-        border-style: solid;
-        border-width: 6px 0 6px 6px;
-    }
-
-    .play-button.playing::before {
-        border-style: double;
-        border-width: 0px 0 0px 8px;
-
-    }
 </style>
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%">
-<div class="" style="width:100%; display:flex;">
-    <div class="padding wrapper">
-        <div class="container_music" onclick="toggleAudio('audio1')" style="background : #44B3D9">
+<div class="player-section">
+    <div class="padding wrapper-custom-soundbook col-lg-12 col-md-12 col-sm-12">
+        <!-- <div class="row"> -->
+        <div class="container_music" onclick="toggleAudio('audio1')" style="background : #44B3D9;">
             <audio preload="metadata" controls controlslist="nodownload" id="audio1">
                 <source src="http://moshim.co.kr/assets/moshim/soundbook_track/song/track-<?php echo element('soundbookpage', $view) ?>.wav" type="audio/mpeg">
                 Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
             <div class="container text-center">
-                <div class="play-button"></div>
-                <div>노래</div>
+                <i class="fas fa-play cursor"></i>
             </div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white">노래</div>
         </div>
         <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
@@ -85,53 +21,49 @@
                 Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
             <div class="container">
-                <div class="play-button"></div>
-                <div>해설</div>
+                <i class="fas fa-play cursor"></i>
             </div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white">해설</div>
         </div>
+        <!-- </div> -->
     </div>
-    <!-- <div>아이콘 제작자 <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/kr/" title="Flaticon">www.flaticon.com</a></div> -->
+</div>
 
-    <script>
-        let isPlaying = false;
-        let isAnotherPlaying = false;
 
-        const toggleAudio = (event) => {
-            //재생중인지 여부 찾기
-            let anotherAudio = ''
-            if (event == 'audio1') {
-                anotherAudio = 'audio2'
-                console.log(anotherAudio)
-            } else {
-                anotherAudio = 'audio1';
-                console.log(anotherAudio)
+<script>
+    let isPlaying = false
+
+
+    //하나가 재생 중일때, 다른 플레이어 눌렀을 경우
+    document.addEventListener('play', function(e) {
+        var audios = document.getElementsByTagName('audio');
+        for (var i = 0, len = audios.length; i < len; i++) {
+            if (audios[i] != e.target) {
+                audios[i].pause();
+                audios[i].parentNode.querySelector('.fas').classList.remove('fa-pause');
+                audios[i].parentNode.querySelector('.fas').classList.add('fa-play');
             }
-            //클릭한 이외의 버튼 찾기
-            anotherAudio = document.getElementById(anotherAudio);
-            anotherPlayButton = anotherAudio.parentNode.querySelector('.play-button');
-            console.log('anotherPlayButton : ', anotherPlayButton)
-
-            if (isAnotherPlaying) {
-                //재생중인 파일이 있으면 pause
-                isAnotherPlaying = false
-                anotherAudio.pause();
-                anotherPlayButton.classList.remove('playing');
-            }
-
-            const audio = document.getElementById(event);
-            const playButton = document.getElementById(event).parentNode.querySelector('.play-button');
-
-            if (isPlaying) {
-                audio.pause()
-                isPlaying = false
-                isAnotherPlaying = false
-                playButton.classList.remove('playing')
-            } else {
-                audio.play()
-                isPlaying = true
-                isAnotherPlaying = true
-                playButton.classList.add('playing')
-            }
-            return false
         }
-    </script>
+    }, true);
+
+
+    //자기 자신버튼 눌렀을때 재생 & 멈춤
+    const toggleAudio = (event) => {
+
+        const audio = document.getElementById(event);
+        const playButton = document.getElementById(event).parentNode.querySelector('.fas');
+
+        if (isPlaying) {
+            audio.pause()
+            isPlaying = false
+            playButton.classList.remove('fa-pause')
+            playButton.classList.add('fa-play')
+        } else {
+            audio.play()
+            isPlaying = true
+            playButton.classList.remove('fa-play')
+            playButton.classList.add('fa-pause')
+        }
+        return false
+    }
+</script>

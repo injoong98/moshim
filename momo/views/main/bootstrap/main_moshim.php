@@ -54,7 +54,7 @@
         </div>
     </section>
     <!-- 모바일 버전 -->
-    <section class="main-slider style-two main-slider-mobile">
+    <section class="col-md-12 col-sm-12 main-slider style-two main-slider-mobile" style="padding:0">
         <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
             <!--  -->
             <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-1.jpg)"></div>
@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <video class=" col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:60px">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:60px; padding:0">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
                 </div>
@@ -105,6 +105,13 @@
                 </div>
             </div>
             <div class="row">
+                <!--시작: 효정지도, 모바일에서만 -->
+                <div class="col-md-12 col-sm-12 main-slider-mobile">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="hyojeongVideo" style="padding:0">
+                        <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
+                    </video>
+                </div>
+                <!-- 끝 : 효정지도, 모바일에서만 -->
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
@@ -131,7 +138,7 @@
                         <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="col-lg-6 col-md-12 col-sm-12 main-slider-pc">
                     <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:110px" id="hyojeongVideo">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>

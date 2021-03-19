@@ -25,8 +25,7 @@
 	<?php if (element('canonical', $view)) { ?>
 		<link rel="canonical" href="<?php echo element('canonical', $view); ?>" /><?php } ?>
 
-	<!-- moshim css -->
-	<link href="http://moshim.co.kr/assets/moshim/css/style-custom.css" rel="stylesheet">
+
 	<!-- Stylesheets -->
 	<link href="http://moshim.co.kr/assets/moshim/css/style.css" rel="stylesheet">
 	<link href="http://moshim.co.kr/assets/moshim/css/responsive.css" rel="stylesheet">
@@ -34,6 +33,9 @@
 	<link href="http://moshim.co.kr/assets/moshim/css/style.css" rel="stylesheet">
 	<link href="http://moshim.co.kr/assets/moshim/css/responsive.css" rel="stylesheet">
 	<link rel="icon" href="http://moshim.co.kr/assets/moshim/images/favicon.ico" type="image/x-icon">
+
+	<!-- moshim css -->
+	<link href="http://moshim.co.kr/assets/moshim/css/style-custom.css" rel="stylesheet">
 </head>
 <!-- page wrapper -->
 

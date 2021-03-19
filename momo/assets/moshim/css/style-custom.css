@@ -1,7 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
 
 
+/* 사운드북 상세 페이지 */
+.wrapper-custom-soundbook {
+  padding-top: 40vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: 50vh;
+}
 
+
+.container_music {
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  padding: 16px 0 0 0;
+  margin: 15px auto;
+  display: inline-block;
+  position: relative;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+}
+
+audio {
+  display: none;
+}
+
+.player-section {
+  width: 100%;
+  display: flex;
+  z-index: 999;
+  position: absolute;
+  top: 0px;
+  justify-content: space-between;
+}
+
+.padding {
+  text-align: center;
+
+}
+/* 사운드북 상세 페이지 끝*/
 
 .main-footer .footer-bottom .right-content .footer-logo:before {
     background: none !important;
@@ -311,6 +356,19 @@
 
 @media only screen and (max-width: 480px){
 
+  .wrapper-custom-soundbook {
+    padding-top:0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 50vh;
+  }
+
   .button_position{
     display: flex;
     z-index: 999;
@@ -348,7 +406,26 @@
     display: block; 
   }
 
+  /* 오디오북 상세페이지*/
+  .player-section {
+    width: 100%;
+    display: flex;
+  }
+
+  .wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      max-width: 1920px;
+      margin: 0 auto;
+      min-height: 50vh;
+  } 
+
 }
+
 
 .hyojeong-video_mobile{
   display: none;
