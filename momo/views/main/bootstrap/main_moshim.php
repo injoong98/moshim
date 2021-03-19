@@ -78,13 +78,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:60px; padding:0">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:25px">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
                     </video>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
-                        <div class="sec-title style-two" style="padding-top: 35px;">
+                        <div class="sec-title style-two">
                             <h5> 출판브랜드 소개</h5>
                             <h1 style="color: #2b3c6b;">모심</h1>
                         </div>
@@ -107,7 +107,7 @@
             <div class="row">
                 <!--시작: 효정지도, 모바일에서만 -->
                 <div class="col-md-12 col-sm-12 main-slider-mobile">
-                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="hyojeongVideo" style="padding:0">
+                    <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="hyojeongVideoMobile" style="padding:0">
                         <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
                     </video>
                 </div>
@@ -194,7 +194,7 @@
     <!-- 쇼핑몰 끝 -->
 
     <!-- 동화책 시작 -->
-    <section class="news-section" style="background: #ffea5e;">
+    <section class="news-section" style="background: #ffcde4 ;">
         <div class="anim-icon">
             <div class="icon icon-1 wow zoomIn" data-wow-delay="00ms" data-wow-duration="1500ms"></div>
             <div class="icon icon-3 float-bob-x"></div>
@@ -564,22 +564,26 @@
         document.addEventListener('scroll', function() {
             let currentScrollValue = document.documentElement.scrollTop;
             let hyojeongVideo = document.getElementById('hyojeongVideo');
+            let hyojeongVideoMobile = document.getElementById('hyojeongVideoMobile');
             let isMobile = device_check();
+            console.log(hyojeongVideo)
+            console.log(isMobile)
 
             if (isMobile == 'M') {
-                if (currentScrollValue > 2000) {
-                    hyojeongVideo.play();
+                if (currentScrollValue > 1300) {
+                    hyojeongVideoMobile.play();
                 } else {
-                    hyojeongVideo.pause();
+                    hyojeongVideoMobile.pause();
                 }
             } else {
-                if (currentScrollValue > 1000) {
+                if (currentScrollValue > 1100) {
                     hyojeongVideo.play();
                 } else {
                     hyojeongVideo.pause();
                 }
             }
 
+            console.log('dfasasdas11111df');
             console.log('currentScrollValue is ' + currentScrollValue);
         });
 
