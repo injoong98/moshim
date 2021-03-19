@@ -290,6 +290,6 @@
                this.printWin.close();
            }
 
-           this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '', 'width=1270, height=780');
+           this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '사운드북 미리보기', 'width=1270, height=780');
        }
    </script>
