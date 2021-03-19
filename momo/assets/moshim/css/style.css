@@ -380,11 +380,11 @@ img{
 .sec-title h5{
   position: relative;
   display: inline-block;
-  font-size: 30px;
+  font-size: 27px;
   line-height: 26px;
   color: #ff7162;
   font-family: 'Jua', sans-serif;
-  font-weight: 900;
+  /* font-weight: 400; */
   margin-bottom: 13px;
   padding: 0px 50px 0px 50px;
 }

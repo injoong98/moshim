@@ -85,7 +85,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two">
-                            <h5> 출판브랜드 소개</h5>
+                            <h5 style="font-size:26px"> 출판브랜드 소개</h5>
                             <h1 style="color: #2b3c6b;">모심</h1>
                         </div>
                         <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
@@ -115,7 +115,7 @@
                 <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                     <div class="content-box">
                         <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                            <h5> 콘텐츠브랜드 소개</h5>
+                            <h5 style="font-size:26px"> 콘텐츠브랜드 소개</h5>
                             <div class="custom-title">
                                 <h1>효정지도</h1>
                                 <p>孝情之道</p>
@@ -201,7 +201,7 @@
         </div>
         <div class="container">
             <div class="sec-title centred">
-                <h5 class="text-center"> 참어머님 생애동화</h5>
+                <h5 class="text-center" style="font-size:26px"> 참어머님 생애동화</h5>
                 <h3 class="books_title">참어머님의 인류를 위한 생애와 심정을
                     <br /> 이해할 수 있는 귀한 보물과 같은 이야기
                 </h3>
@@ -297,7 +297,7 @@
     </section> -->
     <!-- 회원/뉴스레터 가입 끝 -->
 
-    <!-- 메인요소 2시작 -->
+    <!-- 생애동요 시작 -->
     <section class="our-teachers sec-pad centred">
         <div class="anim-icon">
             <div class="icon icon-custom-1 float-bob-x"></div>
@@ -308,7 +308,8 @@
         </div>
         <div class="container">
             <div class="sec-title">
-                <h5 class="text-center">참어머님 생애동요 사운드북</h5>
+                <h5 class="text-center soundbook_title" style="font-size:26px">참어머님 생애동요 사운드북</h5>
+                <h5 class="soundbook_title_mobile">참어머님 생애동요<br /> 사운드북</h5>
                 <h3>참어머님의 생애와 심정을 담은
                     <br />효정의 이야기와 노래
                     <br />(0~6세)
@@ -401,7 +402,7 @@
             </div>
         </div>
     </section>
-    <!-- 메인요소 2끝 -->
+    <!-- 생애동요 끝 -->
 
     <!-- 동요 시작 -->
     <!-- <section class="offer-section sec-pad centred">
@@ -451,7 +452,7 @@
                     <div class="inner-content">
                         <div class="sec-title text-center">
                             <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                            <h5 style="font-size:29px">참어머님 생애동요 CD</h5>
+                            <h5 style="font-size:26px">참어머님 생애동요 CD</h5>
                             <h3 style="color:white">참어머님의 생애와 심정을 담은
                                 <br />효정의 노래
                                 <br />(7~10세)
