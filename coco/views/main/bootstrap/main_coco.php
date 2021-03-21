@@ -321,11 +321,11 @@ div.contents_img_wrapper > div {
                     <div class="get_start_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">brand</h5>
                         <h2 class="kid_title"> <span class="Cafe24Ssurround title_overlay_effect"> 위드아이 </span></h2>
-                        <p>‘위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드 입니다.
+                        <p>위드아이는 ‘맑은물’이 만드는 영유아대상 학습지브랜드 입니다.
                             아이들이 더 깊은 생각, 더 좋은 생각을 할 수 있도록
                             늘 아이들 곁에서 '위드아이 withi' 가 함께 하겠습니다.
                         </p>
-                        <p class="mt-2">언제나 아이와 함께 하는 생각놀이 ‘위드아이 withi' !’</p>
+                        <p class="mt-2">언제나 아이와 함께 하는 생각놀이 ‘위드아이 withi' !</p>
                     </div>
                 </div>
             </div>
