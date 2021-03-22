@@ -61,6 +61,36 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.our_gallery .bg_1{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/01-957x728.jpg) !important;
+}
+.our_gallery .bg_2{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/02-483x364.jpg) !important;
+}
+.our_gallery .bg_3{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/03-480x368.jpg) !important;
+}
+.our_gallery .bg_4{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/04-477x728.jpg) !important;
+}
+.our_gallery .bg_5{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/05-480x364_쿠션.jpg) !important;
+}
+.our_gallery .bg_6{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/06-480x364.jpg) !important;
+}
+.our_gallery .bg_7{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/07-481x728.jpg) !important;
+}
+.our_gallery .bg_8{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/08-483x728-1.jpg) !important;
+}
+.our_gallery .bg_9{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/09-483x364_노랑.jpg) !important;
+}
+.our_gallery .bg_10{
+    background-image: url(../assets/malgeunmul/img/goods/gallery/10-480x364_인형.jpg) !important;
+}
 </style>
     <!-- breadcrumb part -->
     <section class="breadcrumb_part parallax_bg">
@@ -411,74 +441,74 @@
                 <div class="col-lg-12 p-0">
                     <div class="grid gallery_iner gallery_popup_img">
                         <div class="grid-sizer"></div>
-                        <a href="img/gallery/one.png" class="grid-item grid_item_width2 grid_item_height2 bg_1">
+                        <a href="/assets/malgeunmul/img/goods/gallery/01-957x728.jpg" class="grid-item grid_item_width2 grid_item_height2 bg_1">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/ten.png" class="grid-item bg_10">
+                        <a href="/assets/malgeunmul/img/goods/gallery/02-483x364.jpg" class="grid-item bg_2">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/three.png" class="grid-item grid_item_height2 bg_3">
+                        <a href="/assets/malgeunmul/img/goods/gallery/04-477x728.jpg" class="grid-item grid_item_height2 bg_4">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/serven.png" class="grid-item bg_7">
+                        <a href="/assets/malgeunmul/img/goods/gallery/03-480x368.jpg" class="grid-item bg_3">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/five.png" class="grid-item bg_5">
+                        <a href="/assets/malgeunmul/img/goods/gallery/05-480x364_쿠션.jpg" class="grid-item bg_5">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/two.png" class="grid-item grid_item_height2 bg_2">
+                        <a href="/assets/malgeunmul/img/goods/gallery/07-481x728.jpg" class="grid-item grid_item_height2 bg_7">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/four.png" class="grid-item grid_item_height2 bg_4">
+                        <a href="/assets/malgeunmul/img/goods/gallery/08-483x728-1.jpg" class="grid-item grid_item_height2 bg_8">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/eight.png" class="grid-item bg_8">
+                        <a href="/assets/malgeunmul/img/goods/gallery/09-483x364_노랑.jpg" class="grid-item bg_9">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/nine.png" class="grid-item bg_9">
+                        <a href="/assets/malgeunmul/img/goods/gallery/06--480x364.jpg" class="grid-item bg_6">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="img/gallery/six.png" class="grid-item bg_6">
+                        <a href="/assets/malgeunmul/img/goods/gallery/10-480x364_인형.jpg" class="grid-item bg_10">
                             <div class="grid_item_content">
-                                <img src="img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
-                                <h3>Magic Prince Birthday Party</h3>
-                                <p>Kids, Daycare, Kindergarten</p>
+                                <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
+                                <!-- <h3>Magic Prince Birthday Party</h3>
+                                <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
                     </div>
