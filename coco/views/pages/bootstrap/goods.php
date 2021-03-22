@@ -497,7 +497,7 @@
                                 <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="/assets/malgeunmul/img/goods/gallery/06--480x364.jpg" class="grid-item bg_6">
+                        <a href="/assets/malgeunmul/img/goods/gallery/06-480x364.jpg" class="grid-item bg_6">
                             <div class="grid_item_content">
                                 <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
                                 <!-- <h3>Magic Prince Birthday Party</h3>
