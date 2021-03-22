@@ -26,16 +26,16 @@
    <!-- our-teachers -->
    <section class="our-teachers teachers-page-section sec-pad centred">
        <div class="anim-icon">
-           <div class="icon icon-custom-6"></div>
-           <div class="icon icon-custom-7"></div>
-           <div class="icon icon-custom-8"></div>
-           <div class="icon icon-custom-6" style="top:830px; left:50px"></div>
-           <div class="icon icon-custom-7" style="top:720px; right:400px"></div>
-           <div class="icon icon-custom-8" style="top:1120px"></div>
-           <div class="icon icon-custom-6" style="top:1530px"></div>
-           <div class="icon icon-custom-7" style="top:1320px"></div>
-           <div class="icon icon-custom-8" style="top:1820px"></div>
-           <div class="icon icon-custom-7" style="top:2120px; right:100px"></div>
+           <div class="icon icon-custom-6 float-bob-y"></div>
+           <div class="icon icon-custom-7 float-bob-y"></div>
+           <div class="icon icon-custom-8 float-bob-y"></div>
+           <div class="icon icon-custom-6 float-bob-y" style="top:830px; left:50px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:720px; right:400px"></div>
+           <div class="icon icon-custom-8 float-bob-y" style="top:1120px"></div>
+           <div class="icon icon-custom-6 float-bob-y" style="top:1530px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:1320px"></div>
+           <div class="icon icon-custom-8 float-bob-y" style="top:1820px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:2120px; right:100px"></div>
 
        </div>
        <div class="container">

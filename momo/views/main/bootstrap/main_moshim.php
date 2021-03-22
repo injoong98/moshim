@@ -327,10 +327,10 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/07.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a onclick="openWin_soundbooks('01')" target="_blank" ><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/07.jpg" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">달래강 노래</a></h3>
+                                <h3><a onclick="openWin_soundbooks('01')" >달래강 노래</a></h3>
                                 <!-- <span class="designation">Teacher</span> -->
                                 <div class="range-slider clearfix">
                                     <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white">노래듣기</a>
@@ -350,10 +350,10 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/09.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a onclick="openWin_soundbooks('02')" target="_blank" ><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/09.jpg" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">아름다운 이 세상</a></h3>
+                                <h3><a onclick="openWin_soundbooks('02')" target="_blank" >아름다운 이 세상</a></h3>
                                 <div class="range-slider clearfix">
                                     <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white">노래듣기</a>
                                 </div>
@@ -373,10 +373,10 @@
                     <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <div class="inner-box">
                             <div class="image-holder">
-                                <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/11.jpg" alt=""></a></figure>
+                                <figure class="image-box"><a onclick="openWin_soundbooks('03')" target="_blank" ><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/11.jpg" alt=""></a></figure>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">하나님은 나의 부모님</a></h3>
+                                <h3><a onclick="openWin_soundbooks('03')" target="_blank" >하나님은 나의 부모님</a></h3>
                                 <div class="range-slider clearfix">
                                     <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white">노래듣기</a>
                                 </div>
@@ -478,7 +478,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">수선화 사랑</a></h3>
                                     <div class="range-slider clearfix" onclick="toggleAudio('cd_track_01');">
-                                        <audio id="cd_track_01">
+                                        <audio id="cd_track_01" class="cd_track_01">
                                             <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-01.mp3" type="audio/mpeg">
                                         </audio>
                                         <a class="filter-btn play-button" style="background-color:#FF7162; font-size:18px; color:white">듣기</a>
@@ -492,7 +492,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">하늘 신부</a></h3>
                                     <div class="range-slider clearfix" onclick="toggleAudio('cd_track_02');">
-                                        <audio id="cd_track_02">
+                                        <audio id="cd_track_02" class="cd_track_02">
                                             <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-02.mp3" type="audio/mpeg">
                                         </audio>
                                         <a class="filter-btn play-button" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
@@ -506,7 +506,7 @@
                                     <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                     <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/cd">산 넘고 바다 건너</a></h3>
                                     <div class="range-slider clearfix" onclick="toggleAudio('cd_track_03');">
-                                        <audio id="cd_track_03">
+                                        <audio id="cd_track_03" class="cd_track_03">
                                             <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-03.mp3" type="audio/mpeg">
                                         </audio>
                                         <a class="filter-btn play-button" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
@@ -525,43 +525,58 @@
     <script>
         //동화책 미리보기 창
         function openWin_books(num) {
-            window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
+            window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '', 'width=800, height=700, resizable=yes');
             return false
         }
 
         function openWin_soundbooks(num) {
-            window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '_blank', "동화책 자세히 보기", 'width=1300, height=790');
+            window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '', 'width=1270, height=780');
         }
 
-        let isPlaying = false;
+        let isPlaying = [];
+        var playName = '';
 
         const toggleAudio = (event) => {
 
             const audio = document.getElementById(event);
-            console.log(audio)
-            const playButton = document.getElementById(event).parentNode.querySelector('.play-button');
-            // const playButton = document.getElementById(event).parentNode.querySelector('.play-button').innerHTML;
-            console.log(playButton)
+            var textChanged = document.getElementsByClassName(event)
 
-            if (isPlaying) {
-                audio.pause()
-                isPlaying = false
-                playButton.innerHTML = '듣기';
-            } else {
-                audio.play()
-                isPlaying = true
-                playButton.innerHTML = '재생중..';
-            }
+            console.log(audio)
+            // if (playName == event){
+                if (isPlaying[event]) {
+                    audio.pause()
+                    isPlaying[event] = false
+                    console.log('isPlayingpause', isPlaying)
+                    for (var j = 0, len = textChanged.length; j < len; j++) {
+                        textChanged[j].parentNode.querySelector('.play-button').innerText = '듣기'
+                    }
+                } else {
+                    audio.play()
+                    isPlaying[event] = true
+                    console.log('isPlayingplay', isPlaying)
+                    for (var j = 0, len = textChanged.length; j < len; j++) {
+                        textChanged[j].parentNode.querySelector('.play-button').innerText = '재생중'
+                    }
+                }
+            // }
+            playName = event;
             return false
         }
 
-        document.addEventListener('play', function(e) {
-            var audios = document.getElementsByTagName('audio');
+        document.addEventListener('play', function(evn) {
+            let audios = document.getElementsByTagName('audio');
+            let targetText = evn.target.className;
+            let changeSoon = document.getElementsByClassName(`${targetText}`);
+            console.log('changeSoon : ',changeSoon)
+            console.log(targetText)
             for (var i = 0, len = audios.length; i < len; i++) {
-                if (audios[i] != e.target) {
+                if (audios[i] != evn.target) {
                     audios[i].pause();
-                    audios[i].parentNode.querySelector('.play-button').innerHTML = '듣기'
+                    audios[i].parentNode.querySelector('.play-button').innerText = '듣기';
                 }
+            }
+            for (var k = 0, len = changeSoon.length; k < len; k++) {
+                changeSoon[k].parentNode.querySelector('.play-button').innerText = '재생중'
             }
         }, true);
 
