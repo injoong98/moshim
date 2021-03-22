@@ -47,6 +47,9 @@
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .background-top {
+        background-position: top;
+    }
 }
 .container .kid_title{
     font-size: 32px;
@@ -71,6 +74,7 @@
     background-image: url(../assets/malgeunmul/img/goods/gallery/03-480x368.jpg) !important;
 }
 .our_gallery .bg_4{
+        background-position: top;
     background-image: url(../assets/malgeunmul/img/goods/gallery/04-477x728.jpg) !important;
 }
 .our_gallery .bg_5{
@@ -80,9 +84,11 @@
     background-image: url(../assets/malgeunmul/img/goods/gallery/06-480x364.jpg) !important;
 }
 .our_gallery .bg_7{
+        background-position: top;
     background-image: url(../assets/malgeunmul/img/goods/gallery/07-481x728.jpg) !important;
 }
 .our_gallery .bg_8{
+        background-position: top;
     background-image: url(../assets/malgeunmul/img/goods/gallery/08-483x728-1.jpg) !important;
 }
 .our_gallery .bg_9{
@@ -455,7 +461,7 @@
                                 <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="/assets/malgeunmul/img/goods/gallery/04-477x728.jpg" class="grid-item grid_item_height2 bg_4">
+                        <a href="/assets/malgeunmul/img/goods/gallery/04-477x728.jpg" class="grid-item grid_item_height2 bg_4 background-top">
                             <div class="grid_item_content">
                                 <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
                                 <!-- <h3>Magic Prince Birthday Party</h3>
@@ -476,14 +482,14 @@
                                 <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="/assets/malgeunmul/img/goods/gallery/07-481x728.jpg" class="grid-item grid_item_height2 bg_7">
+                        <a href="/assets/malgeunmul/img/goods/gallery/07-481x728.jpg" class="grid-item grid_item_height2 bg_7 background-top">
                             <div class="grid_item_content">
                                 <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
                                 <!-- <h3>Magic Prince Birthday Party</h3>
                                 <p>Kids, Daycare, Kindergarten</p> -->
                             </div>
                         </a>
-                        <a href="/assets/malgeunmul/img/goods/gallery/08-483x728-1.jpg" class="grid-item grid_item_height2 bg_8">
+                        <a href="/assets/malgeunmul/img/goods/gallery/08-483x728-1.jpg" class="grid-item grid_item_height2 bg_8 background-top">
                             <div class="grid_item_content">
                                 <img src="/assets/malgeunmul/img/icon/gallery_icon.svg" alt="#" class="gallery_item_icon">
                                 <!-- <h3>Magic Prince Birthday Party</h3>
