@@ -1,3 +1,8 @@
+<style>
+body{
+    background-color: #253b70;
+}
+</style>
 <footer class="main-footer">
     <div style="position: relative; display: block; background: #253b70; padding: 10px 0px 50px 0px;">
         <!-- 시작 : 꾸며주는 부분-->
