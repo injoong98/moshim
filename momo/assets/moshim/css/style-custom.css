@@ -606,35 +606,36 @@ audio {
 
 .our-teachers .anim-icon .icon-custom-6{
   background: url(../images/icons/anim-icon-9.png);
-  width: 158px;
-  height: 115px;
+  width: 80px;
+  height: 70px;
   top: 30px;
   left: 180px;
   background-repeat: no-repeat;
+   background-size: contain;
   z-index: -1;
 }
 
 .our-teachers .anim-icon .icon-custom-7 {
   background: url(../images/icons/anim-icon-10.png);
-  width: 149px;
-  height: 106px;
+  width: 80px;
+  height: 70px;
   top: 220px;
   right: 260px;
   background-repeat: no-repeat;
+   background-size: contain;
   z-index: -1;
 }
 
 .our-teachers .anim-icon .icon-custom-8 {
   background: url(../images/icons/anim-icon-5.png);
-  width: 119px;
-  height: 127px;
+  width: 70px;
+  height:70px;
   top: 120px;
   left: 700px;
-  background-repeat: no-repeat;
-  -webkit-animation: zoom-fade 5s infinite linear;
-  animation: zoom-fade 5s infinite linear;
   z-index: -1;
+   background-size: contain;
 }
+
 
 /* 메인 - 생애동화 - 움직이는 요소 */
 .news-section .anim-icon .icon-3{

@@ -1,7 +1,7 @@
 <style>
-body{
-    background-color: #253b70;
-}
+    body {
+        background-color: #253b70;
+    }
 </style>
 <footer class="main-footer">
     <div style="position: relative; display: block; background: #253b70; padding: 10px 0px 50px 0px;">
@@ -105,7 +105,7 @@ body{
                                         <br />
                                         <br />1. 산 넘어 사랑 전해요 참사랑 전해요
                                         <br /> 어머니 품 안에서 우리 모두 한 형제
-
+                                        <br />
                                         <br />2. 바다 건너 말씀 전해요 새말씀 전해요
                                         <br /> 어머니 품 안에서 우리 모두 한 가족
                                         <br /> 어머니 품 안에서 우리 모두 한 가족
