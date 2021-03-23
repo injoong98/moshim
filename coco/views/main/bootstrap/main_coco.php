@@ -107,6 +107,7 @@ div.contents_img_wrapper > div {
     .banner_iner.pc{display:block}
     .description.mobile{display:none}
     .description.pc{display:block}
+    .white-space{white-space: pre };
 }
 
 @media (max-width: 992px){
@@ -140,10 +141,10 @@ div.contents_img_wrapper > div {
             <div class="container custom_container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-12 col-md-12">
-                        <div class="banner_iner pc">
+                        <div class="banner_iner pc" style="padding-top: 18%;">
                             <h2> 교육이 사람을  만듭니다.</h2>
                         </div>
-                        <div class="banner_iner mobile">
+                        <div class="banner_iner mobile" style="padding-bottom: 13%;">
                             <h2> 교육이 사람을</h2>
                             <h2>만듭니다.</h2>
                         </div>
@@ -256,18 +257,11 @@ div.contents_img_wrapper > div {
                 <div class="col-lg-6 col-xl-5 order-2 order-lg-1">
                     <div class="about_section_content mt-5 mt-lg-0">
                         <h5 class="kid_title wow fadeInLeft" data-wow-delay=".3s">Who We Are</h5>
-                        <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"> <span class="Cafe24Ssurround title_overlay_effect">맑은물</span></h2>
-                        <p class="wow fadeInLeft" data-wow-delay=".5s">
-                            아침에 일어나 부모님께 달려가 인사하고,<br/> 
-                            유치원에서 또는 학교에서 열심히 공부하고,<br/>
-                            친구들과 좋은 관계를 유지하며, 
-                        </p>
-                        <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
-                            부모님과 대화로 하루를 마무리하는 티없이 맑은 자녀들로 성장하길 바라는 마음.
-                        </p>
-                        <p class="wow fadeInLeft mt-2" data-wow-delay=".5s">
-                            출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 콘텐츠를 만듭니다.
-                        </p>
+                        <h2 class="kid_title wow fadeInLeft" data-wow-delay=".4s"><span class="Cafe24Ssurround title_overlay_effect">맑은물</span></h2><p class="wow fadeInLeft white-space" data-wow-delay=".5s">아침에 일어나 부모님께 달려가 인사하고, 
+유치원에서 또는 학교에서 열심히 공부하고,
+친구들과 좋은 관계를 유지하며,</p><p class="wow fadeInLeft mt-2 white-space" data-wow-delay=".5s">부모님과 대화로 하루를 마무리하는 티없이 맑은 자녀들로
+성장하길 바라는 마음.</p><p class="wow fadeInLeft mt-2 white-space" data-wow-delay=".5s">출판브랜드 ‘맑은물’은 이러한 부모님들의 마음을 담아 
+콘텐츠를 만듭니다.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2">
