@@ -436,9 +436,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-5">
                     <div class="section_tittle_style_02">
-                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect">Our Photo Gallery</span> </h2>
-                        <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide affordable, high-quality 
-                        early education and childcare services for working families to ensure every child.</p>
+                        <h2 class="title wow fadeInDown" data-wow-delay=".3s"> <span class="title_overlay_effect Cafe24Ssurround">굿즈 갤러리</span> </h2>
+                        <!-- <p class="description wow fadeInDown" data-wow-delay=".3s">Kidzo mission is to provide affordable, high-quality 
+                        early education and childcare services for working families to ensure every child.</p> -->
                     </div>
                 </div>
             </div>
