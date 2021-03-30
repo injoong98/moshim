@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>맑은물</title>
     <link rel="icon" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/favicon.ico" />
+    <link rel="apple-touch-icon" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/img/favicon.ico" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="<?php echo trim(site_url(), '/'); ?>/assets/malgeunmul/css/bootstrap.min.css" />
     <!-- animate CSS -->
