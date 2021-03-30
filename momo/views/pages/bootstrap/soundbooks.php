@@ -186,7 +186,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21-1.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('08')">8. 어머니의 아들 딸</a></h3>
