@@ -314,6 +314,16 @@ audio {
   display: none;
 }
 
+/* 사운드북 - PC 제목부분,
+메인 부분에서 생애동화 부분 타이틀도 적용 */
+.soundbook_title{
+  display: inline-block !important;
+}
+
+.soundbook_title_mobile{
+  display: none !important;
+}
+
 /* 메인 캐러셀 슬라이드 모바일 */
 .main-slider-pc{
   display: block;
@@ -387,6 +397,15 @@ audio {
     display: block;
   }
 
+/* 사운드북 - PC 제목부분,
+메인 부분에서 생애동화 부분 타이틀도 적용 */
+  .soundbook_title{
+    display:  none  !important;
+  }
+  
+  .soundbook_title_mobile{
+    display: inline-block  !important;
+  }
   /* 메인 - 효정지도 숨김, 모바일용 오픈 */
   .hyojeong-video_mobile{
     display: block;
@@ -423,7 +442,10 @@ audio {
       margin: 0 auto;
       min-height: 50vh;
   } 
-
+  /* 사운드북 - 페이지 - 모바일 간격 */
+  .row-mobile{
+    margin-top:100px;
+  }
 }
 
 
@@ -584,35 +606,36 @@ audio {
 
 .our-teachers .anim-icon .icon-custom-6{
   background: url(../images/icons/anim-icon-9.png);
-  width: 158px;
-  height: 115px;
+  width: 80px;
+  height: 70px;
   top: 30px;
   left: 180px;
   background-repeat: no-repeat;
+   background-size: contain;
   z-index: -1;
 }
 
 .our-teachers .anim-icon .icon-custom-7 {
   background: url(../images/icons/anim-icon-10.png);
-  width: 149px;
-  height: 106px;
+  width: 80px;
+  height: 70px;
   top: 220px;
   right: 260px;
   background-repeat: no-repeat;
+   background-size: contain;
   z-index: -1;
 }
 
 .our-teachers .anim-icon .icon-custom-8 {
   background: url(../images/icons/anim-icon-5.png);
-  width: 119px;
-  height: 127px;
+  width: 70px;
+  height:70px;
   top: 120px;
   left: 700px;
-  background-repeat: no-repeat;
-  -webkit-animation: zoom-fade 5s infinite linear;
-  animation: zoom-fade 5s infinite linear;
   z-index: -1;
+   background-size: contain;
 }
+
 
 /* 메인 - 생애동화 - 움직이는 요소 */
 .news-section .anim-icon .icon-3{

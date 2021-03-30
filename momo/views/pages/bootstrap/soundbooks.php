@@ -26,25 +26,25 @@
    <!-- our-teachers -->
    <section class="our-teachers teachers-page-section sec-pad centred">
        <div class="anim-icon">
-           <div class="icon icon-custom-6"></div>
-           <div class="icon icon-custom-7"></div>
-           <div class="icon icon-custom-8"></div>
-           <div class="icon icon-custom-6" style="top:830px; left:50px"></div>
-           <div class="icon icon-custom-7" style="top:720px; right:400px"></div>
-           <div class="icon icon-custom-8" style="top:1120px"></div>
-           <div class="icon icon-custom-6" style="top:1530px"></div>
-           <div class="icon icon-custom-7" style="top:1320px"></div>
-           <div class="icon icon-custom-8" style="top:1820px"></div>
-           <div class="icon icon-custom-7" style="top:2120px; right:100px"></div>
+           <div class="icon icon-custom-6 float-bob-y"></div>
+           <div class="icon icon-custom-7 float-bob-y"></div>
+           <div class="icon icon-custom-8 float-bob-y"></div>
+           <div class="icon icon-custom-6 float-bob-y" style="top:830px; left:50px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:720px; right:400px"></div>
+           <div class="icon icon-custom-8 float-bob-y" style="top:1120px"></div>
+           <div class="icon icon-custom-6 float-bob-y" style="top:1530px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:1320px"></div>
+           <div class="icon icon-custom-8 float-bob-y" style="top:1820px"></div>
+           <div class="icon icon-custom-7 float-bob-y" style="top:2120px; right:100px"></div>
 
        </div>
        <div class="container">
            <div class="sec-title">
                <h5>참어머님 생애동요 사운드북</h5>
-               <h3> 참어머님의 생애와 심정이 담긴
+               <h1> 참어머님의 생애와 심정이 담긴
                    <br />효정의 이야기와 노래
                    <br />(0~6세)
-               </h3>
+               </h1>
            </div>
            <div class="row">
                <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">

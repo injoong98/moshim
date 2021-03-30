@@ -26,7 +26,7 @@
    <!-- classes-section -->
    <section class="classes-section classes-page-section sec-pad">
        <div class="anim-icon">
-           <div class="icon icon-custom-1 float-bob-x"></div>
+           <div class="icon icon-custom-1 float-bob-x" style="left:180px"></div>
            <div class="icon icon-custom-2 float-bob-y"></div>
        </div>
        <div class="container">
