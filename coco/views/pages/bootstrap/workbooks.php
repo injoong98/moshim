@@ -485,16 +485,16 @@
             // document.getElementById("filter-main").click();
             // $('#filter-main').trigger('click')
 
-
             var mutationObserver = new MutationObserver(function(mutations) {
                 // mutations.forEach(function(mutation) {
                 //     console.log(mutation); 
                 // }); 
-                setTimeout(() => {
-                    document.getElementById("filter-main").click();
+                var startClick = setInterval(()=>{
                     $('#filter-main').trigger('click')
-                    mutationObserver.disconnect();                    
                 }, 1000);
+                setTimeout(() => {
+                    clearInterval(startClick);
+                }, 5000);
             }); 
             var element = document.getElementsByClassName('preloder')[0];
             // console.log(element);
