@@ -196,7 +196,7 @@
                        <div class="inner-box">
                            <figure class="image-box"><a href="#"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21.jpg" alt=""></a></figure>
                            <div class="lower-content">
-                               <h3><a class="play_button" onclick="openWin_cd('8')" target="_blank">어머니의 아들딸</a></h3>
+                               <h3><a class="play_button" onclick="openWin_cd('8')" target="_blank">하늘이 준비한 아들딸</a></h3>
                                <ul class="social-list">
                                    <audio id="cd_track_08">
                                        <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-08.mp3" type="audio/mpeg">
