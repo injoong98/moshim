@@ -496,8 +496,12 @@
                     $('#filter-main').trigger('click')
                 }, 1000);
                 setTimeout(() => {
+                    var listHeight = $('#program_list_filter1').css('height');
+                    // console.log(listHeight);
+                    $('#program_list_filter2').css('height',listHeight);
                     clearInterval(startClick);
                 }, 5000);
+
             }); 
             var element = document.getElementsByClassName('preloder')[0];
             // console.log(element);
