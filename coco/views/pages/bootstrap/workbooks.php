@@ -81,6 +81,9 @@
 .program_list_page .filters ul li.is-checked {
     font-size: 24px;
 }
+.single_program_list > img {
+    cursor: pointer;
+}
 @media (min-width: 992px){
     #art-desc {
         height: 100%;
