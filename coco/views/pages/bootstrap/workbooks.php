@@ -81,6 +81,9 @@
 .program_list_page .filters ul li.is-checked {
     font-size: 24px;
 }
+.single_program_list > img {
+    cursor: pointer;
+}
 @media (min-width: 992px){
     #art-desc {
         height: 100%;
@@ -485,16 +488,16 @@
             // document.getElementById("filter-main").click();
             // $('#filter-main').trigger('click')
 
-
             var mutationObserver = new MutationObserver(function(mutations) {
                 // mutations.forEach(function(mutation) {
                 //     console.log(mutation); 
                 // }); 
-                setTimeout(() => {
-                    document.getElementById("filter-main").click();
+                var startClick = setInterval(()=>{
                     $('#filter-main').trigger('click')
-                    mutationObserver.disconnect();                    
                 }, 1000);
+                setTimeout(() => {
+                    clearInterval(startClick);
+                }, 5000);
             }); 
             var element = document.getElementsByClassName('preloder')[0];
             // console.log(element);
