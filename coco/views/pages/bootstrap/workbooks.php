@@ -285,7 +285,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>4-5 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/t3vGHY5rqJ0">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -304,7 +304,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>4-5 세</span> </h5>
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/QWsnUcI4FJk">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -323,7 +323,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>4-5 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/E1NWhaYZba4">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -342,7 +342,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>4-5 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/0z4bnumGqko">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -366,7 +366,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>6-7 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/U4-C0JXpj2k">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -385,7 +385,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>6-7 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/tBZ9apEkaDs">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -404,7 +404,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>6-7 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5vBoBB7WbEI">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
@@ -423,7 +423,7 @@
                                     <div class="program_list_details">
                                         <h5>연령<span>6-7 세</span> </h5>                                     
                                         <h5>영상                                   
-                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5DeDy9Ps_u4">
+                                            <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/CxPopdESND4">
                                                 <img src="/assets/images/youtube.png" class="music_sns_icon"/>
                                             </a>
                                         </h5>
