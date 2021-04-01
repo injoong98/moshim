@@ -39,22 +39,22 @@
 
        </div>
        <div class="container">
-           <div class="sec-title">
-               <h5 class="books_title">참어머님 생애동요 사운드북</h5>
-               <h1 class="books_title"> 참어머님의 생애와 심정이 담긴
+           <div class="sec-title books_title">
+               <h5>참어머님 생애동요 사운드북</h5>
+               <h1> 참어머님의 생애와 심정이 담긴
                    <br />효정의 이야기와 노래
                    <br />(0~6세)
-                </h1>
+               </h1>
            </div>
-           
+
            <div class="sec-title books_title_mobile">
-           <h5 class="books_title_mobile">참어머님 생애동요 <br/>사운드북</h5>
-               <h3 class="books_title_mobile"> 
-               참어머님의 생애와 심정이 담긴
+               <h5>참어머님 생애동요 <br /> 사운드북</h5>
+               <h3>
+                   참어머님의 생애와 심정이 담긴
                    <br />효정의 이야기와 노래
                    <br />(0~6세)
                </h3>
-            </div>
+           </div>
 
            <div class="row">
                <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">

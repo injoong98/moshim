@@ -51,13 +51,17 @@
 
        </div>
        <div class="container">
-           <div class="sec-title">
+           <div class="sec-title books_title">
                <h5>참어머님 생애동요 CD</h5>
-               <h1 class="books_title"> 참어머님의 생애와 심정이 담긴 효정의 노래
+               <h1> 참어머님의 생애와 심정이 담긴 효정의 노래
                    <br />(7~10세)
                </h1>
-               <h3 class="books_title_mobile"> 참어머님의 생애와
-                   <br />심정이 담긴 효정의 노래
+           </div>
+           <div class="sec-title books_title_mobile">
+               <h5>참어머님 생애동요 CD</h5>
+               <h3>
+                   참어머님의 생애와 심정이
+                   <br />담긴 효정의 노래
                    <br />(7~10세)
                </h3>
            </div>
