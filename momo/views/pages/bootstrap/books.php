@@ -30,15 +30,12 @@
            <div class="icon icon-custom-2 float-bob-y"></div>
        </div>
        <div class="container">
-           <div class="sec-title books_title text-center">
+           <div class="sec-title text-center">
                <h5>참어머님 생애동화</h5>
-               <h1> 참어머님의 인류를 위한 생애와 심정을 이해할 수 있는
+               <h1 class="books_title"> 참어머님의 인류를 위한 생애와 심정을 이해할 수 있는
                    <br />귀한 보물과 같은 이야기
                </h1>
-           </div>
-           <div class="sec-title books_title_mobile text-center">
-               <h5>참어머님 생애동화</h5>
-               <h3> 참어머님의 인류를 위한
+               <h3 class="books_title_mobile"> 참어머님의 인류를 위한
                    <br />생애와 심정을 이해할 수 있는
                    <br />귀한 보물과 같은 이야기
                </h3>
