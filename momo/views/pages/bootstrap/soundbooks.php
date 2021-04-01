@@ -40,12 +40,22 @@
        </div>
        <div class="container">
            <div class="sec-title">
-               <h5>참어머님 생애동요 사운드북</h5>
-               <h1> 참어머님의 생애와 심정이 담긴
+               <h5 class="books_title">참어머님 생애동요 사운드북</h5>
+               <h1 class="books_title"> 참어머님의 생애와 심정이 담긴
                    <br />효정의 이야기와 노래
                    <br />(0~6세)
-               </h1>
+                </h1>
            </div>
+           
+           <div class="sec-title books_title_mobile">
+           <h5 class="books_title_mobile">참어머님 생애동요 <br/>사운드북</h5>
+               <h3 class="books_title_mobile"> 
+               참어머님의 생애와 심정이 담긴
+                   <br />효정의 이야기와 노래
+                   <br />(0~6세)
+               </h3>
+            </div>
+
            <div class="row">
                <div class="col-xl-4 col-lg-6 col-md-12 block-column play_button">
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
@@ -189,7 +199,7 @@
                                <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/21-1.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
-                               <h3><a target="_blank" onclick="openWin_soundbooks('08')">8. 어머니의 아들 딸</a></h3>
+                               <h3><a target="_blank" onclick="openWin_soundbooks('08')">8. 어머니의 아들딸</a></h3>
                                <!-- <span class="designation">Teacher</span> -->
                                <!-- <ul class="social-list">
                                  <li><a target="_blank" onclick ="openWin_soundbooks()"><i class="fab fa-facebook-f"></i></a></li>
