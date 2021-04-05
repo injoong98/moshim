@@ -299,7 +299,7 @@
        //cd 가사 해설 창 
        function openWin_cd(num) {
            let option = session.lang =="jp"? "width=968, height=645, scrollbars=no" : "width=740, height=600, scrollbars=no";
-           window.open(`http://boot.tune.com/pages/cd_detail/${num}?lang=${session.lang}`, '가사&해설', option);
+           window.open(`http://moshim.co.kr/pages/cd_detail/${num}?lang=${session.lang}`, '가사&해설', option);
            return false
        }
        //    // 버튼 색상 변경 
