@@ -40,20 +40,13 @@
        </div>
        <div class="container">
            <div class="sec-title books_title">
-               <h5>참어머님 생애동요 사운드북</h5>
-               <h1> 참어머님의 생애와 심정이 담긴
-                   <br />효정의 이야기와 노래
-                   <br />(0~6세)
-               </h1>
+               <h5><?php echo $this->lang->line('main_title_4') ?></h5>
+               <h1><?php echo $this->lang->line('main_subtitle_4') ?></h1>
            </div>
 
            <div class="sec-title books_title_mobile">
-               <h5>참어머님 생애동요 <br /> 사운드북</h5>
-               <h3>
-                   참어머님의 생애와 심정이 담긴
-                   <br />효정의 이야기와 노래
-                   <br />(0~6세)
-               </h3>
+               <h5><?php echo $this->lang->line('main_title_mobile_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_4') ?></h3>
            </div>
 
            <div class="row">
