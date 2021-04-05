@@ -1,5 +1,5 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/cover_01.jpg);">
+   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/<?php echo $this->lang->line('cd_main_cover') ?>);">
        <div class="container">
            <div class="content-box" style="height:100px">>
                <!-- <h1>CD</h1> -->
@@ -10,7 +10,7 @@
            </div>
        </div>
    </section>
-   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-5.jpg); background-size:cover">
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $this->lang->line('cd_main_mobile_cover') ?>); background-size:cover">
        <div class="container">
            <div class="content-box" style="height:400px">
                <!-- <h1>CD</h1> -->
@@ -298,7 +298,8 @@
    <script>
        //cd 가사 해설 창 
        function openWin_cd(num) {
-           window.open(`http://moshim.co.kr/pages/cd_detail/${num}`, '가사&해설', 'width=740, height=600, scrollbars=no');
+           let option = session.lang =="jp"? "width=968, height=645, scrollbars=no" : "width=740, height=600, scrollbars=no";
+           window.open(`http://boot.tune.com/pages/cd_detail/${num}?lang=${session.lang}`, '가사&해설', option);
            return false
        }
        //    // 버튼 색상 변경 

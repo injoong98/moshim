@@ -144,6 +144,9 @@ $lang['main_btn2_5'] = '再生中'; //재생중
 
 
 // cd
+$lang['cd_main_cover'] = 'cover_01_jp.jpg';
+$lang['cd_main_mobile_cover'] = 'mmain-5-jp.jpg';
+
 $lang['cd_title_1'] = '真のお母様のご生涯のうた　ＣＤ'; //재생중
 $lang['cd_title_2'] = '真のお母様さまのご生涯と心情がこめられた'; //재생중
 $lang['cd_title_3'] = '（7~10歳）';
