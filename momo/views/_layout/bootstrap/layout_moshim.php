@@ -65,6 +65,7 @@
 		var cb_device_type = "<?php echo $this->cbconfig->get_device_type() === 'mobile' ? 'mobile' : 'desktop' ?>";
 		var cb_csrf_hash = "<?php echo $this->security->get_csrf_hash(); ?>";
 		var cookie_prefix = "<?php echo config_item('cookie_prefix'); ?>";
+		var session = <?php echo json_encode($_SESSION); ?>
 	</script>
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="<?php echo base_url('assets/js/html5shiv.min.js'); ?>"></script>

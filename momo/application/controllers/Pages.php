@@ -24,7 +24,7 @@ class Pages extends CB_Controller
 	 * 헬퍼를 로딩합니다
 	 */
 	protected $helpers = array('form', 'array');
-
+	
 	function __construct()
 	{
 		parent::__construct();
@@ -33,7 +33,7 @@ class Pages extends CB_Controller
 		 * 라이브러리를 로딩합니다
 		 */
 		$this->load->library(array('querystring'));
-		
+
 		$support_lang_list = array('jp', 'ko', 'en');
 		//$lang_code = "ko"; 
 		$lang_code = $this->input->get('lang', true);
@@ -41,6 +41,10 @@ class Pages extends CB_Controller
 		if (in_array($lang_code, $support_lang_list) == false) {
 			$lang_code = $this->config->item('language');
 		}
+
+		$this->session->set_userdata(
+			'lang',$lang_code
+		);
 
 		$this->lang->load('main', $lang_code);
 	}
@@ -649,6 +653,10 @@ class Pages extends CB_Controller
 		$view['view']['event']['before_layout'] = Events::trigger('before_layout', $eventname);
 		$view['view']['cd_detail'] = $cd_detail;
 
+		$lang_code = $this->input->get('lang', true);
+
+		$view_file_dir = $lang_code=="jp"? "cd/detail_jp":"cd/detail";
+
 		/**
 		 * 레이아웃을 정의합니다
 		 */
@@ -661,7 +669,7 @@ class Pages extends CB_Controller
 		$layoutconfig = array(
 			'path' => 'pages',
 			'layout' => 'layout_moshim_popup',
-			'skin' => 'cd/detail',
+			'skin' => $view_file_dir,
 			'layout_dir' => $this->cbconfig->item('layout_Pages'),
 			'mobile_layout_dir' => $this->cbconfig->item('mobile_layout_Pages'),
 			'use_sidebar' => $this->cbconfig->item('sidebar_Pages'),
