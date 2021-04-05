@@ -14,9 +14,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 
+////동화책 상세페이지
+
+
+
 
 // 사운드북
+
+////사운드북 상세페이지
 
 
 
 // cd
+
+////cd 상세페이지
