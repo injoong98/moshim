@@ -173,7 +173,7 @@
 								<div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
 										<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>><a href="http://moshim.co.kr/#intro">
-												<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
+												<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?><?php echo $this->lang->line('nav_1') ?></a>
 											<!-- <ul>
 												<li><a href="index.html">Home Page 01</a></li>
 												<li><a href="index-2.html">Home Page 02</a></li>
@@ -195,14 +195,14 @@
 												<li><a href="error.html">Error Page</a></li>
 											</ul>
 										</li> -->
-										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/books">동화책</a>
+										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/books"><?php echo $this->lang->line('nav_2') ?></a>
 											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
 											<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
 												<li><a href="class-details.html">Class Details</a></li>
 											</ul> -->
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">사운드북</a>
+										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks"><?php echo $this->lang->line('nav_3') ?></a>
 											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
 											<!-- <ul>
 												<li><a href="class.html">Our Classes</a></li>
@@ -276,7 +276,7 @@
 										</li>
 									</ul> -->
 								</li>
-								<li class="dropdown <?php echo (element('menu_name', $layout) == 'main') ? 'current' : ''; ?>"><a href="http://moshim.co.kr/#intro"><?php echo (element('menu_name', $layout) == 'main') ? '' : '메인/'; ?>소개</a>
+								<li class="dropdown <?php echo (element('menu_name', $layout) == 'main') ? 'current' : ''; ?>"><a href="http://moshim.co.kr/#intro"><?php echo (element('menu_name', $layout) == 'main') ? '' : '메인/'; ?><?php echo $this->lang->line('nav_1') ?></a>
 									<!-- <li class="dropdown"><a href="/pages/vision">비전</a> -->
 									<!-- 	<ul>
 										<li><a href="about.html">About Us</a></li>
@@ -293,7 +293,7 @@
 								</li> -->
 								<li class="dropdown
 								<?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?>
-								"><a href="/pages/books">동화책</a>
+								"><a href="/pages/books"><?php echo $this->lang->line('nav_2') ?></a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>
@@ -308,7 +308,7 @@
 								</li>
 								<li class="
 								<?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?>
-								dropdown"><a href="/pages/soundbooks">사운드북</a>
+								dropdown"><a href="/pages/soundbooks"><?php echo $this->lang->line('nav_3') ?></a>
 									<!-- <ul>
 										<li><a href="gallery.html">Our Gallery</a></li>
 										<li><a href="teachers.html">Our Teachers</a></li>

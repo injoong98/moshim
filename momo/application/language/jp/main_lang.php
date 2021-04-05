@@ -47,11 +47,11 @@ $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられ�
 $lang['main_btn1_4'] = '再生';
 
 /* 동요 CD */
-$lang['main_title_5'] = '真のお母様のご生涯のうた　ＣＤ';
+$lang['main_title_5'] = '真のお母様のご生涯のうた　<br/> ＣＤ';
 $lang['main_subtitle_5'] = '真のお母様さまのご生涯と心情がこめられた
 <br/> 孝情のうた
 <br/>（7～10歳)';
-$lang[''] = '再生'; //노래듣기
+$lang['main_btn1_5'] = '再生'; //노래듣기
 $lang['main_btn2_5'] = '再生中'; //재생중
 
 

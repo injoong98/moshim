@@ -195,19 +195,26 @@
     </div>
     <div class="container">
         <div class="sec-title centred">
-            <h5 class="text-center" style="font-size:26px"> 참어머님 생애동화</h5>
-            <h3 class="books_title">참어머님의 인류를 위한 생애와 심정을
-                <br /> 이해할 수 있는 귀한 보물과 같은 이야기
+            <h5 class="text-center" style="font-size:26px">
+                <?php echo $this->lang->line('main_title_3') ?>
+            </h5>
+            <h3 class="books_title">
+                <?php echo $this->lang->line('main_subtitle_3') ?>
             </h3>
-            <h3 class="books_title_mobile">참어머님의 인류를 위한
-                <br /> 생애와 심정을 이해할 수 있는
-                <br />귀한 보물과 같은 이야기
+            <h3 class="books_title_mobile">
+                <?php if ($_GET['lang'] == 'ko') { ?>
+                    <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
+                <?php } else { ?>
+                    <?php echo $this->lang->line('main_subtitle_3') ?>
+                <?php } ?>
             </h3>
         </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">
-                    <a href="<?php echo moshim_url('momo') ?>/pages/books" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">더보기</a>
+                    <a href="<?php echo moshim_url('momo') ?>/pages/books" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">
+                        <?php echo $this->lang->line('main_btn1_3') ?>
+                    </a>
                 </div>
             </div>
         </div>
@@ -223,7 +230,9 @@
                                     <li>5 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:1em">미리보기</a></div>
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:1em">
+                                    <?php echo $this->lang->line('main_btn2_3') ?>
+                                </a></div>
                         </div>
                     </div>
                 </div>
@@ -239,7 +248,7 @@
                                     <li>7 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:1em">미리보기</a></div>
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:1em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
                         </div>
                     </div>
                 </div>
@@ -255,7 +264,7 @@
                                     <li>4 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:1em">미리보기</a></div>
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:1em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
                         </div>
                     </div>
                 </div>
@@ -302,17 +311,20 @@
     </div>
     <div class="container">
         <div class="sec-title">
-            <h5 class="text-center soundbook_title" style="font-size:26px">참어머님 생애동요 사운드북</h5>
-            <h5 class="soundbook_title_mobile">참어머님 생애동요<br /> 사운드북</h5>
-            <h3>참어머님의 생애와 심정을 담은
-                <br />효정의 이야기와 노래
-                <br />(0~6세)
+            <h5 class="text-center soundbook_title" style="font-size:26px"><?php echo $this->lang->line('main_title_4') ?></h5>
+            <?php if ($_GET['lang'] == 'ko') { ?>
+                <h5 class="soundbook_title_mobile">
+                    <?= $this->lang->line('main_title_mobile_4') ?>
+                </h5>
+            <?php } ?>
+            <h3>
+                <?php echo $this->lang->line('main_subtitle_4') ?>
             </h3>
         </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">
-                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">더보기</a>
+                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                 </div>
             </div>
         </div>
@@ -327,7 +339,7 @@
                             <h3><a onclick="openWin_soundbooks('01')">달래강 노래</a></h3>
                             <!-- <span class="designation">Teacher</span> -->
                             <div class="range-slider clearfix">
-                                <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white">노래듣기</a>
+                                <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
                             </div>
                             <!-- <div class="btn-box"><a href="" class="theme-btn">더보기</a></div> -->
                             <ul class="social-list">
@@ -349,7 +361,7 @@
                         <div class="lower-content">
                             <h3><a onclick="openWin_soundbooks('02')" target="_blank">아름다운 이 세상</a></h3>
                             <div class="range-slider clearfix">
-                                <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white">노래듣기</a>
+                                <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
                             </div>
                             <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                             <!-- <span class="designation">Teacher</span> -->
@@ -372,7 +384,7 @@
                         <div class="lower-content">
                             <h3><a onclick="openWin_soundbooks('03')" target="_blank">하나님은 나의 부모님</a></h3>
                             <div class="range-slider clearfix">
-                                <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white">노래듣기</a>
+                                <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
                             </div>
                             <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                             <!-- <span class="designation">Teacher</span> -->
@@ -398,46 +410,6 @@
 </section>
 <!-- 생애동요 끝 -->
 
-<!-- 동요 시작 -->
-<!-- <section class="offer-section sec-pad centred">
-        <div class="anim-icon">
-            <div class="icon icon-1"></div>
-        </div>
-        <div class="container">
-            <div class="sec-title">
-                <h5 class="text-center"> Benefits</h5>
-                <h1>저희 노래를 음악 플랫폼에서 들어보세요</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
-                    <div class="single-offer-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                        <div class="icon-box"><i class="flaticon-bus-1"></i></div>
-                        <h3><a href="#">Bus Service</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
-                    <div class="single-offer-block wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        <div class="icon-box"><i class="flaticon-running"></i></div>
-                        <h3><a href="#">Sports Training</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
-                    <div class="single-offer-block wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                        <div class="icon-box"><i class="flaticon-drum"></i></div>
-                        <h3><a href="#">Music Training</a></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
-                    <div class="single-offer-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <div class="icon-box"><i class="flaticon-professor"></i></div>
-                        <h3><a href="#">Best Teachers</a></h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-<!-- 동요 끝 -->
-
 <!-- 참어머님 생애동요 CD 시작 -->
 <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg); background-attachment: inherit !important;">
     <div class="container">
@@ -446,17 +418,16 @@
                 <div class="inner-content">
                     <div class="sec-title text-center">
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                        <h5 style="font-size:26px">참어머님 생애동요 CD</h5>
-                        <h3 style="color:white">참어머님의 생애와 심정을 담은
-                            <br />효정의 노래
-                            <br />(7~10세)
+                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_5') ?></h5>
+                        <h3 style="color:white">
+                            <?php echo $this->lang->line('main_subtitle_5') ?>
                         </h3>
                     </div>
                     <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <!-- <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div> -->
                         <div class="range-slider clearfix text-center wow fadeInUp">
-                            <a href="<?php echo moshim_url('momo') ?>/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white">더보기</a>
+                            <a href="<?php echo moshim_url('momo') ?>/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -475,7 +446,7 @@
                                     <audio id="cd_track_04" class="cd_track_04">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-04.mp3" type="audio/mpeg">
                                     </audio>
-                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162; font-size:18px; color:white">듣기</a>
+                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_5') ?></a>
                                 </div>
                                 <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                             </div>
@@ -489,7 +460,7 @@
                                     <audio id="cd_track_05" class="cd_track_05">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-05.mp3" type="audio/mpeg">
                                     </audio>
-                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
+                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162 ; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_5') ?></a>
                                 </div>
                                 <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                             </div>
@@ -503,7 +474,7 @@
                                     <audio id="cd_track_06" class="cd_track_06">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-06.mp3" type="audio/mpeg">
                                     </audio>
-                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162 ; font-size:18px; color:white">듣기</a>
+                                    <a class="filter-btn play-button cursor" style="background-color:#FF7162 ; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_5') ?></a>
                                 </div>
                                 <!-- <div class="text">Cupidatat non proident sunt culpa qui officia deserunt mollit anim.</div> -->
                             </div>
@@ -535,21 +506,26 @@
         const audio = document.getElementById(event);
         var textChanged = document.getElementsByClassName(event)
 
+        console.log('lang', lang)
+        let word_listen = <?php echo json_encode($this->lang->line('main_btn1_5')); ?>
+        let word_pause = <?php echo json_encode($this->lang->line('main_btn2_5')); ?>
+
         console.log(audio)
+        console.log(word_listen)
         // if (playName == event){
         if (isPlaying[event]) {
             audio.pause()
             isPlaying[event] = false
             console.log('isPlayingpause', isPlaying)
             for (var j = 0, len = textChanged.length; j < len; j++) {
-                textChanged[j].parentNode.querySelector('.play-button').innerText = '듣기'
+                textChanged[j].parentNode.querySelector('.play-button').innerText = word_listen
             }
         } else {
             audio.play()
             isPlaying[event] = true
             console.log('isPlayingplay', isPlaying)
             for (var j = 0, len = textChanged.length; j < len; j++) {
-                textChanged[j].parentNode.querySelector('.play-button').innerText = '재생중'
+                textChanged[j].parentNode.querySelector('.play-button').innerText = word_pause
             }
         }
         // }
