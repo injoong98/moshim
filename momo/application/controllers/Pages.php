@@ -33,6 +33,16 @@ class Pages extends CB_Controller
 		 * 라이브러리를 로딩합니다
 		 */
 		$this->load->library(array('querystring'));
+		
+		$support_lang_list = array('jp', 'ko', 'en');
+		//$lang_code = "ko"; 
+		$lang_code = $this->input->get('lang', true);
+
+		if (in_array($lang_code, $support_lang_list) == false) {
+			$lang_code = $this->config->item('language');
+		}
+
+		$this->lang->load('main', $lang_code);
 	}
 
 

@@ -220,6 +220,9 @@ audio {
   .our-teachers  .block-column:nth-child(12) .teachers-block-two .inner-box .lower-content{
     background: url(../images/icons/teacher-icon-12.png);
   }
+  .our-teachers  .block-column .teachers-block-two .inner-box .lower-content{
+    background-repeat: no-repeat !important;
+  }
 
   /* 메인 - 로고 비디오  */
 
