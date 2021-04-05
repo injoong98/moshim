@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
  * Main class
@@ -28,12 +28,22 @@ class Main extends CB_Controller
 	function __construct()
 	{
 		parent::__construct();
-
+		date_default_timezone_set('Asia/Seoul');
 		/**
 		 * 라이브러리를 로딩합니다
 		 */
-		$this->load->library(array('querystring'));
+
+		$support_lang_list = array('jp', 'ko', 'en');
+		//$lang_code = "ko"; 
+		$lang_code = $this->input->get('lang', true);
+
+		if (in_array($lang_code, $support_lang_list) == false) {
+			$lang_code = $this->config->item('language');
+		}
+
+		$this->lang->load('main', $lang_code);
 	}
+
 
 
 	/**
@@ -44,6 +54,13 @@ class Main extends CB_Controller
 		// 이벤트 라이브러리를 로딩합니다
 		$eventname = 'event_main_index';
 		$this->load->event($eventname);
+
+
+		$lang = $this->input->get('lang', true);
+		if (!$lang) {
+			$lang = 'ko';
+		}
+		$view['view']['lang'] = $lang;
 
 		$view = array();
 		$view['view'] = array();
