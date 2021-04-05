@@ -57,6 +57,7 @@ class Main extends CB_Controller
 
 
 		$lang = $this->input->get('lang', true);
+
 		if (!$lang) {
 			$lang = 'ko';
 		}

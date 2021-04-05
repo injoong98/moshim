@@ -85,22 +85,14 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two">
-                        <h5 style="font-size:26px">출판브랜드 소개</h5>
-                        <h1 style="color: #2b3c6b;">모심</h1>
+                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_1') ?></h5>
+                        <h1 style="color: #2b3c6b;"><?php echo $this->lang->line('main_subtitle_1') ?></h1>
                     </div>
-                    <!-- <div class="bold-text">어머니가 자녀를 감싸주는 사랑</div> -->
                     <div class="text font-size-custom-1_5em">
                         <p style="line-height:1.4em; word-spacing:0.1em; font-family: Nanum Gothic !important;">
-                            자녀를 돌보시고 품으시며 밤잠 설치시는 어머니의 사랑.
-                            밤하늘의 별처럼 빛나는 인물로 키우시려는 어머니의 귀한 한걸음 한걸음.
-                            <br />
-                            <br />
-                            출판브랜드 '모심'은 그런 어머니의 마음으로,
-                            어머니를 가까이 받들어 '모심'으로 교육적이고 따뜻한 컨텐츠를 만듭니다.
-
+                            <?php echo $this->lang->line('main_content_1') ?>
                         </p>
                     </div>
-                    <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                 </div>
             </div>
         </div>
@@ -115,25 +107,27 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                        <h5 style="font-size:26px"> 콘텐츠브랜드 소개</h5>
+                        <h5 style="font-size:26px"> <?php echo $this->lang->line('main_title_2') ?></h5>
                         <div class="custom-title">
-                            <h1>효정지도</h1>
-                            <p style="color:#2b3c6b">孝情之道</p>
-                            <h1>시리즈</h1>
+                            <?php if ($_GET['lang'] == 'ko') { ?>
+                                <h1><?php echo $this->lang->line('main_subtitle_2-1') ?></h1>
+                                <p style="color:#2b3c6b">孝情之道</p>
+                                <h1><?php echo $this->lang->line('main_subtitle_2-2') ?></h1>
+                            <?php } else { ?>
+                                <h1><?php echo $this->lang->line('main_subtitle_2') ?></h1>
+                            <?php } ?>
                         </div>
                     </div>
                     <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
-                        <!-- <h3>원리의 길은 밟아가는 길입니다.</h3> -->
-                        '모심(母心)'의 콘텐츠브랜드인 '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는
-                        <br />
-                        <br />
-                        하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘에 대한 효정의 이야기들을 엮어 도서, 음악, 영상 등의 미디어 콘텐츠를 만듭니다.
-                        <br />
-                        <br />
-                        참아버님, 참어머님께서 먼저 걸으셨던 하늘에 대한 효정의 길, 그 길을 참부모님을 존경하고 사랑하는 마음으로 따라가 원리의 길을 밟아가시길 소망합니다.
-                        <br />
-                        <br />
-                        '효정지도<p style=" font-size:0.6em">孝情之道</p>시리즈'는 자녀들이 하늘부모님, 참부모님의 효정과 사랑, 심정을 이해하여, 참어머님과 함께 지상의 천일국시대를 이끌 위대한 영웅으로 자랄 수 있도록 길잡이가 되겠습니다.
+                        <?php if ($_GET['lang'] == 'ko') { ?>
+                            <?php echo $this->lang->line('main_content_2-1') ?>
+                            <p style=" font-size:0.6em">孝情之道</p>
+                            <?php echo $this->lang->line('main_content_2-2') ?>
+                            <p style=" font-size:0.6em">孝情之道</p>
+                            <?php echo $this->lang->line('main_content_2-3') ?>
+                        <?php } else { ?>
+                            <?php echo $this->lang->line('main_content_2') ?>
+                        <?php } ?>
                     </div>
                     <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->
                 </div>
