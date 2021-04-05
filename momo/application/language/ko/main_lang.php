@@ -69,6 +69,9 @@ $lang['main_btn2_5'] = '재생중'; //재생중
 
 
 // cd
+$lang['cd_main_cover'] = 'cover_01.jpg';
+$lang['cd_main_mobile_cover'] = 'mmain-5.jpg';
+
 $lang['cd_title_1'] = '참어머님 생애동요 CD'; //재생중
 $lang['cd_title_2'] = '참어머님의 생애와 심정이 담긴 효정의 노래'; //재생중
 $lang['cd_title_3'] = '(7~10세)'; //재생중
