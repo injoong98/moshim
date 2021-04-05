@@ -80,7 +80,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_01').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_01').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('1')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('1')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -98,7 +98,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_02').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_02').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('2')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('2')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -116,7 +116,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_03').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_03').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('3')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('3')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -134,7 +134,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_04').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_04').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('4')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('4')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -152,7 +152,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_05').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_05').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('5')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('5')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -170,7 +170,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_06').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_06').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="play_button" onclick="openWin_cd('6')" target="_blank" style="font-size:20px"> 가사</a></li>
+                                   <li><a class="play_button" onclick="openWin_cd('6')" target="_blank" style="font-size:20px"> <?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -190,7 +190,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_07').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_07').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('7')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('7')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -208,7 +208,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_08').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_08').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('8')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('8')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -226,7 +226,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_09').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_09').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('9')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('9')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -244,7 +244,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_10').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_10').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('10')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('10')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -262,7 +262,7 @@
                                    </audio>
                                    <li onClick="document.getElementById('cd_track_11').play(); return false;"><a class="play_button"><i class="track-01 fas fa-play"></i></a></li>
                                    <li onClick="document.getElementById('cd_track_11').pause(); return false;"><a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a></li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('11')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('11')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
@@ -284,7 +284,7 @@
                                    <li onClick="document.getElementById('cd_track_12').pause(); return false;">
                                        <a class="play_button" style="margin:2px"><i class="track-01 fas fa-pause"></i></a>
                                    </li>
-                                   <li><a class="lyric-style play_button" onclick="openWin_cd('12')" target="_blank">가사</a></li>
+                                   <li><a class="lyric-style play_button" onclick="openWin_cd('12')" target="_blank"><?php echo $this->lang->line('cd_lyrics') ?></a></li>
                                </ul>
                            </div>
                        </div>
