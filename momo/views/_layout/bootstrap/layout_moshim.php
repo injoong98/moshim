@@ -173,55 +173,52 @@
 								</div>
 								<div class="navbar-collapse collapse clearfix">
 									<ul class="navigation clearfix">
-										<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>><a href="http://moshim.co.kr/#intro">
-												<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?><?php echo $this->lang->line('nav_1') ?></a>
-											<!-- <ul>
-												<li><a href="index.html">Home Page 01</a></li>
-												<li><a href="index-2.html">Home Page 02</a></li>
-												<li><a href="index-3.html">Home Page 03</a></li>
-												<li class="dropdown"><a href="#">Header Styles</a>
-													<ul>
-														<li><a href="index.html">Header Style 01</a></li>
-														<li><a href="index-2.html">Header Style 02</a></li>
-														<li><a href="index-3.html">Header Style 03</a></li>
-													</ul>
-												</li>
-											</ul> -->
+										<?php if ($_GET['lang'] == 'jp') { ?>
+											<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>>
+												<a href="http://moshim.co.kr/?lang=jp#intro">
+													<?php echo (element('menu_name', $layout) === 'main') ? '' : 'MAIN/'; ?><?php echo $this->lang->line('nav_1') ?>
+												</a>
+											</li>
+										<?php } else { ?>
+											<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>>
+												<a href="http://moshim.co.kr/#intro">
+													<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개
+												</a>
+											</li>
+										<?php } ?>
+										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>>
+											<?php if ($_GET['lang'] == 'jp') { ?>
+												<a href="<?php echo moshim_url('momo') ?>/pages/books/?lang=jp">
+												<?php } else { ?>
+													<a href="<?php echo moshim_url('momo') ?>/pages/books">
+													<?php } ?>
+													<?php echo $this->lang->line('nav_2') ?>
+													</a>
 										</li>
-										<!-- <li <?php echo (element('menu_name', $layout) === 'youtube') ? 'class="current"' : ''; ?>><a href="/pages/youtube">유튜브</a>
-											<ul>
-												<li><a href="about.html">About Us</a></li>
-												<li><a href="faq.html">Faq Page</a></li>
-												<li><a href="testimonial.html">Testimonials</a></li>
-												<li><a href="error.html">Error Page</a></li>
-											</ul>
-										</li> -->
-										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/books"><?php echo $this->lang->line('nav_2') ?></a>
-											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
-											<!-- <ul>
-												<li><a href="class.html">Our Classes</a></li>
-												<li><a href="class-details.html">Class Details</a></li>
-											</ul> -->
+										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>>
+											<?php if ($_GET['lang'] == 'jp') { ?>
+												<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks/?lang=jp">
+												<?php } else { ?>
+													<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">
+													<?php } ?>
+													<?php echo $this->lang->line('nav_3') ?>
+													</a>
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks"><?php echo $this->lang->line('nav_3') ?></a>
-											<!-- <li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>><a href="/pages/books">동화책</a> -->
-											<!-- <ul>
-												<li><a href="class.html">Our Classes</a></li>
-												<li><a href="class-details.html">Class Details</a></li>
-											</ul> -->
+										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>>
+											<?php if ($_GET['lang'] == 'jp') { ?>
+												<a href="<?php echo moshim_url('momo') ?>/pages/cd/?lang=jp">CD
+												<?php } else { ?>
+													<a href="<?php echo moshim_url('momo') ?>/pages/cd">CD</a>
+												<?php } ?>
+												</a>
 										</li>
-										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>><a href="<?php echo moshim_url('momo') ?>/pages/cd">CD</a>
-											<!-- <ul>
-												<li><a href="gallery.html">Our Gallery</a></li>
-												<li><a href="teachers.html">Our Teachers</a></li>
-												<li><a href="pricing.html">Pricing Table</a></li>
-												<li><a href="event.html">Our Events</a></li>
-												<li><a href="event-details.html">Event Details</a></li>
-												<li><a href="shop.html">Shop Page</a></li>
-												<li><a href="shop-details.html">Shop Details</a></li>
-												<li><a href="cart.html">Cart Page</a></li>
-												<li><a href="checkout.html">Checkout Page</a></li>
-											</ul> -->
+										<li>
+											<?php if ($_GET['lang'] == 'jp') { ?>
+												<a href="<?php echo moshim_url('momo') ?>">한국어 <?= $_GET['lang'] ?>
+												<?php } else { ?>
+													<a href=" <?php echo moshim_url('momo') ?>/?lang=jp">日本語</a>
+												<?php } ?>
+												</a>
 										</li>
 										<!-- <li <?php echo (element('menu_name', $layout) === 'shop') ? 'class="current"' : ''; ?>><a href="/pages/shop">SHOP</a>
 											<ul>
@@ -230,7 +227,6 @@
 											</ul>
 										</li> -->
 										<!-- <li><a href="/pages/login">로그인</a></li> -->
-										<li>日本語</li>
 									</ul>
 								</div>
 							</nav>
@@ -264,75 +260,52 @@
 						</div>
 						<div class="navbar-collapse collapse clearfix">
 							<ul class="navigation clearfix">
-								<!-- <li class="current dropdown"><a href="/">Home</a> -->
-								<!-- <ul>
-										<li><a href="index.html">Home Page 01</a></li>
-										<li><a href="index-2.html">Home Page 02</a></li>
-										<li><a href="index-3.html">Home Page 03</a></li>
-										<li class="dropdown"><a href="#">Header Styles</a>
-											<ul>
-												<li><a href="index.html">Header Style 01</a></li>
-												<li><a href="index-2.html">Header Style 02</a></li>
-												<li><a href="index-3.html">Header Style 03</a></li>
-											</ul>
-										</li>
-									</ul> -->
+								<?php if ($_GET['lang'] == 'jp') { ?>
+									<li class="dropdown <?php echo (element('menu_name', $layout) === 'main') ? 'current' : ''; ?>">
+										<a href="http://moshim.co.kr/?lang=jp#intro">
+											<?php echo (element('menu_name', $layout) === 'main') ? '' : 'MAIN/'; ?><?php echo $this->lang->line('nav_1') ?></a>
+									</li>
+								<?php } else { ?>
+									<li class="dropdown <?php echo (element('menu_name', $layout) === 'main') ? 'current' : ''; ?>">
+										<a href="http://moshim.co.kr/#intro">
+											<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
+									</li>
+								<?php } ?>
+								<li class="dropdown <?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?> ">
+									<?php if ($_GET['lang'] == 'jp') { ?>
+										<a href="<?php echo moshim_url('momo') ?>/pages/books/?lang=jp">
+										<?php } else { ?>
+											<a href="<?php echo moshim_url('momo') ?>/pages/books">
+											<?php } ?>
+											<?php echo $this->lang->line('nav_2') ?>
+											</a>
 								</li>
-								<li class="dropdown <?php echo (element('menu_name', $layout) == 'main') ? 'current' : ''; ?>"><a href="http://moshim.co.kr/#intro"><?php echo (element('menu_name', $layout) == 'main') ? '' : '메인/'; ?><?php echo $this->lang->line('nav_1') ?></a>
-									<!-- <li class="dropdown"><a href="/pages/vision">비전</a> -->
-									<!-- 	<ul>
-										<li><a href="about.html">About Us</a></li>
-										<li><a href="faq.html">Faq Page</a></li>
-										<li><a href="testimonial.html">Testimonials</a></li>
-										<li><a href="error.html">Error Page</a></li>
-									</ul> -->
+								<li class="dropdown <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?> ">
+									<?php if ($_GET['lang'] == 'jp') { ?>
+										<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks/?lang=jp">
+										<?php } else { ?>
+											<a href=" <?php echo moshim_url('momo') ?>/pages/soundbooks">
+											<?php } ?>
+											<?php echo $this->lang->line('nav_3') ?>
+											</a>
 								</li>
-								<!-- <li class="dropdown"><a href="/pages/youtube">유튜브</a>
-										<ul>
-										<li><a href="class.html">Our Classes</a></li>
-										<li><a href="class-details.html">Class Details</a></li>
-									</ul>
-								</li> -->
-								<li class="dropdown
-								<?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?>
-								"><a href="/pages/books"><?php echo $this->lang->line('nav_2') ?></a>
-									<!-- <ul>
-										<li><a href="gallery.html">Our Gallery</a></li>
-										<li><a href="teachers.html">Our Teachers</a></li>
-										<li><a href="pricing.html">Pricing Table</a></li>
-										<li><a href="event.html">Our Events</a></li>
-										<li><a href="event-details.html">Event Details</a></li>
-										<li><a href="shop.html">Shop Page</a></li>
-										<li><a href="shop-details.html">Shop Details</a></li>
-										<li><a href="cart.html">Cart Page</a></li>
-										<li><a href="checkout.html">Checkout Page</a></li>
-									</ul> -->
+								<li class="dropdown <?php echo (element('menu_name', $layout) === 'cd') ? 'current' : ''; ?> ">
+									<?php if ($_GET['lang'] == 'jp') { ?>
+										<a href="<?php echo moshim_url('momo') ?>/pages/cd/?lang=jp">
+										<?php } else { ?>
+											<a href="<?php echo moshim_url('momo') ?>/pages/cd">
+											<?php } ?>
+											CD
+											</a>
 								</li>
-								<li class="
-								<?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?>
-								dropdown"><a href="/pages/soundbooks"><?php echo $this->lang->line('nav_3') ?></a>
-									<!-- <ul>
-										<li><a href="gallery.html">Our Gallery</a></li>
-										<li><a href="teachers.html">Our Teachers</a></li>
-										<li><a href="pricing.html">Pricing Table</a></li>
-										<li><a href="event.html">Our Events</a></li>
-										<li><a href="event-details.html">Event Details</a></li>
-										<li><a href="shop.html">Shop Page</a></li>
-										<li><a href="shop-details.html">Shop Details</a></li>
-										<li><a href="cart.html">Cart Page</a></li>
-										<li><a href="checkout.html">Checkout Page</a></li>
-									</ul> -->
+								<li class="dropdown">
+									<?php if ($_GET['lang'] == 'jp') { ?>
+										<a href="<?php echo moshim_url('momo') ?>">한국어
+										<?php } else { ?>
+											<a href="<?php echo moshim_url('momo') ?>/?lang=jp">日本語</a>
+										<?php } ?>
+										</a>
 								</li>
-								<li class="
-								<?php echo (element('menu_name', $layout) === 'cd') ? 'current' : ''; ?>
-								dropdown"><a href="/pages/cd">CD</a>
-									<!-- <ul>
-										<li><a href="blog.html">Blog Page</a></li>
-										<li><a href="blog-details.html">Blog Details</a></li>
-									</ul> -->
-								</li>
-								<!-- <li><a href="/pages/shop">SHOP</a></li> -->
-								<!-- <li><a href="/pages/login">로그인</a></li> -->
 							</ul>
 						</div>
 					</nav>
