@@ -47,6 +47,19 @@ $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられ�
 ';
 $lang['main_btn1_4'] = '再生';
 
+$lang['song_title_1'] = '1. タルレ川のうた';
+$lang['song_title_2'] = '2. うつくしい　このせかい';
+$lang['song_title_3'] = '3. 神さまは　わたしの父母さま';
+$lang['song_title_4'] = '4. すいせんのあい';
+$lang['song_title_5'] = '5. 天の　はなよめ';
+$lang['song_title_6'] = '6. 山をこえ　うみを　わたって';
+$lang['song_title_7'] = '7. 孝情のお母さま';
+$lang['song_title_8'] = '8. お母さまの　むすことむすめ';
+$lang['song_title_9'] = '9. お母さまの手は　おくすりの　手';
+$lang['song_title_10'] = '10. お日さまが　しずんで　お月さまが　でても';
+$lang['song_title_11'] = '11. うつくしいくに　天一国';
+$lang['song_title_12'] = '12. あたらしいせかい、わたしたちも　いっしょに';
+
 /* 동요 CD */
 $lang['main_title_5'] = '真のお母様のご生涯のうた　<br/> ＣＤ';
 $lang['main_subtitle_5'] = '真のお母様さまのご生涯と心情がこめられた

@@ -51,6 +51,20 @@ $lang['main_subtitle_4'] = '참어머님의 생애와 심정을 담은
 ';
 $lang['main_btn1_4'] = '노래듣기';
 
+$lang['song_title_1'] = '1. 달래강 노래';
+$lang['song_title_2'] = '2. 아름다운 이 세상';
+$lang['song_title_3'] = '3. 하나님은 나의 부모님';
+$lang['song_title_4'] = '4. 수선화 사랑';
+$lang['song_title_5'] = '5. 하늘 신부';
+$lang['song_title_6'] = '6. 산 넘고 바다 건너';
+$lang['song_title_7'] = '7. 효정의 어머니';
+$lang['song_title_8'] = '8. 어머니의 아들딸';
+$lang['song_title_9'] = '9. 어머니 손은 약손';
+$lang['song_title_10'] = '10. 해가 지고 달이 떠도';
+$lang['song_title_11'] = '11. 아름다운 나라 천일국';
+$lang['song_title_12'] = '12. 새로운 세상 우리 함께해요';
+
+
 /* 동요 CD */
 $lang['main_title_5'] = '참어머님 생애동요 CD';
 $lang['main_subtitle_5'] = '참어머님의 생애와 심정을 담은
