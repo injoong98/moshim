@@ -1,5 +1,5 @@
    <!--Page Title-->
-   <section class="page-title centred main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/cover_01.jpg);">
+   <section class="page-title centred main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/cover_01.jpg);">
        <div class="container">
            <div class="content-box" style="height:100px">
                <!-- <h1>사운드북</h1>
