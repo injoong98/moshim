@@ -1,7 +1,7 @@
   <!-- main-slider -->
   <section class="main-slider style-two">
       <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
-          <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/slider-4.jpg)">
+          <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/slider-4.jpg)">
               <div class="container">
                   <div class="content-box">
                       <h3>Best Choise</h3>
@@ -10,7 +10,7 @@
                   </div>
               </div>
           </div>
-          <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/slider-4.jpg)">
+          <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/slider-4.jpg)">
               <div class="container">
                   <div class="content-box">
                       <h3>Best Choise</h3>
@@ -19,7 +19,7 @@
                   </div>
               </div>
           </div>
-          <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/slider-4.jpg)">
+          <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/slider-4.jpg)">
               <div class="container">
                   <div class="content-box">
                       <h3>Best Choise</h3>
@@ -89,7 +89,7 @@
           <div class="row">
               <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                   <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                      <figure class="image-box"><a href="class-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/class-1.jpg" alt=""></a></figure>
+                      <figure class="image-box"><a href="class-details.html"><img src="http://moshim.co.kr/assets/moshim/images/resource/class-1.jpg" alt=""></a></figure>
                       <div class="lower-content">
                           <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                           <h3><a href="class-details.html">Music Lessons</a></h3>
@@ -103,7 +103,7 @@
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                   <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                      <figure class="image-box"><a href="class-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/class-2.jpg" alt=""></a></figure>
+                      <figure class="image-box"><a href="class-details.html"><img src="http://moshim.co.kr/assets/moshim/images/resource/class-2.jpg" alt=""></a></figure>
                       <div class="lower-content">
                           <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                           <h3><a href="class-details.html">Paper Plates Art</a></h3>
@@ -117,7 +117,7 @@
               </div>
               <div class="col-lg-4 col-md-6 col-sm-12 block-column">
                   <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                      <figure class="image-box"><a href="class-details.html"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/resource/class-3.jpg" alt=""></a></figure>
+                      <figure class="image-box"><a href="class-details.html"><img src="http://moshim.co.kr/assets/moshim/images/resource/class-3.jpg" alt=""></a></figure>
                       <div class="lower-content">
                           <div class="link-btn"><a href="class-details.html"><i class="flaticon-next"></i></a></div>
                           <h3><a href="class-details.html">Education Lessons</a></h3>

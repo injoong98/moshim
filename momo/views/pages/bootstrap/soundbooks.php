@@ -1,5 +1,5 @@
    <!--Page Title-->
-   <section class="page-title centred main-slider-pc" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/cover_01.jpg);">
+   <section class="page-title centred main-slider-pc" style="background-image: url(http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/cover_01.jpg);">
        <div class="container">
            <div class="content-box" style="height:100px">
                <!-- <h1>사운드북</h1>
@@ -10,7 +10,7 @@
            </div>
        </div>
    </section>
-   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/mmain-3.jpg); background-size:cover">
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(http://moshim.co.kr/assets/moshim/images/main-slider/mmain-3.jpg); background-size:cover">
        <div class="container">
            <div class="content-box" style="height:400px">
                <!-- <h1>CD</h1> -->
@@ -54,7 +54,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('01')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_01.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('01')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_01.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('01')"><?php echo $this->lang->line('song_title_1') ?></a></h3>
@@ -73,7 +73,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('02')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_02.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('02')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_02.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('02')"><?php echo $this->lang->line('song_title_2') ?></a></h3>
@@ -92,7 +92,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('03')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_03.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('03')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_03.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('03')"><?php echo $this->lang->line('song_title_3') ?></a></h3>
@@ -111,7 +111,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('04')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_04.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('04')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_04.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('04')"><?php echo $this->lang->line('song_title_4') ?></a></h3>
@@ -130,7 +130,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('05')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_05.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('05')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_05.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('05')"><?php echo $this->lang->line('song_title_5') ?></a></h3>
@@ -149,7 +149,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('06')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_06.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('06')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_06.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('06')"><?php echo $this->lang->line('song_title_6') ?></a></h3>
@@ -170,7 +170,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('07')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_07.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('07')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_07.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('07')"><?php echo $this->lang->line('song_title_7') ?></a></h3>
@@ -189,7 +189,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('08')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_08.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('08')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_08.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('08')"><?php echo $this->lang->line('song_title_8') ?></a></h3>
@@ -208,7 +208,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('09')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_09.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('09')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_09.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('09')"><?php echo $this->lang->line('song_title_9') ?></a></h3>
@@ -227,7 +227,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('10')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_10.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('10')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_10.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('10')"><?php echo $this->lang->line('song_title_10') ?></a></h3>
@@ -246,7 +246,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('11')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_11.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('11')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_11.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3><a target="_blank" onclick="openWin_soundbooks('11')"><?php echo $this->lang->line('song_title_11') ?></a></h3>
@@ -265,7 +265,7 @@
                    <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <div class="image-holder">
-                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('12')"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_12.jpg" alt=""></a></figure>
+                               <figure class="image-box"><a target="_blank" onclick="openWin_soundbooks('12')"><img src="http://moshim.co.kr/assets/moshim/images/soundbook<?php echo $this->lang->line('song_url') ?>/soundbook_12.jpg" alt=""></a></figure>
                            </div>
                            <div class="lower-content">
                                <h3 style="font-size: 1.3em;"><a target="_blank" onclick="openWin_soundbooks('12')"><?php echo $this->lang->line('song_title_12') ?></a></h3>
@@ -292,9 +292,9 @@
            if (!(!this.printWin || this.printWin.closed)) {
                this.printWin.close();
            }
-           if(session['lang'] == 'jp') {
+           if (session['lang'] == 'jp') {
                console.log("success")
-               this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}?lang=jp`, '사운드북 미리보기', 'width=1270, height=780')                
+               this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}?lang=jp`, '사운드북 미리보기', 'width=1270, height=780')
            } else {
                this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '사운드북 미리보기', 'width=1270, height=780');
            }

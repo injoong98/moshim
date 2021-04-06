@@ -1,7 +1,7 @@
  <!-- main-slider -->
  <section class="main-slider style-three">
      <div class="main-slider-carousel owl-carousel owl-theme nav-style-two">
-         <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/vision_1.jpg)">
+         <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/vision_1.jpg)">
              <div class="container">
                  <div class="content-box">
                      <h3>비전</h3>
@@ -54,7 +54,7 @@
  </section>
  <!-- service-section end -->
  <!--Page Title-->
- <section class="page-title centred" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/background/page-title.jpg);">
+ <section class="page-title centred" style="background-image: url(http://moshim.co.kr/assets/moshim/images/background/page-title.jpg);">
      <div class="container">
          <div class="content-box">
              <h1>Youtube</h1>
@@ -76,8 +76,8 @@
          <div class="row">
              <div class="col-lg-6 col-md-12 col-sm-12 image-column">
                  <div class="image-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                     <figure class="image image-1"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/vision_logo.jpg" alt=""></figure>
-                     <figure class="image image-2"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/vision_logo.jpg" alt=""></figure>
+                     <figure class="image image-1"><img src="http://moshim.co.kr/assets/moshim/images/vision_logo.jpg" alt=""></figure>
+                     <figure class="image image-2"><img src="http://moshim.co.kr/assets/moshim/images/vision_logo.jpg" alt=""></figure>
                  </div>
              </div>
              <div class="col-lg-6 col-md-12 col-sm-12 content-column">

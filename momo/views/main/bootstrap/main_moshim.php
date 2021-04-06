@@ -1,7 +1,7 @@
 <!-- 콘텐츠 소개 시작-->
 <section class="main-slider style-two main-slider-pc">
     <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-1.jpg)">
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-1.jpg)">
             <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -11,7 +11,7 @@
                     </div>
                 </div> -->
         </div>
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-2.jpg)">
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-2.jpg)">
             <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -21,7 +21,7 @@
                     </div>
                 </div> -->
         </div>
-        <!-- <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/main-3.jpg)">
+        <!-- <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/main-3.jpg)">
                 <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -31,7 +31,7 @@
                     </div>
                 </div> 
             </div> -->
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-4.jpg)">
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-4.jpg)">
             <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -41,7 +41,7 @@
                     </div>
                 </div> -->
         </div>
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-5.jpg)">
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>main-5.jpg)">
             <!-- <div class="container">
                     <div class="content-box">
                         <h3>Best Choise</h3>
@@ -57,13 +57,13 @@
 <section class="col-md-12 col-sm-12 main-slider style-two main-slider-mobile" style="padding:0">
     <div class="main-slider-carousel owl-carousel owl-theme nav-style-one">
         <!--  -->
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-1.jpg)"></div>
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-1.jpg)"></div>
         <!-- 동화 -->
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-2.jpg)"></div>
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-2.jpg)"></div>
         <!-- 동요 -->
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-3.jpg)"></div>
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-3.jpg)"></div>
         <!-- CD -->
-        <div class="slide" style="background-image:url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-5.jpg)"></div>
+        <div class="slide" style="background-image:url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>mmain-5.jpg)"></div>
     </div>
 </section>
 <!-- 콘텐츠 소개 end -->
@@ -79,7 +79,7 @@
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12">
                 <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:25px">
-                    <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/logo_video.mp4">
+                    <source src="http://moshim.co.kr/assets/moshim/videos/logo_video.mp4">
                 </video>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -100,7 +100,7 @@
             <!--시작: 효정지도, 모바일에서만 -->
             <div class="col-md-12 col-sm-12 main-slider-mobile">
                 <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" id="hyojeongVideoMobile" style="padding:0">
-                    <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
+                    <source src="http://moshim.co.kr/assets/moshim/videos/hyojeongmap_video.mp4">
                 </video>
             </div>
             <!-- 끝 : 효정지도, 모바일에서만 -->
@@ -134,7 +134,7 @@
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 main-slider-pc">
                 <video class="col-lg-12 col-md-12 col-sm-12" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" style="padding-top:110px" id="hyojeongVideo">
-                    <source src="<?php echo moshim_url('momo') ?>/assets/moshim/videos/hyojeongmap_video.mp4">
+                    <source src="http://moshim.co.kr/assets/moshim/videos/hyojeongmap_video.mp4">
                 </video>
             </div>
         </div>
@@ -143,7 +143,7 @@
 <!--  소개 끝 -->
 
 <!-- 쇼핑몰 시작 -->
-<!-- <section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/background/service-bg.jpg);">
+<!-- <section class="service-section sec-pad" style="background-image: url(http://moshim.co.kr/assets/moshim/images/background/service-bg.jpg);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
@@ -214,9 +214,9 @@
                 <div class="range-slider clearfix pull-right wow fadeInUp">
                     <a href="
                     <?php if ($_GET['lang'] == 'jp') { ?>
-                    <?php echo moshim_url('momo') ?>/pages/books/?lang=jp
+                    http://moshim.co.kr/pages/books/?lang=jp
                     <?php } else { ?>
-                    <?php echo moshim_url('momo') ?>/pages/books
+                    http://moshim.co.kr/pages/books
                     <?php } ?>
                     " class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white">
                         <?php echo $this->lang->line('main_btn1_3') ?>
@@ -230,19 +230,19 @@
                     <div class="inner-box">
                         <figure class="image-box"><a href="
                         <?php if ($_GET['lang'] == 'jp') { ?>
-                        <?php echo moshim_url('momo') ?>/pages/books/?lang=jp
+                        http://moshim.co.kr/pages/books/?lang=jp
                         <?php } else { ?>
-                        <?php echo moshim_url('momo') ?>/pages/books
+                        http://moshim.co.kr/pages/books
                         <?php } ?>
-                        "><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
+                        "><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
+                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:1em">
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="00ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:0.8em">
                                     <?php echo $this->lang->line('main_btn2_3') ?>
                                 </a></div>
                         </div>
@@ -252,15 +252,17 @@
             <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a href="http://moshim.co.kr/pages/books"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
+                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="200ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:1em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:0.8em"><?php echo $this->lang->line('main_btn2_3') ?></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,15 +270,19 @@
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="<?php echo moshim_url('momo') ?>/pages/books"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a href="http://moshim.co.kr/pages/books"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
+                            <h3 class="font-size-custom-1_2em">
+                                <a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a>
+                            </h3>
                             <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
                                     <li>4 Comments</li>
                                 </ul> -->
                             <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
-                            <div class="link-btn wow zoomIn cursor" data-wow-delay="400ms" data-wow-duration="1500ms"><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:1em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                            <div class="link-btn wow zoomIn cursor" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:0.8em"><?php echo $this->lang->line('main_btn2_3') ?></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -336,7 +342,7 @@
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">
-                    <a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
+                    <a href="http://moshim.co.kr/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                 </div>
             </div>
         </div>
@@ -345,10 +351,14 @@
                 <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="image-holder cursor">
-                            <figure class="image-box"><a onclick="openWin_soundbooks('01')" target="_blank"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>07.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a onclick="openWin_soundbooks('01')" target="_blank"><img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>07.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
-                            <h3><a onclick="openWin_soundbooks('01')"><?php echo $this->lang->line('cd_song_1') ?></a></h3>
+                            <?php if ($_GET['lang'] == 'jp') { ?>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('01')" target="_blank"><?php echo $this->lang->line('cd_song_1') ?></a></h3>
+                            <?php } else { ?>
+                                <h3><a onclick="openWin_soundbooks('01')" target="_blank"><?php echo $this->lang->line('cd_song_1') ?></a></h3>
+                            <?php } ?>
                             <!-- <span class="designation">Teacher</span> -->
                             <div class="range-slider clearfix">
                                 <a onclick="openWin_soundbooks('01')" target="_blank" class="filter-btn cursor" style="background-color:#bf9000ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
@@ -368,14 +378,18 @@
                 <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="image-holder cursor">
-                            <figure class="image-box"><a onclick="openWin_soundbooks('02')" target="_blank"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>09.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a onclick="openWin_soundbooks('02')" target="_blank"><img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>09.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
-                            <h3><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
+                            <?php if ($_GET['lang'] == 'jp') { ?>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
+                            <?php } else { ?>
+                                <h3><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
+                            <?php } ?>
                             <div class="range-slider clearfix">
                                 <a onclick="openWin_soundbooks('02')" target="_blank" class="filter-btn cursor" style="background-color:#0b6494ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
                             </div>
-                            <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
+                            <!-- <div class="btn-box"><a href="http://moshim.co.kr/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                             <!-- <span class="designation">Teacher</span> -->
                             <ul class="social-list">
                                 <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -391,14 +405,18 @@
                 <div class="teachers-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="image-holder cursor">
-                            <figure class="image-box"><a onclick="openWin_soundbooks('03')" target="_blank"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>11.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a onclick="openWin_soundbooks('03')" target="_blank"><img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>11.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
-                            <h3><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
+                            <?php if ($_GET['lang'] == 'jp') { ?>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
+                            <?php } else { ?>
+                                <h3><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
+                            <?php } ?>
                             <div class="range-slider clearfix">
                                 <a onclick="openWin_soundbooks('03')" target="_blank" class="filter-btn cursor" style="background-color:#a61c00ff; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_4') ?></a>
                             </div>
-                            <!-- <div class="btn-box"><a href="<?php echo moshim_url('momo') ?>/pages/soundbooks" class="theme-btn">더보기</a></div> -->
+                            <!-- <div class="btn-box"><a href="http://moshim.co.kr/pages/soundbooks" class="theme-btn">더보기</a></div> -->
                             <!-- <span class="designation">Teacher</span> -->
                             <ul class="social-list">
                                 <!-- <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -423,7 +441,7 @@
 <!-- 생애동요 끝 -->
 
 <!-- 참어머님 생애동요 CD 시작 -->
-<section class="service-section sec-pad" style="background-image: url(<?php echo moshim_url('momo') ?>/assets/moshim/images/main_cd_cover.jpg); background-attachment: inherit !important;">
+<section class="service-section sec-pad" style="background-image: url(http://moshim.co.kr/assets/moshim/images/main_cd_cover.jpg); background-attachment: inherit !important;">
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
@@ -437,9 +455,9 @@
                     </div>
                     <!-- <div class="col-lg-2 col-md-6 col-sm-12"> -->
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                        <!-- <div class="btn-box text-center"><a href="<?php echo moshim_url('momo') ?>/pages/cd" class="theme-btn">더보기</a></div> -->
+                        <!-- <div class="btn-box text-center"><a href="http://moshim.co.kr/pages/cd" class="theme-btn">더보기</a></div> -->
                         <div class="range-slider clearfix text-center wow fadeInUp">
-                            <a href="<?php echo moshim_url('momo') ?>/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
+                            <a href="http://moshim.co.kr/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -451,9 +469,9 @@
                     <div class="services-carousel owl-carousel owl-theme">
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php $this->lang->line('cd_song_4') ?></a></h3>
+                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_4') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_04');">
                                     <audio id="cd_track_04" class="cd_track_04">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-04.mp3" type="audio/mpeg">
@@ -465,9 +483,9 @@
                         </div>
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php $this->lang->line('cd_song_5') ?></a></h3>
+                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_5') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_05');">
                                     <audio id="cd_track_05" class="cd_track_05">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-05.mp3" type="audio/mpeg">
@@ -479,9 +497,9 @@
                         </div>
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>17.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>17.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="<?php echo moshim_url('momo') ?>/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php $this->lang->line('cd_song_6') ?></a></h3>
+                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_6') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_06');">
                                     <audio id="cd_track_06" class="cd_track_06">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-06.mp3" type="audio/mpeg">
@@ -502,7 +520,7 @@
 <script>
     //동화책 미리보기 창
     function openWin_books(num) {
-        window.open(`<?php echo moshim_url('momo') ?>/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '', 'width=800, height=700, resizable=yes');
+        window.open(`http://moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '', 'width=800, height=700, resizable=yes');
         return false
     }
 
