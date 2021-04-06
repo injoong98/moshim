@@ -51,6 +51,7 @@ $lang['main_subtitle_4'] = '참어머님의 생애와 심정을 담은
 ';
 $lang['main_btn1_4'] = '노래듣기';
 
+$lang['song_url'] = '';
 $lang['song_title_1'] = '1. 달래강 노래';
 $lang['song_title_2'] = '2. 아름다운 이 세상';
 $lang['song_title_3'] = '3. 하나님은 나의 부모님';
