@@ -292,7 +292,11 @@
            if (!(!this.printWin || this.printWin.closed)) {
                this.printWin.close();
            }
-
-           this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '사운드북 미리보기', 'width=1270, height=780');
+           if(session['lang'] == 'jp') {
+               console.log("success")
+               this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}?lang=jp`, '사운드북 미리보기', 'width=1270, height=780')                
+           } else {
+               this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '사운드북 미리보기', 'width=1270, height=780');
+           }
        }
    </script>
