@@ -61,6 +61,9 @@ $lang['song_title_10'] = '10. お日さまが　しずんで　お月さまが�
 $lang['song_title_11'] = '11. うつくしいくに　天一国';
 $lang['song_title_12'] = '12. あたらしいせかい、わたしたちも　いっしょに';
 
+$lang['song_detail_btn_1'] = 'うた';
+$lang['song_detail_btn_2'] = '解説';
+
 /* 동요 CD */
 $lang['main_title_5'] = '真のお母様のご生涯のうた　<br/> ＣＤ';
 $lang['main_subtitle_5'] = '真のお母様さまのご生涯と心情がこめられた

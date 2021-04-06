@@ -16,7 +16,7 @@
             <div class="container text-center">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white">노래</div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
         </div>
         <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
@@ -26,7 +26,7 @@
             <div class="container">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white">해설</div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
         </div>
         <!-- </div> -->
     </div>

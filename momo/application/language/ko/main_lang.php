@@ -65,6 +65,9 @@ $lang['song_title_10'] = '10. 해가 지고 달이 떠도';
 $lang['song_title_11'] = '11. 아름다운 나라 천일국';
 $lang['song_title_12'] = '12. 새로운 세상 우리 함께해요';
 
+$lang['song_detail_btn_1'] = '노래';
+$lang['song_detail_btn_2'] = '해설';
+
 
 /* 동요 CD */
 $lang['main_title_5'] = '참어머님 생애동요 CD';
