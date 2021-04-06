@@ -75,7 +75,7 @@ $lang['main_btn2_5'] = '再生中'; //재생중
 
 /** 동화책 **/
 // 한: 참어머님 생애 동화책 세트(전7권)
-$lang['book_set_title'] = '真のお母様のご生涯のお話セット（全7冊）';
+$lang['book_set_title'] = '真のお母様のご生涯のお話セット<br/>（全7冊）<br/><br/>';
 
 // 한: 세트
 $lang['book_set'] = 'セット';
@@ -89,13 +89,13 @@ $lang['book_total'] = '全7冊';
 // 1권:
 $lang['book_1'] = '1冊';
 // 한: 하늘이 준비하신 참어머님
-$lang['book_title_1'] = '天がじゅんびした　まことのお母さま';
+$lang['book_title_1'] = '天がじゅんびした　まことのお母さま<br/><br/><br/>';
 $lang['book_title_1_mobile'] = '天がじゅんびした<br/>まことのお母さま';
 
 // 2권:
 $lang['book_2'] = '2冊';
 // 한: 하늘의 사랑스러운 딸 참어머님
-$lang['book_title_2'] = '天の　あいらしい　むすめ　まことのお母さま';
+$lang['book_title_2'] = '天の　あいらしい　むすめ　まことのお母さま<br/><br/>';
 $lang['book_title_2_mobile'] = '天の　あいらしい<br/>むすめ　まことのお母さま';
 
 // 3권:
@@ -112,7 +112,7 @@ $lang['book_title_4_mobile'] = 'まことのお父さま まことのお母さ�
 // 5권:
 // 한: 참된 아내 참어머님
 $lang['book_5'] = '5冊';
-$lang['book_title_5'] = 'まとこのつま　まことのお母さま<br/>';
+$lang['book_title_5'] = 'まとこのつま　まことのお母さま<br/><br/>';
 $lang['book_title_5_mobile'] = 'まとこのつま<br/>まことのお母さま<br/>';
 
 // 6권:
@@ -124,7 +124,7 @@ $lang['book_title_6_mobile'] = 'まことのあいの はは<br/>まことのお
 // 7권:
 $lang['book_7'] = '7冊';
 // 한: 참부모 참어머님
-$lang['book_title_7'] = 'まことの父母　まことのお母さま<br/>';
+$lang['book_title_7'] = 'まことの父母　まことのお母さま<br/><br/>';
 $lang['book_title_7_mobile'] = 'まことの父母<br/>まことのお母さま';
 
 // 추가 단어:
@@ -133,13 +133,13 @@ $lang['book_age'] = '年齢';
 // 한: 참부모 참어머님
 
 // 한: 5 ~ 13세
-$lang['book_age_range'] = '5～13歳';
+$lang['book_age_range'] = '5 ~ 13歳';
 
 // 한: 페이지
 $lang['book_page'] = 'ページ';
 
 // 한: 31 페이지
-$lang['book_total_page'] = '３１ページ';
+$lang['book_total_page'] = '31ページ';
 
 
 // 사운드북

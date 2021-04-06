@@ -43,7 +43,7 @@
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box">
-                           <img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/00.jpg" alt="">
+                           <img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>00.jpg" alt="">
                        </figure>
                        <div class="lower-content">
                            <h6>세트</h6>
@@ -61,7 +61,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:void(openWin_books(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:void(openWin_books(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_1') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
@@ -78,7 +78,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_2') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
@@ -95,7 +95,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_3') ?></h6>
                            <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3') ?></a></h3>
@@ -112,7 +112,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(4);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/04.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(4);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>04.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_4') ?></h6>
                            <div class="link-btn  "><a target="_blank" onclick="javascript:openWin_books(4);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
@@ -129,7 +129,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(5);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/05.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(5);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>05.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_5') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(5);" style="background-color:#8DD554; font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
@@ -146,7 +146,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(6);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/06.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(6);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>06.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_6') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(6);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
@@ -163,7 +163,7 @@
                </div>
                <div class="col-lg-3 col-md-6 col-sm-12 block-column play_button">
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(7);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/07.jpg" alt=""></a></figure>
+                       <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(7);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>07.jpg" alt=""></a></figure>
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_7') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(7);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
