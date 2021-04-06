@@ -214,11 +214,11 @@
 										</li>
 										<li>
 											<?php if ($_GET['lang'] == 'jp') { ?>
-												<a href="<?php echo moshim_url('momo') ?>">한국어 <?= $_GET['lang'] ?>
+												<a href="<?php echo moshim_url('momo') ?>">한국어
 												<?php } else { ?>
-													<a href=" <?php echo moshim_url('momo') ?>/?lang=jp">日本語</a>
-												<?php } ?>
-												</a>
+													<a href=" <?php echo moshim_url('momo') ?>/?lang=jp">日本語
+													<?php } ?>
+													</a>
 										</li>
 										<!-- <li <?php echo (element('menu_name', $layout) === 'shop') ? 'class="current"' : ''; ?>><a href="/pages/shop">SHOP</a>
 											<ul>
@@ -302,9 +302,9 @@
 									<?php if ($_GET['lang'] == 'jp') { ?>
 										<a href="<?php echo moshim_url('momo') ?>">한국어
 										<?php } else { ?>
-											<a href="<?php echo moshim_url('momo') ?>/?lang=jp">日本語</a>
-										<?php } ?>
-										</a>
+											<a href="<?php echo moshim_url('momo') ?>/?lang=jp">日本語
+											<?php } ?>
+											</a>
 								</li>
 							</ul>
 						</div>
