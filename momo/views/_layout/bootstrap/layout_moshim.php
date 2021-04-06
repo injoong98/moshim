@@ -230,6 +230,7 @@
 											</ul>
 										</li> -->
 										<!-- <li><a href="/pages/login">로그인</a></li> -->
+										<li>日本語</li>
 									</ul>
 								</div>
 							</nav>

@@ -65,7 +65,7 @@
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_1') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <h3 class=" books_title"><a target=" _blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1') ?></a></h3>
+                           <h3 class="books_title"><a target=" _blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1') ?></a></h3>
                            <h3 class="books_title_mobile"><a target=" _blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
@@ -82,7 +82,7 @@
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_2') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2') ?></a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2') ?></a></h3>
                            <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
@@ -101,7 +101,7 @@
                            <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3') ?></a></h3>
                            <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a></h3>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <div class=" price">13,000원</div>
+                           <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
                                <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
@@ -116,7 +116,7 @@
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_4') ?></h6>
                            <div class="link-btn  "><a target="_blank" onclick="javascript:openWin_books(4);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(4);"><?php echo $this->lang->line('book_title_4') ?></a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(4);"><?php echo $this->lang->line('book_title_4') ?></a></h3>
                            <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(4);"><?php echo $this->lang->line('book_title_4_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
@@ -133,7 +133,7 @@
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_5') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(5);" style="background-color:#8DD554; font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(5);"><?php echo $this->lang->line('book_title_5') ?></a></h3>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(5);"><?php echo $this->lang->line('book_title_5') ?></a></h3>
                            <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(5);"><?php echo $this->lang->line('book_title_5_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
