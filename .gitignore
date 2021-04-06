@@ -117,3 +117,5 @@ coco/.vscode/sftp.json
 .vscode/sftp.json
 .vscode/sftp.json
 momo/.vscode/sftp.json
+momo/application/config/database.php
+coco/application/config/database.php

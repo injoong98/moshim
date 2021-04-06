@@ -109,24 +109,24 @@
                     <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
                         <h5 style="font-size:26px"> <?php echo $this->lang->line('main_title_2') ?></h5>
                         <div class="custom-title">
-                            <?php if ($_GET['lang'] == 'ko') { ?>
+                            <?php if ($_GET['lang'] == 'jp') { ?>
+                                <h1><?php echo $this->lang->line('main_subtitle_2') ?></h1>
+                            <?php } else { ?>
                                 <h1><?php echo $this->lang->line('main_subtitle_2-1') ?></h1>
                                 <p style="color:#2b3c6b">孝情之道</p>
                                 <h1><?php echo $this->lang->line('main_subtitle_2-2') ?></h1>
-                            <?php } else { ?>
-                                <h1><?php echo $this->lang->line('main_subtitle_2') ?></h1>
                             <?php } ?>
                         </div>
                     </div>
                     <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
-                        <?php if ($_GET['lang'] == 'ko') { ?>
+                        <?php if ($_GET['lang'] == 'jp') { ?>
+                            <?php echo $this->lang->line('main_content_2') ?>
+                        <?php } else { ?>
                             <?php echo $this->lang->line('main_content_2-1') ?>
                             <p style=" font-size:0.6em">孝情之道</p>
                             <?php echo $this->lang->line('main_content_2-2') ?>
                             <p style=" font-size:0.6em">孝情之道</p>
                             <?php echo $this->lang->line('main_content_2-3') ?>
-                        <?php } else { ?>
-                            <?php echo $this->lang->line('main_content_2') ?>
                         <?php } ?>
                     </div>
                     <!-- <div class="btn-box"><a href="#intro_further" class="theme-btn">더알아보기</a></div> -->

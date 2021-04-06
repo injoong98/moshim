@@ -43,10 +43,10 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style.css" rel="stylesheet">
-	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/responsive.css" rel="stylesheet">
-	<link href="<?php echo moshim_url('momo') ?>/assets/moshim/css/style-custom.css" rel="stylesheet">
-	<link rel="icon" href="<?php echo moshim_url('momo') ?>/assets/moshim/images/favicon.ico" type="image/x-icon">
+	<link href="http://www.moshim.co.kr/assets/moshim/css/style.css" rel="stylesheet">
+	<link href="http://www.moshim.co.kr/assets/moshim/css/responsive.css" rel="stylesheet">
+	<link href="http://www.moshim.co.kr/assets/moshim/css/style-custom.css" rel="stylesheet">
+	<link rel="icon" href="http://www.moshim.co.kr/assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
 		// 자바스크립트에서 사용하는 전역변수 선언
@@ -159,7 +159,7 @@
 		<div class="header-bottom">
 			<div class="container">
 				<div class="clearfix main-custom-img ">
-					<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
+					<figure style="position: relative; display: inline-block;"><a href="/"><img src="http://www.moshim.co.kr/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 					<div class="nav-outer pull-right clearfix">
 						<div class="menu-area">
 							<nav class="main-menu navbar-expand-lg">
@@ -175,48 +175,48 @@
 									<ul class="navigation clearfix">
 										<?php if ($_GET['lang'] == 'jp') { ?>
 											<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>>
-												<a href="http://moshim.co.kr/?lang=jp#intro">
-													<?php echo (element('menu_name', $layout) === 'main') ? '' : 'MAIN/'; ?><?php echo $this->lang->line('nav_1') ?>
+												<a href="http://www.moshim.co.kr/?lang=jp#intro">
+													<?php echo (element('menu_name', $layout) === 'main') ? '' : 'HOME/'; ?><?php echo $this->lang->line('nav_1') ?>
 												</a>
 											</li>
 										<?php } else { ?>
 											<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>>
-												<a href="http://moshim.co.kr/#intro">
+												<a href="http://www.moshim.co.kr/#intro">
 													<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개
 												</a>
 											</li>
 										<?php } ?>
 										<li <?php echo (element('menu_name', $layout) === 'books') ? 'class="current"' : ''; ?>>
 											<?php if ($_GET['lang'] == 'jp') { ?>
-												<a href="<?php echo moshim_url('momo') ?>/pages/books/?lang=jp">
+												<a href="http://www.moshim.co.kr/pages/books/?lang=jp">
 												<?php } else { ?>
-													<a href="<?php echo moshim_url('momo') ?>/pages/books">
+													<a href="http://www.moshim.co.kr/pages/books">
 													<?php } ?>
 													<?php echo $this->lang->line('nav_2') ?>
 													</a>
 										</li>
 										<li <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'class="current"' : ''; ?>>
 											<?php if ($_GET['lang'] == 'jp') { ?>
-												<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks/?lang=jp">
+												<a href="http://www.moshim.co.kr/pages/soundbooks/?lang=jp">
 												<?php } else { ?>
-													<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks">
+													<a href="http://www.moshim.co.kr/pages/soundbooks">
 													<?php } ?>
 													<?php echo $this->lang->line('nav_3') ?>
 													</a>
 										</li>
 										<li <?php echo (element('menu_name', $layout) === 'cd') ? 'class="current"' : ''; ?>>
 											<?php if ($_GET['lang'] == 'jp') { ?>
-												<a href="<?php echo moshim_url('momo') ?>/pages/cd/?lang=jp">CD
+												<a href="http://www.moshim.co.kr/pages/cd/?lang=jp">CD
 												<?php } else { ?>
-													<a href="<?php echo moshim_url('momo') ?>/pages/cd">CD</a>
+													<a href="http://www.moshim.co.kr/pages/cd">CD</a>
 												<?php } ?>
 												</a>
 										</li>
 										<li>
 											<?php if ($_GET['lang'] == 'jp') { ?>
-												<a href="<?php echo moshim_url('momo') ?>">한국어
+												<a href="http://www.moshim.co.kr">한국어
 												<?php } else { ?>
-													<a href=" <?php echo moshim_url('momo') ?>/?lang=jp">日本語
+													<a href=" http://www.moshim.co.kr/?lang=jp">日本語
 													<?php } ?>
 													</a>
 										</li>
@@ -247,7 +247,7 @@
 		<!--Sticky Header-->
 		<div class="sticky-header">
 			<div class="container clearfix">
-				<figure style="position: relative; display: inline-block;"><a href="/"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
+				<figure style="position: relative; display: inline-block;"><a href="/"><img src="http://www.moshim.co.kr/assets/moshim/images/logo_1.jpg" alt="" style="height:125px"></a></figure>
 				<div class="menu-area">
 					<nav class="main-menu navbar-expand-lg">
 						<div class="navbar-header">
@@ -262,47 +262,47 @@
 							<ul class="navigation clearfix">
 								<?php if ($_GET['lang'] == 'jp') { ?>
 									<li class="dropdown <?php echo (element('menu_name', $layout) === 'main') ? 'current' : ''; ?>">
-										<a href="http://moshim.co.kr/?lang=jp#intro">
-											<?php echo (element('menu_name', $layout) === 'main') ? '' : 'MAIN/'; ?><?php echo $this->lang->line('nav_1') ?></a>
+										<a href="http://www.moshim.co.kr/?lang=jp#intro">
+											<?php echo (element('menu_name', $layout) === 'main') ? '' : 'HOME/'; ?><?php echo $this->lang->line('nav_1') ?></a>
 									</li>
 								<?php } else { ?>
 									<li class="dropdown <?php echo (element('menu_name', $layout) === 'main') ? 'current' : ''; ?>">
-										<a href="http://moshim.co.kr/#intro">
+										<a href="http://www.moshim.co.kr/#intro">
 											<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
 									</li>
 								<?php } ?>
 								<li class="dropdown <?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?> ">
 									<?php if ($_GET['lang'] == 'jp') { ?>
-										<a href="<?php echo moshim_url('momo') ?>/pages/books/?lang=jp">
+										<a href="http://www.moshim.co.kr/pages/books/?lang=jp">
 										<?php } else { ?>
-											<a href="<?php echo moshim_url('momo') ?>/pages/books">
+											<a href="http://www.moshim.co.kr/pages/books">
 											<?php } ?>
 											<?php echo $this->lang->line('nav_2') ?>
 											</a>
 								</li>
 								<li class="dropdown <?php echo (element('menu_name', $layout) === 'soundbooks') ? 'current' : ''; ?> ">
 									<?php if ($_GET['lang'] == 'jp') { ?>
-										<a href="<?php echo moshim_url('momo') ?>/pages/soundbooks/?lang=jp">
+										<a href="http://www.moshim.co.kr/pages/soundbooks/?lang=jp">
 										<?php } else { ?>
-											<a href=" <?php echo moshim_url('momo') ?>/pages/soundbooks">
+											<a href=" http://www.moshim.co.kr/pages/soundbooks">
 											<?php } ?>
 											<?php echo $this->lang->line('nav_3') ?>
 											</a>
 								</li>
 								<li class="dropdown <?php echo (element('menu_name', $layout) === 'cd') ? 'current' : ''; ?> ">
 									<?php if ($_GET['lang'] == 'jp') { ?>
-										<a href="<?php echo moshim_url('momo') ?>/pages/cd/?lang=jp">
+										<a href="http://www.moshim.co.kr/pages/cd/?lang=jp">
 										<?php } else { ?>
-											<a href="<?php echo moshim_url('momo') ?>/pages/cd">
+											<a href="http://www.moshim.co.kr/pages/cd">
 											<?php } ?>
 											CD
 											</a>
 								</li>
 								<li class="dropdown">
 									<?php if ($_GET['lang'] == 'jp') { ?>
-										<a href="<?php echo moshim_url('momo') ?>">한국어
+										<a href="http://www.moshim.co.kr">한국어
 										<?php } else { ?>
-											<a href="<?php echo moshim_url('momo') ?>/?lang=jp">日本語
+											<a href="http://www.moshim.co.kr/?lang=jp">日本語
 											<?php } ?>
 											</a>
 								</li>
@@ -398,7 +398,7 @@
 				<div class="inner-container clearfix d-flex justify-content-center">
 					<div class="">
 						<figure>
-							<a href="/" class="d-flex justify-content-center"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a>
+							<a href="/" class="d-flex justify-content-center"><img src="http://www.moshim.co.kr/assets/moshim/images/logo_4.png" alt="" style="height:55px"></a>
 						</figure>
 						<!-- <ul class="social-style-one footer-social clearfix" style="visibility:hidden;">
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -424,29 +424,29 @@
 	</button>
 
 	<!-- jequery plugins -->
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery.fancybox.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/jquery-ui.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/popper.min.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/bootstrap.min.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/jquery.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/jquery.fancybox.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/jquery-ui.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/popper.min.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/bootstrap.min.js"></script>
 
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/owl.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/wow.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/validation.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/appear.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/parallax.min.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/isotope.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/owl.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/wow.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/validation.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/appear.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/parallax.min.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/isotope.js"></script>
 
 	<!-- map script -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA-CE0deH3Jhj6GN4YvdCFZS7DpbXexzGU"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/gmaps.js"></script>
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/map-helper.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/gmaps.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/map-helper.js"></script>
 
 	<!-- main-js -->
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/script.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/script.js"></script>
 
 	<!-- js custom uny  -->
-	<script src="<?php echo moshim_url('momo') ?>/assets/moshim/js/custom.js"></script>
+	<script src="http://www.moshim.co.kr/assets/moshim/js/custom.js"></script>
 
 	<!-- js ours  -->
 	<script type="text/javascript">
