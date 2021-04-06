@@ -81,7 +81,8 @@ $lang['main_btn2_5'] = '재생중'; //재생중
 
 // 동화 세트:
 // 한: 참어머님 생애 동화책 세트(전7권)
-$lang['book_set_title'] = '참어머님 생애 동화책 세트(전7권)';
+$lang['book_set_title'] = '참어머님 생애<br/>동화책 세트(전7권)';
+$lang['book_set_title_mobile'] = '참어머님 생애 동화책 세트(전7권)';
 
 
 // 한: 세트
@@ -89,56 +90,62 @@ $lang['book_set'] = '세트';
 
 
 // 한: 권수
-$lang['book_each'] = '권수';
+$lang['book_each'] = '권 수';
 
 // 한: 총 7권
-$lang['book_total'] = '총7권';
+$lang['book_total'] = '총 7 권';
 
 // 1권:
-$lang['book_1'] = '1권';
+$lang['book_1'] = '제1권';
 // 한: 하늘이 준비하신 참어머님
-$lang['book_title_1'] = '하늘이 준비하신 참어머님';
+$lang['book_title_1'] = '하늘이 준비하신<br/> 참어머님';
+$lang['book_title_1_mobile'] = '하늘이 준비하신 참어머님';
 
 // 2권:
-$lang['book_2'] = '2권';
+$lang['book_2'] = '제2권';
 // 한: 하늘의 사랑스러운 딸 참어머님
-$lang['book_title_2'] = '하늘의 사랑스러운 딸 참어머님';
-
+$lang['book_title_2'] = '하늘의 사랑스러운 딸<br/>참어머님';
+$lang['book_title_2_mobile'] = '하늘의 사랑스러운 딸 참어머님';
 
 // 3권:
 // 한: 순수하면서도 강인한 모범생 참어머님
-$lang['book_3'] = '3권';
-$lang['book_title_3'] = '순수하면서도 강인한 모범생 참어머님';
+$lang['book_3'] = '제3권';
+$lang['book_title_3'] = '순수하면서도 강인한 <br/>모범생 참어머님';
+$lang['book_title_3_mobile'] = '순수하면서도 강인한 모범생 참어머님';
 
 
 // 4권:
 // 한: 참아버님 참어머님 참부모님
-$lang['book_4'] = '4권';
-$lang['book_title_4'] = '참아버님 참어머님 참부모님';
+$lang['book_4'] = '제4권';
+$lang['book_title_4'] = '참아버님 참어머님 <br/>참부모님';
+$lang['book_title_4_mobile'] = '참아버님 참어머님 참부모님';
 
 
 // 5권:
 // 한: 참된 아내 참어머님
-$lang['book_5'] = '5권';
-$lang['book_title_5'] = '참된 아내 참어머님';
+$lang['book_5'] = '제5권';
+$lang['book_title_5'] = '참된 아내 참어머님<br/><br/>';
+$lang['book_title_5_mobile'] = '참된 아내 참어머님';
 
 
 // 6권:
 // 한: 
-$lang['book_6'] = '6권';
-$lang['book_title_6'] = '참사랑의 어머니 참어머님';
+$lang['book_6'] = '제6권';
+$lang['book_title_6'] = '참사랑의 어머니<br/> 참어머님';
+$lang['book_title_6_mobile'] = '참사랑의 어머니 참어머님';
 
 
 // 7권:
-$lang['book_7'] = '7권';
+$lang['book_7'] = '제7권';
 // 한: 참부모 참어머님
-$lang['book_title_7'] = '참부모 참어머님';
+$lang['book_title_7'] = '참부모 참어머님<br/><br/>';
+$lang['book_title_7_mobile'] = '참부모 참어머님';
 
 
 // 추가 단어:
 // 한: 연령
 // 일:
-$lang['book_age'] = '연령';
+$lang['book_age'] = '연 령 ';
 
 // 한: 5 ~ 13세
 $lang['book_age_range'] = '5~13세';

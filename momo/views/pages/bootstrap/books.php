@@ -31,13 +31,12 @@
        </div>
        <div class="container">
            <div class="sec-title text-center">
-               <h5>참어머님 생애동화</h5>
-               <h1 class="books_title"> 참어머님의 인류를 위한 생애와 심정을 이해할 수 있는
-                   <br />귀한 보물과 같은 이야기
+               <h5><?php echo $this->lang->line('main_title_3') ?></h5>
+               <h1 class="books_title">
+                   <?php echo $this->lang->line('main_subtitle_3') ?>
                </h1>
-               <h3 class="books_title_mobile"> 참어머님의 인류를 위한
-                   <br />생애와 심정을 이해할 수 있는
-                   <br />귀한 보물과 같은 이야기
+               <h3 class="books_title_mobile">
+                   <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
                </h3>
            </div>
            <div class="row">
@@ -49,13 +48,13 @@
                        <div class="lower-content">
                            <h6>세트</h6>
                            <div class="link-btn " style="display:none"></div>
-                           <h3 class=" books_title">참어머님 생애<br />동화책 세트(전7권)</h3>
-                           <h3 class="books_title_mobile">참어머님 생애동화책 세트(전7권)</h3>
+                           <h3 class="books_title"><?php echo $this->lang->line('book_set_title') ?></h3>
+                           <h3 class="books_title_mobile"><?php echo $this->lang->line('book_set_title_mobile') ?></h3>
                            <div class="price">91,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>권 수 : <span>총 7권 </span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_each') ?> : <span><?php echo $this->lang->line('book_total') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -64,15 +63,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:void(openWin_books(1));"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/01.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제1권</h6>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target=" _blank" onclick="javascript:openWin_books(1);">하늘이 준비하신<br /> 참어머님</a></h3>
-                           <h3 class="books_title_mobile"><a target=" _blank" onclick="javascript:openWin_books(1);">하늘이 준비하신 참어머님</a></h3>
+                           <h6><?php echo $this->lang->line('book_1') ?></h6>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(1);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target=" _blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target=" _blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -81,15 +80,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/02.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제2권</h6>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸<br />참어머님</a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(2);">하늘의 사랑스러운 딸 참어머님</a></h3>
+                           <h6><?php echo $this->lang->line('book_2') ?></h6>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(2);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -98,15 +97,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/03.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제3권</h6>
-                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 <br />모범생 참어머님</a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(3);">순수하면서도 강인한 모범생 참어머님</a></h3>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:0.9em">미리보기</a></div>
+                           <h6><?php echo $this->lang->line('book_3') ?></h6>
+                           <h3 class="books_title"><a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a></h3>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(3);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
                            <div class=" price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -115,15 +114,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(4);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/04.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제4권</h6>
-                           <div class="link-btn  "><a target="_blank" onclick="javascript:openWin_books(4);" style="font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(4);">참아버님 참어머님 <br />참부모님</a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(4);">참아버님 참어머님 참부모님</a></h3>
+                           <h6><?php echo $this->lang->line('book_4') ?></h6>
+                           <div class="link-btn  "><a target="_blank" onclick="javascript:openWin_books(4);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(4);"><?php echo $this->lang->line('book_title_4') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(4);"><?php echo $this->lang->line('book_title_4_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -132,15 +131,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(5);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/05.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제5권</h6>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(5);" style="background-color:#8DD554; font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(5);">참된 아내 참어머님<br /><br /></a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(5);">참된 아내 참어머님</a></h3>
+                           <h6><?php echo $this->lang->line('book_5') ?></h6>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(5);" style="background-color:#8DD554; font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(5);"><?php echo $this->lang->line('book_title_5') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(5);"><?php echo $this->lang->line('book_title_5_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -149,15 +148,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(6);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/06.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제6권</h6>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(6);" style="font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(6);">참사랑의 어머니<br /> 참어머님</a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(6);">참사랑의 어머니 참어머님</a></h3>
+                           <h6><?php echo $this->lang->line('book_6') ?></h6>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(6);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(6);"><?php echo $this->lang->line('book_title_6') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(6);"><?php echo $this->lang->line('book_title_6_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지 : <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
@@ -166,15 +165,15 @@
                    <div class="inner-block wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(7);"><img src="<?php echo moshim_url('momo') ?>/assets/moshim/images/book/07.jpg" alt=""></a></figure>
                        <div class="lower-content">
-                           <h6>제7권</h6>
-                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(7);" style="font-size:0.9em">미리보기</a></div>
-                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(7);">참부모 참어머님<br /><br /></a></h3>
-                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(7);">참부모 참어머님</a></h3>
+                           <h6><?php echo $this->lang->line('book_7') ?></h6>
+                           <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(7);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
+                           <h3 class=" books_title"><a target="_blank" onclick="javascript:openWin_books(7);"><?php echo $this->lang->line('book_title_7') ?></a></h3>
+                           <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(7);"><?php echo $this->lang->line('book_title_7_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
                            <ul class="info-box-custom">
-                               <li>연 령 : <span>5 ~ 13세</span></li>
-                               <li>페이지: <span>31 페이지</span></li>
+                               <li><?php echo $this->lang->line('book_age') ?>: <span><?php echo $this->lang->line('book_age_range') ?></span></li>
+                               <li><?php echo $this->lang->line('book_page') ?> : <span><?php echo $this->lang->line('book_total_page') ?></span></li>
                            </ul>
                        </div>
                    </div>
