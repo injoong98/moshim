@@ -6,7 +6,7 @@
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img<?php echo $this->lang->line('song_url') ?>/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%">
 <div class="player-section">
-    <div class="padding wrapper-custom-soundbook col-lg-12 col-md-12 col-sm-12">
+    <div class="wrapper-custom-soundbook col-lg-12 col-md-12 col-sm-12">
         <!-- <div class="row"> -->
         <div class="container_music" onclick="toggleAudio('audio1')" style="background : #44B3D9;">
             <audio preload="metadata" controls controlslist="nodownload" id="audio1">
