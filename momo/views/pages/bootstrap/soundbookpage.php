@@ -16,7 +16,7 @@
             <div class="container text-center">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:darkgrey"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
         </div>
         <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
@@ -26,7 +26,7 @@
             <div class="container">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:darkgrey"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
         </div>
         <!-- </div> -->
     </div>
