@@ -182,7 +182,7 @@
 										<?php } else { ?>
 											<li <?php echo (element('menu_name', $layout) === 'main') ? 'class="current"' : ''; ?>>
 												<a href="http://www.moshim.co.kr/#intro">
-													<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개
+													<?php echo (element('menu_name', $layout) === 'main') ? '' : 'HOME/'; ?>소개
 												</a>
 											</li>
 										<?php } ?>
@@ -268,7 +268,7 @@
 								<?php } else { ?>
 									<li class="dropdown <?php echo (element('menu_name', $layout) === 'main') ? 'current' : ''; ?>">
 										<a href="http://www.moshim.co.kr/#intro">
-											<?php echo (element('menu_name', $layout) === 'main') ? '' : '메인/'; ?>소개</a>
+											<?php echo (element('menu_name', $layout) === 'main') ? '' : 'HOME/'; ?>소개</a>
 									</li>
 								<?php } ?>
 								<li class="dropdown <?php echo (element('menu_name', $layout) === 'books') ? 'current' : ''; ?> ">
