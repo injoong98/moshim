@@ -3,7 +3,7 @@
 
 /* 사운드북 상세 페이지 */
 .wrapper-custom-soundbook {
-  padding-top: 40vh;
+  padding-top: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -371,7 +371,18 @@ audio {
 @media only screen and (max-width: 470px){
 
   .wrapper-custom-soundbook {
-    padding-top:0;
+    /* position: absolute;
+    left: 0;
+    top: 0; 
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    min-height: 50vh;
+    text-align: left; */
+    padding-top: 10%;
     position: absolute;
     left: 0;
     top: 0;
@@ -381,7 +392,7 @@ audio {
     max-width: 1920px;
     margin: 0 auto;
     min-height: 50vh;
-    text-align: inherit;
+    text-align: left;
   }
 
   .button_position{
