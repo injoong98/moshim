@@ -381,6 +381,7 @@ audio {
     max-width: 1920px;
     margin: 0 auto;
     min-height: 50vh;
+    text-align: inherit;
   }
 
   .button_position{
