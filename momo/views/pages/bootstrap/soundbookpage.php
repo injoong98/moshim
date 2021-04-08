@@ -6,7 +6,7 @@
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img<?php echo $this->lang->line('song_url') ?>/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%">
 <div class="player-section">
-    <div class="padding wrapper-custom-soundbook col-lg-12 col-md-12 col-sm-12">
+    <div class="wrapper-custom-soundbook col-lg-12 col-md-12 col-sm-12" <?php echo element('soundbookpage', $view) == '12' ? 'style="text-align:center !important" ' : ''?>>
         <!-- <div class="row"> -->
         <div class="container_music" onclick="toggleAudio('audio1')" style="background : #44B3D9;">
             <audio preload="metadata" controls controlslist="nodownload" id="audio1">
@@ -16,7 +16,7 @@
             <div class="container text-center">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
         </div>
         <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
@@ -26,7 +26,7 @@
             <div class="container">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:white"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
+            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
         </div>
         <!-- </div> -->
     </div>
