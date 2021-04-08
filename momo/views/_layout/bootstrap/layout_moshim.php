@@ -43,10 +43,10 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="http://www.moshim.co.kr/assets/moshim/css/style.css" rel="stylesheet">
-	<link href="http://www.moshim.co.kr/assets/moshim/css/responsive.css" rel="stylesheet">
-	<link href="http://www.moshim.co.kr/assets/moshim/css/style-custom.css" rel="stylesheet">
-	<link rel="icon" href="http://www.moshim.co.kr/assets/moshim/images/favicon.ico" type="image/x-icon">
+	<link href="../assets/moshim/css/style.css" rel="stylesheet">
+	<link href="../assets/moshim/css/responsive.css" rel="stylesheet">
+	<link href="../assets/moshim/css/style-custom.css" rel="stylesheet">
+	<link rel="icon" href="../assets/moshim/images/favicon.ico" type="image/x-icon">
 
 	<script type="text/javascript">
 		// 자바스크립트에서 사용하는 전역변수 선언

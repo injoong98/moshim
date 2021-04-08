@@ -252,7 +252,7 @@
             <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="http://moshim.co.kr/pages/books"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
@@ -270,7 +270,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="http://moshim.co.kr/pages/books"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em">
                                 <a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a>
@@ -342,7 +342,7 @@
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">
-                    <a href="http://moshim.co.kr/pages/soundbooks" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
+                    <a href="http://moshim.co.kr/pages/soundbooks<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>" target="_blank" class="filter-btn cursor" style="background-color:#2B3C6B; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                 </div>
             </div>
         </div>
@@ -457,7 +457,7 @@
                     <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                         <!-- <div class="btn-box text-center"><a href="http://moshim.co.kr/pages/cd" class="theme-btn">더보기</a></div> -->
                         <div class="range-slider clearfix text-center wow fadeInUp">
-                            <a href="http://moshim.co.kr/pages/cd" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
+                            <a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>" target="_blank" class="filter-btn cursor" style="background-color:#FF7162; font-size:18px; color:white"><?php echo $this->lang->line('main_btn1_3') ?></a>
                         </div>
                     </div>
                     <!-- </div> -->
@@ -519,26 +519,36 @@
 
 <script>
     //동화책 미리보기 창
-    function openWin_books(num) {
-        window.open(`http://moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '', 'width=800, height=700, resizable=yes');
+
+    function openWin_books(book_num) {
+        window.open(`http://moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/<?php echo $_GET['lang'] == 'jp' ? 'jp/[jp]' : '[kr]' ?>0${book_num}_spread.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
         return false
     }
 
+
+    let printWin = null; // 인쇄용 팝업
+
     function openWin_soundbooks(num) {
-        window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '', 'width=1270, height=780');
+        if (!(!this.printWin || this.printWin.closed)) {
+            this.printWin.close();
+        }
+        if (session['lang'] == 'jp') {
+            console.log("success")
+            this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}?lang=jp`, '사운드북 미리보기', 'width=1270, height=780')
+        } else {
+            this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}`, '사운드북 미리보기', 'width=1270, height=780');
+        }
     }
 
     let isPlaying = [];
     var playName = '';
+    let word_listen = `<?php echo $this->lang->line('main_btn1_5') ?>`
+    let word_pause = `<?php echo $this->lang->line('main_btn2_5') ?>`
 
     const toggleAudio = (event) => {
 
         const audio = document.getElementById(event);
         var textChanged = document.getElementsByClassName(event)
-
-        console.log('lang', lang)
-        let word_listen = <?php echo json_encode($this->lang->line('main_btn1_5')); ?>
-        let word_pause = <?php echo json_encode($this->lang->line('main_btn2_5')); ?>
 
         console.log(audio)
         console.log(word_listen)
@@ -572,11 +582,11 @@
         for (var i = 0, len = audios.length; i < len; i++) {
             if (audios[i] != evn.target) {
                 audios[i].pause();
-                audios[i].parentNode.querySelector('.play-button').innerText = '듣기';
+                audios[i].parentNode.querySelector('.play-button').innerText = word_listen;
             }
         }
         for (var k = 0, len = changeSoon.length; k < len; k++) {
-            changeSoon[k].parentNode.querySelector('.play-button').innerText = '재생중'
+            changeSoon[k].parentNode.querySelector('.play-button').innerText = word_pause
         }
     }, true);
 

@@ -1,5 +1,5 @@
    <!--Page Title-->
-   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(http://www.moshim.co.kr/assets/moshim/images/book/cover_01.jpg);">
+   <section class="page-title centred background-cancel main-slider-pc" style="background-image: url(http://www.moshim.co.kr/assets/moshim/images/book<?php echo $_GET['lang'] == 'jp' ? '/jp\/' : '/' ?>cover_01.jpg);">
        <div class="container">
            <div class="content-box" style="height:100px">
                <!-- <h1>동화책</h1> -->
@@ -10,7 +10,7 @@
            </div>
        </div>
    </section>
-   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(http://www.moshim.co.kr/assets/moshim/images/main-slider/mmain-2.jpg); background-size:cover">
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(http://www.moshim.co.kr/assets/moshim/images/main-slider<?php echo $_GET['lang'] == 'jp' ? '/jp\/' : '/' ?>mmain-2.jpg); background-size:cover">
        <div class="container">
            <div class="content-box" style="height:400px">
                <!-- <h1>동화책</h1> -->
@@ -46,7 +46,7 @@
                            <img src="http://www.moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>00.jpg" alt="">
                        </figure>
                        <div class="lower-content">
-                           <h6>세트</h6>
+                           <h6><?php echo $_GET['lang'] == 'jp' ? 'SET' : '세트' ?></h6>
                            <div class="link-btn " style="display:none"></div>
                            <h3 class="books_title"><?php echo $this->lang->line('book_set_title') ?></h3>
                            <h3 class="books_title_mobile"><?php echo $this->lang->line('book_set_title_mobile') ?></h3>
@@ -185,7 +185,7 @@
    <script>
        //동화책 미리보기 창
        function openWin_books(num) {
-           window.open(`http://www.moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://www.moshim.co.kr/assets/moshim/pdf/[kr]0${num}_spread-pages-5-10.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
+           window.open(`http://www.moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://www.moshim.co.kr/assets/moshim/pdf/<?php echo $_GET['lang'] == 'jp' ? 'jp/[jp]' : '[kr]' ?>0${num}_spread.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
            return false
        }
    </script>
