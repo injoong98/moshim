@@ -89,7 +89,7 @@
                         <h1 style="color: #2b3c6b;"><?php echo $this->lang->line('main_subtitle_1') ?></h1>
                     </div>
                     <div class="text font-size-custom-1_5em">
-                        <p style="line-height:1.4em; word-spacing:0.1em; font-family: Nanum Gothic !important;">
+                        <p style="line-height:1.4em; word-spacing:0.1em; ">
                             <?php echo $this->lang->line('main_content_1') ?>
                         </p>
                     </div>
@@ -118,7 +118,7 @@
                             <?php } ?>
                         </div>
                     </div>
-                    <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
+                    <div class="custom-paragraph text" style="font-size:1em ; ">
                         <?php if ($_GET['lang'] == 'jp') { ?>
                             <?php echo $this->lang->line('main_content_2') ?>
                         <?php } else { ?>
@@ -228,13 +228,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a href="
-                        <?php if ($_GET['lang'] == 'jp') { ?>
-                        http://moshim.co.kr/pages/books/?lang=jp
-                        <?php } else { ?>
-                        http://moshim.co.kr/pages/books
-                        <?php } ?>
-                        "><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
+                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(1);">><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
@@ -351,7 +345,8 @@
                 <div class="teachers-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="image-holder cursor">
-                            <figure class="image-box"><a onclick="openWin_soundbooks('01')" target="_blank"><img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>07.jpg" alt=""></a></figure>
+                            <figure class="image-box"><a onclick="openWin_soundbooks('01')" target="_blank">
+                            <img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>07.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>
@@ -378,7 +373,9 @@
                 <div class="teachers-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
                         <div class="image-holder cursor">
-                            <figure class="image-box"><a onclick="openWin_soundbooks('02')" target="_blank"><img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>09.jpg" alt=""></a></figure>
+                            <figure class="image-box">
+                                <a onclick="openWin_soundbooks('02')" target="_blank">
+                                <img src="http://moshim.co.kr/assets/moshim/images/soundbook/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>09.jpg" alt=""></a></figure>
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>

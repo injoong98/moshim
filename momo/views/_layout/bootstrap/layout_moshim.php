@@ -43,7 +43,12 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="../../assets/moshim/css/style.css" rel="stylesheet">
+	<?php if($_GET['lang'] == 'jp'){?>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+		<link href="../../assets/moshim/css/style-jp.css" rel="stylesheet">
+	<?php }else{?>
+		<link href="../../assets/moshim/css/style.css" rel="stylesheet">
+	<?php }?>
 	<link href="../../assets/moshim/css/responsive.css" rel="stylesheet">
 	<link href="../../assets/moshim/css/style-custom.css" rel="stylesheet">
 	<link rel="icon" href="../../assets/moshim/images/favicon.ico" type="image/x-icon">
