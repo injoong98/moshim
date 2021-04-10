@@ -517,6 +517,8 @@
 <script>
     //동화책 미리보기 창
 
+    var lang_now = `<?php echo $_GET['lang']?>`;
+
     function openWin_books(book_num) {
         window.open(`http://moshim.co.kr/assets/moshim/pdfjs-2.6.347-dist/web/viewer.html?file=http://moshim.co.kr/assets/moshim/pdf/<?php echo $_GET['lang'] == 'jp' ? 'jp/[jp]' : '[kr]' ?>0${book_num}_spread.pdf`, '동화 미리보기', 'width=800, height=700, resizable=yes');
         return false
@@ -529,7 +531,8 @@
         if (!(!this.printWin || this.printWin.closed)) {
             this.printWin.close();
         }
-        if (session['lang'] == 'jp') {
+        
+        if (lang_now == 'jp') {
             console.log("success")
             this.printWin = window.open(`http://moshim.co.kr/pages/soundbookpage/${num}?lang=jp`, '사운드북 미리보기', 'width=1270, height=780')
         } else {
