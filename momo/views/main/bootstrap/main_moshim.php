@@ -202,10 +202,10 @@
                 <?php echo $this->lang->line('main_subtitle_3') ?>
             </h3>
             <h3 class="books_title_mobile">
-                <?php if ($_GET['lang'] == 'ko') { ?>
-                    <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
-                <?php } else { ?>
+                <?php if ($_GET['lang'] == 'jp') { ?>
                     <?php echo $this->lang->line('main_subtitle_3') ?>
+                <?php } else { ?>
+                    <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
                 <?php } ?>
             </h3>
         </div>
