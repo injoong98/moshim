@@ -32,7 +32,7 @@
        <div class="container">
            <div class="sec-title text-center">
                <h5><?php echo $this->lang->line('main_title_3') ?></h5>
-               <h1 class="books_title fs-20">
+               <h1 class="books_title">
                    <?php echo $this->lang->line('main_subtitle_3') ?>
                </h1>
                <h3 class="books_title_mobile">
@@ -150,7 +150,7 @@
                        <div class="lower-content">
                            <h6><?php echo $this->lang->line('book_6') ?></h6>
                            <div class="link-btn "><a target="_blank" onclick="javascript:openWin_books(6);" style="font-size:0.9em"><?php echo $this->lang->line('main_btn2_3') ?></a></div>
-                           <h3 class=" books_title fs-20"><a target="_blank" onclick="javascript:openWin_books(6);"><?php echo $this->lang->line('book_title_6') ?></a></h3>
+                           <h3 class=" books_title fs-20"><a target="_blank" onclick="javascript:openWin_books(6);"><?php echo $this->lang->line('book_title_6') ?><br/><br/></a></h3>
                            <h3 class="books_title_mobile"><a target="_blank" onclick="javascript:openWin_books(6);"><?php echo $this->lang->line('book_title_6_mobile') ?></a></h3>
                            <div class="price">13,000원</div>
                            <!-- <div class="text">Lorem ipsum dolor sit amet, consectetur pisicelit sed do eiusmod tempor incidie labore magna aliqua.</div> -->
