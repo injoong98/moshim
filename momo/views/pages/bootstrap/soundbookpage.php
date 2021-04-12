@@ -2,6 +2,13 @@
     html {
         overflow: hidden;
     }
+    .soundbookPage-btn {
+        font-size:1.2em;
+        padding:1.2em 0; 
+        font-weight:bold; 
+        color:black;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
 </style>
 
 <img class="soundbook_bgimg" src="http://moshim.co.kr/assets/moshim/soundbook_track/img<?php echo $this->lang->line('song_url') ?>/nobtn<?php echo element('soundbookpage', $view) ?>.jpg" width="100%">
@@ -16,7 +23,7 @@
             <div class="container text-center">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
+            <div class="soundbookPage-btn"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
         </div>
         <div class="container_music" onclick="toggleAudio('audio2')" style="background: #FF7162">
             <audio preload="metadata" controls controlslist="nodownload" id="audio2">
@@ -26,7 +33,7 @@
             <div class="container">
                 <i class="fas fa-play cursor"></i>
             </div>
-            <div style="font-size:1.2em;padding:1.2em 0; font-weight:bold; color:black"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
+            <div class="soundbookPage-btn"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
         </div>
         <!-- </div> -->
     </div>
