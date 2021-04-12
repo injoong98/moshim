@@ -127,8 +127,8 @@ $lang['book_title_5_mobile'] = 'まとこのつま<br/>まことのお母さま<
 // 6권:
 // 한: 참사랑의 어머니 참어머님
 $lang['book_6'] = '6冊';
-$lang['book_title_6'] = 'まことのあいの はは まことのお母さま';
-$lang['book_title_6_mobile'] = 'まことのあいの はは<br/>まことのお母さま';
+$lang['book_title_6'] = 'まことのあいの はは まことのお母さま<br/><br/>';
+$lang['book_title_6_mobile'] = 'まことのあいの はは<br/>まことのお母さま<br/>';
 
 // 7권:
 $lang['book_7'] = '7冊';
