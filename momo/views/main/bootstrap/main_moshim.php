@@ -230,7 +230,8 @@
                     <div class="inner-box">
                         <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(1);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
+                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);">
+                            <?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
@@ -324,11 +325,11 @@
     <div class="container">
         <div class="sec-title">
             <h5 class="text-center soundbook_title" style="font-size:26px"><?php echo $this->lang->line('main_title_4') ?></h5>
-            <?php if ($_GET['lang'] == 'ko') { ?>
+            <?php //if ($_GET['lang'] != 'jp') { ?>
                 <h5 class="soundbook_title_mobile">
                     <?= $this->lang->line('main_title_mobile_4') ?>
                 </h5>
-            <?php } ?>
+            <?php //} ?>
             <h3>
                 <?php echo $this->lang->line('main_subtitle_4') ?>
             </h3>
@@ -379,7 +380,7 @@
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>
-                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('main_cd_song_2') ?></a></h3>
                             <?php } else { ?>
                                 <h3><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
                             <?php } ?>
@@ -406,7 +407,7 @@
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>
-                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('main_cd_song_3') ?></a></h3>
                             <?php } else { ?>
                                 <h3><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
                             <?php } ?>
@@ -469,7 +470,16 @@
                                 <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
                                 <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_4') ?></a></h3>
+                                <h3 class="cd-title-margin">
+                                    <a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd">
+                                    <?php if($_GET['lang'] == 'jp'){ 
+                                        echo $this->lang->line('cd_song_4');?>
+                                    <br/>
+                                    <br/>
+                                    <?php }else{ 
+                                        echo $this->lang->line('cd_song_4');
+                                    } ?>
+                                </a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_04');">
                                     <audio id="cd_track_04" class="cd_track_04">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-04.mp3" type="audio/mpeg">
