@@ -82,7 +82,7 @@ $lang['main_btn2_5'] = '再生中'; //재생중
 /** 동화책 **/
 // 한: 참어머님 생애 동화책 세트(전7권)
 // 真のお母様の　/　ご生涯のお話セット
-$lang['book_set_title'] = '真のお母様の<br/>ご生涯のお話セット<br/>（全7冊)<br/>';
+$lang['book_set_title'] = '真のお母様の<br/>ご生涯のお話セット<br/>（全7冊)<br/><br/>';
 $lang['book_set_title_mobile'] = '真のお母様の<br/>ご生涯のお話セット（全7冊)<br/>';
 
 // 한: 세트
@@ -97,43 +97,43 @@ $lang['book_total'] = '全7冊';
 // 1권:
 $lang['book_1'] = '1冊';
 // 한: 하늘이 준비하신 참어머님
-$lang['book_title_1'] = '天が じゅんびされた まことのお母さま<br/><br/>';
-$lang['book_title_1_mobile'] = '天が じゅんびされた<br/>まことのお母さま<br/><br/>';
+$lang['book_title_1'] = '天が じゅんびされた<br/>まことのお母さま<br/><br/><br/>';
+$lang['book_title_1_mobile'] = '天が じゅんびされた<br/>まことのお母さま<br/>';
 
 // 2권:
 $lang['book_2'] = '2冊';
 // 한: 하늘의 사랑스러운 딸 참어머님
 // 天のあいらしい むすめ / まことのお母さま　
-$lang['book_title_2'] = '天のあいらしい むすめ まことのお母さま<br/><br/>';
-$lang['book_title_2_mobile'] = '天のあいらしい むすめ<br/>まことのお母さま<br/><br/>';
+$lang['book_title_2'] = '天の<br/>あいらしいむすめ<br/>まことのお母さま<br/><br/>';
+$lang['book_title_2_mobile'] = '天の<br/>あいらしい むすめ<br/>まことのお母さま';
 
 // 3권:
 // 한: 순수하면서도 강인한 모범생 참어머님
 $lang['book_3'] = '3冊';
-$lang['book_title_3'] = 'じゅんすいで こころのつよい ゆうとうせい まことのお母さま';
-$lang['book_title_3_mobile'] = 'じゅんすいで<br/>こころのつよい ゆうとうせい<br/>まことのお母さま';
+$lang['book_title_3'] = 'じゅんすいで<br/>こころのつよい<br/>ゆうとうせい<br/>まことのお母さま';
+$lang['book_title_3_mobile'] = 'じゅんすいで<br/>こころのつよい<br/>ゆうとうせい<br/>まことのお母さま';
 
 // 4권:
 // 한: 참아버님 참어머님 참부모님
 $lang['book_4'] = '4冊';
-$lang['book_title_4'] = 'まことのお父さま まことのお母さま まことの父母さま';
-$lang['book_title_4_mobile'] = 'まことのお父さま まことのお母さま<br/>まことの父母さま';
+$lang['book_title_4'] = 'まことのお父さま<br/>まことのお母さま<br/>まことの父母さま';
+$lang['book_title_4_mobile'] = 'まことのお父さま<br/>まことのお母さま<br/>まことの父母さま';
 // 5권:
 // 한: 참된 아내 참어머님
 $lang['book_5'] = '5冊';
-$lang['book_title_5'] = 'まとこのつま まことのお母さま<br/><br/>';
+$lang['book_title_5'] = 'まとこのつま<br/>まことのお母さま<br/><br/>';
 $lang['book_title_5_mobile'] = 'まとこのつま<br/>まことのお母さま<br/>';
 
 // 6권:
 // 한: 참사랑의 어머니 참어머님
 $lang['book_6'] = '6冊';
-$lang['book_title_6'] = 'まことのあいの はは まことのお母さま<br/><br/>';
+$lang['book_title_6'] = 'まことのあいの はは<br/>まことのお母さま<br/><br/>';
 $lang['book_title_6_mobile'] = 'まことのあいの はは<br/>まことのお母さま<br/>';
 
 // 7권:
 $lang['book_7'] = '7冊';
 // 한: 참부모 참어머님
-$lang['book_title_7'] = 'まことの父母 まことのお母さま<br/><br/>';
+$lang['book_title_7'] = 'まことの父母<br/>まことのお母さま<br/><br/>';
 $lang['book_title_7_mobile'] = 'まことの父母<br/>まことのお母さま';
 
 // 추가 단어:
