@@ -1,6 +1,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800'); */
 
 
+.fs-20{
+  font-size: 20px !important;
+}
+
 /* 사운드북 상세 페이지 */
 .wrapper-custom-soundbook {
   padding-top: 0;
