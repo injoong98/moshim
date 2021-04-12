@@ -228,7 +228,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(1);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
+                        <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(1);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
@@ -246,7 +246,7 @@
             <div class="col-lg-4  col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
+                        <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
                             <!-- <ul class="info-box">
@@ -264,7 +264,7 @@
             <div class="col-lg-4 col-md-6 col-sm-12 news-block">
                 <div class="news-block-one wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div class="inner-box">
-                        <figure class="image-box"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
+                        <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em">
                                 <a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a>
@@ -466,7 +466,8 @@
                     <div class="services-carousel owl-carousel owl-theme">
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
+                                <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
                                 <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_4') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_04');">
@@ -480,7 +481,8 @@
                         </div>
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
+                                <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
                                 <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_5') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_05');">
@@ -494,7 +496,8 @@
                         </div>
                         <div class="service-block-one-custom">
                             <div class="inner-box">
-                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>17.jpg" alt=""></a></figure>
+                                <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
+                                <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>17.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-drum"></i></div> -->
                                 <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_6') ?></a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_06');">
