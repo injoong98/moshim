@@ -46,7 +46,7 @@ $lang['main_btn2_3'] = 'プレビュー'; //미리보기
 
 /* 사운드북 */
 $lang['main_title_4'] = '真のお母様のご生涯の歌 サウンドブック';
-$lang['main_title_mobile_4'] = '真のお母様のご生涯の歌 <br /> サウンドブック';
+$lang['main_title_mobile_4'] = '真のお母様のご生涯の歌 <br />サウンドブック';
 $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられた
 <br/>孝情の物語と歌
 <br/>（0～6歳） 
@@ -54,18 +54,18 @@ $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられ�
 $lang['main_btn1_4'] = '再生';
 
 $lang['song_url'] = '/jp';
-$lang['song_title_1'] = '1. タルレ川のうた';
+$lang['song_title_1'] = '1. タ<small><b>ル</b></small>レ川のうた<br/><br/>';
 $lang['song_title_2'] = '2. うつくしい<br/>このせかい';
-$lang['song_title_3'] = '3. 神さまは<br/>わたしの父母さま';
-$lang['song_title_4'] = '4. すいせんの あい';
-$lang['song_title_5'] = '5. 天の はなよめ';
+$lang['song_title_3'] = '3. 神さまは<br/>わたしの 父母さま';
+$lang['song_title_4'] = '4. すいせんの あい<br/><br/>';
+$lang['song_title_5'] = '5. 天の はなよめ<br/><br/>';
 $lang['song_title_6'] = '6. 山を こえ<br/>うみを わたって';
-$lang['song_title_7'] = '7. 孝情のお母さま';
+$lang['song_title_7'] = '7. 孝情のお母さま<br/><br/>';
 $lang['song_title_8'] = '8. お母さまの<br/>むすこと むすめ';
 $lang['song_title_9'] = '9. お母さまの 手は<br/>おくすりの 手';
 $lang['song_title_10'] = '10. お日さまが しずんで<br/> お月さまが でても';
-$lang['song_title_11'] = '11. うつくしいくに<br/> 天一国';
-$lang['song_title_12'] = '12. あたらしいせかい、<br/>わたしたちも いっしょに';
+$lang['song_title_11'] = '11. うつくしい くに<br/> 天一国';
+$lang['song_title_12'] = '12. あたらしい せかい、<br/>わたしたちも いっしょに';
 
 $lang['song_detail_btn_1'] = 'うた';
 $lang['song_detail_btn_2'] = '解説';
@@ -156,12 +156,12 @@ $lang['cd_main_cover'] = 'cover_01_jp.jpg';
 $lang['cd_main_mobile_cover'] = 'mmain-5-jp.jpg';
 
 $lang['cd_title_1'] = '真のお母さまの<br/>ごしょうがいの<br/>うたCD'; //재생중
-$lang['cd_title_2'] = '真のお母様さまのご生涯と心情がこめられた'; 
+$lang['cd_title_2'] = '真のお母様さまのご生涯と<br/>心情がこめられた'; 
 $lang['cd_title_3'] = '（7~10歳）';
 $lang['cd_title_4'] = '孝情のうた';
 // 1번
 // 한: 달래강 노래
-$lang['cd_song_1'] = 'タ<small>ル</small>レ川のうた';
+$lang['cd_song_1'] = 'タ<small><b>ル</b></small>レ川のうた';
 
 
 // 2번
@@ -183,7 +183,7 @@ $lang['cd_song_4'] = 'すいせんの あい';
 
 // 5번
 // 한: 하늘 신부
-$lang['cd_song_5'] = '天の<br/>はなよめ';
+$lang['cd_song_5'] = '天の はなよめ';
 
 
 // 6번

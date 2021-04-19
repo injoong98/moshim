@@ -411,8 +411,7 @@
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul> -->
-
-						<div class="copyright">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</div>
+						<div class="copyright text-center">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</div>
 					</div>
 
 				</div>

@@ -272,7 +272,7 @@
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
                            <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/29.jpg" alt=""></a></figure>
-                           <div class="lower-content">
+                           <div class="lower-content <?php echo $_GET['lang'] == 'jp' ? 'pt-4' : '' ?>"> 
                                <h3><a class="play_button" onclick="openWin_cd('12')" target="_blank"><?php echo $this->lang->line('cd_song_12') ?></a></h3>
                                <ul class="social-list">
                                    <audio id="cd_track_12">
