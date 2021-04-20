@@ -195,7 +195,7 @@
     </div>
     <div class="container">
         <div class="sec-title centred">
-            <h5 class="text-center" style="font-size:26px">
+            <h5 class="text-center line-three" style="font-size:26px">
                 <?php echo $this->lang->line('main_title_3') ?>
             </h5>
             <h3 class="books_title">
@@ -326,7 +326,7 @@
         <div class="sec-title">
             <h5 class="text-center soundbook_title" style="font-size:26px"><?php echo $this->lang->line('main_title_4') ?></h5>
             <?php //if ($_GET['lang'] != 'jp') { ?>
-                <h5 class="soundbook_title_mobile">
+                <h5 class="line-three soundbook_title_mobile">
                     <?= $this->lang->line('main_title_mobile_4') ?>
                 </h5>
             <?php //} ?>
@@ -446,7 +446,7 @@
                 <div class="inner-content">
                     <div class="sec-title text-center">
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_5') ?></h5>
+                        <h5 class="line-three" style="font-size:26px"><?php echo $this->lang->line('main_title_5') ?></h5>
                         <h3 style="color:white">
                             <?php echo $this->lang->line('main_subtitle_5') ?>
                         </h3>

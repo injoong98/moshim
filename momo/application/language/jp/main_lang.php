@@ -155,7 +155,8 @@ $lang['book_total_page'] = '31ページ';
 $lang['cd_main_cover'] = 'cover_01_jp.jpg';
 $lang['cd_main_mobile_cover'] = 'mmain-5-jp.jpg';
 
-$lang['cd_title_1'] = '真のお母さまの<br/>ごしょうがいの<br/>うたCD'; //재생중
+$lang['cd_title_1'] = '真のお母さまの ごしょうがいの うたCD';
+$lang['cd_title_1_mobile'] = '真のお母さまの<br/>ごしょうがいの<br/>うたCD';
 $lang['cd_title_2'] = '真のお母様さまのご生涯と<br/>心情がこめられた'; 
 $lang['cd_title_3'] = '（7~10歳）';
 $lang['cd_title_4'] = '孝情のうた';
