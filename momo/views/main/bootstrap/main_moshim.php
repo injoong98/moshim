@@ -85,7 +85,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two">
-                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_1') ?></h5>
+                        <h5 style="font-size:1.625rem"><?php echo $this->lang->line('main_title_1') ?></h5>
                         <h1 style="color: #2b3c6b;"><?php echo $this->lang->line('main_subtitle_1') ?></h1>
                     </div>
                     <div class="text font-size-custom-1_5em">
@@ -107,7 +107,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                        <h5 style="font-size:26px"> <?php echo $this->lang->line('main_title_2') ?></h5>
+                        <h5 style="font-size:1.625rem"> <?php echo $this->lang->line('main_title_2') ?></h5>
                         <div class="custom-title">
                             <?php if ($_GET['lang'] == 'jp') { ?>
                                 <h1><?php echo $this->lang->line('main_subtitle_2') ?></h1>
@@ -195,9 +195,11 @@
     </div>
     <div class="container">
         <div class="sec-title centred">
-            <h5 class="text-center line-three" style="font-size:26px">
+
+            <h5 class="text-center" style="font-size:1.625rem">
                 <?php echo $this->lang->line('main_title_3') ?>
             </h5>
+
             <h3 class="books_title">
                 <?php echo $this->lang->line('main_subtitle_3') ?>
             </h3>
@@ -324,7 +326,7 @@
     </div>
     <div class="container">
         <div class="sec-title">
-            <h5 class="text-center soundbook_title" style="font-size:26px"><?php echo $this->lang->line('main_title_4') ?></h5>
+            <h5 class="text-center soundbook_title" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_4') ?></h5>
             <?php //if ($_GET['lang'] != 'jp') { ?>
                 <h5 class="line-three soundbook_title_mobile">
                     <?= $this->lang->line('main_title_mobile_4') ?>
@@ -446,7 +448,7 @@
                 <div class="inner-content">
                     <div class="sec-title text-center">
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                        <h5 class="line-three" style="font-size:26px"><?php echo $this->lang->line('main_title_5') ?></h5>
+                        <h5 class="line-three" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_5') ?></h5>
                         <h3 style="color:white">
                             <?php echo $this->lang->line('main_subtitle_5') ?>
                         </h3>
@@ -494,7 +496,15 @@
                                 <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
                                 <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_5') ?></a></h3>
+                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd">
+                                <?php if($_GET['lang'] == 'jp'){ 
+                                        echo $this->lang->line('cd_song_5');?>
+                                    <br/>
+                                    <br/>
+                                    <?php }else{ 
+                                        echo $this->lang->line('cd_song_5');
+                                    } ?>
+                                </a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_05');">
                                     <audio id="cd_track_05" class="cd_track_05">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-05.mp3" type="audio/mpeg">

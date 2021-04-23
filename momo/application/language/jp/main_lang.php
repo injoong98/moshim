@@ -41,12 +41,15 @@ $lang['main_title_3'] = '真のお母様のご生涯のお話';
 $lang['main_subtitle_3'] = '真のお母様の人類のためのご生涯とご心情を
 <br/>
 理解することのできる宝物のような物語';
+$lang['main_subtitle_mobile_3'] = '真のお母様の人類のためのご生涯とご心情を
+<br/>
+理解することのできる宝物のような物語';
 $lang['main_btn1_3'] = 'もっと詳しく'; //더보기
 $lang['main_btn2_3'] = 'プレビュー'; //미리보기
 
 /* 사운드북 */
 $lang['main_title_4'] = '真のお母様のご生涯の歌 サウンドブック';
-$lang['main_title_mobile_4'] = '真のお母様のご生涯の歌 <br />サウンドブック';
+$lang['main_title_mobile_4'] = '真のお母様のご生涯の歌<br />サウンドブック';
 $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられた
 <br/>孝情の物語と歌
 <br/>（0～6歳） 
