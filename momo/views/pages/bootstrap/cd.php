@@ -46,9 +46,6 @@
            <div class="icon icon-custom-3 float-bob-x" style="top:2220px; right:200px"></div>
            <div class="icon icon-custom-4 float-bob-x" style="top:2380px; left:770px"></div>
            <div class="icon icon-custom-5 float-bob-y"></div>
-
-
-
        </div>
        <div class="container">
            <div class="sec-title books_title">
