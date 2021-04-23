@@ -194,22 +194,13 @@
         <div class="icon icon-3 float-bob-x" style="right:80px"></div>
     </div>
     <div class="container">
-        <div class="sec-title centred">
-
-            <h5 class="text-center" style="font-size:1.625rem">
-                <?php echo $this->lang->line('main_title_3') ?>
-            </h5>
-
-            <h3 class="books_title">
-                <?php echo $this->lang->line('main_subtitle_3') ?>
-            </h3>
-            <h3 class="books_title_mobile">
-                <?php if ($_GET['lang'] == 'jp') { ?>
-                    <?php echo $this->lang->line('main_subtitle_3') ?>
-                <?php } else { ?>
-                    <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
-                <?php } ?>
-            </h3>
+        <div class="sec-title text-center books_title">
+            <h5 style="font-size:1.625rem"><?php echo $this->lang->line('main_title_3') ?></h5>
+            <h3><?php echo $this->lang->line('main_subtitle_3') ?></h3>
+        </div>
+        <div class="sec-title text-center books_title_mobile">
+            <h5 class="line-three" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_mobile_3') ?></h5>
+            <h3><?php echo $this->lang->line('main_subtitle_mobile_3') ?></h3>
         </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">

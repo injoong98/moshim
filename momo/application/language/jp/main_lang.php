@@ -38,6 +38,7 @@ $lang['main_content_2'] = '「（母心）」のコンテンツブランドで�
 ';
 /* 동화책 */
 $lang['main_title_3'] = '真のお母様のご生涯のお話';
+$lang['main_title_mobile_3'] = '真のお母様の<br/>ご生涯の<br/>おはなし';
 $lang['main_subtitle_3'] = '真のお母様の人類のためのご生涯とご心情を
 <br/>
 理解することのできる宝物のような物語';
@@ -49,7 +50,8 @@ $lang['main_btn2_3'] = 'プレビュー'; //미리보기
 
 /* 사운드북 */
 $lang['main_title_4'] = '真のお母様のご生涯の歌 サウンドブック';
-$lang['main_title_mobile_4'] = '真のお母様のご生涯の歌<br />サウンドブック';
+$lang['main_title_mobile_4'] = '真のお母様の<br/>ご生涯の歌<br/>サウンドブック';
+// $lang['main_title_mobile_4'] = '真のお母様のご生涯の歌<br />サウンドブック';
 $lang['main_subtitle_4'] = '真のお母様のご生涯と心情がこめられた
 <br/>孝情の物語と歌
 <br/>（0～6歳） 
@@ -75,6 +77,7 @@ $lang['song_detail_btn_2'] = '解説';
 
 /* 동요 CD */
 $lang['main_title_5'] = '真のお母さまの<br/>ごしょうがいの<br/>うたCD';
+$lang['main_title_mobile_5'] = '真のお母さまの<br/>ごしょうがいの<br/>うたCD';
 $lang['main_subtitle_5'] = '真のお母様さまのご生涯と心情がこめられた
 <br/> 孝情のうた
 <br/>（7～10歳)';

@@ -56,7 +56,7 @@
                </h1>
            </div>
            <div class="sec-title books_title_mobile">
-               <h5><?php echo $this->lang->line('cd_title_1_mobile') ?></h5>
+               <h5 class="line-three"><?php echo $this->lang->line('cd_title_1_mobile') ?></h5>
                <h3>
                    <?php echo $this->lang->line('cd_title_2') ?>
                    <br /><?php echo $this->lang->line('cd_title_4') ?>

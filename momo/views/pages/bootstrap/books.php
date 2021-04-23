@@ -30,14 +30,13 @@
            <div class="icon icon-custom-2 float-bob-y"></div>
        </div>
        <div class="container">
-           <div class="sec-title text-center">
-               <h5><?php echo $this->lang->line('main_title_3') ?></h5>
-               <h1 class="books_title">
-                   <?php echo $this->lang->line('main_subtitle_3') ?>
-               </h1>
-               <h3 class="books_title_mobile">
-                   <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
-               </h3>
+           <div class="sec-title text-center books_title">
+                <h5><?php echo $this->lang->line('main_title_3') ?></h5>
+                <h1><?php echo $this->lang->line('main_subtitle_3') ?></h1>
+           </div>
+           <div class="sec-title text-center books_title_mobile">
+                <h5 class="line-three"><?php echo $this->lang->line('main_title_mobile_3') ?></h5>
+                <h3><?php echo $this->lang->line('main_subtitle_mobile_3') ?></h3>
            </div>
            <div class="row">
                <div class="col-lg-3 col-md-6 col-sm-12 block-column">
