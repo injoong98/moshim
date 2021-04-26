@@ -433,7 +433,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12 col-sm-12 inner-column">
-                <div class="inner-content">
+                <div class="inner-content" style="margin-right:0px;">
                     <div class="sec-title text-center">
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
                         <h5 class="line-three" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_5') ?></h5>
