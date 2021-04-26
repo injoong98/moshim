@@ -316,17 +316,14 @@
         <div class="icon icon-custom-5 float-bob-y"></div>
     </div>
     <div class="container">
-        <div class="sec-title">
-            <h5 class="text-center soundbook_title" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_4') ?></h5>
-            <?php //if ($_GET['lang'] != 'jp') { ?>
-                <h5 class="line-three soundbook_title_mobile">
-                    <?= $this->lang->line('main_title_mobile_4') ?>
-                </h5>
-            <?php //} ?>
-            <h3>
-                <?php echo $this->lang->line('main_subtitle_4') ?>
-            </h3>
-        </div>
+        <div class="sec-title soundbook_title">
+               <h5><?php echo $this->lang->line('main_title_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_4') ?></h3>
+           </div>
+           <div class="sec-title soundbook_title_mobile">
+               <h5 class="line-three"><?php echo $this->lang->line('main_title_mobile_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_mobile_4') ?></h3>
+            </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">

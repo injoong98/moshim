@@ -319,7 +319,7 @@ audio {
 }
 
 .books_title_mobile{
-  display: none;
+  display: none !important;
 }
 
 /* 사운드북 - PC 제목부분,
@@ -414,7 +414,7 @@ audio {
   }
   /* 동화책 - 모바일 - 제목 부분  */
   .books_title_mobile{
-    display: block;
+    display: block !important;
   }
 
 /* 사운드북 - PC 제목부분,
