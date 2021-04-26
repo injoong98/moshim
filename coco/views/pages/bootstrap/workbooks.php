@@ -272,7 +272,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">1단계</h4><p>25,000₩</p></div>
                     <div class="rows grid program_list_filter" id="program_list_filter1">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list" data-wow-delay=".4s">
@@ -353,7 +353,7 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>24,000₩</p></div>
+                    <div class="step-title"><h4 class="Cafe24Ssurround">2단계</h4><p>25,000₩</p></div>
                     <div class="rows grid program_list_filter" id="program_list_filter2">
                         <div class="col-lg-3 col-sm-12 col-md-6 grid-item 1st">
                             <div class="single_program_list" data-wow-delay=".4s">
