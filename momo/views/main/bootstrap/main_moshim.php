@@ -85,7 +85,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two">
-                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_1') ?></h5>
+                        <h5 style="font-size:1.625rem"><?php echo $this->lang->line('main_title_1') ?></h5>
                         <h1 style="color: #2b3c6b;"><?php echo $this->lang->line('main_subtitle_1') ?></h1>
                     </div>
                     <div class="text font-size-custom-1_5em">
@@ -107,7 +107,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two" style="padding-top: 35px; margin-bottom:0px">
-                        <h5 style="font-size:26px"> <?php echo $this->lang->line('main_title_2') ?></h5>
+                        <h5 style="font-size:1.625rem"> <?php echo $this->lang->line('main_title_2') ?></h5>
                         <div class="custom-title">
                             <?php if ($_GET['lang'] == 'jp') { ?>
                                 <h1><?php echo $this->lang->line('main_subtitle_2') ?></h1>
@@ -194,20 +194,13 @@
         <div class="icon icon-3 float-bob-x" style="right:80px"></div>
     </div>
     <div class="container">
-        <div class="sec-title centred">
-            <h5 class="text-center" style="font-size:26px">
-                <?php echo $this->lang->line('main_title_3') ?>
-            </h5>
-            <h3 class="books_title">
-                <?php echo $this->lang->line('main_subtitle_3') ?>
-            </h3>
-            <h3 class="books_title_mobile">
-                <?php if ($_GET['lang'] == 'jp') { ?>
-                    <?php echo $this->lang->line('main_subtitle_3') ?>
-                <?php } else { ?>
-                    <?php echo $this->lang->line('main_subtitle_mobile_3') ?>
-                <?php } ?>
-            </h3>
+        <div class="sec-title text-center books_title">
+            <h5 style="font-size:1.625rem"><?php echo $this->lang->line('main_title_3') ?></h5>
+            <h3><?php echo $this->lang->line('main_subtitle_3') ?></h3>
+        </div>
+        <div class="sec-title text-center books_title_mobile">
+            <h5 class="line-three" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_mobile_3') ?></h5>
+            <h3><?php echo $this->lang->line('main_subtitle_mobile_3') ?></h3>
         </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
@@ -230,7 +223,8 @@
                     <div class="inner-box">
                         <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(1);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>01.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);"><?php echo $this->lang->line('book_title_1_mobile') ?></a></h3>
+                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(1);">
+                            <?php echo $this->lang->line('book_title_1') ?></a></h3>
                             <!-- <ul class="info-box">
                                     <li>20 July, 2019</li>
                                     <li>5 Comments</li>
@@ -248,7 +242,7 @@
                     <div class="inner-box">
                         <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(2);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>02.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
-                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2_mobile') ?></a></h3>
+                            <h3 class="font-size-custom-1_2em"><a target="_blank" onclick="javascript:openWin_books(2);"><?php echo $this->lang->line('book_title_2') ?></a></h3>
                             <!-- <ul class="info-box">
                                     <li>19 July, 2019</li>
                                     <li>7 Comments</li>
@@ -267,7 +261,7 @@
                         <figure class="image-box cursor"><a target="_blank" onclick="javascript:openWin_books(3);"><img src="http://moshim.co.kr/assets/moshim/images/book/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>03.jpg" alt=""></a></figure>
                         <div class="lower-content" style="background: white; border-radius: 0px 0px 25px 25px;">
                             <h3 class="font-size-custom-1_2em">
-                                <a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3_mobile') ?></a>
+                                <a target="_blank" onclick="javascript:openWin_books(3);"><?php echo $this->lang->line('book_title_3') ?></a>
                             </h3>
                             <!-- <ul class="info-box">
                                     <li>18 July, 2019</li>
@@ -322,17 +316,14 @@
         <div class="icon icon-custom-5 float-bob-y"></div>
     </div>
     <div class="container">
-        <div class="sec-title">
-            <h5 class="text-center soundbook_title" style="font-size:26px"><?php echo $this->lang->line('main_title_4') ?></h5>
-            <?php if ($_GET['lang'] == 'ko') { ?>
-                <h5 class="soundbook_title_mobile">
-                    <?= $this->lang->line('main_title_mobile_4') ?>
-                </h5>
-            <?php } ?>
-            <h3>
-                <?php echo $this->lang->line('main_subtitle_4') ?>
-            </h3>
-        </div>
+        <div class="sec-title soundbook_title">
+               <h5><?php echo $this->lang->line('main_title_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_4') ?></h3>
+           </div>
+           <div class="sec-title soundbook_title_mobile">
+               <h5 class="line-three"><?php echo $this->lang->line('main_title_mobile_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_mobile_4') ?></h3>
+            </div>
         <div class="row" style="padding-bottom:15px">
             <div class="col-lg-12 col-md-12 col-sm-12  block-column">
                 <div class="range-slider clearfix pull-right wow fadeInUp">
@@ -379,7 +370,7 @@
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>
-                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('main_cd_song_2') ?></a></h3>
                             <?php } else { ?>
                                 <h3><a onclick="openWin_soundbooks('02')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
                             <?php } ?>
@@ -406,7 +397,7 @@
                         </div>
                         <div class="lower-content">
                             <?php if ($_GET['lang'] == 'jp') { ?>
-                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
+                                <h3 style="font-size:1em"><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('main_cd_song_3') ?></a></h3>
                             <?php } else { ?>
                                 <h3><a onclick="openWin_soundbooks('03')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
                             <?php } ?>
@@ -445,7 +436,7 @@
                 <div class="inner-content">
                     <div class="sec-title text-center">
                         <!-- <div class="text">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim minim veniam.</div> -->
-                        <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_5') ?></h5>
+                        <h5 class="line-three" style="font-size:1.625rem"><?php echo $this->lang->line('main_title_5') ?></h5>
                         <h3 style="color:white">
                             <?php echo $this->lang->line('main_subtitle_5') ?>
                         </h3>
@@ -469,7 +460,16 @@
                                 <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
                                 <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-bus-1"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_4') ?></a></h3>
+                                <h3 class="cd-title-margin">
+                                    <a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd">
+                                    <?php if($_GET['lang'] == 'jp'){ 
+                                        echo $this->lang->line('cd_song_4');?>
+                                    <br/>
+                                    <br/>
+                                    <?php }else{ 
+                                        echo $this->lang->line('cd_song_4');
+                                    } ?>
+                                </a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_04');">
                                     <audio id="cd_track_04" class="cd_track_04">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-04.mp3" type="audio/mpeg">
@@ -484,7 +484,15 @@
                                 <figure class="image-box cursor"><a href="http://moshim.co.kr/pages/cd<?php echo $_GET['lang'] == 'jp' ? '/?lang=jp' : '' ?>">
                                 <img src="http://moshim.co.kr/assets/moshim/images/cd/<?php echo $_GET['lang'] == 'jp' ? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
                                 <!-- <div class="icon-box"><i class="flaticon-running"></i></div> -->
-                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd"><?php echo $this->lang->line('cd_song_5') ?></a></h3>
+                                <h3 class="cd-title-margin"><a href="http://moshim.co.kr/pages/<?php echo $_GET['lang'] == 'jp' ? 'jp/' : '/' ?>cd">
+                                <?php if($_GET['lang'] == 'jp'){ 
+                                        echo $this->lang->line('cd_song_5');?>
+                                    <br/>
+                                    <br/>
+                                    <?php }else{ 
+                                        echo $this->lang->line('cd_song_5');
+                                    } ?>
+                                </a></h3>
                                 <div class="range-slider clearfix" onclick="toggleAudio('cd_track_05');">
                                     <audio id="cd_track_05" class="cd_track_05">
                                         <source src="http://moshim.co.kr/assets/moshim/soundbook_track/cd/track-05.mp3" type="audio/mpeg">

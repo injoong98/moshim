@@ -10,7 +10,7 @@
            </div>
        </div>
    </section>
-   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(http://moshim.co.kr/assets/moshim/images/main-slider/mmain-3.jpg); background-size:cover">
+   <section class="page-title centred background-cancel main-slider-mobile" style="background-image: url(http://moshim.co.kr/assets/moshim/images/main-slider/<?php echo $_GET['lang'] == 'jp' ? 'jp/' :'' ?>mmain-3.jpg); background-size:cover">
        <div class="container">
            <div class="content-box" style="height:400px">
                <!-- <h1>CD</h1> -->
@@ -45,8 +45,8 @@
            </div>
 
            <div class="sec-title books_title_mobile">
-               <h5><?php echo $this->lang->line('main_title_mobile_4') ?></h5>
-               <h3><?php echo $this->lang->line('main_subtitle_4') ?></h3>
+               <h5 class="line-three"><?php echo $this->lang->line('main_title_mobile_4') ?></h5>
+               <h3><?php echo $this->lang->line('main_subtitle_mobile_4') ?></h3>
            </div>
 
            <div class="row">

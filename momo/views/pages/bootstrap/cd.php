@@ -46,9 +46,6 @@
            <div class="icon icon-custom-3 float-bob-x" style="top:2220px; right:200px"></div>
            <div class="icon icon-custom-4 float-bob-x" style="top:2380px; left:770px"></div>
            <div class="icon icon-custom-5 float-bob-y"></div>
-
-
-
        </div>
        <div class="container">
            <div class="sec-title books_title">
@@ -59,7 +56,7 @@
                </h1>
            </div>
            <div class="sec-title books_title_mobile">
-               <h5><?php echo $this->lang->line('cd_title_1') ?></h5>
+               <h5 class="line-three"><?php echo $this->lang->line('cd_title_1_mobile') ?></h5>
                <h3>
                    <?php echo $this->lang->line('cd_title_2') ?>
                    <br /><?php echo $this->lang->line('cd_title_4') ?>
@@ -71,7 +68,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/07.jpg" alt=""></figure>
+                           <figure class="image-box"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>07.jpg" alt=""></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('1')" target="_blank"><?php echo $this->lang->line('cd_song_1') ?></a></h3>
                                <ul class="social-list" style="font-size:20px">
@@ -89,7 +86,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/09.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>09.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a onclick="openWin_cd('2')" target="_blank"><?php echo $this->lang->line('cd_song_2') ?></a></h3>
                                <ul class="social-list">
@@ -107,7 +104,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/11.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>11.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a onclick="openWin_cd('3')" target="_blank"><?php echo $this->lang->line('cd_song_3') ?></a></h3>
                                <ul class="social-list">
@@ -125,7 +122,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/13.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>13.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('4')" target="_blank"><?php echo $this->lang->line('cd_song_4') ?></a></h3>
                                <ul class="social-list">
@@ -143,7 +140,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/15.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>15.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('5')" target="_blank"><?php echo $this->lang->line('cd_song_5') ?></a></h3>
                                <ul class="social-list">
@@ -161,7 +158,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/17.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>17.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('6')" target="_blank"><?php echo $this->lang->line('cd_song_6') ?></a></h3>
                                <ul class="social-list">
@@ -181,7 +178,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/19.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>19.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('7')" target="_blank"><?php echo $this->lang->line('cd_song_7') ?></a></h3>
                                <ul class="social-list">
@@ -199,7 +196,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/21.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>21.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('8')" target="_blank"><?php echo $this->lang->line('cd_song_8') ?></a></h3>
                                <ul class="social-list">
@@ -217,7 +214,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/23.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>23.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('9')" target="_blank"><?php echo $this->lang->line('cd_song_9') ?></a></h3>
                                <ul class="social-list">
@@ -235,7 +232,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="00ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/25.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>25.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('10')" target="_blank"><?php echo $this->lang->line('cd_song_10') ?></a></h3>
                                <ul class="social-list">
@@ -253,7 +250,7 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/27.jpg" alt=""></a></figure>
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>27.jpg" alt=""></a></figure>
                            <div class="lower-content">
                                <h3><a class="play_button" onclick="openWin_cd('11')" target="_blank"><?php echo $this->lang->line('cd_song_11') ?></a></h3>
                                <ul class="social-list">
@@ -271,8 +268,8 @@
                <div class="col-lg-4 col-md-6 col-sm-12 block-column" style="padding:25px 30px;">
                    <div class="teachers-block-two wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
                        <div class="inner-box">
-                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/kojp/29.jpg" alt=""></a></figure>
-                           <div class="lower-content">
+                           <figure class="image-box"><a href="#"><img src="http://moshim.co.kr/assets/moshim/images/cd/<?= $_GET['lang']== 'jp'? 'kojp/' : '/' ?>29.jpg" alt=""></a></figure>
+                           <div class="lower-content <?php echo $_GET['lang'] == 'jp' ? 'pt-4' : '' ?>"> 
                                <h3><a class="play_button" onclick="openWin_cd('12')" target="_blank"><?php echo $this->lang->line('cd_song_12') ?></a></h3>
                                <ul class="social-list">
                                    <audio id="cd_track_12">

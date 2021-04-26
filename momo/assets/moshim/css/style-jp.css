@@ -403,6 +403,16 @@ img{
   bottom: 11px;
 }
 
+.sec-title h5.line-three:before{
+  position: absolute;
+  content: '';
+  background: #ff7162;
+  width: 30px;
+  height: 2px;
+  left: 0px;
+  bottom: 35px !important;
+}
+
 .sec-title h5:after{
   position: absolute;
   content: '';
@@ -411,6 +421,16 @@ img{
   height: 2px;
   right: 0px;
   bottom: 11px;
+}
+
+.sec-title h5.line-three:after{
+  position: absolute;
+  content: '';
+  background: #ff7162;
+  width: 30px;
+  height: 2px;
+  right: 0px;
+  bottom: 35px !important;
 }
 
 .sec-title.style-two h5:after{
