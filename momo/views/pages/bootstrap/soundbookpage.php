@@ -3,6 +3,7 @@
         overflow: hidden;
     }
     .soundbookPage-btn {
+        text-align: center;
         font-size:1.2em;
         padding:1.2em 0; 
         font-weight:bold; 
@@ -20,7 +21,7 @@
                 <source src="http://moshim.co.kr/assets/moshim/soundbook_track/song/track-<?php echo element('soundbookpage', $view) ?>.wav" type="audio/mpeg">
                 Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
-            <div class="container text-center">
+            <div class="container" style="margin-left: 3px;">
                 <i class="fas fa-play cursor"></i>
             </div>
             <div class="soundbookPage-btn"><?php echo $this->lang->line('song_detail_btn_1') ?></div>
@@ -30,7 +31,7 @@
                 <source src="http://moshim.co.kr/assets/moshim/soundbook_track/storytelling/<?php echo element('soundbookpage', $view) ?>.Storytelling.mp3" type="audio/mpeg">
                 Chrome 브라우저에 최적화 되어있습니다. Chrome을 이용해주시기 바랍니다.
             </audio>
-            <div class="container">
+            <div class="container" style="margin-left: 3px;">
                 <i class="fas fa-play cursor"></i>
             </div>
             <div class="soundbookPage-btn"><?php echo $this->lang->line('song_detail_btn_2') ?></div>
