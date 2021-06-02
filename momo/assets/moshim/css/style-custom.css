@@ -449,6 +449,8 @@ audio {
   .player-section {
     width: 100%;
     display: flex;
+    position: relative;
+    top: -150px;
   }
 
   .wrapper {
