@@ -309,7 +309,7 @@
                                     <h5>연령<span>4-5 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/t3vGHY5rqJ0"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=TEX1yFhoYlw">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -329,7 +329,7 @@
                                     <h5>연령<span>4-5 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/QWsnUcI4FJk"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=T_qTPP6R0sg">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -349,7 +349,7 @@
                                     <h5>연령<span>4-5 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/E1NWhaYZba4"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=_-L4JP-QrR8">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -369,7 +369,7 @@
                                     <h5>연령<span>4-5 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/0z4bnumGqko"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=cR5iK-2wu3Q">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -397,7 +397,7 @@
                                     <h5>연령<span>6-7 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/U4-C0JXpj2k"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=gCLMbfceX3g">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -417,7 +417,7 @@
                                     <h5>연령<span>6-7 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/tBZ9apEkaDs"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=_VuJ8NMs_RQ">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -437,7 +437,7 @@
                                     <h5>연령<span>6-7 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/CxPopdESND4"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=eFjui6yCK8I">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
@@ -457,7 +457,7 @@
                                     <h5>연령<span>6-7 세</span> </h5>
                                     <h5>영상
                                         <!-- <a class="col-lg-2 youtube_btn" target="_blank" href="https://youtu.be/5vBoBB7WbEI"> -->
-                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/channel/UC2nRPU6auFk6o06rGHnPF1g">
+                                        <a class="col-lg-2 youtube_btn" target="_blank" href="https://www.youtube.com/watch?v=9C9ogkdbSqs">
                                             <img src="/assets/images/youtube.png" class="music_sns_icon" />
                                         </a>
                                     </h5>
