@@ -85,6 +85,7 @@
             <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                 <div class="content-box">
                     <div class="sec-title style-two">
+                        <!-- 출판브랜드 소개 -->
                         <h5 style="font-size:26px"><?php echo $this->lang->line('main_title_1') ?></h5>
                         <h1 style="color: #2b3c6b;"><?php echo $this->lang->line('main_subtitle_1') ?></h1>
                     </div>
@@ -118,14 +119,14 @@
                             <?php } ?>
                         </div>
                     </div>
-                    <div class="custom-paragraph text" style="font-size:1em ; font-family: Nanum Gothic !important;">
+                    <div class="custom-paragraph text" style="font-size:1.2em ; font-family: Nanum Gothic !important;">
                         <?php if ($_GET['lang'] == 'jp') { ?>
                             <?php echo $this->lang->line('main_content_2') ?>
                         <?php } else { ?>
                             <?php echo $this->lang->line('main_content_2-1') ?>
                             <p style=" font-size:0.6em">孝情之道</p>
                             <?php echo $this->lang->line('main_content_2-2') ?>
-                            <p style=" font-size:0.6em">孝情之道</p>
+                            <!-- <p style=" font-size:0.6em">孝情之道</p> -->
                             <?php echo $this->lang->line('main_content_2-3') ?>
                         <?php } ?>
                     </div>
