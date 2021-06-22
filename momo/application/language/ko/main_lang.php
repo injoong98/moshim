@@ -31,8 +31,8 @@ $lang['main_content_2-2'] = "
 $lang['main_content_2-3'] = "'는 세계본부와 효정문화원과 하나되어 하늘부모님, 참아버님, 참어머님 그리고 축복가정선배님들의 하늘에 대한 효정의 이야기들을 글, 그림, 음악의 전문가들을 섭외하여 책, 노래, 영상 등의 형태로 그야말로 ‘보암직한’ 미디어 콘텐츠로 만들어갈 것입니다. ";
 /* 동화책 */
 $lang['main_title_3'] = '참어머님 생애동화';
-$lang['main_subtitle_3'] = '참어머님의 인류를 위한 생애와 심정을
-<br /> 이해할 수 있는 귀한 보물과 같은 이야기';
+$lang['main_title_mobile_3'] = '참어머님 생애동화';
+$lang['main_subtitle_3'] = '참어머님의 인류를 위한 생애와 심정을<br /> 이해할 수 있는 귀한 보물과 같은 이야기';
 $lang['main_subtitle_mobile_3'] = '참어머님의 인류를 위한<br /> 생애와 심정을 이해할 수 있는<br />귀한 보물과 같은 이야기';
 $lang['main_btn1_3'] = '더보기';
 $lang['main_btn2_3'] = '미리보기';
@@ -41,6 +41,10 @@ $lang['main_btn2_3'] = '미리보기';
 $lang['main_title_4'] = '참어머님 생애동요 사운드북';
 $lang['main_title_mobile_4'] = '참어머님 생애동요<br /> 사운드북';
 $lang['main_subtitle_4'] = '참어머님의 생애와 심정을 담은
+<br />효정의 이야기와 노래
+<br />(0~6세)
+';
+$lang['main_subtitle_mobile_4'] = '참어머님의 생애와 심정을 담은
 <br />효정의 이야기와 노래
 <br />(0~6세)
 ';
@@ -162,6 +166,7 @@ $lang['book_total_page'] = '31페이지';
 $lang['cd_main_cover'] = 'cover_01.jpg';
 $lang['cd_main_mobile_cover'] = 'mmain-5.jpg';
 
+$lang['cd_title_1_mobile'] = '참어머님 생애동요 CD'; //재생중
 $lang['cd_title_1'] = '참어머님 생애동요 CD'; //재생중
 $lang['cd_title_2'] = '참어머님의 생애와 심정이 담긴 효정의 노래'; //재생중
 $lang['cd_title_3'] = '(7~10세)'; //재생중

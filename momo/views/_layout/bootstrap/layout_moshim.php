@@ -43,7 +43,12 @@
 	<!-- moshim css -->
 
 	<!-- Stylesheets -->
-	<link href="../../assets/moshim/css/style.css" rel="stylesheet">
+	<?php if($_GET['lang'] == 'jp'){?>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+		<link href="../../assets/moshim/css/style-jp.css" rel="stylesheet">
+	<?php }else{?>
+		<link href="../../assets/moshim/css/style.css" rel="stylesheet">
+	<?php }?>
 	<link href="../../assets/moshim/css/responsive.css" rel="stylesheet">
 	<link href="../../assets/moshim/css/style-custom.css" rel="stylesheet">
 	<link rel="icon" href="../../assets/moshim/images/favicon.ico" type="image/x-icon">
@@ -406,8 +411,7 @@
 							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 						</ul> -->
-
-						<div class="copyright">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</div>
+						<div class="copyright text-center">Copyright &copy; HJSmartEdu 2021. All Rights Reserved</div>
 					</div>
 
 				</div>
